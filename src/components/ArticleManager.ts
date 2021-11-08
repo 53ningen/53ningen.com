@@ -67,7 +67,6 @@ export class LocalArticleManager implements ArticleManger {
         // FIXME
         const dateISOString = res.attributes.date.toISOString()
         const date = `${dateISOString.slice(0, dateISOString.length - 1)}+09:00`
-        console.log()
         return {
           slug: res.attributes.slug,
           title: res.attributes.title,
