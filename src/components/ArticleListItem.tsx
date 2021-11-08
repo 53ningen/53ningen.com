@@ -20,7 +20,7 @@ export const ArticleListItem: React.FC<Props> = ({ article }: Props) => {
       <Stack spacing={2} m={4} component="article">
         <Typography>
           <Stack direction="row" spacing={1}>
-            <Link href={article.slug}>
+            <Link href={`/${article.slug}`}>
               <Chip
                 icon={<CalendarTodayIcon fontSize="small" />}
                 label={displayDate}
