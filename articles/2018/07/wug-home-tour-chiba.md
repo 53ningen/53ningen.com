@@ -1,0 +1,321 @@
+---
+slug: wug-home-tour-chiba
+title: Wake Up, Girls! HOME ライブツアー 千葉公演レポート
+category: event
+date: 2018-07-16 13:42:08
+tags: [WUG]
+pinned: false
+---
+
+<ins datetime="2019-01-27T17:48:36+00:00">Wake Up, Girls! HOME ツアー、公開リハーサル + 開幕の千葉公演 + 秋葉原ゲーマーズ Wake Up, Girls! 衣装展 & フェアに参加してきたので、個人的メモを残します。
+
+**いかなるネタバレも嫌な方は以下をみないでください。**
+**いかなるネタバレも嫌な方は以下をみないでください。（大事なことなので 2 回）**
+
+**あとまだ HOME ツアー Part 1 の公演に参加していない人は、これを見ずに参加するほうが良いと思います！！**
+
+## メタデータ
+
+- 会場: 市原市民会館
+- 座席:
+  - 7/14（金） 公開リハ: 23 列 田中さん
+  - 7/15（土） 昼公演: 19 列 吉岡さん
+  - 7/15（土） 夜公演: 12 列 青山さん
+- 出演者:
+  - Wake Up, Girls!（吉岡茉祐/田中美海/奥野香耶/永野愛理/高木美佑/青山吉能/山下七海）
+
+## 会場について
+
+市原市民会館、千葉県の JR 内房線 五井駅よりバスで 10 分くらいの場所にある会場。
+
+綺麗で音も聞き取りやすくセンターブロックからはステージがみやすい会場でした。客先の形が特殊で、単なる長方形や台形ではないので、サイドの端のほうの席だと少しステージがみづらかったり音のバランスが悪いということはあると思います。とはいえ、全列段状になっていて基本的に快適なホールだと思います。
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235819/507C4104-5818-441A-B038-1C086C2A155A.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/507C4104-5818-441A-B038-1C086C2A155A-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-3099" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235929/BF7C277A-4B8A-4876-AC4E-8A2B53452848.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/BF7C277A-4B8A-4876-AC4E-8A2B53452848-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3114" /></a>
+
+## 公開リハーサルについて
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235915/F4C63BD2-2FCB-404F-8823-61D5267DFDAE-e1531581039548.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/F4C63BD2-2FCB-404F-8823-61D5267DFDAE-e1531581039548-225x300.jpeg" alt="" width="225" height="300" class="alignright size-medium wp-image-3111" /></a>
+
+わぐらぶ会員限定で、リハーサルを公開するという試みがあり、無事チケットが取れたため参加させていただきました。平日の昼間にもかかわらず、多くの方が集っていて、この人たちは何ものなのだろうと思いました w
+
+6 月 14 日のにぎわい東北ナイターで 7 人の姿をみてから、様々なことがあり本当に長い一ヶ月だったけれど、リハとはいえ久々にステージにたつ 7 人の姿を見ることができて非常に気持ちが落ち着きました。
+
+公開リハーサルは、わぐらぶ会員証とチケットメールによる本人認証ののち、写真のような公開リハのエントリーパスが渡されるというもので、パスの裏側にはあたらしいわぐらぶのビジュアル写真が入った状態でラミレートされていました。相当な記念になるものですね。うれしい。ありがとう。
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15220426/1984D3B3-64D8-4B26-AA44-2C8B5E39BD56.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/1984D3B3-64D8-4B26-AA44-2C8B5E39BD56-1024x768.jpeg" alt="" width="640" height="480" class="alignnone size-large wp-image-3156" /></a>
+
+セットリストは１日目の夜公演が終わるまで SNS に流さないでねとのこと。
+
+最初は、いかなる情報も漏らした場合はわぐらぶ退会処分みたいなヒリつきのある感じ（まあ冷静に考えれば当たり前ではありますが）でしたが、そりゃないっしょということで緩くなったそうです。まあファンのほうも、わぐらぶ運営さんに信頼していただけてるのでしょう。嬉しいことですね。
+
+最初にわぐらぶ運営の方が登場して、次に進行役として舞台監督さんが登場。7 人を呼ぶという流れだった気がします（ここらへん記憶があいまい）。メンバーはリハなのでジャージ姿で登場。貴重なジャージ on ステージ。
+
+7 Senses からスタート。マイクの番号順がワグナーブレードの番号と一緒で切り替えが楽だ。マイク番号は以下の通り（ここらへん 4th のおまけ映像とか、わぐらぶ動画みるとマイクを置くシーンあるのでわかるかも）
+
+1. 吉岡さん
+2. 永野さん
+3. 田中さん
+4. 青山さん
+5. 山下さん
+6. 奥野さん
+7. 高木さん
+
+ファンクラブのイベント感がとても強くて、雰囲気も穏やかで HOME だなぁという気持ちになれました。7 Senses 1 コーラスやって、返しの調整などをしたり、音響さんが外音のバリエーション試したりというあたりを見れました。あと、私は中央後方、卓の後ろ側だったので、スタッフがいろいろと調整しているのが見れて（何やってるのかはわからんが）面白かったです。
+
+あと、SATOMI 先生に前から思っていた間違いだと思ってたなら指摘してあげて w みたいなのとか、ひたすら暑い暑いっていっている 7 人を見るのが幸せだった。みゆさんも移動忘れたりしてて面白かった。ななみさんの、リハで間違えたところは本番で間違えないから大丈夫！みたいな話のあと、リハで全く間違えないところ平然と本番で間違えたりするみたいなことをしれっと言ってました w ななみんみを感じる。
+
+そうそう、このとき気になったのが、WUG のライブによくあるスクリーンがなかったこと...！ 本番ではばっちりありました。
+
+## Wake Up, Girls! 衣装展 & フェア
+
+公開リハ終了後は、同日より秋葉原ゲーマーズ 5 階 声優・アーティストフロアにて開催された衣装展&フェアに流れました。極スマ衣装が展示されていたほか、サイン色紙の展示や過去の物販で出ていたものが置いてあったりしました。ファイナルビブスも。
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235901/FE2ED70E-22A2-44D8-98D3-A3358366E4B3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/FE2ED70E-22A2-44D8-98D3-A3358366E4B3-1024x768.jpeg" alt="" width="640" height="480" class="aligncenter size-large wp-image-3108" /></a>
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235910/69FE8117-8530-4299-80AB-81C328A7AA0A-e1531662915654.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/69FE8117-8530-4299-80AB-81C328A7AA0A-e1531662915654-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3110" /></a>
+
+サイン色紙抽選やフェアの 5 周年衣装ブロマイド配布などもありました。公開リハから回している人が多くてたくさんの方で賑わってました。いいですね。
+
+衣装のほつれなどなど色々じっくり見ている余裕はなかったため、空いてる時間帯にもう 1〜2 回くらい訪問してみたいなと思います。
+
+個人的には 4th の衣装大好きなのでまた見たい。展示して欲しい or またあれ着る機会があるとめちゃくちゃうれしいなぁと思っています。
+
+<br clear="all">
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235856/213EDF2B-DE6D-40BA-BD1B-477D8C201BCC-e1531662965322.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/213EDF2B-DE6D-40BA-BD1B-477D8C201BCC-e1531662965322-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3107" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235850/AC099E4E-43C9-4CC2-B84D-0F86CCEA10AD-e1531662978718.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/AC099E4E-43C9-4CC2-B84D-0F86CCEA10AD-e1531662978718-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3106" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235846/95667AD3-418B-4339-A993-4986446BBBB6-e1531662990880.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/95667AD3-418B-4339-A993-4986446BBBB6-e1531662990880-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3105" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235842/71BE3C60-1BBA-470F-81E8-42FF6DEA86E7-e1531663006846.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/71BE3C60-1BBA-470F-81E8-42FF6DEA86E7-e1531663006846-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3104" /></a>
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235837/645DE537-1E46-4D29-A525-1201D31B7EBE-e1531663017728.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/645DE537-1E46-4D29-A525-1201D31B7EBE-e1531663017728-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3103" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235833/099AE9AB-0573-4BF5-B3AE-589E35A0E30C-e1531663029324.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/099AE9AB-0573-4BF5-B3AE-589E35A0E30C-e1531663029324-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3102" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235829/25EC9430-5EB4-462F-891D-7856FE43BC1F-e1531663042139.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/25EC9430-5EB4-462F-891D-7856FE43BC1F-e1531663042139-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3101" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235906/7A70BA30-C91C-440D-B19B-431837CEA6FE-e1531662942514.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/7A70BA30-C91C-440D-B19B-431837CEA6FE-e1531662942514-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3109" /></a>
+
+# 千葉公演について
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【Wake Up, Girls！ FINAL TOUR - HOME - 千葉・市原 】<br>スタートしました。<a href="https://t.co/TPlpSSXIy4">https://t.co/TPlpSSXIy4</a><a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/jiyHjO1axw">pic.twitter.com/jiyHjO1axw</a></p>&mdash; Wake Up, Girls！公式 (@wakeupgirls_PR) <a href="https://twitter.com/wakeupgirls_PR/status/1017967808133586944?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## 物販について
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235934/0AFAAE50-B2E0-47E1-8BEA-48DE734FE029-e1531637988277.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/0AFAAE50-B2E0-47E1-8BEA-48DE734FE029-e1531637988277-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3115" /></a>
+
+9:20 くらいについたが 200 人以上は並んでいた気がする。わぐなーめっちゃ朝早い。一応枯れて手に入らなかったみたいなことも起こらず無事お目当てのグッツは変えました。
+
+ブレードめっちゃいいすね。推し色設定機能、とてもベンリなんですが、私は 7 人単推しなので選択が難しい。**水色にしました。**
+
+あとはメンバーが選んだメッセージを入ったリボンがかなり好きで、特に高木美佑さんの Keep Smiling めっちゃ似合ってますよね。大好き。
+
+ブロマイドもちょろちょろ買っていきます。ブロマイド、買う必要ある？斜に構えた人間だったけどちょっと 7 人のことが好きになりすぎてついに手をだしてしまった。
+
+自分は絶対アイドル系コンテンツにはまらない自信があったし、WUG も最初楽曲が好きなんだと言い聞かせて現場にきたのにいつのまにか 7 　人のこと好きになっていた...。
+
+## 昼公演
+
+### 開演前〜SHIFT〜暴君〜地下鉄ラビリンス
+
+入場したらカウントベイシー感のある音楽が流れていて、あぁ〜 これは SHIFT という感じになってました。カウントベイシー好きです。 One More Time!
+
+聞き取れる範囲で、[開演前に流れていた BGM のセットリストを記事に書き出しました](https://53ningen.com/wug-home-tour-chiba-bgm/)ので、興味のある方どうぞ。一応タイトルとおそらくこれであろう録音の候補もかいてあります。
+
+東京ディズニーシー BIG BAND BEAT の音源よりスウィングしなけりゃ意味ないね（It Don't Mean A Thing）が流れ、曲のフィナーレで音量が大きくなり、演奏がおわると拍手がおこります。開演前 BGM からのこの流れはめずらしいですよね。
+
+山寺宏一さんのディズニー調のアナウンスが流れます。さらっとあいちゃんが東北学院大学出身である旨が情報解禁される w
+
+冒頭の舞台演出からすごいぞ、色々なわぐのオタクの感情をきっと吹き飛ばしたに違いありません。自分も一気にステージに引き込まれてしまった。
+
+赤い幕に強い光のスポットライトがあたり、7 人のシルエットが浮かび上がったと思うと、SHIFT がハジマル。ステージ映えする曲だとは思っていたけど、曲の良さをフルで引き出してくる 7 人とステージを作ったスタッフの可能性がすごすぎて、なんていいステージをやるんだこのユニットは...という気持ちになった。まだ一曲目冒頭だけど w
+
+バックの映像、照明、衣装、小道具も含めて総合格闘技だった。こんな楽しいステージやる声優ユニットほかにあります？ ないと思うなぁ...。
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">SHIFT の舞台演出、写真でみてもすごい<a href="https://t.co/qwpB8TCwgJ">https://t.co/qwpB8TCwgJ</a></p>&mdash; ごみばこ (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1018499949753917443?ref_src=twsrc%5Etfw">July 15, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+そして間奏部では、いきなりメンバーがステージからおりて客席に。すごすぎるイベントにきてしまった。家の鍵を出して私物じゃないわというレスをもらっていた方のツイートには笑ってしまった。ここの部分はライブ用にアレンジが入ってて、わぐさん、本気すぎますわ。
+
+あと、青山吉能さん、椅子の上にたつのはレギュレーション違反で退場処分というツイートが好きでした。
+
+曲の終わりにはマシンガンを持ち出してくる青山さん。めっちゃ打ちまくって SE も大音量で入っていて、色々吹き飛んだ。すごい、やばい（五井力...）。
+
+マシンガンを持ち出すということは、そのあと暴君につながります。衣装チェンジ on ステージで上に羽織っている水玉模様の衣装を脱ぐと、去年の 4th TUNAGO 衣装とは対照的な黒い衣装。これもステージ映えします。
+
+去年の 4th ライブツアーはライブハウス中心でステージ演出が難しいため、スカートの丈の長い白衣装が広がったりすぼんだりをうまく使った見た目の演出 + 背面のディスプレイを中心の演出でしたが、ホールツアーである意味をしっかりと活かした、本当に考え込まれたエンターテイメントだと思います。
+
+暴君から地下鉄ラビリンスへと流れます。最・高・に！お腹が空いた！「オレモー」のクソコールが好きすぎる。これはマジで意味がわからない（褒め言葉）。
+
+SHIFT〜暴君〜地下鉄ラビリンス だけでめっちゃ文字数が進んでしまった。以下ひとまずセットリストです。
+
+### 昼の部: セットリスト
+
+1. SHIFT/Wake Up, Girls!
+2. 恋?で愛?で暴君です!/Wake Up, Girls!
+3. 地下鉄ラビリンス/Wake Up, Girls!
+4. 君とプログレス/I-1 Club
+5. シャツとブラウス/I-1 Club
+6. Non stop diamond hope ～ Miyu ver.～/岡本未夕(CV:高木美佑)
+7. キャラソンメドレー: プライド/菊間夏夜(CV:奥野香耶)
+8. キャラソンメドレー: ぽんと PUSH! もっと SMILE!/片山実波(CV:田中美海)
+9. キャラソンメドレー: ユメ、まっすぐ。/島田真夢(CV:吉岡茉祐)
+10. キャラソンメドレー: ドラマチックを君と/久海菜々美(CV:山下七海)
+11. キャラソンメドレー: Dice of Life!/七瀬佳乃(CV:青山吉能)
+12. キャラソンメドレー: Party! Party!/林田藍里(CV:永野愛理)
+13. キャラソンメドレー: シャリラ!/岡本未夕(CV:高木美佑)
+14. セブンティーン・クライシス/Wake Up, Girls!
+15. 16 歳のアガペー/Wake Up, Girls!
+16. タチアガレ!/Wake Up, Girls!
+17. ワグ・ズーズー/Wake Up, Girlzoo!
+18. 極上スマイル/Wake Up, Girls!
+19. Polaris/Wake Up, Girls!
+20. One In A Billion/Wake Up, Girls!
+21. 僕らのフロンティア/Wake Up, Girls!
+22. 7 Senses/Wake Up, Girls!
+
+僕らのフロンティアをセットに組み入れてくれて嬉しい。自分の推し曲が、セットリストのアンコールに入っていると、この曲をこういう位置づけであると理解しているのかなぁというような憶測とか妄想が膨らんで嬉しいです。
+
+君とプログレス、ようやく WUG バージョン聴けましたね。自分たちの歌にしている、さすがです。この曲は音と音の間の隙間を楽しみたいので、数会場経て、落ち着いた雰囲気でまた聞いてみたいものです。シャツとブラウスは舞台を経て、好きな気持ちがより強くなった曲でした。舞台、BD 化決まってよかったです。
+
+ドラマチックを君と、聴けた。めちゃめちゃええな。この曲はキャラソンのなかでもかなり飛び抜けて好きな曲なのでフルで聴きたいよ。ユメ、まっすぐは、尋常じゃない伸びるような吉岡茉祐さんの歌声を近くで聴けました。本当にステージを盛り上げる力がすごい。
+
+そして Dice of Life! ですよ。感情をすべて乗っけて歌う青山吉能さんに惚れています。
+
+7 Senses で締めるのはかなり意外でしたが、メッセージを感じます。これをしれっとやってのけられるのがユニット Wake Up, Girls! の強さだと思います。
+
+少女交響曲と Beyond the Bottom 入っておらず、もちろんその 2 曲も歌詞、音楽、歌を含め大好きで、聞きたくはありますが、それがなくても期待をふたまわりくらい超えてくるステージになっているこのユニット、本当に解散する気あるのか？というくらいひたすらのぼっていっている、天井がみえないから、まだまだこの先がみたいと思わせてくれるステージでした。
+
+やってない曲、たくさんありますし、吉岡茉祐さんが昼夜両方とも、まだまだいける（歌って踊れる）みたいなことを言っていたように、満足感を感じつつも、全然足りなくはあるんですが、それがいまのユニットの強さで、もっと次を聴きたい、見たいとなる要素のひとつになっているのかなぁと思いました。
+
+### 朗読劇パート〜映像
+
+タチアガレ荘命名秘話、朗読劇。
+昼公演は、脚本に忠実に（たぶん）、夜公演はアドリブが多めという感じでした。
+
+7 人のキャラクターたちの動く絵があたまの中に思いうかぶような、演技ではなく自然体でキャラクターが降りてきているような朗読劇が見れました。永野愛理さんは「まゆ」で藍ちゃんの声のチューニングをするという情報が得られました w
+
+映像についてはまだここには書かないことにします。
+
+東北ろっけんソロイベントツアー、私は青森/秋田/山形/福島に参加しましたが（他はチケットをご用意していただけなかった...）本当に心から楽しかった。週末に各地でイベントがあると移動するのを楽しみに一週間を乗り切っていたりしたものです。
+
+### WUG 天岡本みゅ〜 Polaris ビジュアル解禁
+
+え、かわいすぎません...？
+
+【このビジュアル、探したけどまだネット上でのリリースは出てない模様...？】
+【TODO: アップされたらここにツイート埋め込む】
+
+### 青葉の奇跡 Blu-ray 化 & 発売イベント開催決定
+
+すごいぜ。ありがとう。絶対買います。
+
+舞台の役者さんたちが喜びのツイートしているのも嬉しいですよねー。愛を感じる。
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【福山聖二】<br>出演舞台『Wake Up,Girls！～青葉の軌跡～』<br>今秋！<br>Blu-ray化＆販売イベント開催が決定いたしました！<br><br>公式HP・Twitterにて、随時最新情報をお届けしてまいります！<br><br>皆様、楽しみにお待ちくださいませっ☆<a href="https://t.co/0qyKkMMW4o">https://t.co/0qyKkMMW4o</a><a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://twitter.com/hashtag/WUG2018?src=hash&ref_src=twsrc%5Etfw">#WUG2018</a> <a href="https://t.co/Lt7vDQyWr4">pic.twitter.com/Lt7vDQyWr4</a></p>&mdash; ゴッドフィールドプロモーション (@godfield_pro) <a href="https://twitter.com/godfield_pro/status/1018002883269160960?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### 山下七海さんお誕生日おめでとう
+
+最後の挨拶で、では歌いますみたいな感じで突然歌い始める青山さん。それを受けて**「よっぴーがまた茶番やるのか、しかたないな」**と思ってたら自分の誕生日サプライズ祝いだった山下さん。あいさつをもとめられて素で何言うかどうしようか〜みたいな感じになってたので本当に気づいていなかった模様 w
+
+ただその場で出てきたことばが力強くて、山下七海さんすごいなぁ... 強いなぁ... と思いました。デビュー作が Wake Up, Girls! を無駄にしない、WUG と同じくらいの代表作を作る、いつも久海菜々美を含めたわぐちゃんたちを心に中にずっと...というような趣旨の話をしていました。
+
+本人たちはあたりまえだけど人生をかけてやっているわけで、ファンなんかよりずっといろんな決断決定が重いという当たり前の話ではあるのだけれど、やっぱりもう前を向いて走り出しているのだなあと思いました。強いな。
+
+## 昼〜夜公演間: gram さんにて夜公演開場待ち
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235959/200B1B48-8807-42F5-B465-EA9E4B4B2628-e1531657136901.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/200B1B48-8807-42F5-B465-EA9E4B4B2628-e1531657136901-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3120" /></a>
+
+パンケーキで有名な gram さんが会場内にあったため伺いました。事前に会場近くのお店を探してたときにめちゃめちゃ良さそうだったので、昼公演良かったなぁという余韻にひたりつつも、急いで移動しました w
+
+運良く限定パンケーキが 30 分待ちで食べられるタイミングだったため、それを注文しつつ、ひとまず昼食をとりました。ベーコンエッグ&パンケーキというインスタバエしそうなプレートを注文。ベーコンが厚切りで美味しかった。
+
+食べているうちに店内がわぐな〜さんたちであふれかえっていて面白かった。
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15000005/6515DB00-8600-49D1-9E82-B5E7CAFBB72B.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/6515DB00-8600-49D1-9E82-B5E7CAFBB72B-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3121" /></a>
+
+## 夜公演
+
+### 夜の部: セットリスト
+
+1. SHIFT/Wake Up, Girls!
+2. 恋?で愛?で暴君です!/Wake Up, Girls!
+3. 地下鉄ラビリンス/Wake Up, Girls!
+4. 君とプログレス/I-1 Club
+5. ジェラ/I-1 Club
+6. Non stop diamond hope ～ Miyu ver.～/岡本未夕(CV:高木美佑)
+7. プライド/菊間夏夜(CV:奥野香耶)
+8. ぽんと PUSH! もっと SMILE!/片山実波(CV:田中美海)
+9. ユメ、まっすぐ。/島田真夢(CV:吉岡茉祐)
+10. ドラマチックを君と/久海菜々美(CV:山下七海)
+11. Dice of Life!/七瀬佳乃(CV:青山吉能)
+12. Party! Party!/林田藍里(CV:永野愛理)
+13. シャリラ!/岡本未夕(CV:高木美佑)
+14. セブンティーン・クライシス/Wake Up, Girls!
+15. ゆき模様 恋のもよう/Wake Up, Girls!
+16. タチアガレ!/Wake Up, Girls!
+17. HIGAWARI PRINCESS(PRINCESS Miyu Ver,)/Wake Up, Girls!
+18. 極上スマイル/Wake Up, Girls!
+19. Polaris/Wake Up, Girls!
+20. One In A Billion/Wake Up, Girls!
+21. 僕らのフロンティア/Wake Up, Girls!
+22. 7 Senses/Wake Up, Girls!
+
+数曲入れ替えただけで、グッと昼との差を感じさせてくるあたりがすごいなと思いました。ジェラは正直ちょっと予想していた。
+
+ゆき模様は今回ないかなぁと思っていた矢先に、イントロが流れ始めて本当に嬉くて声が漏れでてしまった（ゆき模様、自分が一番好きな曲なんです）。ヒガプリもまあやりますよねーとは思っていたが、いざ来るとうぉおおおという感じになります。みゆちゃんプリンセス、かわいかったです。
+
+極上スマイルで 7 人と一緒にパッと飛び跳ねるところが本当に気持ちいい。この曲の最後にバックスクリーンに弾けるような花火的な映像が流れるのもわかり手。
+
+高木美佑さんのご家族もきていらっしゃったようで、弟さんは山下七海さん推しらしい。ダイレクトにレスもらってて羨ましい。みゆ父は吉岡さん推しだけど今日はオレンジを振ってくれたそうです。みにゃ妹は毎度毎度のことですが赤 w
+
+吉岡さんが、舞台のとき、青山さんに目を合わせてもらえなかったという発言をしていて面白かった。いいですね。
+
+### 夜の部: 朗読劇パート
+
+同じ内容であることは予想できるので、複数公演回す人が結構いるなか、2 回目以降、どうなるかなと思ってみていたのですが、予想を相当上回るかたちで、かなり楽しめました。アドリブ祭りでした。
+
+家電に名前をつける岡本さんは掃除機にダイソンという名前をつけているそうです。ダジャレか！の下りでしゃ、菊間さんが七瀬さんに、よっぴーダジャレ得意だよねというフリ。さすがにこのフリは予想していなかったようで、マジかみたいな感じになっている七瀬さんみるの楽しかったです。
+
+そんな七瀬さんの渾身のギャグは下記。
+
+### 青山吉能さんの渾身のギャグ
+
+記録しておかないともったいないので、記録しておきます。
+
+> 仙台に行くにはしんかんせんだい！
+
+私は、夜行バスか飛行機が多いですかね...?
+
+### アニサマ出演決定の発表
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【アニサマ2018出演者追加発表】<br>8/24（金）：Wake Up, Girls！　<a href="https://twitter.com/hashtag/anisama?src=hash&ref_src=twsrc%5Etfw">#anisama</a> <a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/jv0pchNAL9">pic.twitter.com/jv0pchNAL9</a></p>&mdash; AnimeloSummerLive (@anisama) <a href="https://twitter.com/anisama/status/1018076277373145091?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+本当に予想してなかった。これスタッフさんかなり調整したんじゃないでしょうか。
+
+WUG のアニサマ出演情報を、WUG のイベントで初解禁としてくれたのは本当に嬉しいのと、個人的にはさいとー P が WUG の発表に反応していたのをみて、出演は確信していたのですが、3 日間、いつくるのか不安に思いながら会場でそのときを待たずに済んで本当にありがたい。シークレットとかやっても誰も得しないので、非常に良かった。
+
+白木さんありがとう。ちゃんと事前に一番 WUG ちゃんをみたい人たちに出演を伝えてくれたということは、本当にありがたい。チケットは枯れてるけど w タイミング的に色々難しかったのでしょうね...。
+
+吉岡さんはくずれおちて立ち上がれない感じになってて、ほんとことしは無理って聞いてたという話をしてました。先月の発表があってもなくても、出たいみたいなことは言っていたんでしょうねー。本当に良かった、おめでとう吉岡さん。立ち上がれそう？
+
+青山さんも大号泣で、水色振りながら一緒に泣いてました。報いがあって良かった。アニサマという大きなステージで去年よりもふたまわりくらい大きくなった WUG という存在を大勢の人間に見せつけ、ユニットが解かれてしまうのを惜しむ人がひとりでも増えて欲しい。
+
+全員が取り乱して、一旦円陣を組もうってなってるのスキガスギル。
+
+I-1 アリーナにいって応援します。
+
+## おわりに
+
+WUG のみなさん、青山さんへの扱い雑すぎませんか。でもそこが好き。ちゃんあい先生は優しい。好き。
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【Wake Up, Girls！ FINAL TOUR - HOME - 千葉・市原 】<br>本日の公演終了しました！<br><br>あたたかい声援を本当にありがとうございました！<br><br>次は神奈川！<a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/VsqtgxO6lC">pic.twitter.com/VsqtgxO6lC</a></p>&mdash; Wake Up, Girls！公式 (@wakeupgirls_PR) <a href="https://twitter.com/wakeupgirls_PR/status/1018082600873648128?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15000014/B5121A8D-AB2A-4F14-97D5-86131BDC0455.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/B5121A8D-AB2A-4F14-97D5-86131BDC0455-300x225.jpeg" alt="" width="300" height="225" class="alignleft size-medium wp-image-3123" /></a>
+
+わぐちゃんに思いを馳せながら、五井駅から総武線快速に小一時間ゆられました。
+
+3 月末まで、こんなに楽しいことが続いていくことが約束されているので、その時間を毎回大切にすごして行きたいなと思います。
+
+<br clear="all">
+
+## おまけ
+
+- 食べたメシといった場所をログとして残しておく（食べログ）
+- 公開リハ後、衣装展を見たあと、MAZERU へ行き、オールスターを見ながら飲んでました。
+
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15215755/7CF65DA7-8248-4169-9CC1-9A38F21C34CB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/7CF65DA7-8248-4169-9CC1-9A38F21C34CB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3147" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/15215801/0F0D984A-F369-4856-9DBD-8D7EA65C38CD.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/0F0D984A-F369-4856-9DBD-8D7EA65C38CD-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3148" /></a>

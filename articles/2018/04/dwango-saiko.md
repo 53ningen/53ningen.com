@@ -1,0 +1,84 @@
+---
+slug: dwango-saiko
+title: 株式会社ドワンゴを退職しました
+category: programming
+date: 2018-04-07 12:09:20
+tags: [ドワンゴ]
+pinned: true
+---
+
+退職エントリ、一回書いてみたかったので書いた。
+
+3 月末でドワ社を退職しました。さみしい...。好きです、ドワンゴ。
+死ぬ前にもう一度ドワンゴで働きたい。
+
+### 入社してみてどうだったか
+
+想像以上に自由だった（ただしやることをしっかりやってる必要はあります）。自席を良い感じの空間にしても怒られないし、ごちうさ見ながら仕事してたりしても何も言われなかったし、20 連休とか平然と取得可能だった（普段ちゃんと仕事はしてます...）。ドワンゴが自由といわれる世の中じゃなくて、当たり前にドワンゴのような働き方ができる世の中になってほしい。
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">ラビットハウスの快適な労働環境 <a href="http://t.co/z7Ff1QxSPk">pic.twitter.com/z7Ff1QxSPk</a></p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/596798556297568256?ref_src=twsrc%5Etfw">May 8, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+本物の裁量労働を経験したい方は、ドワンゴへ入社してみてください。厚生労働省は本物の裁量労働制がどんなものか、視察しにくるべき。
+
+### ドワンゴでやったこと
+
+主にこんなかんじ。
+
+- ニコニコ静画（電子書籍） 入稿・配信サーバー
+- ニコニコ静画（イラスト・マンガ） 各種アプリケーションサーバー・インフラ
+- ニコニコ漫画 iOS アプリ（新規開発/Swift）
+- 読書メーター iOS アプリ（新規開発/Xamarin.iOS）
+
+ざっくりと静画周辺のフロントエンドと Android 以外をわりかし自由にやってました。規模の大きなサービスのインフラから各種アプリケーションサーバー、iOS アプリ新規開発を経験できたのは面白かったです。
+
+特に、iOS アプリ開発は入社前に未経験だったんですが、2015 年から書き始めて 2 年半で 2 本の大規模アプリのフルスクラッチ開発に携われたのは、大きな経験だったと思います。業務では Java, Swift, C#, PHP, HCL, Ansible などを主に書きました。JavaScript(Flow), Scala, Ruby, Objective-C とかもちょっと書いた。得意分野、何？って聞かれると結構困るんですが、必要とされることをまあやります...はい...って感じです。
+
+あと、社内の所属部署以外の GitHub リポジトリをのぞいたり、pull request を送る隙をみつけるのが密かな趣味でした。国内のウェブ系企業のなかで、これだけの量の実際に動いているコードが見える状態にあるだけでなく、コントリビュートも自由に行える会社、ドワンゴしかないんじゃないの？というくらい自由でした（もちろん秘匿情報は適切に管理されてます）。
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">社内Githubのある会社の良いところのひとつは、実際に動いている色々なアプリケーションの、事情により腐敗している部分や歴史的経緯で辛い部分を誰がどんな風に扱っているか、現実の問題とどう向き合っているかをソースコードレベルで知れるあたりで、むちゃくちゃ参考になる...</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/620632799968497664?ref_src=twsrc%5Etfw">July 13, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+どんな会社にも多かれ少なかれ厳しい箇所があるかなと思うんですが、包み隠さずみることができて、やろうと思えば誰でも pull request で修正できるのはやっぱり良い文化だなと思います。むしろそういう箇所に対してどういうアプローチで変更を入れるか、などを見るの、一番勉強になるのでは？
+
+### なぜ退職したのか
+
+みなさんが期待するようなドロドロとした面白いインターネット怪文書はないので、そういうの期待してる人ははてブに私に向けた悪口を書きつつ、そっとタブを閉じてください。
+
+正直ずっと一生ドワンゴに居たいくらい居心地もよくて素晴らしい環境に恵まれていて、貰った仕事も恵まれているし、色々な方々に良くしていただきました。4 年目になると複数のサービスやたくさんのリポジトリをそこそこ触れるようになっていて、完全にこのまま根をはって生きていくかみたいな感じでした。
+
+そんな折、あと 5 年くらい経験積んで挑戦してみようかなと思ってた会社から声をかけてもらって、ヘラヘラ採用受けたらなんか通ってしまって、さてどうしたものかと数ヶ月悩んでました。これまでわりとぬくぬくと生きてきたので、あえて辛い選択をしてみるか〜みたいな感じで外に出てみることにしました。人権を失いました。しばらく修行してきます。
+
+### これを読んでるエンジニア各位へ
+
+ドワンゴ、良い会社なので、おすすめです。
+**[採用サイトはここ](http://dwango.co.jp/recruit/)** です
+
+きっと、プログラミングや技術を使って、何か問題を解決したり、より良いサービスを提供したいなと思ってる人には、動きやすくてマッチする現場だと思います。
+
+### ドワンゴ新入社員のみなさんへ
+
+4 月なのでドワンゴに新卒入社したみなさんへのメッセージも書き残しておきます。
+自由だけどなるべく朝早く起きて会社にいくことをオススメします。
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">寝坊しました。もうすぐ会社につきます。</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/596195137409024000?ref_src=twsrc%5Etfw">May 7, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">フレックスタイム制とは新入社員に対して会社がくれた人生最期の更生のチャンスだったんだ</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/627902562809688064?ref_src=twsrc%5Etfw">August 2, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">完全にこの会社以外で働けない体になってしまっているのヤバい。こんな意識じゃヨーロッパにラビットハウスという名前のIT企業を設立するのは難しい。</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/621739492802605056?ref_src=twsrc%5Etfw">July 16, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+あと灼熱の卓球娘っていう作品が面白いのでぜひみてください。
+
+<iframe width="312" height="176" src="https://ext.nicovideo.jp/thumb/1475640376" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="http://www.nicovideo.jp/watch/1475640376">灼熱の卓球娘　第一球「…ドキドキするっ！」</a></iframe>
+
+### おわりに
+
+ドワンゴを離れるのはさみしい。
+勉強会とか読書会とかお酒とか旅行とかイベントとかさそってください。
+
+あと、またいつか採用してください。
+
+**[ほしい物リスト](http://amzn.asia/6VIyX8i)貼っておくのでみなさんよろしくお願いします。**

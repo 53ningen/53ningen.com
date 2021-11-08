@@ -1,0 +1,42 @@
+{
+  "name": "53ningen.com",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "latest",
+    "clsx": "latest",
+    "date-fns": "^2.25.0",
+    "front-matter": "^4.0.2",
+    "glob": "^7.2.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-markdown": "^7.1.0",
+    "react-share": "^4.4.0",
+    "react-syntax-highlighter": "^15.4.4",
+    "rehype-raw": "^6.1.0",
+    "typeface-roboto": "^1.1.13"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/glob": "^7.2.0",
+    "@types/gtag.js": "^0.0.8",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-share": "^4.0.0",
+    "@types/react-syntax-highlighter": "^13.5.2",
+    "typescript": "latest"
+  }
+}

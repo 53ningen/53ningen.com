@@ -1,0 +1,65 @@
+---
+slug: iosdc-japan-2017
+title: iOSDC Japan 2017にてベストトーク賞をいただきました
+category: programming
+date: 2017-09-18 05:08:35
+tags: [Swift, iOS]
+pinned: true
+---
+
+2017/09/15〜17 の 3 日間にわたって開催されたカンファレンス [iOSDC Japan 2017](iosdc.jp/2017/) に参加してきました。私は 2 日目の 14:20〜14:50 に Track A 会場にて[「RxSwift の Observable とは何か」というタイトル](https://iosdc.jp/2017/node/1348)でセッションを持たせていただきました。
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">iOSDC 14:20〜14:50 Track A 「RxSwiftのObservableとは何か」<br><br>?資料置き場<a href="https://t.co/23OKPtwWex">https://t.co/23OKPtwWex</a><br>?口頭発表原稿:<a href="https://t.co/IYgQbiI2WS">https://t.co/IYgQbiI2WS</a><a href="https://twitter.com/hashtag/iosdc?src=hash">#iosdc</a> <a href="https://twitter.com/hashtag/a?src=hash">#a</a></p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/908922980306108416">September 16, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- 口頭発表原稿はこちら ➡︎ [http://qiita.com/gomi_ningen/items/c796c08fe672610beecf](http://qiita.com/gomi_ningen/items/c796c08fe672610beecf)
+- スライドはこちら ➡︎ [https://www.slideshare.net/gomi_ningen/rxswiftobservable-iosdc-japan-2017](https://www.slideshare.net/gomi_ningen/rxswiftobservable-iosdc-japan-2017)
+
+このまわりの話をちゃんと解説しようとすると、最低でも 60 分は必要かなと思っていたのですが、最長の枠が 30 分しかなかったのでやむなしで CfP を提出しました。発表内容については以前からコードを追っかけてた分野だったので改めてする作業もそんなになく（とか思ってたんですが、以前に真面目にコードリーディングした Swift1.2/2.x 時代と比較してかったるい diff とかがあって地味に胃が痛かった）、スライドとか口頭発表原稿とかを書き起こす程度でした。ただ当時の自分は頭がおかしかったようでスライドを Illustrator + In Design で作り始めてしまい、次回から素直にパワポで作ろうと思いました（細かいレイアウトを指定できるのはいいけどめんどくさかった）。
+
+お話の構成をするなかで、300lines 近くの実装コード解説をどうやったら、スライドとトークの内容で聴いていただく皆さまに理解してもらえるかをだいぶ悩みました。ただでさえ、発表のスライドにコードがあるとウッとなるはずなのに、それを 30 分間ひたすらやり続けたら、地獄でしかないので、この部分をクリアする点に力を注ぎました。そこで、ベースとなるソースコードを頭のスタック領域に置いていただくための説明に発表の半分以上の時間かけて、その上で、Reactive Extensions 特有の diff を解説するというトーク構成にしようと決めました（発表の 7 日くらい前に）。
+
+実際発表のリハーサル的なものを自分一人でやってみたんですが、どうやっても 45 分くらいかかってしまい、泣く泣くスライドのタイトルに（余談）という文字列を入れて、口頭発表の内容からは削ったりしました。来年から 45 分枠とかほしい...。
+
+今回のお話は決して技術的レベルの高い話ではなくて、まとめてしまうと有名な設計パターンとその発展形についてのお話でした。他の方のセッションをいくつか拝聴させていただいたのですが、私よりも技術的にはるかにハイレベルなことをやっていたり、普段自分が無意識にやっていてわりと共感できるようなお話がいくつもあって楽しかったです。
+
+特に面白かったセッションは [@k_katsumi](https://twitter.com/k_katsumi) さんの [Building High Performance and Testable UI component](https://speakerdeck.com/kishikawakatsumi/building-high-performance-and-testable-ui-component) で、自分が普段 iOS のプレゼンテーション層を書くときの考え方とだいぶ近くて非常に共感できました。自分のやっている方法を自分自身でしっかり論理的根拠を持ってある程度正しそうという気持ちを持てるようにできるのが一番いいですが、やっぱり似たような手法を他の方もやられているという話を聞くと気持ち的には安心できますね...。
+
+あとは [@kitasuke](https://twitter.com/kitasuke) さんの [Introducing protobuf in Swift](https://www.slideshare.net/kitasuke/introducing-protobuf-in-swift/1)のあとに、Ask the speaker まわりで protobuf vs swagger みたいな話ができて楽しかった。サーバー〜モバイルクライアント間での protobuf 利用がどのようにされているのかの事例、ちゃんときいたことがなかったので興味深かった。あと protobuf とエラーハンドリングまわりの話も大変参考になった。最後には、結局 API クライアントを人間が書くことを撲滅していきましょうみたいな気持ちをみなさんと共有できたところがよかったですね...。撲滅していきましょう。
+
+素晴らしいセッションがたくさんある中、私の稚拙な発表を聴いていただいた皆さま、運営スタッフのみなさまなど本当にありがとうございました。そしてまさか自分がベストトーク賞をいただけるとは本当に思っていなかったので、LT 枠の無限ビールタイムの時間にビール 4 本飲んでいい感じに意識があいまいになっていました。粗相してなかったですか？大丈夫ですか？
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">1位<br>RxSwiftのObservableとは何か | iOSDC Japan 2017<a href="https://t.co/I5MJQvjj0b">https://t.co/I5MJQvjj0b</a><br> <a href="https://twitter.com/hashtag/iosdc?src=hash">#iosdc</a> <a href="https://t.co/XtvjBZNIpg">pic.twitter.com/XtvjBZNIpg</a></p>&mdash; にわタコ (@niwatako) <a href="https://twitter.com/niwatako/status/909354060725207040">September 17, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">事前告知全くなかったのでマジでびっくりしている... 聴いていただいた方本当にありがとうございます（ビール4本飲んで意識があいまい <a href="https://twitter.com/hashtag/iosdc?src=hash">#iosdc</a></p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/909354872234897409">September 17, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ベストトーク賞の商品としてサイバーエージェントさんから素晴らしいお品をいただけるようで本当にありがとうございます。アベマ TV さん最高のサービスです。アメーバブログさんでよく声優さんのブログ記事と写真を見ています。最高のサービスです。いただいたディスプレイでアベマ TV さんとアメーバブログさんを見ます！
+
+アメーバブログさんで特に見ているのは以下のブログです
+
+- [今村彩夏オフィシャルブログ GAME CENTER イマムラ](https://ameblo.jp/imamuraayaka-0805/)
+  - 競馬の情報しか書いていない最高のブログです。この人は本当に声優なのかと疑いすら発生するそんな今村彩夏さんが好きです。
+- [石原夏織オフィシャルブログ「Mahalo.」](https://ameblo.jp/ishiharakaori-0806/)
+  - 好き
+- [後藤邑子の TSUBUYAKI](https://ameblo.jp/goto-yuko/)
+  - アニサマでの登場はさすがにびっくり。元気な姿が久々に見られてよかった
+- [小岩井ことりオフィシャルブログ「ゆめはキミの太陽。」](https://ameblo.jp/koiwai-kotori/)
+  - DTM ガチ勢
+- [松井恵理子オフィシャルブログ「愛言葉は ☆ じゃんだらりーん!!」](https://ameblo.jp/lenp/)
+  - まつきゅんの笑い方がほんとすき
+- [儀武ゆう子オフィシャルブログ「ザ ☆ ギブログ」](https://ameblo.jp/gibuyou/)
+  - ご出産おめでとうございます
+
+アメーバブログさん最高のサービスです。私も声優さんのブログになりたい。
+
+2 日目の発表が終わったあと、残念ながら [Wake Up, Girls!](http://wug-portal.jp/) 4th Live Tour 東京公演 夜の部がイベ被りしており、懇親会には参加できませんでしたが、来年 [Wake Up, Girls!](http://wug-portal.jp/) のイベントが被っていなければ懇親会に参加したいなと思います。ハッシュタグ見てたら美味しそうな料理と充実したクラフトビールとハイレベルなエンジニアがたくさんいてとても楽しそうだった。私、ビール（詳しくはないのですが）大好きなので、スポンサーの転職ドラフトさん来年も無限ビールお願いします。
+
+1 日目夜のスピーカーズディナーは、やっぱり真剣に技術を追っている人たちが集まっているだけあって、楽しかった。まだまだ私は技術的にも精神的にも未熟な社畜 4 年生で、年上の方はもちろんのこと、最近だと高校生・大学生なのに、いまから自分がどれだけ努力しても追いつけそうにない人がインターネット上にはたくさんいるので、ちゃんと技術やお仕事に真摯に向き合う姿勢だけは忘れずに生きていきたいな、というなんか真面目な文章を、最後に書き残しておきます。
+
+ひとまずみなさまお疲れ様でした。ありがとうございました。
+
+### appendix
+
+- [@akatsuki174](https://twitter.com/akatsuki174) さんがまとめてくれた togetter: [https://togetter.com/li/1151263](https://togetter.com/li/1151263)
