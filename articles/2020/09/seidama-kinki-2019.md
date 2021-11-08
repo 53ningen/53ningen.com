@@ -15,6 +15,7 @@ pinned: false
 <a href="https://static.53ningen.com/wp-content/uploads/2019/09/23005255/646B3BDF-1086-4871-A13C-9FC4C7563BFD.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/09/23005255/646B3BDF-1086-4871-A13C-9FC4C7563BFD-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-5073" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2019/09/23005029/C4F8001B-EBEB-48B5-AB42-EA1A92B621AB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/09/23005029/C4F8001B-EBEB-48B5-AB42-EA1A92B621AB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-5051" /></a>
 
 つきだしは甘いナスにゴマだれをかけたもの、続いてぐじ（甘鯛）や湯葉などを含む刺盛り、地鶏焼き。
+
 <a href="https://static.53ningen.com/wp-content/uploads/2019/09/23005000/1CCD6A0A-57C3-4657-9716-4535A50356B3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/09/23005000/1CCD6A0A-57C3-4657-9716-4535A50356B3-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-5046" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2019/09/23005006/63D9DA7B-2151-4D71-AD49-69358B3E856C.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/09/23005006/63D9DA7B-2151-4D71-AD49-69358B3E856C-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-5047" /></a>
 
 鱧と松茸の吸い物、鴨団子、出汁巻卵、シャケと豆の釜飯をいただきました。
@@ -57,7 +58,9 @@ pinned: false
 
 最終候補者数名が選ばれているなかから、最優秀賞と京都市営地下鉄のキャラクター配役 4 名の委任先の選定が午前中行われていたようで、京まふ内では結果発表と各キャラクターの演技を見れるといった仕組み。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">声優魂in京まふ　～声優魂近畿大会～ and 「地下鉄に乗るっ」声優オーディション<br><br>ゲスト声優審査員＆トークイベント<a href="https://twitter.com/hashtag/%E9%9D%92%E5%B1%B1%E5%90%89%E8%83%BD?src=hash&amp;ref_src=twsrc%5Etfw">#青山吉能</a><a href="https://t.co/MCW5x3KIBm">https://t.co/MCW5x3KIBm</a></p>&mdash; WUG News (非公式) (@wugnews) <a href="https://twitter.com/wugnews/status/1169735079989395456?ref_src=twsrc%5Etfw">September 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1169735079989395456
+```
 
 惜しくも受賞とならなかった方の演技も聞きたかったなという部分はある（何目線なんだ...）。
 
@@ -81,13 +84,17 @@ pinned: false
 
 私は ANA 便にのります（一応グループ会社だし... 共同運航便でソラシドエア運行のものもあるのでそのあたり使うとよさそう）。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E5%A3%B0%E5%84%AA%E9%AD%82?src=hash&amp;ref_src=twsrc%5Etfw">#声優魂</a> 近畿大会 表彰式 ゲストトークで話題に上がったソラシドエアの「アゴユズスープ」 <a href="https://t.co/HKz3yt4Doe">https://t.co/HKz3yt4Doe</a> <a href="https://t.co/qy1TpN2JGY">pic.twitter.com/qy1TpN2JGY</a></p>&mdash; 草ブレード (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1175721121573793793?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175721121573793793
+```
 
 具体名はあがってないですがおそらくグリや、外画の吹き替えのお仕事についても話題にあがりました。
 
 そんなこんなであっというまにトークパートも終了。本大会は去年とおなじ大崎でやるみたいですね。観覧可能で予定なければまた見てみたい気も。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今期最後の地方大会である「声優魂in京まふ 声優魂近畿大会」が終了致しました。<br>次はいよいよ11/17（日）に東京で開催の本大会になります。<br>本大会の詳細は公式サイト(<a href="https://t.co/SaO8TAsro9">https://t.co/SaO8TAsro9</a>)でご確認下さい。<br><br>審査員やゲストの <a href="https://twitter.com/hashtag/%E9%9D%92%E5%B1%B1%E5%90%89%E8%83%BD?src=hash&amp;ref_src=twsrc%5Etfw">#青山吉能</a> さんなどステージに登壇したみんなでフォトセッション！ <a href="https://t.co/QWjgyFyxQQ">pic.twitter.com/QWjgyFyxQQ</a></p>&mdash; 国際声優コンテスト「声優魂」 (@ISTA_seidama) <a href="https://twitter.com/ISTA_seidama/status/1175727063787024386?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175727063787024386
+```
 
 そういえば、京まふ内にも WUG 要素ありました。
 
@@ -97,11 +104,15 @@ pinned: false
 
 イベントがおわったあとは、お好み焼きを食べにいきました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">I&#39;m at お好みや じゅんじゅん in 京都市左京区, 京都府 w/ <a href="https://twitter.com/koteijing?ref_src=twsrc%5Etfw">@koteijing</a> <a href="https://t.co/EH3O5ISkpa">https://t.co/EH3O5ISkpa</a> <a href="https://t.co/IqYZKUukUE">pic.twitter.com/IqYZKUukUE</a></p>&mdash; 草ブレード (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1175659448695775232?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175659448695775232
+```
 
 そして野生のモリシを回収。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">野生の森嶋 <a href="https://t.co/xkXnSh8vJk">pic.twitter.com/xkXnSh8vJk</a></p>&mdash; 草ブレード (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1175664035146031104?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175664035146031104
+```
 
 雨がめっちゃ降ってきて観光どころじゃなくなったので、お茶しにいきつつ新幹線の時間がやってきたので東京へ。
 
@@ -109,18 +120,30 @@ pinned: false
 
 京都また遊びに来たいなぁ。でも熊本にも青森にも行きたい。あちこち遊びにはいってましたが、3 月以来、最初の推し遠征イベント、楽しかった。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">3月以来初めての、推し遠征イベから帰宅 <a href="https://t.co/zkcv7z3pIY">pic.twitter.com/zkcv7z3pIY</a></p>&mdash; 草ブレード (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1175782163423215617?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175782163423215617
+```
 
 そういえば聖地を回収しにいかなきゃいけないですね 🤔
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">夜ご飯は京都で☺️<br><br>めちゃめちゃ綺麗なお庭のあるところでいただきました……✨<br>2枚目はすでに胃の中の刺身…… <a href="https://t.co/wg2oSWLpUj">pic.twitter.com/wg2oSWLpUj</a></p>&mdash; 青山吉能 (@Yopipi555) <a href="https://twitter.com/Yopipi555/status/1175393648164229130?ref_src=twsrc%5Etfw">September 21, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175393648164229130
+```
 
 ↑ めっちゃ高そう
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「 <a href="https://twitter.com/hashtag/%E5%A3%B0%E5%84%AA%E9%AD%82?src=hash&amp;ref_src=twsrc%5Etfw">#声優魂</a> in京まふ2019 声優魂近畿大会」のゲスト審査員として <a href="https://twitter.com/hashtag/%E9%9D%92%E5%B1%B1%E5%90%89%E8%83%BD?src=hash&amp;ref_src=twsrc%5Etfw">#青山吉能</a> が参加し、審査とトークショーをさせていただきました。<br>エントリーいただいた中高生の皆さま、お疲れ様でした！<br>また、ご観覧いただいた皆さまも有難うございました！<br>終演後の青山とアンニュイ青山です。 <a href="https://t.co/YO5W1jOYff">pic.twitter.com/YO5W1jOYff</a></p>&mdash; 【公式】81プロデュース (@81pro_official) <a href="https://twitter.com/81pro_official/status/1175646709696745472?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175646709696745472
+```
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E5%A3%B0%E5%84%AA%E9%AD%82?src=hash&amp;ref_src=twsrc%5Etfw">#声優魂</a> in京まふ2019 近畿大会！ゲスト審査員として登壇させていただきました。<br>せいだまならではのトークもたくさんできて、京都という地も素敵ですごく新鮮でした☺️<br>雨も降りしきる中です。<br>みなさま気をつけてお帰りください☂️ <a href="https://t.co/QtDI3iB2L7">pic.twitter.com/QtDI3iB2L7</a></p>&mdash; 青山吉能 (@Yopipi555) <a href="https://twitter.com/Yopipi555/status/1175675118502080512?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175675118502080512
+```
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ちょっぴり観光もできました。⛩<br><br>Koma Gallery Cafeさんにて！☕️<br>グラスが可愛い🎯<br><br>そして気づいてるかもしれないけど抹茶ラテはすでに胃の中！またやったよ！🦠 <a href="https://t.co/q12FO33ow2">pic.twitter.com/q12FO33ow2</a></p>&mdash; 青山吉能 (@Yopipi555) <a href="https://twitter.com/Yopipi555/status/1175734897194856449?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175734897194856449
+```
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">そんなオシャカフェから見えた塔とわたし🧸 <a href="https://t.co/64flCNEekR">pic.twitter.com/64flCNEekR</a></p>&mdash; 青山吉能 (@Yopipi555) <a href="https://twitter.com/Yopipi555/status/1175735246752321537?ref_src=twsrc%5Etfw">September 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1175735246752321537
+```

@@ -26,7 +26,9 @@ pinned: false
 
 - [令和元年（2019 年）11 月 21 日　知事定例記者会見 / ようこそ知事室 / 熊本県](https://www.pref.kumamoto.jp/chiji/kiji_30066.html#3)
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【オール熊本アニメ「なつなぐ！」キャスト発表！】<br>本日、知事定例記者会見で主人公欅夏奈（けやきなな）役等のキャストを発表しました。<a href="https://twitter.com/hashtag/%E3%81%AA%E3%81%A4%E3%81%AA%E3%81%90?src=hash&ref_src=twsrc%5Etfw">#なつなぐ</a> <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%BC%E3%83%AB%E7%86%8A%E6%9C%AC%E3%82%A2%E3%83%8B%E3%83%A1?src=hash&ref_src=twsrc%5Etfw">#オール熊本アニメ</a><br>●公式アカウントはこちら<a href="https://t.co/LbTaZNWi9s">https://t.co/LbTaZNWi9s</a> <a href="https://t.co/xM6snJlYG8">pic.twitter.com/xM6snJlYG8</a></p>&mdash; 熊本県広報グループ (@KumamotoPre_koh) <a href="https://twitter.com/KumamotoPre_koh/status/1197439894223650817?ref_src=twsrc%5Etfw">November 21, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1197439894223650817
+```
 
 - [橋本愛：熊本発アニメ「なつなぐ！」で主人公の声優に　千葉繁も出演 - MANTANWEB（まんたんウェブ）](https://mantan-web.jp/article/20191121dog00m200004000c.html)
 - [熊本出身・橋本愛が復興アニメ「なつなぐ！」で主人公の声担当、千葉繁も参加 - 映画ナタリー](https://natalie.mu/eiga/news/356396)

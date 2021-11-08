@@ -42,8 +42,9 @@ twitter に垂れ流すと、あとから振り返る時辛いのでここに思
 - この曲はやっぱり WUG のふわっとしたやわらかいフリが好きだなぁ。。。わぐちゃんのアガペーみたいなーという感想もちょっとだけ抱いてしまった 
   - ランガちゃんのもルーチェちゃんのもよかったけど、個人的な好みのお話です
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">音楽に詳しい人は、なぜ16歳のアガペーのイントロを聴くとオタクは声を漏らしてしまうのか分析してほしい</p>&mdash; gomi_ningen (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/996027557777588224?ref_src=twsrc%5Etfw">May 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+996027557777588224
+```
 
 ## 地下鉄ラビリンス
 
@@ -90,15 +91,17 @@ twitter に垂れ流すと、あとから振り返る時辛いのでここに思
 - ランキングの下位を見ても下位と思えない曲がならんでいた
   - というか下位という概念が謎である
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">最も推している三曲、ゆき模様、僕フロ、止まらない未来が食い込まなかったのは謎の悔しさがあるけど、聴ける機会も多かった曲ではあるので、それよりもあまり見ることができない曲を見れたのはよかった。</p>&mdash; gomi_ningen (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/995327730471256065?ref_src=twsrc%5Etfw">May 12, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+995327730471256065
+```
 
 ## たいそう
 
 - いつもは、一番クソダサな田中美海さんのダンスですが、今回一番ダサかったのはまさかの、ななみさんだった
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">おやくそく体操で一番クソダサなダンス踊っていたの、みにゃじゃなくてななみさんだったのが面白かった</p>&mdash; gomi_ningen (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/995604434179637249?ref_src=twsrc%5Etfw">May 13, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+995604434179637249
+```
 
 ## プリンセス
 
@@ -120,8 +123,9 @@ twitter に垂れ流すと、あとから振り返る時辛いのでここに思
   - と思ったけど、えとたまの 2 期発表も聞いた瞬間泣いてしまったので、わりと最近にガチ感動していた
 - ランキング形式だからアンコールは無粋なんだけど、ちょっとアンコールしたい気持ちを、吹き飛ばして、イベントが気持ちよく終わった感じがあって、このやり方はうまいなと思った、ツアーいきたくなるよね
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【Wake Up, Girls！ LIVE TOUR 2018→2019】<br><br>◇PartⅠ<br>千葉・神奈川・埼玉<br>◇PartⅡ<br>大阪・岩手・神奈川<br>◇PartⅢ<br>Comming Soon<br><br>3部構成のツアー、詳細はこちらから⇒<a href="https://t.co/QIFTinsCzA">https://t.co/QIFTinsCzA</a><br>​<a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/2M2jFieBQF">pic.twitter.com/2M2jFieBQF</a></p>&mdash; Wake Up, Girls！公式 (@wakeupgirls_PR) <a href="https://twitter.com/wakeupgirls_PR/status/995259188975620096?ref_src=twsrc%5Etfw">May 12, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+995259188975620096
+```
 
 ## 幕張に来てみておもったこと
 
@@ -133,8 +137,9 @@ twitter に垂れ流すと、あとから振り返る時辛いのでここに思
 
 ツアーが楽しみだというお話をした
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">Wake Up, Girls! 5th LIVE TOUR に開催を祝って祝杯 (@ 蔵元個室 銀座樽丸 in 千葉市, 千葉県) <a href="https://t.co/kvX56lPu7b">https://t.co/kvX56lPu7b</a> <a href="https://t.co/te6H3mTaRA">pic.twitter.com/te6H3mTaRA</a></p>&mdash; gomi_ningen (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/995268551631138817?ref_src=twsrc%5Etfw">May 12, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+995268551631138817
+```
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/05/16225023/E2EED6BF-E470-4C17-9BF0-FB7F7C759869.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/05/16225023/E2EED6BF-E470-4C17-9BF0-FB7F7C759869-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2614" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/05/16225043/C477E7DE-5127-41F5-8C34-46F227D47F94.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/05/16225043/C477E7DE-5127-41F5-8C34-46F227D47F94-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2618" /></a>
 

@@ -6,6 +6,7 @@ import { Box } from '@mui/system'
 import { format } from 'date-fns'
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { Tweet } from 'react-twitter-widgets'
 import rehypeRaw from 'rehype-raw'
 import { Article } from './Article'
 import Link from './common/Link'
@@ -63,6 +64,9 @@ export const ArticlePage: React.FC<Props> = ({ article }) => {
                 ),
               code({ inline, className, children }) {
                 const match = /language-(\w+)/.exec(className || '')
+                if (className === 'language-twitter') {
+                  return <Tweet tweetId={String(children).replace(/\n$/, '')} />
+                }
                 return !inline ? (
                   <SyntaxHighlighter
                     children={String(children).replace(/\n$/, '')}

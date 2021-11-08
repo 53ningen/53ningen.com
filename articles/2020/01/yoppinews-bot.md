@@ -51,17 +51,23 @@ pinned: true
   - ツイートに含まれる画像内の顔検出と比較
   - ツイートに含まれる URL の内容に対するキーワードマッチ
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">? 関連画像を自動検出（類似度: 94.68%） <a href="https://t.co/tk3ZwMNhgJ">https://t.co/tk3ZwMNhgJ</a></p>&mdash; yoppinews (非公式) (@yoppinews) <a href="https://twitter.com/yoppinews/status/1184110993032368128?ref_src=twsrc%5Etfw">October 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">? 関連URLを自動検出（検知キーワード: 青山吉能） <a href="https://t.co/jsRedkWdu8">https://t.co/jsRedkWdu8</a></p>&mdash; yoppinews (非公式) (@yoppinews) <a href="https://twitter.com/yoppinews/status/1198927149576544258?ref_src=twsrc%5Etfw">November 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1184110993032368128
+```
+
+```twitter
+1198927149576544258
+```
 
 ### ウェブサイト/新着記事更新の監視: yoppinews-web-monitor
 
 - 監視対象
 - RSS フィード（ブログやニュースの新着記事）
-
   - 特定のウェブサイト（プロフィールページなど）
 
-  <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">✏️ 関連新着投稿を検出: (検出キーワード: 青山吉能)<br>『青山吉能・山下七海のトークショー　ななよぴとーく』　ご来場ありがとうございました！<a href="https://t.co/G4mDfv6sFn">https://t.co/G4mDfv6sFn</a></p>&mdash; yoppinews (非公式) (@yoppinews) <a href="https://twitter.com/yoppinews/status/1191744246501371904?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1191744246501371904
+```
 
 なお、残念ながら **インスタグラムはスクレイピングなどによる自動化が規約上難しい** ため、ネイティブアプリの通知機能などを利用して人力で情報を拾う必要があります（なんか良い手を知ってる方いたら教えて欲しい）。
 
@@ -80,7 +86,9 @@ pinned: true
   - キャラクターの誕生日
 - その日のスケジュールのサマリ
 
-  <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">? 2019/11/7 のイベント予定<br>14:00 toshiLOG vol.4 朗読劇「あの星に願いを」 11/7 14:00回<br>19:00 toshiLOG vol.4 朗読劇「あの星に願いを」 11/7 19:00回<a href="https://twitter.com/hashtag/%E9%9D%92%E5%B1%B1%E5%90%89%E8%83%BD?src=hash&ref_src=twsrc%5Etfw">#青山吉能</a> <a href="https://t.co/m8HhBD0UIF">https://t.co/m8HhBD0UIF</a></p>&mdash; yoppinews (非公式) (@yoppinews) <a href="https://twitter.com/yoppinews/status/1192094410009264130?ref_src=twsrc%5Etfw">November 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1192094410009264130
+```
 
 ## 2.2. 想定する運用
 
@@ -341,7 +349,9 @@ twitter から API を通して取得した監視対象のツイート件数の�
 
 ## 補足: 青山吉能さんとは
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本日は <a href="https://twitter.com/hashtag/%E7%99%BD%E7%8C%AB%E3%81%A1%E3%81%A1%E3%81%B6%E7%A5%AD?src=hash&ref_src=twsrc%5Etfw">#白猫ちちぶ祭</a> にお集まりくださりありがとうございました☺️<br>モニカの活躍…期待しても…いいよね…！ね！！！?<br>皆様もわたしたちも寒い中でしたから、体調にはいつも以上に気を使ってあげてくださいね！<br><br>ミレイユ役のゆなと待ち時間めっちゃくちゃ写真撮った?盛れみ！ <a href="https://t.co/Jk4w9Hx8Gu">pic.twitter.com/Jk4w9Hx8Gu</a></p>&mdash; 青山吉能 (@Yopipi555) <a href="https://twitter.com/Yopipi555/status/1206134122667577345?ref_src=twsrc%5Etfw">December 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1206134122667577345
+```
 
 **2020 年 1 月クールアニメ「[なつなぐ！](https://twitter.com/natsunagupr)」「[群れなせ！シートン学園](https://anime-seton.jp/)」に出演するのでみてください**
 

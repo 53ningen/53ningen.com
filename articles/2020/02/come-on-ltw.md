@@ -36,7 +36,9 @@ pinned: false
 - 作詞：Ray
 - 作曲：no_my
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">一回目のステージありがとうございました?<br>次はメインステージ！<br>出番は18:35〜！！！<br>みんなで盛り上がりましょう✨✨✨<a href="https://twitter.com/hashtag/%E3%83%AB%E3%83%BC%E3%83%81%E3%82%A7TW?src=hash&ref_src=twsrc%5Etfw">#ルーチェTW</a> <a href="https://t.co/XcXbk3Bjhm">pic.twitter.com/XcXbk3Bjhm</a></p>&mdash; Luce Twinkle Wink☆ (@Luce_TW) <a href="https://twitter.com/Luce_TW/status/1228553520955064320?ref_src=twsrc%5Etfw">February 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1228553520955064320
+```
 
 ## ヒカリ
 
@@ -44,7 +46,9 @@ pinned: false
 - 作詞：深沢紗希・桧垣果穂
 - 作曲：タニヤマヒロアキ
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ららぽーと新三郷でのリリースイベントありがとうございました??<br>みなさま風邪引かないように帰宅したらケアして下さいね♨️<a href="https://twitter.com/hashtag/%E3%83%AB%E3%83%BC%E3%83%81%E3%82%A7TW?src=hash&ref_src=twsrc%5Etfw">#ルーチェTW</a> <a href="https://twitter.com/hashtag/LLTW?src=hash&ref_src=twsrc%5Etfw">#LLTW</a><br><br>さきちゃん&かほハム作詞<br>【ヒカリ】<br>夢に向かって進むルーチェを歌った曲です✨ <a href="https://t.co/nu4zvu3bGu">pic.twitter.com/nu4zvu3bGu</a></p>&mdash; Luce Twinkle Wink☆ (@Luce_TW) <a href="https://twitter.com/Luce_TW/status/942281005951369216?ref_src=twsrc%5Etfw">December 17, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+942281005951369216
+```
 
 ## metoer bell
 
@@ -97,4 +101,6 @@ pinned: false
 板山紗織さんがめっちゃかわいいので現場来てください
 （じぶんは宇佐美さん寄りのハコ推しです）
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">メイドさんになりました…<br><br>わぁぁっ！ <a href="https://t.co/4L0idV23Uj">pic.twitter.com/4L0idV23Uj</a></p>&mdash; 板山紗織(ルーチェTW)＊4/19、6周年ライブ (@itayama_saori) <a href="https://twitter.com/itayama_saori/status/1228994308017029121?ref_src=twsrc%5Etfw">February 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1228994308017029121
+```

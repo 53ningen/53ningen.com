@@ -11,8 +11,9 @@ pinned: false
 
 なにやら 2018 年も大盛況のようで、500 以上の CfP が出たそうな。応募締め切りも終わり、採択されたセッションも決まったようなので、去年自分が CfP を出すときやスライドや口頭発表の内容を組み立てるときに考えたことを昨年度の知見のひとつとしてメモ書きしておきます。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">参加者のみなさまは「自己紹介」「iOSDCに行くよ！」「参加予定の日」「気になってるトーク」「Twitterアカウント」なんかを書いておくと、現地でのコミュニケーションに良いかも！そして昨年参加の方、何か知見があればシェアーしてください。初参加の方の参考になると思います。 <a href="https://twitter.com/hashtag/iosdc?src=hash&ref_src=twsrc%5Etfw">#iosdc</a></p>&mdash; iOSDC (@iosdcjp) <a href="https://twitter.com/iosdcjp/status/1022712657080545281?ref_src=twsrc%5Etfw">July 27, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1022712657080545281
+```
 
 これからスライドや発表内容を練られる方の反面教師もしくはご参考になれば幸いです。
 

@@ -32,8 +32,9 @@ WUG！ HOME TOUR Part III 徳島公演を思いっきり楽しむために、Wak
 
 ななみさんは、クラシックバレエ、吹奏楽の発表をここでやったそう
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">鳴門市文化会館: ななみさんのクラシックバレエ、吹奏楽の発表会場（ぺらじ118回） <a href="https://twitter.com/hashtag/wugmemo?src=hash&ref_src=twsrc%5Etfw">#wugmemo</a></p>&mdash; ゴミ箱 (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1046964775920578560?ref_src=twsrc%5Etfw">October 2, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1046964775920578560
+```
 
 ### アクセス
 
@@ -43,8 +44,9 @@ WUG！ HOME TOUR Part III 徳島公演を思いっきり楽しむために、Wak
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.0654884642754!2d134.60899951521802!3d34.170243280574006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355365f5e08468b5%3A0x5849fbf74fa67023!2z44CSNzcyLTAwMDMg5b6z5bO255yM6bO06ZaA5biC5pKr6aSK55S65Y2X5rWc5p2x5rWc77yS77yU4oiS77yX!5e0!3m2!1sja!2sjp!4v1539089109852" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">鳴門市文化会館の駐車場は無料っぽい雰囲気でめっちゃ広かったけど、当日空いてるかどうかについてはまちまちっぽかった（と駐車場の立て看板に書いてあった）。</p>&mdash; ゴミ箱 (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1054422416967913472?ref_src=twsrc%5Etfw">October 22, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1054422416967913472
+```
 
 ### 会場周辺のレストラン・喫茶店
 
@@ -323,5 +325,6 @@ WUG メンバーが訪れている徳島ラーメン屋。山下七海さんに�
 
 ### YAMASHITA
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">鳴門市文化会館の近くに YAMASHITA というお店を発見してしまった...</p>&mdash; ゴミ箱 (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1049199929040621568?ref_src=twsrc%5Etfw">October 8, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1049199929040621568
+```

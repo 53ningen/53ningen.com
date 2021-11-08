@@ -9,7 +9,7 @@ pinned: true
 
 [Qiita にあげていた記事](https://qiita.com/gomi_ningen/items/c796c08fe672610beecf)ですが、ここにもバックアップをとっておきます
 
-> この記事は、2017/09/15〜17 に早稲田大学 理工学部 西早稲田キャンパスで開催される **iOSDC Japan 2017** で行われる**[セッション「RxSwift の Observable とは何か」](https://iosdc.jp/2017/node/1348)**の発表原稿、およびその補足資料です。
+> この記事は、2017/09/15〜17 に早稲田大学 理工学部 西早稲田キャンパスで開催される **iOSDC Japan 2017** で行われる **[セッション「RxSwift の Observable とは何か」](https://iosdc.jp/2017/node/1348)** の発表原稿、およびその補足資料です。
 
 - スライドはこちらです ➡︎ https://www.slideshare.net/gomi_ningen/rxswiftobservable-iosdc-japan-2017
 - あわせて読みたい ➡︎ http://qiita.com/gomi_ningen/items/dc08a8a5514be9aa0eb2

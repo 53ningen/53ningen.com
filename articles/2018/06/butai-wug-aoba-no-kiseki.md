@@ -94,14 +94,16 @@ pinned: false
 - 「ブリリアントカットは美しいけどジュエリーはダイヤモンドだけじゃないからね」
 - 「僕に認められてもしょうがいないよ　君たちが認められなきゃいけないのはオーディエンスでしょ」
 
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="en"><p lang="ja" dir="ltr">本日2日目です。<br>今日、明日、明後日と毎公演丁寧に皆様に魅せて行きます。<br>本当に認めてもらわなきゃいけない相手はお客さんだからね〜<br>最前の人から一番後ろ<br>二階三階のお客さんに届けます。<br>んじゃ、また！ <a href="https://t.co/qbFmKo58nL">pic.twitter.com/qbFmKo58nL</a></p>&mdash; 福山聖二 (@seiji_fukuyama) <a href="https://twitter.com/seiji_fukuyama/status/1004656249110032384?ref_src=twsrc%5Etfw">June 7, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1004656249110032384
+```
 
 - 金曜夜公演で、かやが早坂さんの宣戦布告（クレーンゲーム）に乗るシーンがあるが、あそこで千円札を落としてしまったが、そのあとすかさず気の利いたいじりをいれてきていて、この人、ガチだなと思った
 - パンフレットの早坂さん
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">３日目無事に？終わりました。<br>舞台にはやっぱり魔物が住んでるんだなと(笑)<br>日々日々楽しい。<br>だから沢山の方々に観てもらいたいね！<br>まだ間に合うよ、色んな意味で。<br>明日もよろしくお願いします。<a href="https://twitter.com/hashtag/WUG?src=hash&ref_src=twsrc%5Etfw">#WUG</a></p>&mdash; 福山聖二 (@seiji_fukuyama) <a href="https://twitter.com/seiji_fukuyama/status/1005066395040694273?ref_src=twsrc%5Etfw">June 8, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1005066395040694273
+```
 
 - 千秋楽公演では特訓初日の 7 人に最後に座禅的なことをさせていて、あいりができてて面白かった
 

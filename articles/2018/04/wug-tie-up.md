@@ -19,8 +19,9 @@ pinned: false
 
 クールが変わり、次は灼熱の卓球娘が刺さった。これも見たきっかけは花守ゆみりさんだった。声優きっかけでみてるんですけど、3 話までの怒涛の流れ、そして 3 話で OP の熱い演出、僕フロをうまく利用した序盤の山の余韻の作り方に惹かれて、原作を一気に買った。最終話で田中美海さんが灼熱の卓球娘の twitter 乗っ取ったのを見て、この人やべえ、クソおもしろいやんけ...と思い、名前と顔をしっかりと認識した。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">あがりがこよりに負けるまでの流れ、視聴者にあがりが嫌われないようなほんとうに絶妙な描写がなされている。フォローを挟むようにほくととハナビとこよりのカットを挟んでくる。そして次の３話を盛り上げる大きな要素である、あがりのフォアハンド封印のくだりを挟んでWUGエンディング。最高では。</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/838797946678206464?ref_src=twsrc%5Etfw">March 6, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+838797946678206464
+```
 
 曲、好きなので OP, ED ともに買ったし、キャラソンも買ったんだけど、なぜかこの時点で ED を　 WUG が歌ってることに気づいていなかった。でも微妙に違和感を抱いていたのが、前クールも今クールも自分が良いなと思った作品、DIVE II がスポンサーなんだな〜。偶然かな。みたいなものだった。MONACA の存在、薄く認知はしていたけど、あぁ〜デレマスとかニャル子の曲の〜みたいな認識だった。
 
@@ -30,35 +31,41 @@ pinned: false
 
 さて、こうしてやってきた灼熱の卓球娘イベント、このイベントでの WUG メンバーの振る舞い、ほんとうにすごいなと思っていて、メンバー全員出演しているのだけれど、作品イベントの雰囲気を壊すような WUG 内輪ネタが全くなかったように感じた。少なくとも当時 WUG のファンではなかった人間にとってそう感じた。アニメの内容が良かっただけにユニットに雰囲気を壊されると嫌だなと当時は軽く警戒していたのだけれど、そんな心配はまったくいらなかった。卓球のイベントだけに、ちゃんと卓球やっていたの、自分は大好きです。こにわさんの司会も熱くて好き。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">WUGキャスト陣、作品系イベントに出演される際にWUGの内輪感を全く出さないあたり冷静に考えるとめっちゃすごくない？</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/875644760932757504?ref_src=twsrc%5Etfw">June 16, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+875644760932757504
+```
 
 そしてイベント終盤のミニライブパートで、灼熱スイッチ、**V 字上昇 Victory**、僕らのフロンティアという、あまりにも強すぎるセットリストに圧倒された昼夜だった。これは優勝。
 
 実はこのイベントの夜の部で、サイン入りピンポン球をゲットしていたんですが、誰のものか全然わからなかった。メインキャスト陣のサインと比較しても全然似た人がいなかったので twitter に投げたらすぐに有識者から回答が得られた。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">灼熱の卓球娘イベ夜の部で4列目だったので最後の灼熱スイッチでキャストサイン入りピンポン球をなんとかゲットできたけど、次々と飛んでくるピンポン球を追うのに必死で誰が投げたものなのかわからない。有識者の方リプライよろしくお願いします。 <a href="https://twitter.com/hashtag/%E7%81%BC%E7%86%B1%E3%81%AE%E5%8D%93%E7%90%83%E5%A8%98?src=hash&ref_src=twsrc%5Etfw">#灼熱の卓球娘</a> <a href="https://twitter.com/hashtag/%E5%8D%93%E7%90%83%E5%A8%98?src=hash&ref_src=twsrc%5Etfw">#卓球娘</a> <a href="https://twitter.com/hashtag/shakunetsu?src=hash&ref_src=twsrc%5Etfw">#shakunetsu</a> <a href="https://t.co/PviAd9nPkA">pic.twitter.com/PviAd9nPkA</a></p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/838391708152836097?ref_src=twsrc%5Etfw">March 5, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+838391708152836097
+```
 
 今見ると、思いっきりあいちゃんって書いてあるやん！って気持ちになるけど、自分の当時の WUG と認識しているメンバー、田中美海さんだけですのでまあ無理もないですね（このとき、吉岡茉祐さんを WUG メンバーだとまだ認識できてない）。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">FF外から失礼します。<br>2枚目の写真にあいちゃんと書いてあるので恐らくWake Up,girls!の永野愛理さんだと思われます。<br>急なリプ失礼しました</p>&mdash; うめぼC (@AvaKonanryo) <a href="https://twitter.com/AvaKonanryo/status/838394752718405634?ref_src=twsrc%5Etfw">March 5, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+838394752718405634
+```
 
 これキッカケというのはあまりにもアレなんですけど、なんか最近気になるから曲を聴いてみるかと思い、2017/03/05 の卓球娘イベントが終わった後に WUB, WUB2 を購入。最初にスッと耳に入ってきたの、実は I-1 CLUB の運命の女神と、止まらない未来でした。なんだこの曲めっちゃかっこええやんけ。わぐちゃん、こんな曲ライブでやるの？（I-1 CLUB とは何か完全にわかってない）みたいな感想を抱きながら、聴いてくうちに 4 月ごろには 16 歳のアガペー、プラチナサンライズ、地下鉄ラビリンスというあたりを中心に繰り返し聞くようになっていた。
 
 曲はいいけど、このときの自分は別に本人たちのパーソナリティにあまり興味を持っていなかったし、なんか面白いなと思っていた田中美海さんと、キレッキレの動きをしていた吉岡茉祐さんしか、まだ分からんみたいな感じだった。なので、この良い曲をステージで見たらどんな感じなのだろう、とりあえず様子を見に行くかという半分疑いの気持ちを持って、チケットが取れた 4th の大阪昼公演に参加することを決めた。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">WUGライブ行く</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/865926438507094016?ref_src=twsrc%5Etfw">May 20, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+865926438507094016
+```
 
 そういえば、4th 大阪数日前に放映されてたニコ生で、自分たちのライブ映像みながらサイリウムを爆振りしている高木美佑さんの姿をみて、あれこのユニット面白いのでは...？という気づきを得た。高木美佑さん、机にサイリウム叩きつけて折るのマジで怖いからやめて w 　バスツアーニコ生でも同じことやってて草**（現場は平和です）**。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【ニコ生視聴中】【生放送】WUGちゃんとライブ映像を観よう！ ファミ通presents WUGちゃんねる！第7回 <a href="https://twitter.com/hashtag/nicoch2629609?src=hash&ref_src=twsrc%5Etfw">#nicoch2629609</a> <a href="https://twitter.com/hashtag/WUG%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B?src=hash&ref_src=twsrc%5Etfw">#WUGちゃんねる</a> <a href="https://t.co/dFMT9DkSf6">https://t.co/dFMT9DkSf6</a> え、WUGライブ行くのめっちゃ楽しみになってきた...</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/882226660161933314?ref_src=twsrc%5Etfw">July 4, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+882226660161933314
+```
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">WUGのメンバーが自分たちのライブ映像見ながらUO炊いて他のメンバーに厄介とか突っ込まれてるニコ生面白すぎるでしょ</p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/882912998083383300?ref_src=twsrc%5Etfw">July 6, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+882912998083383300
+```
 
 **（現場は本当に平和です（大事なことなので 2 回言っておく））**
 

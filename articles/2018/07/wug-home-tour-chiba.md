@@ -88,8 +88,9 @@ pinned: false
 
 # 千葉公演について
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【Wake Up, Girls！ FINAL TOUR - HOME - 千葉・市原 】<br>スタートしました。<a href="https://t.co/TPlpSSXIy4">https://t.co/TPlpSSXIy4</a><a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/jiyHjO1axw">pic.twitter.com/jiyHjO1axw</a></p>&mdash; Wake Up, Girls！公式 (@wakeupgirls_PR) <a href="https://twitter.com/wakeupgirls_PR/status/1017967808133586944?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1017967808133586944
+```
 
 ## 物販について
 
@@ -123,8 +124,9 @@ pinned: false
 
 バックの映像、照明、衣装、小道具も含めて総合格闘技だった。こんな楽しいステージやる声優ユニットほかにあります？ ないと思うなぁ...。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">SHIFT の舞台演出、写真でみてもすごい<a href="https://t.co/qwpB8TCwgJ">https://t.co/qwpB8TCwgJ</a></p>&mdash; ごみばこ (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1018499949753917443?ref_src=twsrc%5Etfw">July 15, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1018499949753917443
+```
 
 そして間奏部では、いきなりメンバーがステージからおりて客席に。すごすぎるイベントにきてしまった。家の鍵を出して私物じゃないわというレスをもらっていた方のツイートには笑ってしまった。ここの部分はライブ用にアレンジが入ってて、わぐさん、本気すぎますわ。
 
@@ -203,8 +205,9 @@ SHIFT〜暴君〜地下鉄ラビリンス だけでめっちゃ文字数が進�
 
 舞台の役者さんたちが喜びのツイートしているのも嬉しいですよねー。愛を感じる。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【福山聖二】<br>出演舞台『Wake Up,Girls！～青葉の軌跡～』<br>今秋！<br>Blu-ray化＆販売イベント開催が決定いたしました！<br><br>公式HP・Twitterにて、随時最新情報をお届けしてまいります！<br><br>皆様、楽しみにお待ちくださいませっ☆<a href="https://t.co/0qyKkMMW4o">https://t.co/0qyKkMMW4o</a><a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://twitter.com/hashtag/WUG2018?src=hash&ref_src=twsrc%5Etfw">#WUG2018</a> <a href="https://t.co/Lt7vDQyWr4">pic.twitter.com/Lt7vDQyWr4</a></p>&mdash; ゴッドフィールドプロモーション (@godfield_pro) <a href="https://twitter.com/godfield_pro/status/1018002883269160960?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1018002883269160960
+```
 
 ### 山下七海さんお誕生日おめでとう
 
@@ -281,8 +284,9 @@ SHIFT〜暴君〜地下鉄ラビリンス だけでめっちゃ文字数が進�
 
 ### アニサマ出演決定の発表
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【アニサマ2018出演者追加発表】<br>8/24（金）：Wake Up, Girls！　<a href="https://twitter.com/hashtag/anisama?src=hash&ref_src=twsrc%5Etfw">#anisama</a> <a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/jv0pchNAL9">pic.twitter.com/jv0pchNAL9</a></p>&mdash; AnimeloSummerLive (@anisama) <a href="https://twitter.com/anisama/status/1018076277373145091?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1018076277373145091
+```
 
 本当に予想してなかった。これスタッフさんかなり調整したんじゃないでしょうか。
 
@@ -302,8 +306,9 @@ I-1 アリーナにいって応援します。
 
 WUG のみなさん、青山さんへの扱い雑すぎませんか。でもそこが好き。ちゃんあい先生は優しい。好き。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【Wake Up, Girls！ FINAL TOUR - HOME - 千葉・市原 】<br>本日の公演終了しました！<br><br>あたたかい声援を本当にありがとうございました！<br><br>次は神奈川！<a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/VsqtgxO6lC">pic.twitter.com/VsqtgxO6lC</a></p>&mdash; Wake Up, Girls！公式 (@wakeupgirls_PR) <a href="https://twitter.com/wakeupgirls_PR/status/1018082600873648128?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1018082600873648128
+```
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/07/15000014/B5121A8D-AB2A-4F14-97D5-86131BDC0455.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/15000014/B5121A8D-AB2A-4F14-97D5-86131BDC0455-300x225.jpeg" alt="" width="300" height="225" class="alignleft size-medium wp-image-3123" /></a>
 

@@ -3,7 +3,7 @@ slug: tks
 title: 女性声優と徳島阿波おどり空港
 category: blog
 date: 2018-12-19 00:00:54
-tags: [ANA,声優]
+tags: [ANA, 声優]
 pinned: false
 ---
 
@@ -31,16 +31,15 @@ pinned: false
 
 証拠としていくつかの様子をみていただきましょう。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">さらばなの。徳島！ <a href="http://t.co/12C6FyhlPG">pic.twitter.com/12C6FyhlPG</a></p>&mdash; 松井 恵理子 (@ErikoMatsui) <a href="https://twitter.com/ErikoMatsui/status/652805554511876096?ref_src=twsrc%5Etfw">October 10, 2015</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+652805554511876096
+```
 
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">ついに明日マチアソビのウマ娘ステージだよ〜<br>晴れますように…！<br><br>徳島入りした時の写真！<br>まりんかは先に徳島入りだったから一緒に撮れなかった〜(;o;)<br>明日写真いっぱい撮れるといいなぁ♪ <a href="https://t.co/yicnH3EBfH">pic.twitter.com/yicnH3EBfH</a></p>&mdash; 和氣あず未 (@azumi_waki) <a href="https://twitter.com/azumi_waki/status/784751582374014977?ref_src=twsrc%5Etfw">October 8, 2016</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+```twitter
+784751582374014977
+```
 
 はい。ご覧いただいたように女性声優という職業の大きなお仕事のひとつに、ここ徳島阿波おどり空港にて写真を撮影するというタスクがあります。
-
 
 ## 徳島阿波おどり空港で自撮りを撮影した女性声優リスト（敬称略）
 
@@ -86,18 +85,17 @@ pinned: false
 - [植田佳奈](https://ameblo.jp/uedakanablog/entry-11938442574.html)
 - [高田憂希](https://twitter.com/sunflower930316/status/857943615653400576)
 
-追記1: [すろっとりさんから教えていただきました](https://twitter.com/slot_ri/status/1075406813560885249)
+追記 1: [すろっとりさんから教えていただきました](https://twitter.com/slot_ri/status/1075406813560885249)
 
 - [久保田未夢](https://twitter.com/iRis_k_miyu/status/786011686910078976)
 - [芹澤優](https://twitter.com/iRis_k_miyu/status/786011686910078976)
 - [青山吉能](https://twitter.com/iRis_k_miyu/status/786011686910078976)
 
-追記2: 匿名希望の方から教えていただきました
+追記 2: 匿名希望の方から教えていただきました
 
 - [黒木ほの香](https://twitter.com/_kuroki_honoka/status/992545548577132544)
 
-
-追記3: インターネットを巡回してたら見つけた
+追記 3: インターネットを巡回してたら見つけた
 
 - [篠田みなみ](https://twitter.com/minami_shinoda/status/784743743370907649)
 - [井澤美香子](https://twitter.com/izawamikako/status/595078255914287105)
@@ -108,12 +106,10 @@ pinned: false
 - [中村繪里子](https://twitter.com/eriko_co_log/status/917213814801670144)
 - [民安ともえ](https://twitter.com/tammy_now/status/520779030455279616)
 
-
 ## まとめ
 
 徳島阿波おどり空港に行って女性声優になろう
-去年書いた記事[「声優とANA」](https://53ningen.com/seiyu-ana/) もよろしくお願いします
-
+去年書いた記事[「声優と ANA」](https://53ningen.com/seiyu-ana/) もよろしくお願いします
 
 ## 注記
 

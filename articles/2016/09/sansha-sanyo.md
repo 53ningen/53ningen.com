@@ -9,9 +9,9 @@ pinned: false
 
 <p>良かった。</p>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">イベントリハーサル実施中!!!あんな仕掛けやこんな仕掛けがございますので是非お楽しみに!!! <a href="https://twitter.com/hashtag/%E4%B8%89%E8%80%85%E4%B8%89%E8%91%89?src=hash">#三者三葉</a> <a href="https://t.co/Be6iWhHHqe">pic.twitter.com/Be6iWhHHqe</a></p>&mdash; TVアニメ『三者三葉』 (@sansya_anime) <a href="https://twitter.com/sansya_anime/status/776999629648908288">September 17, 2016</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+776999629648908288
+```
 
 <p>会場は、有楽町駅前のとある電気屋の上の階にあるよみうりホールでした。会場が若干せまいのもあり、入場まわりは若干混雑と混乱が見られましたが、ひとまず定刻どおりに開始。三者三葉の全楽曲を歌いきるという激しいイベントです。</p>
 
@@ -23,22 +23,22 @@ pinned: false
 
 <p>ライブパートでよかったのは、西山と近藤のなんだかんだコンビネーション、これは圧倒的にMachicoさんパワーでした。双葉と桜のとぅいんくる☆そんぐはダンスも歌もかわいかった。薗部と葉子のラズベリー畑でつかまえても良かった。薗部役の桃河さんはほんとに演技していて楽しそうでした。歌詞もダンスも完全に自分のものにしていました。そして、ステージ上を走り回っていて大変そうだったw。本人のふるまいも薗部っぽかった。あと、歌ってない出演者がステージ横に座って見ているというライブの演出もとても良かった。他のイベントでもこういう方式をとってほしい。</p>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">三葉三葉の音楽を作った人たち♪( ´▽｀) <a href="https://t.co/RHgJ2WYrLL">pic.twitter.com/RHgJ2WYrLL</a></p>&mdash; 三上政高 (@mikamw) <a href="https://twitter.com/mikamw/status/777152595693441026">September 17, 2016</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+777152595693441026
+```
 
 <p>たくさんの曲を歌いおわったあとは、ぐーちょきパレードからの締めの挨拶という流れになりました。ぐーちょきパレード歌ってるころには出演者のみなさん涙がこみ上げてきてる雰囲気がありました。きっと出演者もファンもこの曲がいつまでも終わらないでくれ、という気持ちになっていたのではないでしょうか。赤羽根さんが最後の挨拶で言ってたのですが、やっぱり出演者のみなさんの全力感とか気持ちをすごい感じるイベントでしたね...。レギュラー出演自体が初めてな方のほうが多い作品だし、イベント慣れしてない方も多いので、変にこなれてないし、全員が次に何が起こるか、不安を抱きつつも、大きなステージを楽しんでいる感じがあって、一ファンとしてやはり全力の応援で応えたい気持ちになりました。</p>
 
 <p>あとはMachicoさんが、西山ほど長いセリフを演技したのは実は初めてと言っていて、それがとても意外だった。歌もダンスもキレッキレで、堂々としていてカッコ良かったし、かわいかった。渡辺はるかさんもボロボロ泣いてましたね。桃河さんの「ドキドキそわそわして眠れなかった」「三者三葉という作品ははじめて30分アニメに出演した作品でありまして、１本がこんなにながいのか、1本でこんなにセリフがあるのか...」という挨拶が特に印象に残っています。とりぷるふぃ〜りんぐの３人に回る前に、みんなボロボロ泣き始めて、普通にもらい泣きしてしまった。監督も作画監督も初の作品なそうな。夏野さんもレギュラー初めてと言っていましたね...。夏野さんはフリフリの衣装が本当にかわいかった。</p>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">三者三謡の余韻に浸ってます( ˘ω˘ )あとでタイムシフト見よう… <a href="https://twitter.com/hashtag/%E4%B8%89%E8%80%85%E4%B8%89%E8%91%89?src=hash">#三者三葉</a> <a href="https://t.co/1Rjw4DtXJa">pic.twitter.com/1Rjw4DtXJa</a></p>&mdash; 夏野 菜緒(なつの・なお) (@natsuyasaio) <a href="https://twitter.com/natsuyasaio/status/777450917322821632">September 18, 2016</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+777450917322821632
+```
 
 <p>金澤まいさんの口から「小田切双葉役として第一候補に残ってるよって言われたときのことをすごい鮮明に覚えていて、そのときは嬉しさと不安でいっぱいで、今日のことなんか考えられないくらいいっぱいいっぱいだったんだけど、今この場にたってああ、もうこのときがきちゃったんだなと思いました」という言葉がこの日一番印象深かった言葉だった。</p>
 
 <p>あんまりまとまりのある文章にならなかった。とりあえず本当に良いイベントだったし、原作はまだ続いているので、なんらかの次の展開があることを強く期待しています。３時間半近い熱いステージほんとに良かった。出演者、スタッフのみなさんほんとうにありがとうございました。</p>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">三者三葉スペシャルライブイベント～三者三謡～にお越し頂きました皆様、ありがとうございましたm(_ _)m原作アニメ共々引き続き三者三葉を宜しくお願い致します!!! <a href="https://twitter.com/hashtag/%E4%B8%89%E8%80%85%E4%B8%89%E8%91%89?src=hash">#三者三葉</a> <a href="https://t.co/r34RlTeWhn">pic.twitter.com/r34RlTeWhn</a></p>&mdash; TVアニメ『三者三葉』 (@sansya_anime) <a href="https://twitter.com/sansya_anime/status/777114449735921664">September 17, 2016</a></blockquote>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+777114449735921664
+```

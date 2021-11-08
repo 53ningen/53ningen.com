@@ -9,8 +9,9 @@ pinned: true
 
 2017/09/15〜17 の 3 日間にわたって開催されたカンファレンス [iOSDC Japan 2017](iosdc.jp/2017/) に参加してきました。私は 2 日目の 14:20〜14:50 に Track A 会場にて[「RxSwift の Observable とは何か」というタイトル](https://iosdc.jp/2017/node/1348)でセッションを持たせていただきました。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">iOSDC 14:20〜14:50 Track A 「RxSwiftのObservableとは何か」<br><br>?資料置き場<a href="https://t.co/23OKPtwWex">https://t.co/23OKPtwWex</a><br>?口頭発表原稿:<a href="https://t.co/IYgQbiI2WS">https://t.co/IYgQbiI2WS</a><a href="https://twitter.com/hashtag/iosdc?src=hash">#iosdc</a> <a href="https://twitter.com/hashtag/a?src=hash">#a</a></p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/908922980306108416">September 16, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+908922980306108416
+```
 
 - 口頭発表原稿はこちら ➡︎ [http://qiita.com/gomi_ningen/items/c796c08fe672610beecf](http://qiita.com/gomi_ningen/items/c796c08fe672610beecf)
 - スライドはこちら ➡︎ [https://www.slideshare.net/gomi_ningen/rxswiftobservable-iosdc-japan-2017](https://www.slideshare.net/gomi_ningen/rxswiftobservable-iosdc-japan-2017)
@@ -29,11 +30,13 @@ pinned: true
 
 素晴らしいセッションがたくさんある中、私の稚拙な発表を聴いていただいた皆さま、運営スタッフのみなさまなど本当にありがとうございました。そしてまさか自分がベストトーク賞をいただけるとは本当に思っていなかったので、LT 枠の無限ビールタイムの時間にビール 4 本飲んでいい感じに意識があいまいになっていました。粗相してなかったですか？大丈夫ですか？
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">1位<br>RxSwiftのObservableとは何か | iOSDC Japan 2017<a href="https://t.co/I5MJQvjj0b">https://t.co/I5MJQvjj0b</a><br> <a href="https://twitter.com/hashtag/iosdc?src=hash">#iosdc</a> <a href="https://t.co/XtvjBZNIpg">pic.twitter.com/XtvjBZNIpg</a></p>&mdash; にわタコ (@niwatako) <a href="https://twitter.com/niwatako/status/909354060725207040">September 17, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+909354060725207040
+```
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">事前告知全くなかったのでマジでびっくりしている... 聴いていただいた方本当にありがとうございます（ビール4本飲んで意識があいまい <a href="https://twitter.com/hashtag/iosdc?src=hash">#iosdc</a></p>&mdash; 街の国際バリスタエンジニア (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/909354872234897409">September 17, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+909354872234897409
+```
 
 ベストトーク賞の商品としてサイバーエージェントさんから素晴らしいお品をいただけるようで本当にありがとうございます。アベマ TV さん最高のサービスです。アメーバブログさんでよく声優さんのブログ記事と写真を見ています。最高のサービスです。いただいたディスプレイでアベマ TV さんとアメーバブログさんを見ます！
 

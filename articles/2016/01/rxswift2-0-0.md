@@ -9,22 +9,23 @@ pinned: false
 
 <div class="alert alert-info text-center">この記事は <a href="http://qiita.com/advent-calendar/2015/rxswift">「RxSwift Advent Calendar 2015」</a>1日目の記事です。</div>
 
-長らく開発の続いていたRxSwiftの2系がついにリリースされたようです。
+長らく開発の続いていた RxSwift の 2 系がついにリリースされたようです。
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">RxSwift 2.0.0 is released <a href="https://t.co/CQKLpC1LKm">https://t.co/CQKLpC1LKm</a> ?&#10;We hope it will make your lives easier and more fun. ?Have a great year.</p>&mdash; RxSwift (@RxSwiftLang) <a href="https://twitter.com/RxSwiftLang/status/683089909540847616">January 2, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+683089909540847616
+```
 
-今回もまあまあ変わっている部分があるようなので、`beta4`,  `2.0.0-rc0`, `2.0.0` あたりでの特に気になった変更点をまとめます。2.0.0もリリースされことですし、そろそろインターフェースも落ち着いてくることを期待しています。
+今回もまあまあ変わっている部分があるようなので、`beta4`, `2.0.0-rc0`, `2.0.0` あたりでの特に気になった変更点をまとめます。2.0.0 もリリースされことですし、そろそろインターフェースも落ち着いてくることを期待しています。
 
-# Observable生成メソッド関連の変更
+# Observable 生成メソッド関連の変更
 
-グローバルに定義されていた `just` や `failWith` などが削除され、Observableのstaticファクトリメソッドになっています。。また後者については、`error(ErrorType)` に変更されています。おもな変更を一応コードで書いておくと以下のような具合です。
+グローバルに定義されていた `just` や `failWith` などが削除され、Observable の static ファクトリメソッドになっています。。また後者については、`error(ErrorType)` に変更されています。おもな変更を一応コードで書いておくと以下のような具合です。
 
 ### just の変更点
 
 ```swift
 // before
-just(value)  
+just(value)
 //after
 Observable.just(value)
 ```
@@ -48,7 +49,7 @@ find replace all `failWith(` to `Observable.error(`
 
 # Variable の変更
 
-以前 `Variable` は `Obseravble` のインターフェースを持っていましたが、現在は `asObservable()` をかましてあげる必要がああります。`Variable` に対して、Observableの高階関数が直接使えなくなっているので注意が必要です。
+以前 `Variable` は `Obseravble` のインターフェースを持っていましたが、現在は `asObservable()` をかましてあげる必要がああります。`Variable` に対して、Observable の高階関数が直接使えなくなっているので注意が必要です。
 
 ```swift
 var variable = Variable<Int> = Variable(1)
@@ -70,5 +71,4 @@ variable.asObservable().filter(function)
 
 # おわりに
 
-今年もRxSwiftを積極的に用いて、できればライブラリの開発にもContributeできれば良いかなぁと思っています。みなさんも便利で快適なライブラリ、RxSwiftを使って、胸がらんらん歌う開発をenjoyしましょう。
-
+今年も RxSwift を積極的に用いて、できればライブラリの開発にも Contribute できれば良いかなぁと思っています。みなさんも便利で快適なライブラリ、RxSwift を使って、胸がらんらん歌う開発を enjoy しましょう。

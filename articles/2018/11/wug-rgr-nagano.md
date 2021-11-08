@@ -302,8 +302,9 @@ Wake Up, Gilrs! と Run Girls, Run! のオールナイトニッポン i 第 56 �
 
 ## 喫茶店 BON
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">●ＢＯＮ（銀座１丁目４／喫茶店）<br><br>中央通り＆銀座通りの交差点で，真夜中まで営業してる喫茶店♪ 丘の上で呑んだ〆には，ＢＯＮのカレーや鉄板パスタが絶品☆ 飯田丘のまちフェスティバル（<a href="https://twitter.com/hashtag/%E4%B8%98%E3%83%95%E3%82%A7%E3%82%B9?src=hash&ref_src=twsrc%5Etfw">#丘フェス</a>）のPR大使＆ <a href="https://twitter.com/hashtag/%E3%83%8A%E3%83%9F%E3%82%AD%E3%81%A1%E3%82%83%E3%82%93?src=hash&ref_src=twsrc%5Etfw">#ナミキちゃん</a> 役・高木美佑ちゃんも訪れたお店です♪<a href="https://twitter.com/hashtag/%E9%A3%AF%E7%94%B0%E5%B8%82%E3%81%8A%E3%81%99%E3%81%99%E3%82%81?src=hash&ref_src=twsrc%5Etfw">#飯田市おすすめ</a> <a href="https://t.co/ualxnwlmdS">pic.twitter.com/ualxnwlmdS</a></p>&mdash; 徳島県人＠ナミキちゃん推し (@iida2027namiki) <a href="https://twitter.com/iida2027namiki/status/903477766389022720?ref_src=twsrc%5Etfw">September 1, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+903477766389022720
+```
 
 ## 飯田市動物園
 

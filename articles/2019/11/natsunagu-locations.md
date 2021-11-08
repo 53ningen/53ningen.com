@@ -18,7 +18,9 @@ pinned: false
 
 ## キービジュアル
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">オール熊本アニメ「なつなぐ！」制作発表会でキービジュアルが公開されました！<a href="https://twitter.com/hashtag/%E3%81%AA%E3%81%A4%E3%81%AA%E3%81%90?src=hash&ref_src=twsrc%5Etfw">#なつなぐ</a> <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%BC%E3%83%AB%E7%86%8A%E6%9C%AC%E3%82%A2%E3%83%8B%E3%83%A1?src=hash&ref_src=twsrc%5Etfw">#オール熊本アニメ</a> <a href="https://t.co/JG872qD6o5">pic.twitter.com/JG872qD6o5</a></p>&mdash; 【公式】オール熊本アニメ「なつなぐ！」 (@NatsunaguPR) <a href="https://twitter.com/NatsunaguPR/status/1196654351768379396?ref_src=twsrc%5Etfw">November 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1196654351768379396
+```
 
 ### 公式ソース有: SAKURA MACHI Kumamoto (熊本市)
 
@@ -166,4 +168,6 @@ pinned: false
 - 旭志
 - 阿蘇とり宮
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">もうとにかく良いところなんだ熊本。<br><br>1枚目は空港✈️<br>2は道の駅旭志(きょくし)に向かう道すがら?<br>3枚目は旭志で撮ったコスモス?<br>4枚目は阿蘇とり宮さん！(コロッケだごうみゃあ)<br><br>いつもTHE熊本なお写真を載せがちだから違う感じにしてみた?‍♀️<a href="https://twitter.com/hashtag/%E3%81%AA%E3%81%A4%E3%81%AA%E3%81%90?src=hash&ref_src=twsrc%5Etfw">#なつなぐ</a> にも出てくるかな？<br>きてはいよ熊本〜〜? <a href="https://t.co/3UIcbZ9adU">pic.twitter.com/3UIcbZ9adU</a></p>&mdash; 青山吉能 (@Yopipi555) <a href="https://twitter.com/Yopipi555/status/1196329893560123394?ref_src=twsrc%5Etfw">November 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1196329893560123394
+```

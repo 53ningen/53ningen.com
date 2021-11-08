@@ -16,8 +16,9 @@ pinned: false
 
 開演 30 分前くらいに入場したので聴きのがしがたくさんありそうだけど確認した曲は 8 曲。暑いので gram でパンケーキ食べたあと公園でアイス食べて涼んでました。
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">Wake Up, Girls！ FINAL TOUR- HOME-<br>〜PART I Start It Up,〜  千葉夜公演 開演前BGMセットリスト<br><br>1. 公園で涼んでて聞き逃したけどカウントベイシー楽団のなにか<br>2. April in Paris<br>3. Four brothers<br>4. 曲名わからん<br>5. Tank!<br>6. Moanin’<br>7. Take Five<br>8. It don’t mean a thing<a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a></p>&mdash; ごみばこ (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1018094731199315968?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1018094731199315968
+```
 
 ## 1. カウントベイシー楽団のなにか
 
@@ -51,8 +52,9 @@ pinned: false
 
 <iframe src="https://tools.applemusic.com/embed/v1/song/329676820?country=jp" height="100px" width="100%" frameborder="0"></iframe>
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="ja" dir="ltr">まとめ記事ありがとうございます！僕は特にジャズ詳しくないんですがたまたまShazamで調べてまして、Tank!の前はこれではないかと思います。 <a href="https://t.co/bmJ30adzCb">https://t.co/bmJ30adzCb</a> 映画MASKのサントラに入っているそうです。（MASKと言えばあの人ですね！）</p>&mdash; 歯痛（はいた） (@rockoverjapa) <a href="https://twitter.com/rockoverjapa/status/1019199709154402304?ref_src=twsrc%5Etfw">July 17, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1019199709154402304
+```
 
 ## 5. Tank!
 
@@ -88,8 +90,10 @@ pinned: false
 
 SHIFT 一曲目予想あたった
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">WUG市原公演、開演前にひたすらカウントベイシーの曲が流れてる</p>&mdash; ごみばこ (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1017959357781237760?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1017959357781237760
+```
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">一曲目はSHIFTと予想（開演前BGMより予想）</p>&mdash; ごみばこ (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/1017960372437831680?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+1017960372437831680
+```

@@ -30,13 +30,15 @@ pinned: false
 
 そこでオススメしたいのが松屋の牛めしです。大抵のイベント会場の近くに松屋は佇んでいるので、のれんをそっと潜りましょう。たとえば、ご注文はうさぎですか?? 第 1 羽先行上映会前の様子がこちらになります。
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">ごちうさ先行上映前に体力をつけるオタク (@ 松屋 新宿靖国通り店 in 新宿区, 東京都) <a href="https://t.co/cps2DQ1f8e">https://t.co/cps2DQ1f8e</a></p>&mdash; ご注文はうさぎですか??? (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/650606497878175744">October 4, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+650606497878175744
+```
 
 また、CHINO HAPPY BIRTHDAY イベント前の様子がこちらです。
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">松屋 秋葉原店で牛丼を食べてチノ爆誕祭へむけて気持ちを高める</p>&mdash; ご注文はうさぎですか??? (@gomi_ningen) <a href="https://twitter.com/gomi_ningen/status/672684663089983490">December 4, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+672684663089983490
+```
 
 牛めしを食べたおかげで、イベントを楽しめる体力をつけることができました。今日も松屋に感謝。
 
@@ -44,8 +46,9 @@ pinned: false
 
 去る 12 月 4 日は、香風智乃さんのお誕生日でした。中野サンプラザにて、日頃の感謝を伝えるべく大規模な誕生日会が執り行われました。イベントにはまずタカヒロ役の速水 奨さんが登場しました。大誕生日会になってしまい少し緊張してしまうかもしれない水瀬いのりさんを気遣ってか、まずはタカヒロさんとのコールアンドレスポンスで場を温める配慮です。わたしたちも日頃、訓練を重ねているとはいえ、やはり万全の体制で水瀬いのりさんをお迎えしたいので、全力で準備体操を行いました。
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">明日12月4日、中野サンプラザにて開催のイベント、CHINO Birthday Partyの前日リハーサルの模様をチラリとお見せ♪水瀬さんも衣装を身につけ準備万端です！&#10;ぜひ明日のイベントをお楽しみに☆ <a href="https://twitter.com/hashtag/gochiusa?src=hash">#gochiusa</a> <a href="https://t.co/Cs22nydiHV">pic.twitter.com/Cs22nydiHV</a></p>&mdash; TVアニメ『ご注文はうさぎですか？？』 (@usagi_anime) <a href="https://twitter.com/usagi_anime/status/672395040170225664">December 3, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+672395040170225664
+```
 
 そして、いよいよ待ちに待った水瀬いのりさんの登場です。大きな声援が飛び交う中「出かけましょうと答えましょう」からライブパートのスタートです。まるで CD 音源を流しているかのような安定した音程・声量を保っていてさすがプロだなぁという感想を抱きました。でもちゃんとマイクから拾った声であるのは確かに確認できました。やはり水瀬いのりさんは天才なんだなぁということを確信しました。一方、客席の我々は、Cup of chino が発売されてからまだ時間がそれほど経っていないということもあり、練度が低い状態だったのは次回に向けての課題となりそうでした。水瀬さんに喜んでもらえるように、我々も努力していきたいですね。
 
@@ -63,8 +66,9 @@ pinned: false
 
 さて夜のラビットハウスパートでは、ごちうさ界隈でラテアートで有名な職人さんと PandaBoY さんが登場！こういう演出、個人的には結構好きなのですが、会場にいた方どうだったでしょうか？PandaBoY さん＋タカヒロさんがバックで DJ をやりつつ、ラテアートを完成させるというかなりアグレッシブなコーナーで、個人的にはタカヒロさんが困惑しながら頑張っている姿が面白かったです。
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">ラテアート【チノ】＠ご注文はうさぎですか？？&#10;LatteArt【Is the order a rabbit??】&#10;&#10;<a href="https://twitter.com/hashtag/%E9%A6%99%E9%A2%A8%E6%99%BA%E4%B9%83%E7%94%9F%E8%AA%95%E7%A5%AD?src=hash">#香風智乃生誕祭</a> <a href="https://twitter.com/hashtag/%E3%83%81%E3%83%8E%E3%81%A1%E3%82%83%E3%82%93%E7%94%9F%E8%AA%95%E7%A5%AD?src=hash">#チノちゃん生誕祭</a>&#10;<a href="https://twitter.com/hashtag/%E9%A6%99%E9%A2%A8%E6%99%BA%E4%B9%83%E7%94%9F%E8%AA%95%E7%A5%AD2015?src=hash">#香風智乃生誕祭2015</a> <a href="https://t.co/UqiC6Gayat">pic.twitter.com/UqiC6Gayat</a></p>&mdash; ベルコルノ＠ラテアート (@BELCORNO) <a href="https://twitter.com/BELCORNO/status/672788041874849793">December 4, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+672788041874849793
+```
 
 # ティッピーからのお祝いのメッセージ
 
@@ -72,11 +76,13 @@ pinned: false
 
 そして、これだけじゃない！りえしょんが駆けつけてくれた！！！最近りえしょんイベントに行けてなかったので、嬉しかった。あいかわらずでしたが、やっぱりイベントでりえしょんの姿をみるととても元気が出てくる。やっぱり村川梨衣さん大好きです。俳協のお二方の登場で盛り上がったところで、記念撮影。最高の思い出になりましたね...。
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">CHINO Birthday Partyナイスパーティでした?✨&#10;速水さんがサンプラーを叩きつつ、ラテアート職人さんがラテアート作りつつDJをするというカオスでしたが楽しかったです??&#10;ありがとうございました?&#10; <a href="https://twitter.com/hashtag/gochiusa?src=hash">#gochiusa</a> <a href="https://t.co/2PMXOdOqZz">pic.twitter.com/2PMXOdOqZz</a></p>&mdash; PandaBoY (@PandaBoY_dot) <a href="https://twitter.com/PandaBoY_dot/status/672780885398171648">December 4, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+672780885398171648
+```
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">そしてなんとティッピー&メグのラテアートを描いてくださいました！！！ぴゃあ〜〜〜〜っ！！！嬉しい〜〜〜！！！！激かわなツーショットかよ！！！！可愛い〜〜〜！！！！&#10;ありがとうございました(*´ω`*)！！ <a href="https://twitter.com/hashtag/gochiusa?src=hash">#gochiusa</a> <a href="https://t.co/mTsce5Q9As">pic.twitter.com/mTsce5Q9As</a></p>&mdash; 村川 梨衣 (@RiEmagic) <a href="https://twitter.com/RiEmagic/status/672782307627892736">December 4, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+672782307627892736
+```
 
 # 魔法少女チノ　降臨
 
@@ -86,5 +92,6 @@ pinned: false
 
 こんな素晴らしいイベントを開催してくれて本当に感謝しかないです。チノちゃん、水瀬いのりさん本当にお誕生日おめでとうございます！お忙しいと思いますが、体調に気をつけて、これからもますます活躍してください！
 
-<blockquote class="twitter-tweet" lang="en"><p lang="ja" dir="ltr">今日は本当にありがとうございました！&#10;&#10;チノちゃんに出会えて本当に幸せなことばかり。いつもありがとう（；＿；）&#10;&#10;これからも思い出もっと増やそうね♡&#10;&#10;お誕生日おめでとう。 <a href="https://t.co/AcrOdB5fa8">pic.twitter.com/AcrOdB5fa8</a></p>&mdash; 水瀬いのり (@inori_minase) <a href="https://twitter.com/inori_minase/status/672760088638062592">December 4, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+```twitter
+672760088638062592
+```
