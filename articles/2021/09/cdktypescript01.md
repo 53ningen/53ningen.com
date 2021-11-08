@@ -4,7 +4,7 @@ title: 'TypeScript + CDK で理解する AppSync: はじめの一歩'
 category: programming
 date: 2021-09-05 01:57:34
 tags: [GraphQL, CDK, TypeScript, AppSync]
-pinned: true
+pinned: false
 ---
 
 この記事は TypeScript の CDK で単純な Hello, World! を返却する AppSync の GraphQL API を作成することを通して AppSync や GraphQL API に関する基本的な内容を段階を踏んで理解できるように構成されたものです。

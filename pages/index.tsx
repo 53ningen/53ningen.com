@@ -2,7 +2,10 @@ import { GetStaticPropsResult } from 'next'
 import * as React from 'react'
 import { Article } from '../src/components/Article'
 import ArticleListPage from '../src/components/ArticleListPage'
-import { BlogMetadata, LocalArticleManager } from '../src/components/ArticleManager'
+import {
+  BlogMetadata,
+  LocalArticleManager,
+} from '../src/components/ArticleManager'
 import { Meta } from '../src/components/common/Meta'
 import { Constants } from '../src/Constants'
 

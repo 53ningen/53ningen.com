@@ -1,7 +1,7 @@
 ---
 slug: kirara-max-2017-04
 title: きららMAX 2017年4月号の感想
-category: kirara
+category: blog 
 date: 2017-02-26 21:15:08
 tags: [ごちうさ,きらら]
 pinned: false
