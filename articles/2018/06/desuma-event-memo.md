@@ -162,7 +162,7 @@ pinned: false
 - なんか店舗の場所変わってる気がする...？（前こんなにひろかったっけ...？）
 - まあ、おいしかったです
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/06/04002919/F77DF8A3-081B-4E74-BE51-DDA535889ACA.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/F77DF8A3-081B-4E74-BE51-DDA535889ACA-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2723" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/06/04002903/517ACD31-3F64-4F2E-A312-D0D05EA1DA48.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/517ACD31-3F64-4F2E-A312-D0D05EA1DA48-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2720" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/06/04002919/F77DF8A3-081B-4E74-BE51-DDA535889ACA.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/04002919/F77DF8A3-081B-4E74-BE51-DDA535889ACA-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2723" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/06/04002903/517ACD31-3F64-4F2E-A312-D0D05EA1DA48.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/04002903/517ACD31-3F64-4F2E-A312-D0D05EA1DA48-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2720" /></a>
 
 ## RGR のライブ
 

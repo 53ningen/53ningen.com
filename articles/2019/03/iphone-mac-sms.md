@@ -28,4 +28,4 @@ SMS/MMS転送を選択:
 <a href="https://static.53ningen.com/wp-content/uploads/2019/03/10021544/F6F8E505-D593-4B24-A72D-BE27C3FD52A4.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/03/10021544/F6F8E505-D593-4B24-A72D-BE27C3FD52A4-169x300.png" alt="" width="169" height="300" class="alignnone size-medium wp-image-4539" /></a>
 
 通知を送信したい端末を選択:
-<a href="https://static.53ningen.com/wp-content/uploads/2019/03/10021546/587E9006-E428-4641-B903-E9AE8A61579D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/03/587E9006-E428-4641-B903-E9AE8A61579D-300x150.jpeg" alt="" width="300" height="150" class="alignnone size-medium wp-image-4540" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2019/03/10021546/587E9006-E428-4641-B903-E9AE8A61579D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/03/10021546/587E9006-E428-4641-B903-E9AE8A61579D-300x150.jpeg" alt="" width="300" height="150" class="alignnone size-medium wp-image-4540" /></a>

@@ -15,7 +15,7 @@ WUG！ HOME TOUR Part III 長野公演を思いっきり楽しむために、Wak
 
 ## ホクト文化ホール（長野県県民文化会館）
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154132/ACB6050A-7507-4469-B334-AE9E3FE0D2E5.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/ACB6050A-7507-4469-B334-AE9E3FE0D2E5-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3924" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154132/ACB6050A-7507-4469-B334-AE9E3FE0D2E5.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154132/ACB6050A-7507-4469-B334-AE9E3FE0D2E5-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3924" /></a>
 
 住所: 長野県長野市若里 1-１ − ３
 
@@ -30,7 +30,7 @@ WUG！ HOME TOUR Part III 長野公演を思いっきり楽しむために、Wak
 
 ## 長野駅
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154035/2875A294-D40E-473C-ACC5-9B9FF12DD039.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/2875A294-D40E-473C-ACC5-9B9FF12DD039-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3914" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154035/2875A294-D40E-473C-ACC5-9B9FF12DD039.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154035/2875A294-D40E-473C-ACC5-9B9FF12DD039-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3914" /></a>
 
 以下は RGR ブログの引用です
 
@@ -60,11 +60,11 @@ WUG！ HOME TOUR Part III 長野公演を思いっきり楽しむために、Wak
 
 ## 善光寺
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154114/762D909A-A4EE-4FFB-A75D-50A4805FEAAF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/762D909A-A4EE-4FFB-A75D-50A4805FEAAF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3921" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154114/762D909A-A4EE-4FFB-A75D-50A4805FEAAF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154114/762D909A-A4EE-4FFB-A75D-50A4805FEAAF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3921" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154106/F387C93D-68F6-49AF-AEF1-31B1C04B39DB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/F387C93D-68F6-49AF-AEF1-31B1C04B39DB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3920" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154106/F387C93D-68F6-49AF-AEF1-31B1C04B39DB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154106/F387C93D-68F6-49AF-AEF1-31B1C04B39DB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3920" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154102/1691D83C-F4F8-40C8-93BF-BA7B6B289E0D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/1691D83C-F4F8-40C8-93BF-BA7B6B289E0D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3919" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154102/1691D83C-F4F8-40C8-93BF-BA7B6B289E0D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154102/1691D83C-F4F8-40C8-93BF-BA7B6B289E0D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3919" /></a>
 
 > この間、頂いたお手紙に長野県のオススメスポットが知りたいとあったので
 > 少しだけご紹介したいと思います！
@@ -93,7 +93,7 @@ WUG！ HOME TOUR Part III 長野公演を思いっきり楽しむために、Wak
 > おやきのお店や、蕎麦クレープのお店など長野らしいものをたくさん味わうことができます ꉂ(ˊᗜˋ\*)
 > 出典: [キラキラの水曜日-那奈美- (2017-12-08 20:40:37)](https://ameblo.jp/rungirlsrun/entry-12334815299.html)
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154124/A6AB9BD4-3CFF-4F28-8F77-FC02D2BB2C71.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/A6AB9BD4-3CFF-4F28-8F77-FC02D2BB2C71-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3923" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154124/A6AB9BD4-3CFF-4F28-8F77-FC02D2BB2C71.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154124/A6AB9BD4-3CFF-4F28-8F77-FC02D2BB2C71-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3923" /></a>
 
 - [すや亀 善光寺店](https://www.google.co.jp/maps?q=%E3%81%99%E3%82%84%E4%BA%80+%E5%96%84%E5%85%89%E5%AF%BA%E5%BA%97&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjb9oWL0LneAhUKW7wKHdQ2DUwQ_AUIDigB)
 - 信州味噌の焼きおにぎり
@@ -104,7 +104,7 @@ WUG！ HOME TOUR Part III 長野公演を思いっきり楽しむために、Wak
 
 駅ビル: MIDORI 内にあります。厚木那奈美さんが修学旅行の帰りに行ったそうです（出典: Wake Up, Gilrs! と Run Girls, Run! のオールナイトニッポン i 第 56 回）。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154054/F9D0CCCC-D841-4942-8239-5E1009E6FE2D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/F9D0CCCC-D841-4942-8239-5E1009E6FE2D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3917" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154054/F9D0CCCC-D841-4942-8239-5E1009E6FE2D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154054/F9D0CCCC-D841-4942-8239-5E1009E6FE2D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3917" /></a>
 
 - おすすめのお土産
   - ゆず七味
@@ -112,15 +112,15 @@ WUG！ HOME TOUR Part III 長野公演を思いっきり楽しむために、Wak
 
 ## 旧アニメイト長野
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154119/76534A32-2A1E-4D53-9319-5346B54B4AAF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/76534A32-2A1E-4D53-9319-5346B54B4AAF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3922" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154119/76534A32-2A1E-4D53-9319-5346B54B4AAF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154119/76534A32-2A1E-4D53-9319-5346B54B4AAF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3922" /></a>
 
 かつて C-one という複合商業施設にアニメイトがあったが、峯田茉優とあっちゃんはここにあったアニメイトに言っていたとのこと。現在アニメイトは違う場所に移転している（出典: 峯田茉優の本気！アニラブ(第 9 回) 2018 年 2 月 8 日 (ゲスト:厚木那奈美)）。
 
 ## 飛騨食事処
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154048/8A2D470F-FC34-4559-8460-8CE40A44EDD1.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/8A2D470F-FC34-4559-8460-8CE40A44EDD1-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3916" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154048/8A2D470F-FC34-4559-8460-8CE40A44EDD1.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154048/8A2D470F-FC34-4559-8460-8CE40A44EDD1-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3916" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154058/CAB8E8A6-85F3-41E9-827C-712F56454D12.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/CAB8E8A6-85F3-41E9-827C-712F56454D12-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3918" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154058/CAB8E8A6-85F3-41E9-827C-712F56454D12.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154058/CAB8E8A6-85F3-41E9-827C-712F56454D12-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3918" /></a>
 
 > 以前お渡し会で、長野のお蕎麦屋さんの話をしたのですが…
 > どうやら、私の記憶違いで お蕎麦屋さんではなく「飛騨食事処」というお店でした( Ö )！
@@ -209,11 +209,11 @@ Wake Up, Gilrs! と Run Girls, Run! のオールナイトニッポン i 第 56 �
 
 ## 飯田丘のまちフェスティバル
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154003/125FFA09-D677-467A-99E6-10AA92D98CDC.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/125FFA09-D677-467A-99E6-10AA92D98CDC-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3909" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154003/125FFA09-D677-467A-99E6-10AA92D98CDC.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154003/125FFA09-D677-467A-99E6-10AA92D98CDC-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3909" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154020/78798269-3D84-4674-859B-8AC63A7E5939.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/78798269-3D84-4674-859B-8AC63A7E5939-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3912" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154020/78798269-3D84-4674-859B-8AC63A7E5939.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154020/78798269-3D84-4674-859B-8AC63A7E5939-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3912" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154009/162AD35D-DF3B-4D00-B78D-43382DAE6F3E.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/162AD35D-DF3B-4D00-B78D-43382DAE6F3E-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3910" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154009/162AD35D-DF3B-4D00-B78D-43382DAE6F3E.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154009/162AD35D-DF3B-4D00-B78D-43382DAE6F3E-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3910" /></a>
 
 > 11/2(月)に、長野県飯田市の「丘のまちフェスティバル前夜祭」の出演します！
 > わぐ ZOO の森井ケンシロウ監督と一緒に出演させていただきますよ～
@@ -284,7 +284,7 @@ Wake Up, Gilrs! と Run Girls, Run! のオールナイトニッポン i 第 56 �
 
 ## 飯田駅
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154027/B0D6D74D-15FB-439F-99AD-5217650BA6B1.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/B0D6D74D-15FB-439F-99AD-5217650BA6B1-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3913" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154027/B0D6D74D-15FB-439F-99AD-5217650BA6B1.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154027/B0D6D74D-15FB-439F-99AD-5217650BA6B1-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3913" /></a>
 
 > 『飯田 丘のまちフェスティバル』の記者会見や撮影などをしに
 > 長野県飯田市に行ってきましたー?✨
@@ -307,7 +307,7 @@ Wake Up, Gilrs! と Run Girls, Run! のオールナイトニッポン i 第 56 �
 
 ## 飯田市動物園
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154015/761D12E7-C0DF-4328-8510-D9CB5792C87D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/761D12E7-C0DF-4328-8510-D9CB5792C87D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3911" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/11/04154015/761D12E7-C0DF-4328-8510-D9CB5792C87D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/11/04154015/761D12E7-C0DF-4328-8510-D9CB5792C87D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3911" /></a>
 
 BTB に登場
 

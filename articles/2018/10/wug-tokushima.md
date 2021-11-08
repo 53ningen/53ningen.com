@@ -15,11 +15,11 @@ WUG！ HOME TOUR Part III 徳島公演を思いっきり楽しむために、Wak
 
 最寄駅は JR 四国の鳴門線・鳴門駅もしくは、その一つ手前の撫養（むや）駅。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210718/51EA40B5-F074-425D-8120-BB199931E03A.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/51EA40B5-F074-425D-8120-BB199931E03A-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3731" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210627/0A9D3C3C-375D-4672-84CF-FDEF8422A4421.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/0A9D3C3C-375D-4672-84CF-FDEF8422A4421-300x225.jpeg" alt="" width="300" height="225" class="alignleft size-medium wp-image-3726" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210718/51EA40B5-F074-425D-8120-BB199931E03A.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210718/51EA40B5-F074-425D-8120-BB199931E03A-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3731" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210627/0A9D3C3C-375D-4672-84CF-FDEF8422A4421.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210153/0A9D3C3C-375D-4672-84CF-FDEF8422A4421-300x225.jpeg" alt="" width="300" height="225" class="alignleft size-medium wp-image-3726" /></a>
 
 駅前には足湯があります。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210148/A1CD3210-B894-4936-ABEC-9201444FDF65.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/A1CD3210-B894-4936-ABEC-9201444FDF65-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3724" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210722/D14B7849-AC70-4F5B-8386-067A1A187F54.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/D14B7849-AC70-4F5B-8386-067A1A187F54-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3732" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210148/A1CD3210-B894-4936-ABEC-9201444FDF65.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210148/A1CD3210-B894-4936-ABEC-9201444FDF65-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3724" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210722/D14B7849-AC70-4F5B-8386-067A1A187F54.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210722/D14B7849-AC70-4F5B-8386-067A1A187F54-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3732" /></a>
 
 鳴門駅から会場の「鳴門市文化会館」までは、徒歩 1.2 km 15 分ほど。
 
@@ -28,7 +28,7 @@ WUG！ HOME TOUR Part III 徳島公演を思いっきり楽しむために、Wak
 > 「すだちくんを見て！」 by 山下七海さん
 > 出典: **（ファミ通 presents WUG ちゃんねる！第 33 回おまけ放送）**
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210653/5C1704AF-D025-45A4-8FA2-C86AB9013E81.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/5C1704AF-D025-45A4-8FA2-C86AB9013E81-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3727" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210658/D060FBD5-89E4-4839-A0C5-7A35A8A7B5EF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/D060FBD5-89E4-4839-A0C5-7A35A8A7B5EF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3728" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210653/5C1704AF-D025-45A4-8FA2-C86AB9013E81.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210653/5C1704AF-D025-45A4-8FA2-C86AB9013E81-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3727" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210658/D060FBD5-89E4-4839-A0C5-7A35A8A7B5EF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210658/D060FBD5-89E4-4839-A0C5-7A35A8A7B5EF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3728" /></a>
 
 ななみさんは、クラシックバレエ、吹奏楽の発表をここでやったそう
 
@@ -55,7 +55,7 @@ WUG！ HOME TOUR Part III 徳島公演を思いっきり楽しむために、Wak
 
 #### MOMO
 
-<a href="https://static.53ningen.com/wp-content/uploads/2019/02/06012659/9D8F829A-53C4-4AF3-9F5D-3A3B3B7C2A40.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/02/9D8F829A-53C4-4AF3-9F5D-3A3B3B7C2A40-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-4491" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2019/02/06012659/9D8F829A-53C4-4AF3-9F5D-3A3B3B7C2A40.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/02/06012659/9D8F829A-53C4-4AF3-9F5D-3A3B3B7C2A40-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-4491" /></a>
 
 - 鳴門駅の会場と反対方面にちょっとはいったところにあったお店
 - 紫推しの人、行ってみてはいかが？（自分が訪れた時は閉まってたのではいれませんでした）
@@ -64,7 +64,7 @@ WUG！ HOME TOUR Part III 徳島公演を思いっきり楽しむために、Wak
 
 そこそこ近くにある
 
-<a href="https://static.53ningen.com/wp-content/uploads/2019/02/06012637/0EF108A7-D900-45ED-AC59-077417B08741.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/02/0EF108A7-D900-45ED-AC59-077417B08741-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-4487" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2019/02/06012637/0EF108A7-D900-45ED-AC59-077417B08741.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/02/06012637/0EF108A7-D900-45ED-AC59-077417B08741-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-4487" /></a>
 
 ### 会場周辺の観光スポット
 
@@ -92,7 +92,7 @@ WUG！ HOME TOUR Part III 徳島公演を思いっきり楽しむために、Wak
 - 銭湯らしい
 - 会場から 10 分くらい
 
-<a href="https://static.53ningen.com/wp-content/uploads/2019/02/06012647/9DC9FD15-9BF7-4644-93BC-FF0B53E5D067.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/02/9DC9FD15-9BF7-4644-93BC-FF0B53E5D067-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-4489" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2019/02/06012647/9DC9FD15-9BF7-4644-93BC-FF0B53E5D067.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2019/02/06012647/9DC9FD15-9BF7-4644-93BC-FF0B53E5D067-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-4489" /></a>
 
 ## 徳島の場所
 
@@ -131,7 +131,7 @@ WUG メンバーではおそらく田中美海さんがやってます。
 
 ### 眉山
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09221408/IMG_1654.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09221408/IMG_1654-300x225.jpg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3749" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210109/075B42A8-CEFA-4816-8D97-7F707CADA606.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/075B42A8-CEFA-4816-8D97-7F707CADA606-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3716" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09221408/IMG_1654.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09221408/IMG_1654-300x225.jpg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3749" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210109/075B42A8-CEFA-4816-8D97-7F707CADA606.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210109/075B42A8-CEFA-4816-8D97-7F707CADA606-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3716" /></a>
 
 - マチ ★ アソビにて WUG のステージがあった
 
@@ -163,7 +163,7 @@ WUG メンバーではおそらく田中美海さんがやってます。
 
 ### セルフうどん やま
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210126/E5149889-0100-4CED-9D52-9F52D9958CEC.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/E5149889-0100-4CED-9D52-9F52D9958CEC-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-3719" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210129/3A81F310-D153-4048-8ABD-CED5A09B1361.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/3A81F310-D153-4048-8ABD-CED5A09B1361-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-3720" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210126/E5149889-0100-4CED-9D52-9F52D9958CEC.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210126/E5149889-0100-4CED-9D52-9F52D9958CEC-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-3719" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210129/3A81F310-D153-4048-8ABD-CED5A09B1361.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210129/3A81F310-D153-4048-8ABD-CED5A09B1361-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-3720" /></a>
 
 山下七海さんが高校時代から通っているうどん屋さん。2018 年春のマチ ★ アソビ、ハッカドールお渡し会にて直接おすすめしていただきました。
 
@@ -209,7 +209,7 @@ WUG メンバーが訪れている徳島ラーメン屋。山下七海さんに�
 
 麺王と間違えて東大に撮影しにも行ってしまったが、美味しいです（写真の供養）
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210734/4D763133-CDF1-4A89-B5A1-E6768CB8B9DB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/4D763133-CDF1-4A89-B5A1-E6768CB8B9DB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3734" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210727/4C0720F5-DE06-4950-9F42-C7239C9B33C8-e1539089167139.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/4C0720F5-DE06-4950-9F42-C7239C9B33C8-e1539089167139-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3733" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210734/4D763133-CDF1-4A89-B5A1-E6768CB8B9DB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210734/4D763133-CDF1-4A89-B5A1-E6768CB8B9DB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3734" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210727/4C0720F5-DE06-4950-9F42-C7239C9B33C8-e1539089167139.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210727/4C0720F5-DE06-4950-9F42-C7239C9B33C8-e1539089167139-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3733" /></a>
 
 ### 宝ラーメン 徳島阿波おどり空港店
 
@@ -249,7 +249,7 @@ WUG メンバーが訪れている徳島ラーメン屋。山下七海さんに�
 
 ### 半田そうめん
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210102/9EB25A48-DC92-4B49-848D-E3D6387D7F27-e1539087993513.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/9EB25A48-DC92-4B49-848D-E3D6387D7F27-e1539087993513-225x300.jpeg" alt="" width="225" height="300" class="alignone size-medium wp-image-3715" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/09210102/9EB25A48-DC92-4B49-848D-E3D6387D7F27-e1539087993513.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/09210102/9EB25A48-DC92-4B49-848D-E3D6387D7F27-e1539087993513-225x300.jpeg" alt="" width="225" height="300" class="alignone size-medium wp-image-3715" /></a>
 
 > マチアソビで食べた半田そうめん ☆
 > 3 日目、私が出演する最後のイベントが終わってから、これを食べて東京に戻りました(^○^)

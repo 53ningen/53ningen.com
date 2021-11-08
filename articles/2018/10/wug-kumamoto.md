@@ -80,7 +80,7 @@ WUG 関連の熊本関係者は以下のあたりかな？
 ## ライブ会場とその周辺
 ### 市民会館シアーズホーム夢ホール
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230716/F6C83BDB-5CED-4499-91ED-D880D683EF5C.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/F6C83BDB-5CED-4499-91ED-D880D683EF5C-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3817" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230716/F6C83BDB-5CED-4499-91ED-D880D683EF5C.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230716/F6C83BDB-5CED-4499-91ED-D880D683EF5C-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3817" /></a>
 
 - 収容人数 1,591人
 - 延床面積 9,197m^2
@@ -103,7 +103,7 @@ Wikipedia によると...
 <a name="yashinoki"></a>
 ### 南国食堂 ヤシの樹
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230910/FC6785BA-2950-4C74-B99B-B62E85240934.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/FC6785BA-2950-4C74-B99B-B62E85240934-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3823" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230910/FC6785BA-2950-4C74-B99B-B62E85240934.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230910/FC6785BA-2950-4C74-B99B-B62E85240934-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3823" /></a>
 
 - 営: 
   - 18:00〜翌1:00
@@ -125,7 +125,7 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 <a name="kumamotojo"></a>
 ### 熊本城/桜の馬場 城彩苑
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230730/64A62C41-C2F4-4EA6-AEDE-671955849FDF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/64A62C41-C2F4-4EA6-AEDE-671955849FDF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3819" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230730/64A62C41-C2F4-4EA6-AEDE-671955849FDF.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230730/64A62C41-C2F4-4EA6-AEDE-671955849FDF-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3819" /></a>
 
 - 住: [熊本県熊本市中央区本丸1-1](http://maps.apple.com/?q=%E7%86%8A%E6%9C%AC%E7%9C%8C%E7%86%8A%E6%9C%AC%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E6%9C%AC%E4%B8%B81-1)
 - 交: 熊本市電・花畑町電停徒歩8分
@@ -179,9 +179,9 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 
 声優魂九州大会会場
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231415/64DEB2B4-45C3-4FA2-BA54-E4B13FCE8F72.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/64DEB2B4-45C3-4FA2-BA54-E4B13FCE8F72-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3831" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231415/64DEB2B4-45C3-4FA2-BA54-E4B13FCE8F72.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26231415/64DEB2B4-45C3-4FA2-BA54-E4B13FCE8F72-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3831" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231424/6D6B6BD8-B761-4D09-B796-BBF14994F97E.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/6D6B6BD8-B761-4D09-B796-BBF14994F97E-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3833" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231424/6D6B6BD8-B761-4D09-B796-BBF14994F97E.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26231424/6D6B6BD8-B761-4D09-B796-BBF14994F97E-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3833" /></a>
 
 
 <a name="sunroad"></a>
@@ -194,9 +194,9 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 <a name="tatsunoya"></a>
 ### 龍の屋
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30202947/71830AF5-BA18-4D0D-95B5-32E4F8B0A2A5.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/71830AF5-BA18-4D0D-95B5-32E4F8B0A2A5-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3842" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30202947/71830AF5-BA18-4D0D-95B5-32E4F8B0A2A5.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30202947/71830AF5-BA18-4D0D-95B5-32E4F8B0A2A5-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3842" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30202956/5CF215D2-1061-45EE-9EEC-43CA6B5FBF1B.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/5CF215D2-1061-45EE-9EEC-43CA6B5FBF1B-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3843" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30202956/5CF215D2-1061-45EE-9EEC-43CA6B5FBF1B.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30202956/5CF215D2-1061-45EE-9EEC-43CA6B5FBF1B-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3843" /></a>
 
 龍の屋 ワシントン通り店
 - 営 
@@ -247,7 +247,7 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 <a name="airport"></a>
 ### 阿蘇くまもと空港
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230709/F473BEE3-9F15-4F96-8268-93394CE1198E.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/F473BEE3-9F15-4F96-8268-93394CE1198E-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3816" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230709/F473BEE3-9F15-4F96-8268-93394CE1198E.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230709/F473BEE3-9F15-4F96-8268-93394CE1198E-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3816" /></a>
 
 > 阿蘇くまもと空港についたときのアタイ。
 > ただいま〜〜〜〜〜〜〜〜〜〜！！！！！
@@ -274,7 +274,7 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 <a name="animate"></a>
 ### アニメイト熊本
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230652/A1417C63-8593-4A94-92DD-C73DBD778C2A-e1540563415170.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/A1417C63-8593-4A94-92DD-C73DBD778C2A-e1540563415170-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3814" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230652/A1417C63-8593-4A94-92DD-C73DBD778C2A-e1540563415170.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230652/A1417C63-8593-4A94-92DD-C73DBD778C2A-e1540563415170-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3814" /></a>
 
 - 営: 10:00〜20:00
 - 住: [熊本県熊本市中央区手取本町4-12 ファインビル3F](https://maps.apple.com?q=熊本県熊本市中央区手取本町4-12 ファインビル3F)
@@ -306,7 +306,7 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 <a name="cityfm"></a>
 ### 熊本シティエフエム
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230901/F3EE1473-32F3-459A-ADBE-3DDCA5FEC029.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/F3EE1473-32F3-459A-ADBE-3DDCA5FEC029-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3822" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230901/F3EE1473-32F3-459A-ADBE-3DDCA5FEC029.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230901/F3EE1473-32F3-459A-ADBE-3DDCA5FEC029-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3822" /></a>
 
 よしのモンの放送局
 
@@ -371,13 +371,13 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 <a name="kumamon"></a>
 ### くまモン（くまモンスクエア）
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230637/6A6FB9BA-3837-47FB-8824-6B69E60A35E3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/6A6FB9BA-3837-47FB-8824-6B69E60A35E3-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3812" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231521/3A4198CF-A8A2-42DE-B7C7-63E8821F832D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/3A4198CF-A8A2-42DE-B7C7-63E8821F832D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3837" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230637/6A6FB9BA-3837-47FB-8824-6B69E60A35E3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230637/6A6FB9BA-3837-47FB-8824-6B69E60A35E3-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3812" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231521/3A4198CF-A8A2-42DE-B7C7-63E8821F832D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26231521/3A4198CF-A8A2-42DE-B7C7-63E8821F832D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3837" /></a>
 
 - 営: 10:00〜20:00
 - 住: [熊本県熊本市中央区手取本町８−２ テトリアくまもとビル1階](https://maps.apple.com?q=熊本県熊本市中央区手取本町８−２)
 - 交: 熊本市電・通町筋電停徒歩1分
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230738/7F52C07F-44FB-4297-B28C-0EF8B6286795-e1540563159217.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/7F52C07F-44FB-4297-B28C-0EF8B6286795-e1540563159217-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3820" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230738/7F52C07F-44FB-4297-B28C-0EF8B6286795-e1540563159217.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230738/7F52C07F-44FB-4297-B28C-0EF8B6286795-e1540563159217-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3820" /></a>
 
 > くまモン頑張れ絵
 > 出典: [前を向いて・*・:≡(　ε:)よぴ。 (2016-04-22 00:07:18)](https://ameblo.jp/wakeupgirls/entry-12152653286.html)
@@ -395,7 +395,7 @@ Wake Up, Girls! と Run Girls, Run! のオールナイトニッポンi #33 で�
 <a name="tenichi"></a>
 ### あっさりもいけるけどこってりが好き（天下一品）
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231450/729FC1E7-F8FE-4549-A1F1-8C7682A0245D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/729FC1E7-F8FE-4549-A1F1-8C7682A0245D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3836" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231450/729FC1E7-F8FE-4549-A1F1-8C7682A0245D.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26231450/729FC1E7-F8FE-4549-A1F1-8C7682A0245D-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3836" /></a>
 
 > あのねわたしね天一めっっっっっちょすきなの！！！！！！！！！！
 > 生まれて初めてラーメン屋さんで食べたラーメンが天一でね！
@@ -518,30 +518,30 @@ WUG FINAL LIVE TOUR 熊本公演開演前アナウンス、よっぴーさんの
 
 <a name="yoshino"></a>
 人吉温泉
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203415/8B13A03B-B6DB-4654-9FD6-7E86B3039CF9.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/8B13A03B-B6DB-4654-9FD6-7E86B3039CF9-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3864" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203415/8B13A03B-B6DB-4654-9FD6-7E86B3039CF9.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203415/8B13A03B-B6DB-4654-9FD6-7E86B3039CF9-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3864" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203558/90734D6D-B854-4672-A076-3917CAFA9085.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/90734D6D-B854-4672-A076-3917CAFA9085-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3872" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203558/90734D6D-B854-4672-A076-3917CAFA9085.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203558/90734D6D-B854-4672-A076-3917CAFA9085-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3872" /></a>
 
 <a name="clock"></a>
 からくり時計
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203703/D8B2C9CF-F4ED-4A05-BD09-456CC288A241.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/D8B2C9CF-F4ED-4A05-BD09-456CC288A241-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3879" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203703/D8B2C9CF-F4ED-4A05-BD09-456CC288A241.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203703/D8B2C9CF-F4ED-4A05-BD09-456CC288A241-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3879" /></a>
 
 SL人吉
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203337/366484D6-05B4-4B08-B5E5-C4CB043B3084.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/366484D6-05B4-4B08-B5E5-C4CB043B3084-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3861" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203337/366484D6-05B4-4B08-B5E5-C4CB043B3084.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203337/366484D6-05B4-4B08-B5E5-C4CB043B3084-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3861" /></a>
 
 <a name="eikokuji"></a>
 永国寺
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203606/D85765A5-1E79-4395-9AA2-9F87A8DDDD01.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/D85765A5-1E79-4395-9AA2-9F87A8DDDD01-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3873" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203606/D85765A5-1E79-4395-9AA2-9F87A8DDDD01.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203606/D85765A5-1E79-4395-9AA2-9F87A8DDDD01-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3873" /></a>
 
 <a name="aoisan"></a>
 青井阿蘇神社
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203615/50F47E3A-AD84-4109-AFD1-7EBC154F49A3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/50F47E3A-AD84-4109-AFD1-7EBC154F49A3-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3874" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203615/50F47E3A-AD84-4109-AFD1-7EBC154F49A3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203615/50F47E3A-AD84-4109-AFD1-7EBC154F49A3-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3874" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203147/B6A8C2A8-B36F-4907-BDB1-CF7CA9AB7C5B-e1541083398793.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/B6A8C2A8-B36F-4907-BDB1-CF7CA9AB7C5B-e1541083398793-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3855" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203147/B6A8C2A8-B36F-4907-BDB1-CF7CA9AB7C5B-e1541083398793.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203147/B6A8C2A8-B36F-4907-BDB1-CF7CA9AB7C5B-e1541083398793-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3855" /></a>
 
 
 
@@ -590,9 +590,9 @@ SL人吉
 <a name="isshochi"></a>
 ### 一勝地駅のお守り
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203119/891D397F-C45D-4AA1-9476-C50AFF346080.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/891D397F-C45D-4AA1-9476-C50AFF346080-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3852" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203119/891D397F-C45D-4AA1-9476-C50AFF346080.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203119/891D397F-C45D-4AA1-9476-C50AFF346080-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3852" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203126/14387700-93E6-40C9-825A-D591F789E317-e1541083718622.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/14387700-93E6-40C9-825A-D591F789E317-e1541083718622-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3853" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203126/14387700-93E6-40C9-825A-D591F789E317-e1541083718622.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203126/14387700-93E6-40C9-825A-D591F789E317-e1541083718622-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3853" /></a>
 
 > WUGの熊本公演では黒川もだけど人吉にもぜひ。。遠いけど。。！！
 > 
@@ -656,7 +656,7 @@ SL人吉
 
 ### ソラシドエア
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203947/99C75A76-2DE9-46DD-9C67-B11F900A2C43.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/99C75A76-2DE9-46DD-9C67-B11F900A2C43-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3896" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/30203947/99C75A76-2DE9-46DD-9C67-B11F900A2C43.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/30203947/99C75A76-2DE9-46DD-9C67-B11F900A2C43-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3896" /></a>
 
 - 熊本在住時代はソラシドエアを使っていたとの話がありました（2018声優魂九州大会トークパートにて）
 - ただし2018年の声優魂九州大会へはスポンサーが JAL だということもあり JAL 便できたそうです
@@ -679,7 +679,7 @@ SL人吉
 <a name="basashi"></a>
 ### 馬刺し
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230723/EAB2CC48-08BB-4A4D-B551-6A300A78C4E1.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/EAB2CC48-08BB-4A4D-B551-6A300A78C4E1-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3818" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26230723/EAB2CC48-08BB-4A4D-B551-6A300A78C4E1.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26230723/EAB2CC48-08BB-4A4D-B551-6A300A78C4E1-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3818" /></a>
 
 > 澄んだ空気も、
 > 世界一美味しい地下水も、
@@ -739,7 +739,7 @@ SL人吉
 <a name="karashi"></a>
 ### 辛子蓮根
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231432/24752F4A-3FFF-444A-A599-A2AD8EC4CA87.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/24752F4A-3FFF-444A-A599-A2AD8EC4CA87-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3834" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/10/26231432/24752F4A-3FFF-444A-A599-A2AD8EC4CA87.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/10/26231432/24752F4A-3FFF-444A-A599-A2AD8EC4CA87-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3834" /></a>
 
 > だからいつか、また馬刺しの！って気兼ねなく言ってもらえるように、
 > パワーアップしていけたらいいなって思うの。

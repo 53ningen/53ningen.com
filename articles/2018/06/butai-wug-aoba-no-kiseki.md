@@ -38,7 +38,7 @@ pinned: false
   - 舞川みやこ
   - 福山聖二
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/06/09211626/E937D1FA-A883-498E-AE2D-C407D8258F99.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/E937D1FA-A883-498E-AE2D-C407D8258F99-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2761" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/06/09211632/983F3C09-3F6A-4B1B-AC75-680550D94A98.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/983F3C09-3F6A-4B1B-AC75-680550D94A98-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2762" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/06/09211626/E937D1FA-A883-498E-AE2D-C407D8258F99.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/09211626/E937D1FA-A883-498E-AE2D-C407D8258F99-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2761" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/06/09211632/983F3C09-3F6A-4B1B-AC75-680550D94A98.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/06/09211632/983F3C09-3F6A-4B1B-AC75-680550D94A98-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-2762" /></a>
 
 ## 会場について
 

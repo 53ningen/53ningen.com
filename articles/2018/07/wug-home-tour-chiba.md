@@ -30,11 +30,11 @@ pinned: false
 
 綺麗で音も聞き取りやすくセンターブロックからはステージがみやすい会場でした。客先の形が特殊で、単なる長方形や台形ではないので、サイドの端のほうの席だと少しステージがみづらかったり音のバランスが悪いということはあると思います。とはいえ、全列段状になっていて基本的に快適なホールだと思います。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235819/507C4104-5818-441A-B038-1C086C2A155A.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/507C4104-5818-441A-B038-1C086C2A155A-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-3099" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235929/BF7C277A-4B8A-4876-AC4E-8A2B53452848.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/BF7C277A-4B8A-4876-AC4E-8A2B53452848-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3114" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235819/507C4104-5818-441A-B038-1C086C2A155A.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235819/507C4104-5818-441A-B038-1C086C2A155A-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-3099" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235929/BF7C277A-4B8A-4876-AC4E-8A2B53452848.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235929/BF7C277A-4B8A-4876-AC4E-8A2B53452848-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3114" /></a>
 
 ## 公開リハーサルについて
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235915/F4C63BD2-2FCB-404F-8823-61D5267DFDAE-e1531581039548.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/F4C63BD2-2FCB-404F-8823-61D5267DFDAE-e1531581039548-225x300.jpeg" alt="" width="225" height="300" class="alignright size-medium wp-image-3111" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235915/F4C63BD2-2FCB-404F-8823-61D5267DFDAE-e1531581039548.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235915/F4C63BD2-2FCB-404F-8823-61D5267DFDAE-e1531581039548-225x300.jpeg" alt="" width="225" height="300" class="alignright size-medium wp-image-3111" /></a>
 
 わぐらぶ会員限定で、リハーサルを公開するという試みがあり、無事チケットが取れたため参加させていただきました。平日の昼間にもかかわらず、多くの方が集っていて、この人たちは何ものなのだろうと思いました w
 
@@ -42,7 +42,7 @@ pinned: false
 
 公開リハーサルは、わぐらぶ会員証とチケットメールによる本人認証ののち、写真のような公開リハのエントリーパスが渡されるというもので、パスの裏側にはあたらしいわぐらぶのビジュアル写真が入った状態でラミレートされていました。相当な記念になるものですね。うれしい。ありがとう。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15220426/1984D3B3-64D8-4B26-AA44-2C8B5E39BD56.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/1984D3B3-64D8-4B26-AA44-2C8B5E39BD56-1024x768.jpeg" alt="" width="640" height="480" class="alignnone size-large wp-image-3156" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15220426/1984D3B3-64D8-4B26-AA44-2C8B5E39BD56.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/15220426/1984D3B3-64D8-4B26-AA44-2C8B5E39BD56-1024x768.jpeg" alt="" width="640" height="480" class="alignnone size-large wp-image-3156" /></a>
 
 セットリストは１日目の夜公演が終わるまで SNS に流さないでねとのこと。
 
@@ -70,9 +70,9 @@ pinned: false
 
 公開リハ終了後は、同日より秋葉原ゲーマーズ 5 階 声優・アーティストフロアにて開催された衣装展&フェアに流れました。極スマ衣装が展示されていたほか、サイン色紙の展示や過去の物販で出ていたものが置いてあったりしました。ファイナルビブスも。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235901/FE2ED70E-22A2-44D8-98D3-A3358366E4B3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/FE2ED70E-22A2-44D8-98D3-A3358366E4B3-1024x768.jpeg" alt="" width="640" height="480" class="aligncenter size-large wp-image-3108" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235901/FE2ED70E-22A2-44D8-98D3-A3358366E4B3.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235901/FE2ED70E-22A2-44D8-98D3-A3358366E4B3-1024x768.jpeg" alt="" width="640" height="480" class="aligncenter size-large wp-image-3108" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235910/69FE8117-8530-4299-80AB-81C328A7AA0A-e1531662915654.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/69FE8117-8530-4299-80AB-81C328A7AA0A-e1531662915654-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3110" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235910/69FE8117-8530-4299-80AB-81C328A7AA0A-e1531662915654.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235910/69FE8117-8530-4299-80AB-81C328A7AA0A-e1531662915654-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3110" /></a>
 
 サイン色紙抽選やフェアの 5 周年衣装ブロマイド配布などもありました。公開リハから回している人が多くてたくさんの方で賑わってました。いいですね。
 
@@ -82,9 +82,9 @@ pinned: false
 
 <br clear="all">
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235856/213EDF2B-DE6D-40BA-BD1B-477D8C201BCC-e1531662965322.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/213EDF2B-DE6D-40BA-BD1B-477D8C201BCC-e1531662965322-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3107" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235850/AC099E4E-43C9-4CC2-B84D-0F86CCEA10AD-e1531662978718.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/AC099E4E-43C9-4CC2-B84D-0F86CCEA10AD-e1531662978718-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3106" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235846/95667AD3-418B-4339-A993-4986446BBBB6-e1531662990880.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/95667AD3-418B-4339-A993-4986446BBBB6-e1531662990880-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3105" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235842/71BE3C60-1BBA-470F-81E8-42FF6DEA86E7-e1531663006846.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/71BE3C60-1BBA-470F-81E8-42FF6DEA86E7-e1531663006846-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3104" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235856/213EDF2B-DE6D-40BA-BD1B-477D8C201BCC-e1531662965322.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235856/213EDF2B-DE6D-40BA-BD1B-477D8C201BCC-e1531662965322-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3107" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235850/AC099E4E-43C9-4CC2-B84D-0F86CCEA10AD-e1531662978718.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235850/AC099E4E-43C9-4CC2-B84D-0F86CCEA10AD-e1531662978718-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3106" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235846/95667AD3-418B-4339-A993-4986446BBBB6-e1531662990880.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235846/95667AD3-418B-4339-A993-4986446BBBB6-e1531662990880-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3105" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235842/71BE3C60-1BBA-470F-81E8-42FF6DEA86E7-e1531663006846.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235842/71BE3C60-1BBA-470F-81E8-42FF6DEA86E7-e1531663006846-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3104" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235837/645DE537-1E46-4D29-A525-1201D31B7EBE-e1531663017728.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/645DE537-1E46-4D29-A525-1201D31B7EBE-e1531663017728-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3103" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235833/099AE9AB-0573-4BF5-B3AE-589E35A0E30C-e1531663029324.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/099AE9AB-0573-4BF5-B3AE-589E35A0E30C-e1531663029324-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3102" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235829/25EC9430-5EB4-462F-891D-7856FE43BC1F-e1531663042139.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/25EC9430-5EB4-462F-891D-7856FE43BC1F-e1531663042139-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3101" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235906/7A70BA30-C91C-440D-B19B-431837CEA6FE-e1531662942514.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/7A70BA30-C91C-440D-B19B-431837CEA6FE-e1531662942514-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3109" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235837/645DE537-1E46-4D29-A525-1201D31B7EBE-e1531663017728.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235837/645DE537-1E46-4D29-A525-1201D31B7EBE-e1531663017728-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3103" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235833/099AE9AB-0573-4BF5-B3AE-589E35A0E30C-e1531663029324.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235833/099AE9AB-0573-4BF5-B3AE-589E35A0E30C-e1531663029324-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3102" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235829/25EC9430-5EB4-462F-891D-7856FE43BC1F-e1531663042139.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235829/25EC9430-5EB4-462F-891D-7856FE43BC1F-e1531663042139-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3101" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235906/7A70BA30-C91C-440D-B19B-431837CEA6FE-e1531662942514.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235906/7A70BA30-C91C-440D-B19B-431837CEA6FE-e1531662942514-150x150.jpeg" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-3109" /></a>
 
 # 千葉公演について
 
@@ -93,7 +93,7 @@ pinned: false
 
 ## 物販について
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235934/0AFAAE50-B2E0-47E1-8BEA-48DE734FE029-e1531637988277.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/0AFAAE50-B2E0-47E1-8BEA-48DE734FE029-e1531637988277-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3115" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235934/0AFAAE50-B2E0-47E1-8BEA-48DE734FE029-e1531637988277.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235934/0AFAAE50-B2E0-47E1-8BEA-48DE734FE029-e1531637988277-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3115" /></a>
 
 9:20 くらいについたが 200 人以上は並んでいた気がする。わぐなーめっちゃ朝早い。一応枯れて手に入らなかったみたいなことも起こらず無事お目当てのグッツは変えました。
 
@@ -216,7 +216,7 @@ SHIFT〜暴君〜地下鉄ラビリンス だけでめっちゃ文字数が進�
 
 ## 昼〜夜公演間: gram さんにて夜公演開場待ち
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235959/200B1B48-8807-42F5-B465-EA9E4B4B2628-e1531657136901.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/200B1B48-8807-42F5-B465-EA9E4B4B2628-e1531657136901-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3120" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/14235959/200B1B48-8807-42F5-B465-EA9E4B4B2628-e1531657136901.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/14235959/200B1B48-8807-42F5-B465-EA9E4B4B2628-e1531657136901-225x300.jpeg" alt="" width="225" height="300" class="alignleft size-medium wp-image-3120" /></a>
 
 パンケーキで有名な gram さんが会場内にあったため伺いました。事前に会場近くのお店を探してたときにめちゃめちゃ良さそうだったので、昼公演良かったなぁという余韻にひたりつつも、急いで移動しました w
 
@@ -224,7 +224,7 @@ SHIFT〜暴君〜地下鉄ラビリンス だけでめっちゃ文字数が進�
 
 食べているうちに店内がわぐな〜さんたちであふれかえっていて面白かった。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15000005/6515DB00-8600-49D1-9E82-B5E7CAFBB72B.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/6515DB00-8600-49D1-9E82-B5E7CAFBB72B-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3121" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15000005/6515DB00-8600-49D1-9E82-B5E7CAFBB72B.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/15000005/6515DB00-8600-49D1-9E82-B5E7CAFBB72B-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3121" /></a>
 
 ## 夜公演
 
@@ -305,7 +305,7 @@ WUG のみなさん、青山さんへの扱い雑すぎませんか。でもそ�
 <blockquote class="twitter-tweet" data-lang="en"><p lang="ja" dir="ltr">【Wake Up, Girls！ FINAL TOUR - HOME - 千葉・市原 】<br>本日の公演終了しました！<br><br>あたたかい声援を本当にありがとうございました！<br><br>次は神奈川！<a href="https://twitter.com/hashtag/WUG_JP?src=hash&ref_src=twsrc%5Etfw">#WUG_JP</a> <a href="https://t.co/VsqtgxO6lC">pic.twitter.com/VsqtgxO6lC</a></p>&mdash; Wake Up, Girls！公式 (@wakeupgirls_PR) <a href="https://twitter.com/wakeupgirls_PR/status/1018082600873648128?ref_src=twsrc%5Etfw">July 14, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15000014/B5121A8D-AB2A-4F14-97D5-86131BDC0455.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/B5121A8D-AB2A-4F14-97D5-86131BDC0455-300x225.jpeg" alt="" width="300" height="225" class="alignleft size-medium wp-image-3123" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15000014/B5121A8D-AB2A-4F14-97D5-86131BDC0455.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/15000014/B5121A8D-AB2A-4F14-97D5-86131BDC0455-300x225.jpeg" alt="" width="300" height="225" class="alignleft size-medium wp-image-3123" /></a>
 
 わぐちゃんに思いを馳せながら、五井駅から総武線快速に小一時間ゆられました。
 
@@ -318,4 +318,4 @@ WUG のみなさん、青山さんへの扱い雑すぎませんか。でもそ�
 - 食べたメシといった場所をログとして残しておく（食べログ）
 - 公開リハ後、衣装展を見たあと、MAZERU へ行き、オールスターを見ながら飲んでました。
 
-<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15215755/7CF65DA7-8248-4169-9CC1-9A38F21C34CB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/7CF65DA7-8248-4169-9CC1-9A38F21C34CB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3147" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/15215801/0F0D984A-F369-4856-9DBD-8D7EA65C38CD.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/0F0D984A-F369-4856-9DBD-8D7EA65C38CD-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3148" /></a>
+<a href="https://static.53ningen.com/wp-content/uploads/2018/07/15215755/7CF65DA7-8248-4169-9CC1-9A38F21C34CB.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/15215755/7CF65DA7-8248-4169-9CC1-9A38F21C34CB-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3147" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/07/15215801/0F0D984A-F369-4856-9DBD-8D7EA65C38CD.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/07/15215801/0F0D984A-F369-4856-9DBD-8D7EA65C38CD-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3148" /></a>
