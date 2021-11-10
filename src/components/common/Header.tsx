@@ -1,17 +1,11 @@
-import { Divider, Stack, Toolbar, Typography } from '@mui/material'
+import { Stack, Toolbar, Typography } from '@mui/material'
+import { FaEdit, FaGithub, FaHome, FaIdCard, FaTwitter } from 'react-icons/fa'
 import Link from './Link'
 
 const title = '53ningen.com'
 const subtitle = `@gomi_ningen's Website`
 
 export const Header: React.FC = () => {
-  const navItems = [
-    { label: 'HOME', path: '/' },
-    { label: 'ABOUT', path: 'https://p.53ningen.com/' },
-    { label: 'GITHUB', path: 'https://github.com/53ningen' },
-    { label: 'TWITTER', path: 'https://twitter.com/gomi_ningen' },
-    { label: 'CIRCLE', path: 'https://circle.53ningen.com/' },
-  ]
   return (
     <>
       <Toolbar sx={{ justifyContent: 'space-evenly' }}>
@@ -26,15 +20,22 @@ export const Header: React.FC = () => {
         component="nav"
         variant="dense"
         sx={{ justifyContent: 'center', overflowX: 'auto' }}>
-        <Stack
-          direction="row"
-          divider={<Divider orientation="vertical" flexItem />}
-          spacing={2}>
-          {navItems.map((i) => (
-            <Link key={i.label} href={i.path}>
-              {i.label}
-            </Link>
-          ))}
+        <Stack direction="row" spacing={4}>
+          <Link href="/">
+            <FaHome size="30" />
+          </Link>
+          <Link href="https://p.53ningen.com/">
+            <FaIdCard size="30" />
+          </Link>
+          <Link href="https://github.com/53ningen">
+            <FaGithub size="30" />
+          </Link>
+          <Link href="https://twitter.com/gomi_ningen">
+            <FaTwitter size="30" />
+          </Link>
+          <Link href="https://circle.53ningen.com/">
+            <FaEdit size="30" />
+          </Link>
         </Stack>
       </Toolbar>
     </>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
+import { Constants } from '../../Constants'
 
 interface Props {
   title: string
@@ -16,7 +17,7 @@ export const Meta = ({ title, description }: Props) => {
       <meta property="og:description" content={trimmedDescription} />
       <meta
         property="og:image"
-        content={`${process.env.SITE_URL}/ogp_large.png`}
+        content={`${Constants.siteURL}/favicon192x192.jpg`}
       />
       <meta name="twitter:card" content="summary" />
     </Head>
