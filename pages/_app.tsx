@@ -47,7 +47,7 @@ export default function MyApp(props: MyAppProps) {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" disableGutters>
           <Box margin="auto" mt={4}>
             <Component {...pageProps} />
             <Footer />
