@@ -82,7 +82,6 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(function Link(
         className={className}
         href={href}
         ref={ref}
-        style={{ textDecoration: 'none' }}
         target="_blank"
         {...other}
       />
@@ -102,7 +101,6 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(function Link(
       className={className}
       ref={ref}
       to={href}
-      style={{ textDecoration: 'none' }}
       {...other}
     />
   )
