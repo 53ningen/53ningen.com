@@ -3,6 +3,9 @@ import { createTheme } from '@mui/material/styles'
 
 const theme = createTheme({
   palette: {
+    text: {
+      primary: '#333',
+    },
     primary: {
       main: '#556cd6',
     },
@@ -32,8 +35,15 @@ const theme = createTheme({
   },
   components: {
     MuiLink: {
-      styleOverrides: {
-        underlineAlways: 'none',
+      defaultProps: {
+        underline: 'hover',
+      },
+    },
+    MuiChip: {
+      defaultProps: {
+        style: {
+          cursor: 'pointer',
+        },
       },
     },
   },

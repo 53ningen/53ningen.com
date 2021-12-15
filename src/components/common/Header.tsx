@@ -1,4 +1,5 @@
 import { Stack, Toolbar, Typography } from '@mui/material'
+import { styled } from '@mui/system'
 import { FaEdit, FaGithub, FaHome, FaIdCard, FaTwitter } from 'react-icons/fa'
 import Link from './Link'
 
@@ -6,12 +7,20 @@ const title = '53ningen.com'
 const subtitle = `@gomi_ningen's Website`
 
 export const Header: React.FC = () => {
+  const TitleLink = styled(Link)(
+    ({ theme }) => `
+    color: ${theme.palette.text.primary};
+  `
+  )
+
   return (
     <>
       <Toolbar sx={{ justifyContent: 'space-evenly' }}>
-        <Typography variant="h1" align="center" noWrap>
-          {title}
-        </Typography>
+        <TitleLink href="/" style={{ textDecoration: 'none' }}>
+          <Typography variant="h1" align="center" noWrap>
+            {title}
+          </Typography>
+        </TitleLink>
       </Toolbar>
       <Typography variant="subtitle1" align="center">
         {subtitle}
