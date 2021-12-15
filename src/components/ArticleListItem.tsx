@@ -2,9 +2,9 @@ import ArticleIcon from '@mui/icons-material/Article'
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday'
 import { Button, Card, Chip, Stack, Typography } from '@mui/material'
 import { format } from 'date-fns'
-import ReactMarkdown from 'react-markdown'
 import { Article } from './Article'
 import Link from './common/Link'
+import { Markdown } from './common/Markdown'
 import { ShareButtons } from './common/ShareButtons'
 
 const DisplayTextLength = 500
@@ -47,9 +47,10 @@ export const ArticleListItem: React.FC<Props> = ({ article }: Props) => {
         <Typography variant="h2" pb={2}>
           <Link href={`/${article.slug}`}>{article.title}</Link>
         </Typography>
-        <ReactMarkdown>
-          {article.content.substr(0, DisplayTextLength) + '...'}
-        </ReactMarkdown>
+        <Markdown
+          content={article.content.substr(0, DisplayTextLength) + '...'}
+          isPreview={true}
+        />
         <Button
           variant="outlined"
           href={`/${article.slug}`}
