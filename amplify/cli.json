@@ -4,10 +4,12 @@
       "addmissingownerfields": true,
       "improvepluralization": false,
       "validatetypenamereservedwords": true,
-      "useexperimentalpipelinedtransformer": false,
+      "useexperimentalpipelinedtransformer": true,
       "enableiterativegsiupdates": true,
       "secondarykeyasgsi": true,
-      "skipoverridemutationinputtypes": true
+      "skipoverridemutationinputtypes": true,
+      "transformerversion": 2,
+      "suppressschemamigrationprompt": true
     },
     "frontend-ios": {
       "enablexcodeintegration": true
@@ -16,7 +18,8 @@
       "enablecaseinsensitivity": true,
       "useinclusiveterminology": true,
       "breakcirculardependency": true,
-      "forcealiasattributes": false
+      "forcealiasattributes": false,
+      "useenabledmfas": true
     },
     "codegen": {
       "useappsyncmodelgenplugin": true,
@@ -40,6 +43,9 @@
       "rekognition": 1,
       "textract": 1,
       "comprehend": 1
+    },
+    "project": {
+      "overrides": true
     }
   }
 }
