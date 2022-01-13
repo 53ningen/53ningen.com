@@ -1,19 +1,39 @@
+import Analytics from '@aws-amplify/analytics'
 import { CacheProvider, EmotionCache } from '@emotion/react'
 import Container from '@mui/material/Container'
 import CssBaseline from '@mui/material/CssBaseline'
 import { ThemeProvider } from '@mui/material/styles'
 import { Box } from '@mui/system'
+import Amplify from 'aws-amplify'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import * as React from 'react'
 import 'typeface-roboto'
+import awsconfig from '../src/aws-exports'
 import { Footer } from '../src/components/common/Footer'
 import { Constants } from '../src/Constants'
 import createEmotionCache from '../src/createEmotionCache'
 import * as gtag from '../src/lib/gtag'
 import theme from '../src/theme'
 import './styles.css'
+
+// Amplify
+Amplify.configure(awsconfig)
+Analytics.autoTrack('pageView', {
+  enable: true,
+  type: 'SPA',
+})
+Analytics.autoTrack('event', {
+  enable: true,
+  events: ['click'],
+  selectorPrefix: 'data-amplify-analytics-',
+  attributes: () => {
+    return {
+      pathname: window.location.pathname,
+    }
+  },
+})
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache()

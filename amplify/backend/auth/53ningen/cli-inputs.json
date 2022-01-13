@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "53ningen_identitypool_c3adc9a1",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "53ningen",
+    "sharedId": "c3adc9a1",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

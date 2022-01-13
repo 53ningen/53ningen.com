@@ -17,6 +17,9 @@
           "appId": "d1dvuxfgj1alrv",
           "type": "manual"
         }
+      },
+      "auth": {
+        "undefined": {}
       }
     }
   }

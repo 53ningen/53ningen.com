@@ -22,6 +22,9 @@ export const Archives: React.FC<Props> = ({ dates }: Props) => {
             key={date}
             component={Link}
             href={`/archives/${date}`}
+            data-amplify-analytics-on="click"
+            data-amplify-analytics-name="click"
+            data-amplify-analytics-attrs={`target:ArchiveItem`}
             disableGutters>
             <ListItemText primary={date} />
           </ListItem>

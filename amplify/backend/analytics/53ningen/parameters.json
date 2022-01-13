@@ -1,0 +1,21 @@
+{
+    "appName": "53ningen",
+    "roleName": "pinpointLambdaRole45fefd2f",
+    "cloudformationPolicyName": "cloudformationPolicy45fefd2f",
+    "cloudWatchPolicyName": "cloudWatchPolicy45fefd2f",
+    "pinpointPolicyName": "pinpointPolicy45fefd2f",
+    "authPolicyName": "pinpoint_amplify_45fefd2f",
+    "unauthPolicyName": "pinpoint_amplify_45fefd2f",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

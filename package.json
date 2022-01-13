@@ -9,6 +9,7 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "^5.0.4",
     "@mui/material": "latest",
+    "aws-amplify": "^4.3.12",
     "clsx": "latest",
     "date-fns": "^2.25.0",
     "front-matter": "^4.0.2",

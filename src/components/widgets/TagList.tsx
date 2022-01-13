@@ -22,6 +22,9 @@ export const TagList: React.FC<Props> = ({ tags }: Props) => {
             key={tag}
             component={Link}
             href={`/tags/${tag}`}
+            data-amplify-analytics-on="click"
+            data-amplify-analytics-name="click"
+            data-amplify-analytics-attrs={`target:TagItem`}
             disableGutters>
             <ListItemText primary={tag} />
           </ListItem>

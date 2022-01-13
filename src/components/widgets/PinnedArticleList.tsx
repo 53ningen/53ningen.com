@@ -23,6 +23,9 @@ export const PinnedArticleList: React.FC<Props> = ({ articles }: Props) => {
             key={article.slug}
             component={Link}
             href={`/${article.slug}`}
+            data-amplify-analytics-on="click"
+            data-amplify-analytics-name="click"
+            data-amplify-analytics-attrs={`target:PinnedArticleItem`}
             disableGutters>
             <ListItemText primary={article.title} />
           </ListItem>

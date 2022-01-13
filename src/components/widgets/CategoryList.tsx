@@ -22,6 +22,9 @@ export const CategoryList: React.FC<Props> = ({ categories }: Props) => {
             key={category}
             component={Link}
             href={`/categories/${category}`}
+            data-amplify-analytics-on="click"
+            data-amplify-analytics-name="click"
+            data-amplify-analytics-attrs={`target:CategoryItem`}
             disableGutters>
             <ListItemText primary={category} />
           </ListItem>
