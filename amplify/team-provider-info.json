@@ -19,7 +19,26 @@
         }
       },
       "auth": {
-        "undefined": {}
+        "undefined": {},
+        "53ningen": {},
+        "true": {},
+        "53ningenAuth": {}
+      },
+      "storage": {
+        "53ningen6a881239": {
+          "bucketName": "static.53ningen.com",
+          "region": "ap-northeast-1"
+        },
+        "53ningen717438d4": {
+          "bucketName": "static.53ningen.com",
+          "region": "ap-northeast-1"
+        }
+      },
+      "function": {
+        "AdminQueries03897ed4": {
+          "deploymentBucketName": "amplify-53ningen-prod-20922-deployment",
+          "s3Key": "amplify-builds/AdminQueries03897ed4-4b366d52494e59527979-build.zip"
+        }
       }
     }
   }
