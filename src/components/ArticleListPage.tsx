@@ -8,6 +8,7 @@ import { Pagination } from './common/Pagination'
 import { About } from './widgets/About'
 import { Archives } from './widgets/Archives'
 import { CategoryList } from './widgets/CategoryList'
+import { LabList } from './widgets/Lab'
 import { PinnedArticleList } from './widgets/PinnedArticleList'
 import { Search } from './widgets/Search'
 import { TagList } from './widgets/TagList'
@@ -40,6 +41,7 @@ export default function ArticleListPage(props: Props) {
             <Search />
             <About />
             <PinnedArticleList articles={props.meta.pinnedArticles} />
+            <LabList />
             <CategoryList categories={props.meta.categories} />
             <TagList tags={props.meta.tags} />
             <Archives dates={props.meta.archives} />

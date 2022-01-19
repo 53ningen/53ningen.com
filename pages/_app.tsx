@@ -20,20 +20,23 @@ import './styles.css'
 
 // Amplify
 Amplify.configure(awsconfig)
-Analytics.autoTrack('pageView', {
-  enable: true,
-  type: 'SPA',
-})
-Analytics.autoTrack('event', {
-  enable: true,
-  events: ['click'],
-  selectorPrefix: 'data-amplify-analytics-',
-  attributes: () => {
-    return {
-      pathname: window.location.pathname,
-    }
-  },
-})
+
+if (process.env.NEXT_PUBLIC_TARGET_ENV === 'prod') {
+  Analytics.autoTrack('pageView', {
+    enable: true,
+    type: 'SPA',
+  })
+  Analytics.autoTrack('event', {
+    enable: true,
+    events: ['click'],
+    selectorPrefix: 'data-amplify-analytics-',
+    attributes: () => {
+      return {
+        pathname: window.location.pathname,
+      }
+    },
+  })
+}
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache()

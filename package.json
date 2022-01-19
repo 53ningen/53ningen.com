@@ -7,6 +7,8 @@
     "@emotion/react": "latest",
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
+    "@js-joda/core": "^5.1.0",
+    "@js-joda/timezone": "^2.11.1",
     "@mui/icons-material": "^5.0.4",
     "@mui/material": "latest",
     "aws-amplify": "^4.3.12",

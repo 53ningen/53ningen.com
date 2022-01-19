@@ -2147,6 +2147,16 @@
   resolved "https://registry.npmjs.org/@hapi/hoek/-/hoek-9.2.1.tgz"
   integrity sha512-gfta+H8aziZsm8pZa0vj04KO6biEiisppNgA1kbJvFrrWu9Vm7eaUEy76DIxsuTaWvti5fkJVhllWc6ZTE+Mdw==
 
+"@js-joda/core@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@js-joda/core/-/core-5.1.0.tgz#ba39bc22b27add1031d1fbca645863c928cfb400"
+  integrity sha512-y4C/2EpK6ipQhPWnvbGgYfuG70t1ChkwBmA4g/w5EdVnyWRrcipo9p1SFNY5D47DaDeohZx50S9CZwEHYE2/tQ==
+
+"@js-joda/timezone@^2.11.1":
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/@js-joda/timezone/-/timezone-2.11.1.tgz#2a47b6aef20917f97b49c94165badc77c1583744"
+  integrity sha512-lhO6la94pvUIOLF6DrIBg1YszsGEI9eIbznhROHooiFxGmLG6QumMTWYfR9gPwQGR/A1RPwUVLSkW8z16vLuWw==
+
 "@mui/core@5.0.0-alpha.53":
   version "5.0.0-alpha.53"
   resolved "https://registry.npmjs.org/@mui/core/-/core-5.0.0-alpha.53.tgz"
