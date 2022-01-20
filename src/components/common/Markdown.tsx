@@ -16,13 +16,11 @@ export const Markdown: React.FC<Props> = ({ content, isPreview }) => {
     <ReactMarkdown
       rehypePlugins={isPreview ? [] : [rehypeRaw]}
       components={{
-        a: ({ children, href, ref, ...props }) =>
+        a: ({ children, href, ...props }) =>
           href ? (
             <Link href={href ?? '/'} {...props} children={children} />
           ) : (
-            <a ref={ref} {...props}>
-              {children}
-            </a>
+            <a {...props}>{children}</a>
           ),
         code({ inline, className, children }) {
           const match = /language-(\w+)/.exec(className || '')
