@@ -14,7 +14,7 @@ interface Props {
 }
 
 export const ArticlePage: React.FC<Props> = ({ article }) => {
-  const displayDate = format(new Date(article.date), 'yyyy-MM-dd hh:mm')
+  const displayDate = format(new Date(article.date), 'yyyy-MM-dd HH:mm')
   return (
     <>
       <Card>

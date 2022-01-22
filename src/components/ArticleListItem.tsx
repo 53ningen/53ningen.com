@@ -14,7 +14,7 @@ interface Props {
 }
 
 export const ArticleListItem: React.FC<Props> = ({ article }: Props) => {
-  const displayDate = format(new Date(article.date), 'yyyy-MM-dd hh:mm')
+  const displayDate = format(new Date(article.date), 'yyyy-MM-dd HH:mm')
   return (
     <Card>
       <Stack spacing={2} m={4} component="article">
