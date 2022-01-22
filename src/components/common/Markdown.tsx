@@ -1,5 +1,8 @@
+import LinkIcon from '@mui/icons-material/Link'
 import { Typography } from '@mui/material'
+import { styled } from '@mui/system'
 import 'katex/dist/katex.min.css'
+import md5 from 'md5'
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
@@ -64,36 +67,12 @@ export const Markdown: React.FC<Props> = ({ content, isPreview }) => {
         li: ({ children }) => (
           <li style={{ textAlign: 'justify' }}>{children}</li>
         ),
-        h1: ({ children }) => (
-          <Typography variant="h1" pt={6}>
-            {children}
-          </Typography>
-        ),
-        h2: ({ children }) => (
-          <Typography variant="h2" pt={6}>
-            {children}
-          </Typography>
-        ),
-        h3: ({ children }) => (
-          <Typography variant="h3" pt={4}>
-            {children}
-          </Typography>
-        ),
-        h4: ({ children }) => (
-          <Typography variant="h4" pt={2}>
-            {children}
-          </Typography>
-        ),
-        h5: ({ children }) => (
-          <Typography variant="h5" pt={2}>
-            {children}
-          </Typography>
-        ),
-        h6: ({ children }) => (
-          <Typography variant="h6" pt={2}>
-            {children}
-          </Typography>
-        ),
+        h1: ({ children }) => headerElement('h1', children, isPreview),
+        h2: ({ children }) => headerElement('h2', children, isPreview),
+        h3: ({ children }) => headerElement('h3', children, isPreview),
+        h4: ({ children }) => headerElement('h4', children, isPreview),
+        h5: ({ children }) => headerElement('h5', children, isPreview),
+        h6: ({ children }) => headerElement('h6', children, isPreview),
         p: ({ children }) => (
           <Typography textAlign="justify">{children}</Typography>
         ),
@@ -101,4 +80,55 @@ export const Markdown: React.FC<Props> = ({ content, isPreview }) => {
       {content}
     </ReactMarkdown>
   )
+}
+
+type Variant = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+
+const headerElement = (
+  variant: Variant,
+  children: React.ReactNode & React.ReactNode[],
+  isPreview?: boolean
+) => {
+  const pt = (variant: Variant) => {
+    switch (variant) {
+      case 'h1' || 'h2':
+        return 6
+      case 'h3':
+        return 4
+      default:
+        return 2
+    }
+  }
+  const id = md5(variant + children[0]).slice(0, 6)
+  if (isPreview) {
+    return (
+      <Typography variant={variant} pt={pt(variant)}>
+        {children}
+      </Typography>
+    )
+  } else {
+    const A = styled('a')({
+      textDecoration: 'none',
+      color: 'inherit',
+      '&:hover svg': {
+        display: 'inline-block',
+      },
+    })
+    const Icon = styled(LinkIcon)({
+      display: 'none',
+      paddingLeft: '0.5rem',
+      paddingBottom: '0.15em',
+      verticalAlign: 'middle',
+    })
+    return (
+      <>
+        <A className="headers" href={`#${id}`}>
+          <Typography id={id} variant={variant} pt={pt(variant)}>
+            {children}
+            <Icon color="disabled" fontSize="inherit" />
+          </Typography>
+        </A>
+      </>
+    )
+  }
 }
