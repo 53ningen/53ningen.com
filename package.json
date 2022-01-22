@@ -24,7 +24,9 @@
     "react-share": "^4.4.0",
     "react-syntax-highlighter": "^15.4.5",
     "react-twitter-widgets": "^1.10.0",
+    "rehype-katex": "^6.0.2",
     "rehype-raw": "^6.1.1",
+    "remark-math": "^5.1.1",
     "typeface-roboto": "^1.1.13"
   },
   "scripts": {

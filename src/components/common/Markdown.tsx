@@ -1,9 +1,12 @@
 import { Typography } from '@mui/material'
+import 'katex/dist/katex.min.css'
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { Tweet } from 'react-twitter-widgets'
+import rehypeKatex from 'rehype-katex'
 import rehypeRaw from 'rehype-raw'
+import remarkMath from 'remark-math'
 import Link from './Link'
 
 interface Props {
@@ -14,7 +17,8 @@ interface Props {
 export const Markdown: React.FC<Props> = ({ content, isPreview }) => {
   return (
     <ReactMarkdown
-      rehypePlugins={isPreview ? [] : [rehypeRaw]}
+      rehypePlugins={isPreview ? [] : [rehypeRaw, rehypeKatex]}
+      remarkPlugins={[remarkMath]}
       components={{
         a: ({ children, href, ...props }) =>
           href ? (
