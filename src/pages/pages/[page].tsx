@@ -1,30 +1,29 @@
 import { GetStaticPropsResult } from 'next'
 import * as React from 'react'
-import { Article } from '../../../src/components/Article'
-import ArticleListPage from '../../../src/components/ArticleListPage'
+import { Article } from '../../components/Article'
+import ArticleListPage from '../../components/ArticleListPage'
 import {
   BlogMetadata,
   LocalArticleManager,
-} from '../../../src/components/ArticleManager'
-import { Meta } from '../../../src/components/common/Meta'
-import { Constants } from '../../../src/Constants'
+} from '../../components/ArticleManager'
+import { Meta } from '../../components/common/Meta'
+import { Constants } from '../../Constants'
 
 interface Props {
   articles: Article[]
   meta: BlogMetadata
   currentPage: number
   totalPages: number
-  archive: string
 }
-export default function ArchivePageIndex({
+
+export default function Pages({
   articles,
   meta,
   currentPage,
   totalPages,
-  archive,
 }: Props) {
-  const title = `${archive} の記事 | ${Constants.title}`
-  const description = `${archive} の記事一覧`
+  const title = `過去の投稿 (${currentPage}) | ${Constants.title}`
+  const description = `${Constants.title} の記事一覧`
   return (
     <>
       <Meta title={title} description={description} />
@@ -33,7 +32,7 @@ export default function ArchivePageIndex({
         meta={meta}
         currentPage={currentPage}
         totalPages={totalPages}
-        pageBasePath={`/archives/${archive}`}
+        pageBasePath="/pages"
       />
     </>
   )
@@ -41,10 +40,10 @@ export default function ArchivePageIndex({
 
 export async function getStaticPaths() {
   const manager = LocalArticleManager.sharedInstance
-  const { archives } = await manager.fetchMetadata()
-  const paths = archives.map((archive) => ({
+  const { totalPages } = await manager.fetchArticles(1)
+  const paths = Array.from(Array(totalPages).keys()).map((i) => ({
     params: {
-      archive,
+      page: (i + 1).toString(),
     },
   }))
   return { paths, fallback: false }
@@ -53,17 +52,16 @@ export async function getStaticPaths() {
 export async function getStaticProps(
   context: any
 ): Promise<GetStaticPropsResult<Props>> {
-  const { archive } = context.params as { archive: string }
+  const currentPage = parseInt((context.params as { page: string }).page)
   const manager = LocalArticleManager.sharedInstance
-  const articles = await manager.fetchArchiveArticles(archive)
+  const { articles, totalPages } = await manager.fetchArticles(currentPage)
   const meta = await manager.fetchMetadata()
   return {
     props: {
-      articles,
+      articles: articles,
       meta,
-      currentPage: 1,
-      totalPages: 1,
-      archive,
+      currentPage,
+      totalPages,
     },
   }
 }

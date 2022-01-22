@@ -1,11 +1,11 @@
 import { Grid } from '@mui/material'
 import type { GetStaticPaths, GetStaticProps } from 'next'
-import { Article } from '../src/components/Article'
-import { LocalArticleManager } from '../src/components/ArticleManager'
-import { ArticlePage } from '../src/components/ArticlePage'
-import { Header } from '../src/components/common/Header'
-import { Meta } from '../src/components/common/Meta'
-import { Constants } from '../src/Constants'
+import { Article } from '../components/Article'
+import { LocalArticleManager } from '../components/ArticleManager'
+import { ArticlePage } from '../components/ArticlePage'
+import { Header } from '../components/common/Header'
+import { Meta } from '../components/common/Meta'
+import { Constants } from '../Constants'
 
 type Props = {
   article: Article

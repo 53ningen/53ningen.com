@@ -1,9 +1,9 @@
 import { GetStaticPropsResult } from 'next'
-import { Article } from '../../../src/components/Article'
+import { Article } from '../../../components/Article'
 import {
   BlogMetadata,
   LocalArticleManager,
-} from '../../../src/components/ArticleManager'
+} from '../../../components/ArticleManager'
 import TagPages from './[page]'
 
 interface Props {

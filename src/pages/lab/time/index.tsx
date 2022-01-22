@@ -1,10 +1,10 @@
 import '@js-joda/timezone'
 import { Box, Card, Stack, Toolbar, Typography } from '@mui/material'
 import React from 'react'
-import { Meta } from '../../../src/components/common/Meta'
-import { ShareButtons } from '../../../src/components/common/ShareButtons'
-import { TimeConverter } from '../../../src/components/lab/time/TimeConverter'
-import { TimestampConverter } from '../../../src/components/lab/time/TimestampConverter'
+import { Meta } from '../../../components/common/Meta'
+import { ShareButtons } from '../../../components/common/ShareButtons'
+import { TimeConverter } from '../../../components/lab/time/TimeConverter'
+import { TimestampConverter } from '../../../components/lab/time/TimestampConverter'
 
 interface Props {}
 

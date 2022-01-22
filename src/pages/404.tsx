@@ -2,16 +2,13 @@ import { Grid, Paper, Stack, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import { GetStaticPropsResult } from 'next'
 import * as React from 'react'
-import {
-  BlogMetadata,
-  LocalArticleManager,
-} from '../src/components/ArticleManager'
-import { Header } from '../src/components/common/Header'
-import { Meta } from '../src/components/common/Meta'
-import { About } from '../src/components/widgets/About'
-import { PinnedArticleList } from '../src/components/widgets/PinnedArticleList'
-import { Search } from '../src/components/widgets/Search'
-import { Constants } from '../src/Constants'
+import { BlogMetadata, LocalArticleManager } from '../components/ArticleManager'
+import { Header } from '../components/common/Header'
+import { Meta } from '../components/common/Meta'
+import { About } from '../components/widgets/About'
+import { PinnedArticleList } from '../components/widgets/PinnedArticleList'
+import { Search } from '../components/widgets/Search'
+import { Constants } from '../Constants'
 
 interface Props {
   meta: BlogMetadata

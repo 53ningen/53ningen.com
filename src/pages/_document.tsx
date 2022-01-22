@@ -1,9 +1,9 @@
 import createEmotionServer from '@emotion/server/create-instance'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 import * as React from 'react'
-import createEmotionCache from '../src/createEmotionCache'
-import { GA_TRACKING_ID } from '../src/lib/gtag'
-import theme from '../src/theme'
+import createEmotionCache from '../createEmotionCache'
+import { GA_TRACKING_ID } from '../lib/gtag'
+import theme from '../theme'
 
 export default class MyDocument extends Document {
   render() {
