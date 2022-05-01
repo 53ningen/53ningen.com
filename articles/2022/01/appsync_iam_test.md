@@ -67,3 +67,71 @@ $ awscurl -X POST \
   ]
 }
 ```
+
+## AppSync/Amplify に関するメモ
+
+### globalAuthRule とはなにか
+
+下記 Amplify ドキュメントに記載があるとおり、開発時用にすべてのデータモデルへの create, read, update, delete を許可するためのディレクティブ
+
+```
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } }
+```
+
+> **Global authorization rule (only for getting started)**
+> To help you get started, there's a global authorization rule defined when you create a new GraphQL schema. For production environments, remove the global authorization rule and apply rules on each model instead.
+> The global authorization rule (in this case { allow: public } - allows anyone to create, read, update, and delete) is applied to every data model in the GraphQL schema.
+> [Authorization rules](https://docs.amplify.aws/cli/graphql/authorization-rules/#global-authorization-rule-only-for-getting-started)
+
+### @key ディレクティブを使用したスキーマに更新し amplify api update したらエラーが出力された
+
+`@key` ディレクティブは GraphQL Transformer v1 のものであり、v2 では `@primaryKey` もしくは `@index` を利用する
+
+> 🛑 Your GraphQL Schema is using "@key" directive from an older version of the GraphQL Transformer. Visit https://docs.amplify.aws/cli/migration/transformer-migration/ to learn how to migrate your GraphQL schema.
+
+`@primaryKey` と `@index` の違いは以下のとおり
+
+- `@primaryKey`: テーブルのプライマリーキーに相当するものにマークする
+- `@index`: DynamoDB グローバルセカンダリインデックスのパーティションキーに相当するものにマークする
+
+> - The @key directive is being replaced by two new directives.
+> - Customers can now specify @primaryKey on a field to define it as the primary key of a table. Customers can also specify sort key fields via a directive argument.
+> - Customers can now specify @index on a field to use it as the partition key for a DynamoDB Global Secondary Index. Customers can optionally also specify a queryField or sort key fields by passing additional parameters.
+>   [GraphQL Transformer v1 to v2 migration](https://docs.amplify.aws/cli/migration/transformer-migration/)
+
+## @model ディレクティブで指定できる内容はどのようなものであるか
+
+- [ドキュメント](https://docs.amplify.aws/cli-legacy/graphql-transformer/model/) に記載があるとおり
+
+```graphql
+directive @model(
+  queries: ModelQueryMap
+  mutations: ModelMutationMap
+  subscriptions: ModelSubscriptionMap
+  timestamps: TimestampConfiguration
+) on OBJECT
+input ModelMutationMap {
+  create: String
+  update: String
+  delete: String
+}
+input ModelQueryMap {
+  get: String
+  list: String
+}
+input ModelSubscriptionMap {
+  onCreate: [String]
+  onUpdate: [String]
+  onDelete: [String]
+  level: ModelSubscriptionLevel
+}
+enum ModelSubscriptionLevel {
+  off
+  public
+  on
+}
+input TimestampConfiguration {
+  createdAt: String
+  updatedAt: String
+}
+```
