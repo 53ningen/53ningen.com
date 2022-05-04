@@ -1,4 +1,5 @@
 import Typography from '@mui/material/Typography'
+import { Constants } from '../../Constants'
 import Link from './Link'
 
 export const Footer: React.FC = () => {
@@ -9,7 +10,7 @@ export const Footer: React.FC = () => {
         data-amplify-analytics-on="click"
         data-amplify-analytics-name="click"
         data-amplify-analytics-attrs={`target:FooterTitle`}>
-        Copyright © 53ningen.com
+        Copyright © {Constants.title}
       </Link>
     </Typography>
   )

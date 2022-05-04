@@ -5,6 +5,7 @@ import { Meta } from '../../../components/common/Meta'
 import { ShareButtons } from '../../../components/common/ShareButtons'
 import { TimeConverter } from '../../../components/lab/time/TimeConverter'
 import { TimestampConverter } from '../../../components/lab/time/TimestampConverter'
+import { Constants } from '../../../Constants'
 
 interface Props {}
 
@@ -25,7 +26,7 @@ export default function Time(_: Props) {
           <TimestampConverter />
           <Stack p={4} direction="row" spacing={1}>
             <ShareButtons
-              url={`https://53ningen.com/lab/time`}
+              url={`${Constants.siteURL}/lab/time`}
               title={title}
               size={36}
               via="gomi_ningen"

@@ -2,6 +2,7 @@ import SearchIcon from '@mui/icons-material/Search'
 import { Card, Input, InputAdornment } from '@mui/material'
 import { Box } from '@mui/system'
 import { useState } from 'react'
+import { Constants } from '../../Constants'
 
 export const Search: React.FC = () => {
   const [keyword, setKeyword] = useState('')
@@ -10,7 +11,7 @@ export const Search: React.FC = () => {
       <Box m={4}>
         <Input
           fullWidth
-          placeholder="search 53ningen.com"
+          placeholder={`search ${Constants.title}`}
           value={keyword}
           onKeyDown={(e) => {
             if (e.key === 'Enter' && keyword !== '') {

@@ -1,9 +1,7 @@
 import { Stack, Toolbar, Typography } from '@mui/material'
 import { FaEdit, FaGithub, FaHome, FaIdCard, FaTwitter } from 'react-icons/fa'
+import { Constants } from '../../Constants'
 import Link from './Link'
-
-const title = '53ningen.com'
-const subtitle = `@gomi_ningen's Website`
 
 export const Header: React.FC = () => {
   return (
@@ -16,12 +14,12 @@ export const Header: React.FC = () => {
           data-amplify-analytics-name="click"
           data-amplify-analytics-attrs={`target:HeaderTitle`}>
           <Typography variant="h1" align="center" noWrap>
-            {title}
+            {Constants.title}
           </Typography>
         </Link>
       </Toolbar>
       <Typography variant="subtitle1" align="center">
-        {subtitle}
+        {Constants.subtitle}
       </Typography>
       <Toolbar
         component="nav"

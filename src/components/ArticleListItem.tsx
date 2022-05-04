@@ -2,6 +2,7 @@ import ArticleIcon from '@mui/icons-material/Article'
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday'
 import { Button, Card, Chip, Stack, Typography } from '@mui/material'
 import { format } from 'date-fns'
+import { Constants } from '../Constants'
 import { Article } from './Article'
 import Link from './common/Link'
 import { Markdown } from './common/Markdown'
@@ -37,7 +38,7 @@ export const ArticleListItem: React.FC<Props> = ({ article }: Props) => {
               />
             </Link>
             <ShareButtons
-              url={`https://53ningen.com/${article.slug}`}
+              url={`${Constants.siteURL}/${article.slug}`}
               title={article.title}
               size={24}
               via="gomi_ningen"

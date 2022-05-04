@@ -4,6 +4,7 @@ import LocalOfferIcon from '@mui/icons-material/LocalOffer'
 import { Card, Chip, Stack, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import { format } from 'date-fns'
+import { Constants } from '../Constants'
 import { Article } from './Article'
 import Link from './common/Link'
 import { Markdown } from './common/Markdown'
@@ -38,7 +39,7 @@ export const ArticlePage: React.FC<Props> = ({ article }) => {
                 />
               </Link>
               <ShareButtons
-                url={`https://53ningen.com/${article.slug}`}
+                url={`${Constants.siteURL}/${article.slug}`}
                 title={article.title}
                 size={24}
                 via="gomi_ningen"
@@ -51,7 +52,7 @@ export const ArticlePage: React.FC<Props> = ({ article }) => {
           <Markdown content={article.content} />
           <Stack direction="row" spacing={2} pt={4}>
             <ShareButtons
-              url={`https://53ningen.com/${article.slug}`}
+              url={`${Constants.siteURL}/${article.slug}`}
               title={article.title}
               size={36}
               via="gomi_ningen"
