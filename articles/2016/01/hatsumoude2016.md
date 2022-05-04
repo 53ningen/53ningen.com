@@ -1,5 +1,4 @@
 ---
-slug: hatsumoude2016
 title: 初詣に行ってきた
 category: programming
 date: 2016-01-03 23:59:03

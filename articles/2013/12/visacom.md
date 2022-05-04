@@ -1,5 +1,4 @@
 ---
-slug: visacom
 title: VISA COMを利用した測定システム構築について
 category: programming
 date: 2013-12-18 18:15:13

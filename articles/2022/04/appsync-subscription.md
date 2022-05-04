@@ -1,5 +1,4 @@
 ---
-slug: appsync-subscription
 title: AppSync GraphQL API を用いて手軽に Subscription を試す
 category: programming
 date: 2022-04-13 23:24:00

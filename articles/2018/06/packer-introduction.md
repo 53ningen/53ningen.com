@@ -1,5 +1,4 @@
 ---
-slug: packer-introduction
 title: Packer 入門
 category: programming
 date: 2018-06-23 16:04:24

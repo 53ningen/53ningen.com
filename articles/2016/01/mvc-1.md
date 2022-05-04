@@ -1,5 +1,4 @@
 ---
-slug: mvc-1
 title: MVC再考 (1)
 category: programming
 date: 2016-01-28 03:19:01

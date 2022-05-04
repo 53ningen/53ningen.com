@@ -1,5 +1,4 @@
 ---
-slug: terraform-hands-on
 title: terraform を使ったAWS構成管理 ハンズオン
 category: programming
 date: 2016-10-13 03:17:38

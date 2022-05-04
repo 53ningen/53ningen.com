@@ -1,5 +1,4 @@
 ---
-slug: gdb-debug-c
 title: gdb を使ったデバッグ
 category: programming
 date: 2018-01-17 23:42:13

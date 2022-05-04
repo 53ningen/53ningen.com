@@ -1,5 +1,4 @@
 ---
-slug: macos-pyenv-binutils-error
 title: macOS で pyenv から python を導入する際 binutils が入ってるとコケる
 category: programming
 date: 2019-03-11 00:54:48

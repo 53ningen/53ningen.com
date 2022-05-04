@@ -1,5 +1,4 @@
 ---
-slug: ansible-source-exec
 title: ansible のソースコードを実行する
 category: programming
 date: 2016-11-14 17:17:00

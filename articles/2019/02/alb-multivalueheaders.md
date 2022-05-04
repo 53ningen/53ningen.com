@@ -1,5 +1,4 @@
 ---
-slug: alb-multivalueheaders
 title: ALB のターゲットの Lambda 関数から Multi Value Headers を返す
 category: programming
 date: 2019-02-27 01:20:35

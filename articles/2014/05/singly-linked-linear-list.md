@@ -1,5 +1,4 @@
 ---
-slug: singly-linked-linear-list
 title: 単方向リストの理解とJavaでの実装
 category: programming
 date: 2014-05-18 23:24:23

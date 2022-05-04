@@ -1,5 +1,4 @@
 ---
-slug: is-the-order-a-rx
 title: ご注文はRxですか?
 category: programming
 date: 2015-12-30 23:24:33

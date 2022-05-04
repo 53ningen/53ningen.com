@@ -1,5 +1,4 @@
 ---
-slug: lambda-with-io-ts
 title: Lambda 関数上で io-ts を利用すると例外発生時にタイムアウトする
 category: programming
 date: 2021-08-16 03:18:20

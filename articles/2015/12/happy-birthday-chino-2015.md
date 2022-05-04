@@ -1,5 +1,4 @@
 ---
-slug: happy-birthday-chino-2015
 title: ひと目で、尋常でない牛めしだと見抜いたよ
 category: blog
 date: 2015-12-05 18:51:50

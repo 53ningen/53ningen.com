@@ -1,5 +1,4 @@
 ---
-slug: sleep-in-javascript
 title: sleep in JavaScript
 category: programming
 date: 2018-11-01 15:58:29

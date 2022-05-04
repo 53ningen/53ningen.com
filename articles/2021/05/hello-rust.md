@@ -1,5 +1,4 @@
 ---
-slug: hello-rust
 title: Rust の基本的な文法メモ
 category: programming
 date: 2021-05-21 03:07:35

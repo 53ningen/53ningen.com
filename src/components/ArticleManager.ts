@@ -55,7 +55,6 @@ export class LocalArticleManager implements ArticleManger {
         const file = fs.readFileSync(p, { encoding: 'utf-8' })
         const res = fm(file) as {
           attributes: {
-            slug: string
             title: string
             category: string
             date: Date
@@ -64,11 +63,13 @@ export class LocalArticleManager implements ArticleManger {
           }
           body: string
         }
+        const ps = p.split('/')
+        const slug = ps[ps.length - 1].replace('.md', '')
         // FIXME
         const dateISOString = res.attributes.date.toISOString()
         const date = `${dateISOString.slice(0, dateISOString.length - 1)}+09:00`
         return {
-          slug: res.attributes.slug,
+          slug: slug,
           title: res.attributes.title,
           category: res.attributes.category,
           date: date,

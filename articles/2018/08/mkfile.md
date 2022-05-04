@@ -1,5 +1,4 @@
 ---
-slug: mkfile
 title: 指定したサイズのファイルを作る
 category: programming
 date: 2018-08-11 00:20:47
@@ -27,7 +26,6 @@ $ ls -la ./hoge
 ```
 $ dd if=/dev/zero of=./hoge bs= 16k count=100
 ```
-
 
 ## Windows
 

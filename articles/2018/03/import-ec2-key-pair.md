@@ -1,5 +1,4 @@
 ---
-slug: import-ec2-key-pair
 title: EC2 に既存のキーペアを追加する
 category: programming
 date: 2018-03-05 20:13:59

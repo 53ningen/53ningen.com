@@ -1,5 +1,4 @@
 ---
-slug: java-design-pattern-multithread-01
 title: Java言語で学ぶデザインパターン 〜マルチスレッド編〜 読書メモ (1)
 category: programming
 date: 2016-05-15 21:17:48
@@ -10,13 +9,13 @@ pinned: false
 結城先生のデザパタ本マルチスレッド編がサクッと読めそうだったので読み進めているので、自分用メモ。ほとんど知っている内容ではあったけど、体系的に知識が入っていなかったので、よい確認になる...。
 
 ## Java 言語のスレッド
+
 ### スレッドの起動方法
 
-スレッドを起動する方法は2つある
- 
+スレッドを起動する方法は 2 つある
+
 1. `Thread` クラスのサブクラスのインスタンスを使ってスレッドを起動する
 2. `Runnable` インターフェースの実装クラスのインスタンスを使ってスレッドを起動する
-
 
 ```java
 class ThreadSubclass extends Thread {
@@ -119,17 +118,17 @@ class TestClass {
 
 ```java
 class TestClass {
-   
+
        static synchronized void staticMethodWithSynchronized() {
            // do something
        }
-   
+
         static void staticMethodWithSynchronizedBlock() {
             synchronized (TestClass.class) {
                 //do something
             }
         }
-   
+
    }
 ```
 
@@ -168,9 +167,9 @@ synchronized 文やブロックの外側で オブジェクトの wait を呼び
 
 ## マルチスレッドプログラミングの評価基準
 
-* 安全性(safety): オブジェクトを壊さないこと
-* 生存性(liveness): 必要な処理が行われること
-* 再利用性(reusability): クラスを再利用できること
-* パフォーマンス(performance): 処理を高速・大量に行えること
+- 安全性(safety): オブジェクトを壊さないこと
+- 生存性(liveness): 必要な処理が行われること
+- 再利用性(reusability): クラスを再利用できること
+- パフォーマンス(performance): 処理を高速・大量に行えること
 
 うち安全性と生存性を守るのは必須

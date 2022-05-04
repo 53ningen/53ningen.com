@@ -1,17 +1,15 @@
 ---
-slug: ansible-git-clone-remote-add
 title: ansible で git clone と remote add upstream を行う
 category: programming
 date: 2018-02-20 00:21:19
-tags: [ansible,Git]
+tags: [ansible, Git]
 pinned: false
 ---
 
-　GitHub リポジトリをクローンして、 `git remote add upstream` した状態にしたいときは、 `remote: upstream` を指定すれば良い。例えば、 `git@github.com:example/example.git` を clone することを考えると、 ansible を次のように書けば OK。
+GitHub リポジトリをクローンして、 `git remote add upstream` した状態にしたいときは、 `remote: upstream` を指定すれば良い。例えば、 `git@github.com:example/example.git` を clone することを考えると、 ansible を次のように書けば OK。
 
 ```yaml
 ---
-
 - name: clone repository
   become: yes
   become_user: maintainer

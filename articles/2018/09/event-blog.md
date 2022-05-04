@@ -1,5 +1,4 @@
 ---
-slug: event-blog
 title: イベント遠征ブログのススメ
 category: event
 date: 2018-09-07 23:09:00

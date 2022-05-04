@@ -1,5 +1,4 @@
 ---
-slug: calculator
 title: 電卓を作る
 category: programming
 date: 2016-09-22 15:45:50

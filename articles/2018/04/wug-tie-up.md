@@ -1,5 +1,4 @@
 ---
-slug: wug-tie-up
 title: とある WUG タイアップ施策の成功実例
 category: anime
 date: 2018-04-02 23:46:07

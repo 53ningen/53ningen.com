@@ -1,5 +1,4 @@
 ---
-slug: come-on-ltw
 title: Luce Twinkle Wink☆ 現場が良い件について
 category: blog
 date: 2020-02-01 17:54:12

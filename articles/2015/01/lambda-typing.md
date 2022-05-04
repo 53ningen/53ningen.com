@@ -1,5 +1,4 @@
 ---
-slug: lambda-typing
 title: ラムダ抽象への型の割りあて
 category: programming
 date: 2015-01-08 19:16:37

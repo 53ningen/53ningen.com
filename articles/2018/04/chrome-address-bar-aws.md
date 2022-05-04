@@ -1,5 +1,4 @@
 ---
-slug: chrome-address-bar-aws
 title: Chrome のアドレスバーを利用して手軽に AWS マネジメントコンソールにアクセスする
 category: programming
 date: 2018-04-29 00:02:39

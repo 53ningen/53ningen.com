@@ -1,5 +1,4 @@
 ---
-slug: gitlab-ci-cd
 title: GitLab での CI/CD 入門
 category: programming
 date: 2021-07-28 03:30:33

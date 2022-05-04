@@ -1,5 +1,4 @@
 ---
-slug: natsunagu-ep3
 title: なつなぐ第3話「かぜにふかれて」モデル地
 category: anime
 date: 2020-01-21 02:02:14
@@ -23,7 +22,6 @@ pinned: false
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1579539038306!6m8!1m7!1sv1KCx4rqsYQgPDYNwlhkGw!2m2!1d32.78750518670881!2d130.8207614998967!3f350.98820481252017!4f2.9931687459134793!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-
 ## そうめん滝
 
 - 農業用のため池
@@ -34,10 +32,8 @@ pinned: false
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1579539819089!6m8!1m7!1s3iV3QzDumvblLsTJOxv4FQ!2m2!1d32.77475073401017!2d130.8235486906993!3f244.4850154690634!4f-27.250875549761844!5f0.7820865974627469" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-
-
 ## Links
 
-* なつなぐ！関連記事まとめは[こちら](https://53ningen.com/natsunagu-matome/)
-* なつなぐ！モデル地（キービジュアル/1話〜2話）まとめは[こちら](https://53ningen.com/natsunagu-locations/)
-* なつなぐ！モデル地（4話）まとめは[こちら](https://53ningen.com/natsunagu-ep4/)
+- なつなぐ！関連記事まとめは[こちら](https://53ningen.com/natsunagu-matome/)
+- なつなぐ！モデル地（キービジュアル/1 話〜2 話）まとめは[こちら](https://53ningen.com/natsunagu-locations/)
+- なつなぐ！モデル地（4 話）まとめは[こちら](https://53ningen.com/natsunagu-ep4/)

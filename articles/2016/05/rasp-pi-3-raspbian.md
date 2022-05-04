@@ -1,14 +1,13 @@
 ---
-slug: rasp-pi-3-raspbian
 title: ラズパイ3 にRASPBIANを入れるまで
 category: programming
 date: 2016-05-14 22:14:29
-tags: [作業記録,Raspberry pi]
+tags: [作業記録, Raspberry pi]
 pinned: false
 ---
 
 ```
-% diskutil list                                                                                                   
+% diskutil list
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *251.0 GB   disk0
@@ -32,8 +31,8 @@ pinned: false
    1:                 DOS_FAT_32 NO NAME                 8.0 GB     disk3s1
 
 % sudo diskutil eraseDisk FAT32 RP3 MBRFormat /dev/disk3
-% diskutil unmountDisk /dev/disk3                                                                                                                
-% sudo dd bs=1m if=2016-05-10-raspbian-jessie.img of=/dev/rdisk3   
+% diskutil unmountDisk /dev/disk3
+% sudo dd bs=1m if=2016-05-10-raspbian-jessie.img of=/dev/rdisk3
 ```
 
 ## man dd

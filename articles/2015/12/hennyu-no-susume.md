@@ -1,5 +1,4 @@
 ---
-slug: hennyu-no-susume
 title: 編入学のススメ
 category: blog
 date: 2015-12-20 18:50:00

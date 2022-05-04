@@ -1,5 +1,4 @@
 ---
-slug: lambda-sns-endpoint
 title: AWS Lambda を用いた Amazon SNS のエンドポイント整理
 category: programming
 date: 2016-05-28 15:40:11

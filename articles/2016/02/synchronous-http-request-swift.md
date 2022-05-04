@@ -1,5 +1,4 @@
 ---
-slug: synchronous-http-request-swift
 title: Swiftで同期HTTP通信を走らせる
 category: programming
 date: 2016-02-07 09:24:45

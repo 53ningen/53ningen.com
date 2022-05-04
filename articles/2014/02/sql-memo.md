@@ -1,5 +1,4 @@
 ---
-slug: sql-memo
 title: SQLメモ
 category: programming
 date: 2014-02-27 11:58:51

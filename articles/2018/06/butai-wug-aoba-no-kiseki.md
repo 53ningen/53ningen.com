@@ -1,5 +1,4 @@
 ---
-slug: butai-wug-aoba-no-kiseki
 title: 舞台「Wake Up, Girls！青葉の軌跡」イベントメモ
 category: event
 date: 2018-06-10 19:17:22

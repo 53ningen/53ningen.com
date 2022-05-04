@@ -1,5 +1,4 @@
 ---
-slug: ping-impl1
 title: ping コマンドを実装する (1)
 category: programming
 date: 2018-09-14 00:36:52

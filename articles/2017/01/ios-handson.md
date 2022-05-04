@@ -1,5 +1,4 @@
 ---
-slug: ios-handson
 title: iOSアプリ開発基礎ハンズオン
 category: programming
 date: 2017-01-29 01:48:56

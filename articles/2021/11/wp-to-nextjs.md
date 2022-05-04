@@ -1,5 +1,4 @@
 ---
-slug: wp-to-nextjs
 title: WordPress から Next.js への移行
 category: programming
 date: 2021-11-11 02:29:47

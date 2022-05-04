@@ -1,5 +1,4 @@
 ---
-slug: native-app-push-notification
 title: 大規模ネイティブアプリへのプッシュ通知機能導入にあたって考えたこと
 category: programming
 date: 2016-12-23 23:44:28

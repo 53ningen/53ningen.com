@@ -1,5 +1,4 @@
 ---
-slug: shellscripts-benri
 title: たまに使うシェルコマンド置き場
 category: programming
 date: 2019-02-14 05:00:00

@@ -1,5 +1,4 @@
 ---
-slug: jakarta-commons-cli
 title: Jakarta Commons CLI
 category: programming
 date: 2016-10-09 19:48:27

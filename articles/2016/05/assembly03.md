@@ -1,5 +1,4 @@
 ---
-slug: assembly03
 title: 関数呼び出しとアセンブリコード
 category: programming
 date: 2016-05-04 12:06:39

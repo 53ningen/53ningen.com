@@ -1,5 +1,4 @@
 ---
-slug: 2036-year-old-agape
 title: 2036年問題とは... 何...
 category: programming
 date: 2018-12-21 00:00:51

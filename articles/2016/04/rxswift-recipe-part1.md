@@ -1,5 +1,4 @@
 ---
-slug: rxswift-recipe-part1
 title: RxSwiftライブラリの作り方 〜Observer/Observable編〜
 category: programming
 date: 2016-04-04 22:16:54

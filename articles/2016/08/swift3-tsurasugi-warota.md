@@ -1,5 +1,4 @@
 ---
-slug: swift3-tsurasugi-warota
 title: Swift3について色々まとめていくスレ
 category: programming
 date: 2016-08-12 18:52:13

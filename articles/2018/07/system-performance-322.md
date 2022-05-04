@@ -1,5 +1,4 @@
 ---
-slug: system-performance-322
 title: カーネルとスタックとプロセス
 category: programming
 date: 2018-07-11 23:41:16

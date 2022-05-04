@@ -1,5 +1,4 @@
 ---
-slug: var-log-messages-fluentd
 title: /var/log/messages の内容を fluentd でやりとりする
 category: programming
 date: 2018-08-09 23:43:58

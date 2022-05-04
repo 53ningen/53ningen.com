@@ -1,5 +1,4 @@
 ---
-slug: terraforming-tutorial
 title: terraformingを試す
 category: programming
 date: 2016-10-03 03:00:20

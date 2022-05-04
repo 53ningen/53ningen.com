@@ -1,5 +1,4 @@
 ---
-slug: react-js-crash-course-2021
 title: 'メモ: React JS Crash Course 2021 が良い件について'
 category: programming
 date: 2021-09-06 03:06:34

@@ -1,5 +1,4 @@
 ---
-slug: fs-mount
 title: ファイルシステムのマウント
 category: programming
 date: 2018-04-14 00:36:19

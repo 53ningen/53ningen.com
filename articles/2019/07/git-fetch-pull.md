@@ -1,5 +1,4 @@
 ---
-slug: git-fetch-pull
 title: remote の pull request をローカル環境に引っ張ってくる
 category: programming
 date: 2019-07-05 03:28:31

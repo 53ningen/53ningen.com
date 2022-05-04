@@ -1,5 +1,4 @@
 ---
-slug: http-delegating-handler
 title: DelegatingHandlerを用いた快適なiOSアプリのHTTP通信周辺環境の整備
 category: programming
 date: 2017-10-21 17:15:00

@@ -1,5 +1,4 @@
 ---
-slug: get-metric-widget-image-app
 title: CloudWatch メトリクスのグラフを SNS トピックに通知するアプリケーションを作った
 category: programming
 date: 2019-04-22 23:44:32

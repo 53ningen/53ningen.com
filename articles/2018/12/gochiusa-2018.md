@@ -1,5 +1,4 @@
 ---
-slug: gochiusa-2018
 title: 少女は赤い外套を纏いウサギを駆りて聖夜の空を行く
 category: travel
 date: 2018-12-20 03:36:16
@@ -23,7 +22,6 @@ pinned: false
 </style></p>
 
 <div class="alert alert-info text-center">この記事は <a href="https://adventar.org/calendars/3020">「ごちうさ Advent Calendar 2018」</a> 25日目の記事です。</div>
-
 
 ご注文はうさぎですか? に影響を受けて昨年の冬に本場のクリスマスマーケットを訪れてきたのでその様子をご紹介します。
 

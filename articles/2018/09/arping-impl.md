@@ -1,5 +1,4 @@
 ---
-slug: arping-impl
 title: arping コマンドを実装する (1)
 category: programming
 date: 2018-09-16 15:45:59

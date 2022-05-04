@@ -1,5 +1,4 @@
 ---
-slug: sam-stepfunctions
 title: SAM で Step Functions リソースを定義する
 category: programming
 date: 2020-12-20 04:05:01

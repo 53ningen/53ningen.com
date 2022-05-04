@@ -1,5 +1,4 @@
 ---
-slug: singleton
 title: Singletonパターンの罠
 category: programming
 date: 2014-06-29 20:18:34

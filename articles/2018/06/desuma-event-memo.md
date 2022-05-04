@@ -1,5 +1,4 @@
 ---
-slug: desuma-event-memo
 title: デスマーチからはじまる異世界狂想曲イベントメモ
 category: event
 date: 2018-06-04 20:14:10

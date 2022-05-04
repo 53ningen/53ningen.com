@@ -1,5 +1,4 @@
 ---
-slug: lambda-sqs-configure
 title: Lambda のイベントソースとして SQS を設定する
 category: programming
 date: 2018-07-03 20:40:16

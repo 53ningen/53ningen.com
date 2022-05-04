@@ -1,5 +1,4 @@
 ---
-slug: protocol-buffers-php
 title: Protocol Buffers を PHP から使う
 category: programming
 date: 2016-10-08 22:09:44

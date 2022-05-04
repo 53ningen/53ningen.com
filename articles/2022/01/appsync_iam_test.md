@@ -1,5 +1,4 @@
 ---
-slug: appsync_iam_test
 title: IAM 認証付きの AppSync GraphQL API を CLI から叩く
 category: programming
 date: 2022-01-12 03:28:00

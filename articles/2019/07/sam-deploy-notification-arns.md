@@ -1,5 +1,4 @@
 ---
-slug: sam-deploy-notification-arns
 title: AWS SAM CLI で sam deploy 時に notification-arns を指定する
 category: programming
 date: 2019-07-27 03:15:52
@@ -13,10 +12,10 @@ stack の更新状態を Email とか Lambda + Slack 連携とかで通知した
 
 これはソースコードをみると、簡単にわかる。
 
-samcli/commands/deploy/__init__.py: [aws-sam-cli/__init__.py at b6daabdcbc54af311a7a9c582e2429d3e622dcf5 · awslabs/aws-sam-cli](https://github.com/awslabs/aws-sam-cli/blob/b6daabdcbc54af311a7a9c582e2429d3e622dcf5/samcli/commands/deploy/__init__.py#L11)
+samcli/commands/deploy/**init**.py: [aws-sam-cli/**init**.py at b6daabdcbc54af311a7a9c582e2429d3e622dcf5 · awslabs/aws-sam-cli](https://github.com/awslabs/aws-sam-cli/blob/b6daabdcbc54af311a7a9c582e2429d3e622dcf5/samcli/commands/deploy/__init__.py#L11)
 
 ```
-    
+
 """
 CLI command for "deploy" command
 """
@@ -71,7 +70,6 @@ def execute_command(command, args):
         LOG.debug("Exception: %s", e)
         sys.exit(e.returncode)
 ```
-
 
 まあそもそも sam deploy --help とすると以下のように表示され、cloudformation deploy のヘルプを参照してね、と出てくるのですけどね...。 教訓: help はちゃんと読みましょう。
 

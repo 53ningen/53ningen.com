@@ -1,5 +1,4 @@
 ---
-slug: scala-tail-rec
 title: Scalaの末尾再帰除去を確認する
 category: programming
 date: 2015-08-04 16:05:54

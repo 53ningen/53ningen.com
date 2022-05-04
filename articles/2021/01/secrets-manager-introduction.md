@@ -1,5 +1,4 @@
 ---
-slug: secrets-manager-introduction
 title: Secrets Manager を使ってみる
 category: programming
 date: 2021-01-18 20:09:56

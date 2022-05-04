@@ -1,5 +1,4 @@
 ---
-slug: etotama2nd
 title: えとたまの新シリーズ制作が決まった
 category: event
 date: 2018-02-18 21:11:00

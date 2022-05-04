@@ -1,5 +1,4 @@
 ---
-slug: html5-api
 title: HTML5のAPIまとめ
 category: programming
 date: 2014-03-21 20:36:53

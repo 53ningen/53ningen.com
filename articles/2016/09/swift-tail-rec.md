@@ -1,9 +1,8 @@
 ---
-slug: swift-tail-rec
 title: この実装には問題がある！
 category: programming
 date: 2016-09-06 18:17:05
-tags: [Swift,iOS]
+tags: [Swift, iOS]
 pinned: false
 ---
 

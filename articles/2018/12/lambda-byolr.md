@@ -1,5 +1,4 @@
 ---
-slug: lambda-byolr
 title: Lambda で各種言語を試す
 category: programming
 date: 2018-12-01 00:21:06

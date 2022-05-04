@@ -1,9 +1,8 @@
 ---
-slug: terraform-init-backend-config
 title: バックエンドが S3 の terraform で init 時に profile 指定する
 category: programming
 date: 2018-02-10 20:58:34
-tags: [AWS,terraform,S3]
+tags: [AWS, terraform, S3]
 pinned: false
 ---
 

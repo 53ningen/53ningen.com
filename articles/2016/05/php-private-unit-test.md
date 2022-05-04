@@ -1,5 +1,4 @@
 ---
-slug: php-private-unit-test
 title: PHPの private なメソッドを無理やりテストする方法
 category: programming
 date: 2016-05-29 16:38:32

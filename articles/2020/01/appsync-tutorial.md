@@ -1,5 +1,4 @@
 ---
-slug: appsync-tutorial
 title: AppSync ことはじめ
 category: programming
 date: 2020-01-26 16:57:09

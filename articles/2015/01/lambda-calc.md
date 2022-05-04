@@ -1,5 +1,4 @@
 ---
-slug: lambda-calc
 title: 型付きλ計算と単純な拡張
 category: programming
 date: 2015-01-15 19:14:30

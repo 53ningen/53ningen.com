@@ -1,5 +1,4 @@
 ---
-slug: lambda
 title: ラムダ計算について調べた（前編）
 category: programming
 date: 2014-11-28 20:36:49

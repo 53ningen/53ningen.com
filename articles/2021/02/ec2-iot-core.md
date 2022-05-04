@@ -1,5 +1,4 @@
 ---
-slug: ec2-iot-core
 title: EC2 インスタンスと AWS IoT Core の連携
 category: programming
 date: 2021-02-21 14:45:57

@@ -1,5 +1,4 @@
 ---
-slug: xamarin-ios-introduction
 title: '[WIP] Xamarin.iOS アプリ開発の全体像'
 category: programming
 date: 2018-05-23 19:20:27

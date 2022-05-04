@@ -1,5 +1,4 @@
 ---
-slug: rabbit-mq
 title: RabbitMQ の基本的な操作
 category: programming
 date: 2022-05-01 20:24:00

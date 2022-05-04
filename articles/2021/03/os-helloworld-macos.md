@@ -1,5 +1,4 @@
 ---
-slug: os-helloworld-macos
 title: 「ゼロからの OS 自作入門」の Hello, World! を MacOS 上で行う
 category: programming
 date: 2021-03-24 02:38:14

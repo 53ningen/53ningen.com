@@ -1,5 +1,4 @@
 ---
-slug: wug-ris-2018
 title: わぐりすに行ってきた
 category: event
 date: 2018-02-13 01:44:13

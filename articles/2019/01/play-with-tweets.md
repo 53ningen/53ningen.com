@@ -1,5 +1,4 @@
 ---
-slug: play-with-tweets
 title: twitter のストリーミングデータで遊ぶ
 category: programming
 date: 2019-01-20 22:54:15

@@ -1,5 +1,4 @@
 ---
-slug: install-mosquitto
 title: Mosquitto の導入
 category: programming
 date: 2014-07-09 14:11:18

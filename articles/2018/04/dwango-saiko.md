@@ -1,5 +1,4 @@
 ---
-slug: dwango-saiko
 title: 株式会社ドワンゴを退職しました
 category: programming
 date: 2018-04-07 12:09:20

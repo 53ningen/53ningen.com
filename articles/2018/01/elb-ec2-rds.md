@@ -1,9 +1,8 @@
 ---
-slug: elb-ec2-rds
 title: ELB + EC2 + RDS でふつうのアプリケーションを構成する
 category: programming
 date: 2018-01-10 00:06:46
-tags: [AWS,EC2,ELB,RDS]
+tags: [AWS, EC2, ELB, RDS]
 pinned: false
 ---
 
@@ -22,22 +21,21 @@ pinned: false
 - サブネットはひとまず以下のように切る
   - あくまでざっくりと流れを説明するために適当に切ってるので、用途に合わせ適当にサイズを変える
 
-| role | subnet | AZ | Visibility |
-|:----:|:------:|:--:|:----------:|
-| 10.1.1.0/24 | EC2 | ap-northeast-1a | private |
-| 10.1.2.0/24 | EC2 | ap-northeast-1c | private |
-| 10.1.8.0/25 | ELB | ap-northeast-1a | public |
-| 10.1.8.128/25 | ELB | ap-northeast-1c | public |
-| 10.1.10.0/25 | NAT | ap-northeast-1a | public |
-| 10.1.11.0/25 | Bastion | ap-northeast-1c | public |
-| 10.1.16.0/24 | RDS | ap-northeast-1a | private |
-| 10.1.17.0/24 | RDS | ap-northeast-1c | private |
+|     role      | subnet  |       AZ        | Visibility |
+| :-----------: | :-----: | :-------------: | :--------: |
+|  10.1.1.0/24  |   EC2   | ap-northeast-1a |  private   |
+|  10.1.2.0/24  |   EC2   | ap-northeast-1c |  private   |
+|  10.1.8.0/25  |   ELB   | ap-northeast-1a |   public   |
+| 10.1.8.128/25 |   ELB   | ap-northeast-1c |   public   |
+| 10.1.10.0/25  |   NAT   | ap-northeast-1a |   public   |
+| 10.1.11.0/25  | Bastion | ap-northeast-1c |   public   |
+| 10.1.16.0/24  |   RDS   | ap-northeast-1a |  private   |
+| 10.1.17.0/24  |   RDS   | ap-northeast-1c |  private   |
 
 ### NAT ゲートウェイと踏み台サーバーの作成
 
 - 上記で作成した NAT 用サブネットに、NAT ゲートウェイを作成する
 - 同じく踏み台サーバーも作っておく
-
 
 ### ルートテーブルの作成と関連付け
 
@@ -49,7 +47,6 @@ pinned: false
   - 明示的な関連付けをしていないサブネットはメインテーブルが関連付けられるため
 - ルートテーブルは上記の表に対応するようにサブネットへ明示的に紐付けをしておく
 
-
 ## ELB と EC2 の配置
 
 - Application Load Balancer を作成
@@ -58,7 +55,6 @@ pinned: false
   - 上記の表どおりのサブネットを選択する
   - Auto Scaling グループのヘルスチェックタイプは ELB にしておく
 - ELB のターゲットグループに Auto Scaling グループを指定
-
 
 ## RDS の配置
 

@@ -1,5 +1,4 @@
 ---
-slug: amazon-sns-intro
 title: Amazon Simple Notification Service(SNS)の基本的な仕組み
 category: programming
 date: 2016-05-06 14:53:23

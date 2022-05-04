@@ -1,9 +1,8 @@
 ---
-slug: rbenv-installation-playbook-memo
 title: rbenv installation playbook
 category: programming
 date: 2018-12-06 14:16:38
-tags: [Ruby,rbenv]
+tags: [Ruby, rbenv]
 pinned: false
 ---
 

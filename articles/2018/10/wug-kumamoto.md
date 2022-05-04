@@ -1,5 +1,4 @@
 ---
-slug: wug-kumamoto
 title: Wake Up, Girls! と熊本
 category: travel
 date: 2018-10-21 23:54:46

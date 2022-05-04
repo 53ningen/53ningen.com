@@ -1,5 +1,4 @@
 ---
-slug: php-unko
 title: PHPのアレコレ
 category: programming
 date: 2016-10-08 04:38:31

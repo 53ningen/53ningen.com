@@ -1,5 +1,4 @@
 ---
-slug: zaitaku-otaku
 title: 在宅勤務中心で働いてわかったこと
 category: blog
 date: 2020-02-08 02:31:00

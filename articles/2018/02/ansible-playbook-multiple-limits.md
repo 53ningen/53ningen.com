@@ -1,5 +1,4 @@
 ---
-slug: ansible-playbook-multiple-limits
 title: ansible-playbook の --limit を複数指定する
 category: programming
 date: 2018-02-17 02:33:09

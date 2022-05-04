@@ -1,9 +1,8 @@
 ---
-slug: how-to-strace
 title: strace コマンドで遊ぶ
 category: programming
 date: 2018-01-11 03:38:48
-tags: [Linux,strace]
+tags: [Linux, strace]
 pinned: false
 ---
 
@@ -13,9 +12,9 @@ pinned: false
 
 man によると strace とはシステムコールとシグナルをトレースできるツールのようだ
 
-* NAME: strace - trace system calls and signals
-* SYNOPSIS: strace [-CdffhiqrtttTvVxxy] [-In] [-bexecve] [-eexpr]...  [-acolumn] [-ofile] [-sstrsize] [-Ppath]... -ppid... / [-D] [-Evar[=val]]... [-uusername] command [args]
-* In  the  simplest  case  strace  runs  the specified command until it exits.  It intercepts and records the system calls which are called by a process and the signals which are received by a process.  The name of each system call, its arguments and its return value are printed on standard error or to the file specified with the -o option.
+- NAME: strace - trace system calls and signals
+- SYNOPSIS: strace [-CdffhiqrtttTvVxxy] [-In] [-bexecve] [-eexpr]... [-acolumn] [-ofile] [-sstrsize] [-Ppath]... -ppid... / [-D] [-Evar[=val]]... [-uusername] command [args]
+- In the simplest case strace runs the specified command until it exits. It intercepts and records the system calls which are called by a process and the signals which are received by a process. The name of each system call, its arguments and its return value are printed on standard error or to the file specified with the -o option.
 
 # hello, world の strace
 
@@ -68,7 +67,7 @@ exit_group(14)                          = ?
 +++ exited with 14 +++
 ```
 
-`write(1, "Hello, World!\n", 14Hello, World!)         = 14` とあるように標準出力に `Hello, World!\n` という文字列を `write(2)` しているのがわかる。 `-c` オプションをつけるとなんかかっこいい感じに統計情報をだしてくれる。
+`write(1, "Hello, World!\n", 14Hello, World!) = 14` とあるように標準出力に `Hello, World!\n` という文字列を `write(2)` しているのがわかる。 `-c` オプションをつけるとなんかかっこいい感じに統計情報をだしてくれる。
 
 ```
 $ strace -c ./hello
@@ -161,8 +160,7 @@ $ rpm -qf /bin/echo
 coreutils-8.22-15.el7.x86_64
 ```
 
-なるほどな... と思ってソースコード探そうとしたら江添さんがすでに[いろんなUNIX環境での echo のソースコードについて比較している記事](https://cpplover.blogspot.jp/2013/04/unixechoc.html)が引っかかった。ふむふむ〜。で、実際のソースコードが[これ](http://git.savannah.gnu.org/cgit/coreutils.git/tree/src/echo.c)。意外にながくてクソだるですわ...。結局最後のほうで、`fputs`, `putchar` を呼び出している感じで、これらは内部でバッファリングして、write を呼び出しているので、システムコールの呼び出しは 1回なのだろうみたいな感じの模様。
-
+なるほどな... と思ってソースコード探そうとしたら江添さんがすでに[いろんな UNIX 環境での echo のソースコードについて比較している記事](https://cpplover.blogspot.jp/2013/04/unixechoc.html)が引っかかった。ふむふむ〜。で、実際のソースコードが[これ](http://git.savannah.gnu.org/cgit/coreutils.git/tree/src/echo.c)。意外にながくてクソだるですわ...。結局最後のほうで、`fputs`, `putchar` を呼び出している感じで、これらは内部でバッファリングして、write を呼び出しているので、システムコールの呼び出しは 1 回なのだろうみたいな感じの模様。
 
 # macOS で dtruss を使う
 

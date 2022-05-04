@@ -1,5 +1,4 @@
 ---
-slug: aws-lambda-health-check
 title: 27円/月で運用できるAWS Lambda を用いたウェブサイトの外形監視
 category: programming
 date: 2018-01-25 04:02:54

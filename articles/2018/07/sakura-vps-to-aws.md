@@ -1,5 +1,4 @@
 ---
-slug: sakura-vps-to-aws
 title: さくらVPSからAWS環境への移行手順メモ
 category: programming
 date: 2018-07-31 19:56:37

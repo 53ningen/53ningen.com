@@ -1,5 +1,4 @@
 ---
-slug: innodb-init
 title: InnoDB 初回起動時の動き
 category: programming
 date: 2019-05-25 04:31:37

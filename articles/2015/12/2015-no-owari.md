@@ -1,5 +1,4 @@
 ---
-slug: 2015-no-owari
 title: 逝く年、くる年
 category: blog
 date: 2015-12-31 22:00:00

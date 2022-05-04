@@ -1,5 +1,4 @@
 ---
-slug: config-hsts-to-nginx-and-apache
 title: Apach と nginx への HSTS 設定
 category: programming
 date: 2018-01-05 04:32:53

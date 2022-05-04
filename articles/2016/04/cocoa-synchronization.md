@@ -1,5 +1,4 @@
 ---
-slug: cocoa-synchronization
 title: Cocoaにおける同期
 category: programming
 date: 2016-04-25 01:44:59

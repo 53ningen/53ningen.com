@@ -1,5 +1,4 @@
 ---
-slug: alb-redirect-action
 title: Redirect HTTP to HTTPS を ALB で実現する
 category: programming
 date: 2018-07-30 22:43:47

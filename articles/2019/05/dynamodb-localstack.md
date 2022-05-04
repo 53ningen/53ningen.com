@@ -1,5 +1,4 @@
 ---
-slug: dynamodb-localstack
 title: DynamoDB local と localstack の導入
 category: programming
 date: 2019-05-12 15:34:48

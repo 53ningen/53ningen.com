@@ -1,5 +1,4 @@
 ---
-slug: telnet-onegiri
 title: telnet コマンドをワン切りする
 category: programming
 date: 2018-01-25 05:51:48

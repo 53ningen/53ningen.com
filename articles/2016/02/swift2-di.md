@@ -1,5 +1,4 @@
 ---
-slug: swift2-di
 title: Swift2で静的なDIを実現する謎のソースコード
 category: programming
 date: 2016-02-13 13:21:15

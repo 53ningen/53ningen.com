@@ -1,5 +1,4 @@
 ---
-slug: powershell-arekore
 title: PowerShell アレコレ
 category: programming
 date: 2018-09-01 02:30:09

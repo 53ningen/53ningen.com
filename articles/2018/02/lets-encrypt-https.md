@@ -1,5 +1,4 @@
 ---
-slug: lets-encrypt-https
 title: Let's encrypt による HTTPS 対応
 category: programming
 date: 2018-02-12 02:02:05

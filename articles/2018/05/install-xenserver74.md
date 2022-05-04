@@ -1,5 +1,4 @@
 ---
-slug: install-xenserver74
 title: XenServer 7.4 のインストール
 category: programming
 date: 2018-05-08 21:24:18
@@ -12,7 +11,7 @@ pinned: false
 ## XenServer 7.4 イメージの準備
 
 - [XenServer 7.4 Free Edition - Citrix](https://www.citrix.com/downloads/xenserver/product-software/xenserver-74-free-edition.html) にてダウンロードできる
-- 続いて以下のような感じで　USB メモリに書き込む
+- 続いて以下のような感じで　 USB メモリに書き込む
 
 ```
 ~ $ diskutil list
@@ -46,8 +45,6 @@ Downloads $ sudo dd bs=1m if=XenServer-7.4.0-install-cd.iso of=/dev/rdisk2
 683671552 bytes transferred in 99.742969 secs (6854333 bytes/sec)
 ```
 
-
-
 ## XenServer のインストール
 
 - BIOS の設定変更
@@ -56,7 +53,6 @@ Downloads $ sudo dd bs=1m if=XenServer-7.4.0-install-cd.iso of=/dev/rdisk2
 - USB メモリをマシンに差し込んで起動するとインストールウィザードが流れるので、それにしたがいよしなに
   - thin プロビジョニングを有効化してインストールしました
   - IP アドレスを static に割り当て
-  
 
 ## XenServer にログインで散歩
 
@@ -80,7 +76,6 @@ sr0                                                                             
 loop0                                                                                               7:0    0  43.7M  1 loop /var/xen/xc-install
 ```
 
-
 ### vm リストを表示する
 
 ```
@@ -89,7 +84,6 @@ uuid ( RO)           : c47a8bda-a687-4c98-9259-915e30e00d49
      name-label ( RW): Control domain on host: xenserver01
     power-state ( RO): running
 ```
-
 
 ### マネジメントコンソールをリモートホスト上で表示する
 
@@ -100,7 +94,8 @@ uuid ( RO)           : c47a8bda-a687-4c98-9259-915e30e00d49
 ## XenServer 上に CentOS 7 仮想マシンを起動する
 
 1. [CentOS VM Images for VMware & VirtualBox](https://www.osboxes.org/centos/) にて VMDK ファイルをダウンロードする
-2. Install-Package 7Zip4Powershell 
+2. Install-Package 7Zip4Powershell
 3. Expand-7Zip ./CentOS_7-1708-VB-64bit.7z
 4. [How to Import VMDK Files to XenServer](https://support.citrix.com/article/CTX140423) に従い XenCenter から Import する
-  - [Password for virtual machines](https://www.osboxes.org/faq/what-are-the-credentials-for-virtual-machine-image/) を参照して起動した VM にログイン
+
+- [Password for virtual machines](https://www.osboxes.org/faq/what-are-the-credentials-for-virtual-machine-image/) を参照して起動した VM にログイン

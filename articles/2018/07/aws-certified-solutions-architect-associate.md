@@ -1,5 +1,4 @@
 ---
-slug: aws-certified-solutions-architect-associate
 title: AWS 認定ソリューションアーキテクトアソシエイトに合格した
 category: blog
 date: 2018-07-08 21:29:36

@@ -1,5 +1,4 @@
 ---
-slug: ansible-macbook
 title: 寝てる間に MacBook の環境構築を終わらせる
 category: programming
 date: 2018-04-20 23:25:14

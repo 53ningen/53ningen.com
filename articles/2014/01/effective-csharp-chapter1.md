@@ -1,5 +1,4 @@
 ---
-slug: effective-csharp-chapter1
 title: Effective C# chapter1：イディオム まとめ
 category: programming
 date: 2014-01-02 14:48:57

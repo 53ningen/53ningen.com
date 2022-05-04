@@ -1,5 +1,4 @@
 ---
-slug: hello-gatsby-js
 title: Gatsby.js ことはじめ
 category: programming
 date: 2019-05-18 15:47:53

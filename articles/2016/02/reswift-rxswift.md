@@ -1,5 +1,4 @@
 ---
-slug: reswift-rxswift
 title: ReSwiftのサンプルコードの仕組みをRxSwiftで実現する
 category: programming
 date: 2016-02-12 07:45:25

@@ -1,5 +1,4 @@
 ---
-slug: flight-2018
 title: 今年のフライト一覧（2018年版）
 category: travel
 date: 2018-12-31 03:31:47
@@ -24,13 +23,13 @@ pinned: false
         border-color: #bce8f1;
         margin-bottom: 60px;
     }
+
 -->
 </style></p>
+
 <div class="alert alert-info text-center">この記事は <a href="http://www.adventar.org/calendars/3031">「ANA Advent Calendar 2018」</a> 25日目の記事です。</div>
 
-
-
-2018年のフライトをまとめます。
+2018 年のフライトをまとめます。
 
 今年もそんなに乗ってません。
 

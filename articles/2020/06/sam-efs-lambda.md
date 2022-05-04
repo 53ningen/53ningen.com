@@ -1,5 +1,4 @@
 ---
-slug: sam-efs-lambda
 title: SAM を利用して EFS ファイルシステムをマウントした Lambda 関数を作る
 category: programming
 date: 2020-06-19 05:54:48

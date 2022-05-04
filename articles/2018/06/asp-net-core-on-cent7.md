@@ -1,5 +1,4 @@
 ---
-slug: asp-net-core-on-cent7
 title: CentOS 7 上で ASP.NET Core アプリケーションを動かす
 category: programming
 date: 2018-06-22 18:09:28

@@ -1,5 +1,4 @@
 ---
-slug: before-rsync
 title: rsync をかけるときに確認すべきこと
 category: programming
 date: 2018-02-14 04:43:52

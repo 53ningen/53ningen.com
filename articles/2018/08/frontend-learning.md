@@ -1,5 +1,4 @@
 ---
-slug: frontend-learning
 title: ウェブフロントエンドゆるメモ
 category: programming
 date: 2019-08-18 23:22:43

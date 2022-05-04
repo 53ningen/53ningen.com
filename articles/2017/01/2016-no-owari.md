@@ -1,5 +1,4 @@
 ---
-slug: 2016-no-owari
 title: 逝く年、くる年（2016-17）
 category: blog
 date: 2016-01-02 04:01:00

@@ -1,5 +1,4 @@
 ---
-slug: anne-happy-songs
 title: あんハピ♪ 吉岡茉祐さん関連楽曲
 category: anime
 date: 2018-05-13 12:19:08

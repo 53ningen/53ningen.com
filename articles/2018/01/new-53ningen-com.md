@@ -1,5 +1,4 @@
 ---
-slug: new-53ningen-com
 title: 53ningen.com 大改修
 category: programming
 date: 2018-01-03 07:02:35

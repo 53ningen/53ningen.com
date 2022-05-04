@@ -1,5 +1,4 @@
 ---
-slug: try-sam-cli-cdk
 title: SAM CLI + CDK を試す
 category: programming
 date: 2021-08-13 03:54:20

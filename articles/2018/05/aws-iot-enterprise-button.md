@@ -1,5 +1,4 @@
 ---
-slug: aws-iot-enterprise-button
 title: AWS IoT Enterprise Button を買った
 category: programming
 date: 2018-05-26 16:27:02

@@ -1,5 +1,4 @@
 ---
-slug: nginx-mirror-module
 title: nginx mirror module を使う
 category: programming
 date: 2018-11-26 21:56:09
@@ -10,7 +9,6 @@ pinned: false
 nginx 1.14 から HTTP リクエストを複製してくれる mirror モジュールが標準で使えるようになった。これは動作テストに便利。使い方も簡単なのでまとめておく。
 
 - 公式ドキュメント: [Module ngx_http_mirror_module](http://nginx.org/en/docs/http/ngx_http_mirror_module.html)
-
 
 ## 環境
 
@@ -102,4 +100,3 @@ Accept-Ranges: bytes
 # on 172-31-43-119
 172.31.34.177 - - [26/Nov/2018:12:24:44 +0000] "HEAD / HTTP/1.0" 200 - "-" "curl/7.29.0"
 ```
-

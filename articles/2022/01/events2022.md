@@ -1,5 +1,4 @@
 ---
-slug: events2022
 title: 2022年の現場
 category: event
 date: 2022-01-01 14:57:00

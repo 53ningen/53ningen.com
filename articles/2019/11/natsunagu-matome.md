@@ -1,5 +1,4 @@
 ---
-slug: natsunagu-matome
 title: なつなぐ！関連記事まとめ
 category: anime
 date: 2019-11-19 16:10:22

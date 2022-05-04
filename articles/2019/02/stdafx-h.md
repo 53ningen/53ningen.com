@@ -1,5 +1,4 @@
 ---
-slug: stdafx-h
 title: StdAfx.h
 category: programming
 date: 2019-02-08 03:40:37

@@ -1,5 +1,4 @@
 ---
-slug: taigaku2018
 title: 最初の退学から10年が経った
 category: travel
 date: 2018-12-20 00:00:00

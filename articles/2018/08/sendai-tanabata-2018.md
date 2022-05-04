@@ -1,9 +1,8 @@
 ---
-slug: sendai-tanabata-2018
 title: WUG七夕飾り&WUG天うちわ配布
 category: event
 date: 2018-08-07 00:58:23
-tags: [WUG,串カツ田中]
+tags: [WUG, 串カツ田中]
 pinned: false
 ---
 
@@ -23,11 +22,9 @@ pinned: false
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/08/07001340/DDF2A0E4-F958-4C36-A37D-35B56A7AF8BD.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/07001340/DDF2A0E4-F958-4C36-A37D-35B56A7AF8BD-1024x768.jpeg" alt="" class="alignnone size-large wp-image-3384" /></a>
 
-
-ちなみに去年(2017年)のはこんな感じ
+ちなみに去年(2017 年)のはこんな感じ
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/08/07003132/Dj7SV30UYAA3x3j.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/07003132/Dj7SV30UYAA3x3j-225x300.jpg" alt="" height="300" class="alignnone size-medium wp-image-3393" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/08/07003134/Dj7SV31UYAAQaRz.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/07003134/Dj7SV31UYAAQaRz-225x300.jpg" alt="" height="300" class="alignnone size-medium wp-image-3394" /></a>
-
 
 ## WUG 天うちわ配布
 
@@ -45,7 +42,6 @@ EBeanS さんで配布していたのでもらいに行きました。
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/08/07003536/5BF1B310-9F3D-4282-B7FE-4FA41CFEF129-e1533569920822.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/07003536/5BF1B310-9F3D-4282-B7FE-4FA41CFEF129-e1533569920822-225x300.jpeg" alt="" height="300" class="alignnone size-medium wp-image-3400" /></a>　<a href="https://static.53ningen.com/wp-content/uploads/2018/08/07003605/00CC5669-B864-41E4-AD70-1D7692B1FA65-e1533569929787.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/07003605/00CC5669-B864-41E4-AD70-1D7692B1FA65-e1533569929787-225x300.jpeg" alt="" height="300" class="alignnone size-medium wp-image-3407" /></a>
 
-
 ## 勾当台公園
 
 野外音楽堂がステージとして使われていました。ビールとソーセージ、おいしかった。
@@ -60,20 +56,17 @@ EBeanS さんで配布していたのでもらいに行きました。
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/08/06234804/3F03E784-C163-44BF-B5E1-F42B258EDEDC.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/06234804/3F03E784-C163-44BF-B5E1-F42B258EDEDC-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3337" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/08/06234755/66A0E0CF-6AD3-4A71-8B13-9D7C06B159D2.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/06234755/66A0E0CF-6AD3-4A71-8B13-9D7C06B159D2-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3335" /></a>
 
-
 ## 串カツ田中 仙台店
 
 WUG にゆかりのある（？）このお店が、東北初進出。イオン仙台店さんの近くです。8.27 オープン！
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/08/06234729/E1DCEE9C-0574-422A-8354-E8F776C3F069.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/06234729/E1DCEE9C-0574-422A-8354-E8F776C3F069-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3330" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/08/06234734/65334A9D-ABB6-4D2A-B2EC-11FE58AEBD81-e1533570284999.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/06234734/65334A9D-ABB6-4D2A-B2EC-11FE58AEBD81-e1533570284999-225x300.jpeg" alt="" width="225" height="300" class="alignnone size-medium wp-image-3331" /></a>
 
-
 ## 天ぱりさん
 
 到着後すぐにここでお昼ごはん
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/08/06234740/DE954FEC-615A-437E-B710-D547B0D02F58.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/06234740/DE954FEC-615A-437E-B710-D547B0D02F58-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3332" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/08/06234745/832C6C63-0501-4C4A-A8C0-F80CF13BA6A2.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/06234745/832C6C63-0501-4C4A-A8C0-F80CF13BA6A2-300x225.jpeg" alt="" width="300" height="225" class="alignnone size-medium wp-image-3333" /></a>
-
 
 ### その他
 
@@ -90,4 +83,3 @@ WUG にゆかりのある（？）このお店が、東北初進出。イオン�
 <a href="https://static.53ningen.com/wp-content/uploads/2018/08/07000350/95F808A9-20FB-4ADC-B7C0-847FF308F185.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/08/07000350/95F808A9-20FB-4ADC-B7C0-847FF308F185-1024x768.jpeg" alt="" class="alignnone size-large wp-image-3377" /></a>
 
 来年も行くよー
-

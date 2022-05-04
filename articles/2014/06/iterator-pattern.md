@@ -1,5 +1,4 @@
 ---
-slug: iterator-pattern
 title: Iteratorパターンの確認
 category: programming
 date: 2014-06-29 15:47:03

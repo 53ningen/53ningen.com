@@ -1,9 +1,8 @@
 ---
-slug: aomori-akita-2018
 title: 青森と秋田で食べたもの
 category: event
 date: 2018-03-14 01:30:41
-tags: [travel,WUG]
+tags: [travel, WUG]
 pinned: false
 ---
 
@@ -14,20 +13,19 @@ pinned: false
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042224/20BD27C4-C7C2-41A8-91F6-DA545BB64377.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042224/20BD27C4-C7C2-41A8-91F6-DA545BB64377-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1927" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042252/A60D47DB-D258-4B16-90ED-71754717D5C2.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042252/A60D47DB-D258-4B16-90ED-71754717D5C2-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1931" /></a>
 
-羽田発大館能代空港行き NH787便で秋田県に入り、最寄りの鷹ノ巣駅から奥羽本線。
+羽田発大館能代空港行き NH787 便で秋田県に入り、最寄りの鷹ノ巣駅から奥羽本線。
 弘前駅まで移動して、そこからリゾートしらかみに乗りつつイカめしを食べました。お酒もおいしかった。
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042332/F8284F4B-2116-4524-88F1-58D843CA14D8.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042332/F8284F4B-2116-4524-88F1-58D843CA14D8-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1937" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042339/F2CA19FB-D6B4-4F3F-A170-029C30D7FC3F.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042339/F2CA19FB-D6B4-4F3F-A170-029C30D7FC3F-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1938" /></a>
 
 リゾートしらかみはただの快速列車なので乗車券プラス指定席券でのれます。
-ただの快速列車なので18きっぷでも乗れます。良い。
+ただの快速列車なので 18 きっぷでも乗れます。良い。
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042319/EAA65A5E-3E0B-45A6-8224-2DDF35435D7B.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042319/EAA65A5E-3E0B-45A6-8224-2DDF35435D7B-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1935" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042350/4543DBE5-046E-4CC2-B742-AB6120843369.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042350/4543DBE5-046E-4CC2-B742-AB6120843369-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1940" /></a>
 
 酒をのみつつ、良い感じにそとの景色を眺めてるとあっという間に青森につきます。
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042402/69ECE84B-DF60-48A0-98F8-13052A3DFE66.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042402/69ECE84B-DF60-48A0-98F8-13052A3DFE66-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1942" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042408/BC88A7FC-1355-4F14-81D3-137FFF5F7188.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042408/BC88A7FC-1355-4F14-81D3-137FFF5F7188-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1943" /></a>
-
 
 ## 青函連絡船のミュージアムっぽいやつ
 
@@ -36,7 +34,7 @@ pinned: false
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042421/D0164F23-4F09-4108-884C-958BFF8638D6.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042421/D0164F23-4F09-4108-884C-958BFF8638D6-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1945" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042440/F0841C65-0F78-4F64-A9A8-5BD06AC9F7A9.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042440/F0841C65-0F78-4F64-A9A8-5BD06AC9F7A9-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1948" /></a>
 
-青函連絡船は、電車ごと船に乗って移動するパターンのやつで、デンマーク〜ドイツのフェーマルンベルト海峡を渡るICEみたいなやつ。青函連絡船、大戦で何隻も沈没したそうで、そのあたりは全く知らなかった。
+青函連絡船は、電車ごと船に乗って移動するパターンのやつで、デンマーク〜ドイツのフェーマルンベルト海峡を渡る ICE みたいなやつ。青函連絡船、大戦で何隻も沈没したそうで、そのあたりは全く知らなかった。
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042505/CEAFE5F1-E918-404E-90C7-4F2580E90FAC.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042505/CEAFE5F1-E918-404E-90C7-4F2580E90FAC-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1952" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042520/4B9D3D7F-4DE8-4349-80AE-9C57FB804ED6.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042520/4B9D3D7F-4DE8-4349-80AE-9C57FB804ED6-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1953" /></a>
 
@@ -71,7 +69,7 @@ pinned: false
 
 ## きりたんぽ秋田
 
-青森から秋田へは2時間半〜3時間ほど。時間ギリギリで特急つがるに乗り込むも、車内販売とかやってなくて腹ペコ。
+青森から秋田へは 2 時間半〜3 時間ほど。時間ギリギリで特急つがるに乗り込むも、車内販売とかやってなくて腹ペコ。
 
 <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042822/7F199389-063C-453A-B1CF-290DAFF3B586.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042822/7F199389-063C-453A-B1CF-290DAFF3B586-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1980" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2018/03/07042829/3485AFB6-ACD3-45C2-80C9-DC92AE823C57.jpeg"><img src="https://static.53ningen.com/wp-content/uploads/2018/03/07042829/3485AFB6-ACD3-45C2-80C9-DC92AE823C57-300x225.jpeg" alt="" width="300" height="225" class="aligncenter size-medium wp-image-1981" /></a>
 

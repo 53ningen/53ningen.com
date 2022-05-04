@@ -1,5 +1,4 @@
 ---
-slug: tks
 title: 女性声優と徳島阿波おどり空港
 category: blog
 date: 2018-12-19 00:00:54

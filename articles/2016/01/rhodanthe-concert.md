@@ -1,5 +1,4 @@
 ---
-slug: rhodanthe-concert
 title: 'Rhodanthe* 元旦コンサートに行ってきた'
 category: event
 date: 2016-01-01 23:59:03

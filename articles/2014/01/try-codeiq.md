@@ -1,5 +1,4 @@
 ---
-slug: try-codeiq
 title: CodeIQ：各桁総和を求める問題に挑戦してみた
 category: programming
 date: 2014-01-14 21:08:38

@@ -1,5 +1,4 @@
 ---
-slug: python-zatsumu-cheat
 title: python 定型処理チートシート
 category: programming
 date: 2019-02-01 02:44:13

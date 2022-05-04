@@ -1,5 +1,4 @@
 ---
-slug: play-framework-23-layered-arch
 title: play framework 2.3でレイヤードアーキテクチャを強制する
 category: programming
 date: 2014-08-03 16:15:22

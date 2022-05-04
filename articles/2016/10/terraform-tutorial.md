@@ -1,5 +1,4 @@
 ---
-slug: terraform-tutorial
 title: terraformを試す
 category: programming
 date: 2016-10-01 03:42:14

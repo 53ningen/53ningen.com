@@ -1,5 +1,4 @@
 ---
-slug: c-compile
 title: Cのコードがどのように処理されるのか
 category: programming
 date: 2016-09-22 21:00:02

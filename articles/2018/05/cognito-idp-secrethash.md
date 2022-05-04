@@ -1,5 +1,4 @@
 ---
-slug: cognito-idp-secrethash
 title: Cognito ユーザープール API の SecretHash の計算
 category: programming
 date: 2018-05-25 04:27:32

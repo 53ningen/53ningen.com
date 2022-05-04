@@ -1,5 +1,4 @@
 ---
-slug: taigaku2019
 title: 足立自動車学校を退学しました
 category: blog
 date: 2019-12-12 01:56:00

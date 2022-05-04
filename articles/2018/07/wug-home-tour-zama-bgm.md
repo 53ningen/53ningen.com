@@ -1,5 +1,4 @@
 ---
-slug: wug-home-tour-zama-bgm
 title: WUG! HOME ツアー 座間公演/開演前 BGM まとめ
 category: event
 date: 2018-07-30 19:06:45

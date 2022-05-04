@@ -1,5 +1,4 @@
 ---
-slug: gradle-cheetsheet
 title: gradle cheatsheet
 category: programming
 date: 2018-12-24 09:02:59

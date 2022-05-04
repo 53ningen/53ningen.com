@@ -1,5 +1,4 @@
 ---
-slug: xamarin-ios-memo
 title: Xamarin.iOSアレコレメモ
 category: programming
 date: 2018-04-13 22:49:22

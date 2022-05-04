@@ -1,5 +1,4 @@
 ---
-slug: test-double
 title: 他クラスに依存しないテストを支える仕組み：スタブ・モック・スパイ
 category: programming
 date: 2014-10-24 20:31:11

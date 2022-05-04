@@ -1,5 +1,4 @@
 ---
-slug: route53-s3-alias-redirect
 title: Route53 で S3 バケットへ alias レコードを作った際のリダイレクトのふるまい
 category: programming
 date: 2017-12-02 03:24:05

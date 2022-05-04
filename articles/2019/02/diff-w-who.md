@@ -1,5 +1,4 @@
 ---
-slug: diff-w-who
 title: who コマンドと w コマンドの違い
 category: programming
 date: 2019-02-04 00:39:45
@@ -42,7 +41,5 @@ ec2-user pts/1    xx.xx.xx.xx      15:26    1.00s  0.01s  0.00s w
 
 - `w` だとユーザーが何してんのとかわかる
 - あと uptime や load average とかもでる
-
-
 
 > 参考: [What is the difference between Unix's 'w' and 'who' commands? - Quora](https://www.quora.com/What-is-the-difference-between-Unixs-w-and-who-commands)

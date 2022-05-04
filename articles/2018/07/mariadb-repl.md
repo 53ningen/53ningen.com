@@ -1,5 +1,4 @@
 ---
-slug: mariadb-repl
 title: MariaDB から RDS for MariaDB へのレプリケーション
 category: programming
 date: 2018-07-27 23:02:35

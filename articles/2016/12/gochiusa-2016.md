@@ -1,5 +1,4 @@
 ---
-slug: gochiusa-2016
 title: 少女は赤い外套を纏いウサギを駆りて聖夜の空を行く
 category: blog
 date: 2016-12-25 19:43:56
@@ -34,7 +33,7 @@ pinned: false
 
 <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191450/211.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191450/211-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2536" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191410/13191406/121.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191410/13191406/121-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2527" /></a>
 
-<a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191507/251.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191507/251-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2540" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191459/231.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191459/231-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2538" /></a> 
+<a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191507/251.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191507/251-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2540" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191459/231.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191459/231-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2538" /></a>
 
 <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191445/201.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191445/201-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2535" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191417/141.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191417/141-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2529" /></a>
 
@@ -47,7 +46,6 @@ pinned: false
 <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191431/171.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191431/171-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2532" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191422/151.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191422/151-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2530" /></a>
 
 <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191410/131.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191410/131-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2528" /></a>
-
 
 <h2>2016年のクリスマスツリー</h2>
 
@@ -74,8 +72,6 @@ pinned: false
 <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191547/331.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191547/331-199x300.jpg" alt="" width="199" height="300" class="aligncenter size-medium wp-image-2548" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191543/321.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191543/321-199x300.jpg" alt="" width="199" height="300" class="aligncenter size-medium wp-image-2547" /></a>
 
 <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191536/311.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191536/311-199x300.jpg" alt="" width="199" height="300" class="aligncenter size-medium wp-image-2546" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191531/301.jpg"><img src="https://static.53ningen.com/wp-content/uploads/2016/12/13191410/13191410/13191531/301-300x199.jpg" alt="" width="300" height="199" class="aligncenter size-medium wp-image-2545" /></a>
-
-
 
 <h1>唐突な宣伝</h1>
 

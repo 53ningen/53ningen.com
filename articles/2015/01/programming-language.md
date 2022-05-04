@@ -1,5 +1,4 @@
 ---
-slug: programming-language
 title: プログラミング言語を形式的に取り扱う
 category: programming
 date: 2015-01-07 19:32:25

@@ -1,5 +1,4 @@
 ---
-slug: nyanpass-matsuri-2
 title: にゃんぱす祭り りぴーとなのん♪♪
 category: event
 date: 2016-01-11 01:05:41

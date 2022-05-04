@@ -1,5 +1,4 @@
 ---
-slug: php-block-scope
 title: PHPのスコープについて
 category: programming
 date: 2016-05-12 03:39:03

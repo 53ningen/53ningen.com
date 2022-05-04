@@ -1,5 +1,4 @@
 ---
-slug: leetcode-addtwonumbers-reverse-integer
 title: 'LeetCode: AddTwoNumbers, Reverse Integer'
 category: programming
 date: 2020-01-05 21:31:18

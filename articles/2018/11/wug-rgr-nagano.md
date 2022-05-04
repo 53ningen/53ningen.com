@@ -1,5 +1,4 @@
 ---
-slug: wug-rgr-nagano
 title: Wake Up, Girls! と Run Girls, Run! と長野
 category: travel
 date: 2018-11-04 11:48:46

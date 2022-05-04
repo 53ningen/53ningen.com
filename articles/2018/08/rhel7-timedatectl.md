@@ -1,9 +1,8 @@
 ---
-slug: rhel7-timedatectl
 title: RHEL7系における時刻
 category: programming
 date: 2018-08-29 04:10:14
-tags: [RHEL,RHEL7,Linux,timedatectl]
+tags: [RHEL, RHEL7, Linux, timedatectl]
 pinned: false
 ---
 
@@ -11,24 +10,23 @@ pinned: false
 
 コンピュータはだいたい次の 2 つの時刻を持ちます:
 
-- リアルタイムクロック（ハードウェアクロック/CMOSクロック）: OSから独立し、コンピュータの電源を落としても稼働するマザーボード上の回路に組み込まれているクロック
+- リアルタイムクロック（ハードウェアクロック/CMOS クロック）: OS から独立し、コンピュータの電源を落としても稼働するマザーボード上の回路に組み込まれているクロック
 - システムクロック（ソフトウェアクロック）: カーネルによって管理されている、システムの起動時にリアルタイムクロックから初期化され、その後独立した時を刻むクロック
 
 システムクロックは常に UTC でデータを保持し、アプリケーションにより必要に応じてローカルタイムに変換される。
 
-システムクロックに保持されるデータは次の2つ:
+システムクロックに保持されるデータは次の 2 つ:
 
 - 1970/01/01 00:00:00 からの経過秒数
 - 秒以下の経過時間
 
 リアルタイムクロックは UTC としても良いしローカルタイムとしても良いが、UTC が推奨される。
 
-RHEL7 では時刻の表示と設定に次の3つのコマンドが用意されている:
+RHEL7 では時刻の表示と設定に次の 3 つのコマンドが用意されている:
 
 - `timedatectl`: `systemd` によって提供されているツール
 - `date`: 従来のコマンド
 - `hwclock`: リアルタイムクロックへアクセスするためのツール
-
 
 ## timedatectl コマンド
 
@@ -58,7 +56,6 @@ NTP synchronized: yes
   - タイムゾーンリストは `timedatectl list-timezone` でリストできる
 - NTP サーバーとの同期設定は `timedatectl set-ntp [boolean]` を叩く
 
-
 ## date コマンド
 
 - `date` とか `date -u` とか（雑）
@@ -79,7 +76,7 @@ TZif2
 JST-9
 ```
 
-リアルタイムクロックのタイムゾーンは `/etc/adjtime` の3行目を見るとわかる:
+リアルタイムクロックのタイムゾーンは `/etc/adjtime` の 3 行目を見るとわかる:
 
 ```
 $ cat /etc/adjtime
@@ -99,7 +96,6 @@ $ date -u
 Tue Aug 28 17:52:26 UTC 2018
 ```
 
-
 ## hwclock コマンド
 
 情報ソース: [2.3. hwclock コマンドの使用 - Red Hat Customer Portal](https://access.redhat.com/documentation/ja-jp/red_hat_enterprise_linux/7/html/system_administrators_guide/sect-configuring_the_date_and_time-hwclock)
@@ -109,7 +105,7 @@ Tue Aug 28 17:52:26 UTC 2018
 - リアルタイムクロックにはローカルタイムや UTC などのロケールや夏時間を保存することはできない
 - RHEL6 と RHEL7 で挙動が違うらしい
   - RHEL6: システムのシャットダウン、再起動時にコマンドが実行される
-  - RHEL7: システムクロックが NTP または PTP で同期される場合、カーネルによって11分おきにリアルタイムクロックをシステムクロックに同期する
+  - RHEL7: システムクロックが NTP または PTP で同期される場合、カーネルによって 11 分おきにリアルタイムクロックをシステムクロックに同期する
 
 ```
 $ sudo hwclock

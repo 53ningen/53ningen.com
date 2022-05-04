@@ -1,5 +1,4 @@
 ---
-slug: sansha-sanyo
 title: 三者三謡に行ってきた
 category: event
 date: 2016-09-23 02:51:34

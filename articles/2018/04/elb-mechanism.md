@@ -1,5 +1,4 @@
 ---
-slug: elb-mechanism
 title: ELB の負荷分散の基本的なしくみ
 category: programming
 date: 2018-04-15 20:59:18

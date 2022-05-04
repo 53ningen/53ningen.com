@@ -1,5 +1,4 @@
 ---
-slug: html5minutes-2
 title: HTML5minutes! #2に参加してきた
 category: programming
 date: 2014-08-23 14:03:21

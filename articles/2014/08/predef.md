@@ -1,5 +1,4 @@
 ---
-slug: predef
 title: Scalaのクエスチョンマーク3つは「Predef.???」
 category: programming
 date: 2014-08-11 20:24:44

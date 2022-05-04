@@ -1,5 +1,4 @@
 ---
-slug: assembly04
 title: Cの基本的なコードとアセンブリコード
 category: programming
 date: 2016-05-04 13:45:42

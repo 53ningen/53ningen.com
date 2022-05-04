@@ -1,5 +1,4 @@
 ---
-slug: middleman-tutorial
 title: middleman tutorial
 category: programming
 date: 2018-12-27 02:25:45
@@ -10,7 +9,6 @@ pinned: false
 静的サイトを構築のための簡単なフレームワーク Middleman を使ってみたので、道中のメモを残します
 
 ## 1. 導入
-
 
 ```
 $ cat .ruby-version

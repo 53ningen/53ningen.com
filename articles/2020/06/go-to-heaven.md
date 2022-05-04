@@ -1,5 +1,4 @@
 ---
-slug: go-to-heaven
 title: Go To Travel キャンペーンで納めた税金を国から取り戻そう
 category: travel
 date: 2021-06-30 04:09:34

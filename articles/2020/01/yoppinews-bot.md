@@ -1,5 +1,4 @@
 ---
-slug: yoppinews-bot
 title: 女性声優と自動化
 category: programming
 date: 2020-01-05 12:14:55
@@ -178,8 +177,7 @@ twitter_config:
     # 常にリツイートするアカウント用 Twitter リスト
     # 演者本人や演者の冠番組のアカウントをリストインする
     - owner_screen_name: yoppinews
-      slug: always-retweet
-      always_retweet: true # この値が true だと常にリツイートされる
+            always_retweet: true # この値が true だと常にリツイートされる
       include_retweet: true # この値が true だと RT も評価される
       include_reply: true # この値が true だとリプライも評価される
       include_quoted_text: true # この値が true だと引用 RT のテキストも評価される

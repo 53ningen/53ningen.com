@@ -1,5 +1,4 @@
 ---
-slug: update-etc-hosts
 title: /etc/hosts の更新
 category: programming
 date: 2018-02-14 05:27:00

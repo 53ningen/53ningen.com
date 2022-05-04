@@ -1,5 +1,4 @@
 ---
-slug: stack-data-structure
 title: データ構造：スタックの理解とJavaでの実装
 category: programming
 date: 2014-06-10 23:40:39

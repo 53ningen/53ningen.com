@@ -1,5 +1,4 @@
 ---
-slug: bastion-ssh-trouble-shooting
 title: 多段 ssh 時に微妙にハマったメモ
 category: programming
 date: 2018-07-20 23:22:55
@@ -33,5 +32,5 @@ $ ssh xxx@hoge-piyo
 Last login: Fri Jul 20 14:15:58 2018 from xx.xx.xx.xx
 ```
 
-単純に踏み台の `/etc/hosts` を更新していないだけだった（が、10分くらい溶かした）。
+単純に踏み台の `/etc/hosts` を更新していないだけだった（が、10 分くらい溶かした）。
 反省の意味を含めてまとめ。

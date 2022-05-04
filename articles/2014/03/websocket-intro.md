@@ -1,5 +1,4 @@
 ---
-slug: websocket-intro
 title: WebSocket はじめのいっぽ
 category: programming
 date: 2014-03-28 19:43:16

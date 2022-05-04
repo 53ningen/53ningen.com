@@ -1,5 +1,4 @@
 ---
-slug: java8-aws-lambda-api-gateway
 title: Java8 + AWS Lambda + API Gateway で遊ぶ
 category: programming
 date: 2016-02-28 01:40:12

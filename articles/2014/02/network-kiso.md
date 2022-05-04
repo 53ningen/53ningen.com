@@ -1,5 +1,4 @@
 ---
-slug: network-kiso
 title: ネットワークの基礎知識
 category: programming
 date: 2014-02-02 12:15:00

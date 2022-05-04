@@ -1,5 +1,4 @@
 ---
-slug: rxswift2-0-0
 title: RxSwift2.0.0がリリースされた
 category: programming
 date: 2016-01-02 20:04:05

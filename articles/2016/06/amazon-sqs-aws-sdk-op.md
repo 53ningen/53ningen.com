@@ -1,5 +1,4 @@
 ---
-slug: amazon-sqs-aws-sdk-op
 title: AWS SDK for Node.jsを用いたSQSの操作
 category: programming
 date: 2016-06-04 03:13:19

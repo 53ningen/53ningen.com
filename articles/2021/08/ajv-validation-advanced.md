@@ -1,5 +1,4 @@
 ---
-slug: ajv-validation-advanced
 title: Ajv の JTDSchemaType で複雑な JSON オブジェクトをバリデーションする
 category: programming
 date: 2021-08-22 02:31:41

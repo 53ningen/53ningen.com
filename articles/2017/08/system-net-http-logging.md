@@ -1,5 +1,4 @@
 ---
-slug: system-net-http-logging
 title: System.Net.Httpのリクエストやレスポンスをロギングする
 category: programming
 date: 2017-08-23 03:22:21

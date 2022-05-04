@@ -1,5 +1,4 @@
 ---
-slug: sakura-vps-local-network
 title: さくらVPSのスイッチを利用してローカルネットワークを構成する
 category: programming
 date: 2018-01-03 21:31:49

@@ -1,5 +1,4 @@
 ---
-slug: fleur-de-lapin-entry
 title: フルール・ド・ラパン社に入社しました
 category: blog
 date: 2017-08-01 05:15:00

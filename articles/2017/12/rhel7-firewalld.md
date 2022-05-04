@@ -1,5 +1,4 @@
 ---
-slug: rhel7-firewalld
 title: RHEL7 系の Firewall 設定
 category: programming
 date: 2017-12-28 22:51:00

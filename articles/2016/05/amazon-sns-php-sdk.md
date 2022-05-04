@@ -1,5 +1,4 @@
 ---
-slug: amazon-sns-php-sdk
 title: AWS SDK for PHP を用いた Amazon SNS の操作
 category: programming
 date: 2016-05-05 21:54:33

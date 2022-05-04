@@ -1,5 +1,4 @@
 ---
-slug: sam-web-fw
 title: SAM テンプレートと軽量ウェブフレームワーク
 category: programming
 date: 2019-08-08 01:47:01

@@ -1,5 +1,4 @@
 ---
-slug: wuglove-fanmeeting-access
 title: WUG!ファンミ会場アクセスメモ
 category: event
 date: 2018-08-07 23:16:05
@@ -19,11 +18,9 @@ WUG のイベントにあるまじきアクセスの良さ、八王子駅南口�
 
 - 東京駅から中央線でﾋﾞｭｰﾝ
 
-
-
 ## 09/02: [カルッツ川崎](http://culttz.city.kawasaki.jp/access/)
 
-駅からちょっとだけ歩く。川崎駅東口から10分ちょいくらい。わぐりす、ここでしたね。
+駅からちょっとだけ歩く。川崎駅東口から 10 分ちょいくらい。わぐりす、ここでしたね。
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.97522616357!2d139.7061881152546!3d35.52960988023001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601860b92d55b9bd%3A0x63aa74bcd4d55ad6!2z44Kr44Or44OD44OE44GL44KP44GV44GN!5e0!3m2!1sja!2sjp!4v1533648516797" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
@@ -31,7 +28,6 @@ WUG のイベントにあるまじきアクセスの良さ、八王子駅南口�
 
 東京駅から東海道線でﾋﾞｭｰﾝ
 品川から KQ もあるよ
-
 
 ## おわりに
 

@@ -1,5 +1,4 @@
 ---
-slug: try-aws-sdk-for-ios-samples
 title: AWS SDK for iOS Samples を試す
 category: programming
 date: 2019-04-29 00:52:51

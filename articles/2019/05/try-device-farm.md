@@ -1,9 +1,8 @@
 ---
-slug: try-device-farm
 title: DeviceFarm を利用した iOS アプリの UI テスト
 category: programming
 date: 2019-05-24 03:31:34
-tags: [iOS,DeviceFarm]
+tags: [iOS, DeviceFarm]
 pinned: false
 ---
 
@@ -15,7 +14,6 @@ XCUITest を Device Farm サービス上で実行するサンプルとして [aw
 
 <a href="https://static.53ningen.com/wp-content/uploads/2019/05/24031939/886893e296537c97f553d56e6b9262b2.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/05/24031939/886893e296537c97f553d56e6b9262b2-167x300.png" alt="" width="167" height="300" class="alignnone size-medium wp-image-4827" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2019/05/24031943/e8a7712e02ec725598e901b521535411.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/05/24031943/e8a7712e02ec725598e901b521535411-167x300.png" alt="" width="167" height="300" class="alignnone size-medium wp-image-4828" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2019/05/24031947/aa2cca665bac662d8c1317fb270e0a75.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/05/24031947/aa2cca665bac662d8c1317fb270e0a75-167x300.png" alt="" width="167" height="300" class="alignnone size-medium wp-image-4829" /></a> <a href="https://static.53ningen.com/wp-content/uploads/2019/05/24031950/fc6ed5d0ba19aba83dbb25896f1c54cf.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/05/24031950/fc6ed5d0ba19aba83dbb25896f1c54cf-167x300.png" alt="" width="167" height="300" class="alignnone size-medium wp-image-4830" /></a>
 
-
 テスト自体は XC UITest で書かれている: [ADFiOSReferenceAppUITests/AlertsTest.m](https://github.com/aws-samples/aws-device-farm-xctest-ui-tests-for-ios-sample-app/blob/master/ADFiOSReferenceAppUITests/AlertsTest.m#L29)
 
 ```
@@ -23,7 +21,7 @@ XCUITest を Device Farm サービス上で実行するサンプルとして [aw
 
 - (void)setUp {
     [super setUp];
-    
+
     if ([[self app].buttons[ALERTS_TAB_ID] exists]) {
         [[self app].buttons[ALERTS_TAB_ID] delayedTap:TAP_DELAY];
     } else {
@@ -39,7 +37,7 @@ XCUITest を Device Farm サービス上で実行するサンプルとして [aw
 - (void)testAlert {
     [[self app].buttons[ALERT_BUTTON_ID] tap];
     XCTAssertTrue([[self app].staticTexts[ALERT_MESSAGE] exists]);
-    
+
     [[self app].buttons[OK_BUTTON_ID] tap];
     XCTAssertFalse([[self app].staticTexts[ALERT_MESSAGE] exists]);
 }
@@ -47,14 +45,13 @@ XCUITest を Device Farm サービス上で実行するサンプルとして [aw
 - (void)testModal {
     [[self app].buttons[MODAL_BUTTON_ID] tap];
     XCTAssertTrue([[self app].staticTexts[MODAL_MESSAGE] exists]);
-    
+
     [[self app].buttons[OK_BUTTON_ID] tap];
     XCTAssertFalse([[self app].staticTexts[MODAL_MESSAGE] exists]);
 }
 
 @end
 ```
-
 
 ## テストに利用する ipa ファイルの作成
 
@@ -64,7 +61,7 @@ $ cd aws-device-farm-xctest-ui-tests-for-ios-sample-app
 $ open AWSDeviceFarmiOSReferenceApp.xcodeproj/
 ```
 
-つづいて Xcode 上から Generic Device 向けに Appと Test の Build を行い、生成物のディレクトリに移動します。アプリケーション本体は普通に .ipa ファイルを作成してアップロードすれば OK です。
+つづいて Xcode 上から Generic Device 向けに App と Test の Build を行い、生成物のディレクトリに移動します。アプリケーション本体は普通に .ipa ファイルを作成してアップロードすれば OK です。
 
 ```
 # UITest のパッケージ化
@@ -86,7 +83,7 @@ $ APP_URL=$(aws devicefarm create-upload --project-arn $PROJ_ARN --name app.ipa 
 $ curl -T ~/path/to/AWSDeviceFarmiOSReferenceApp.app $APP_URL
 
 
-$ RUNNER_URL=$(aws devicefarm create-upload --project-arn $PROJ_ARN --name test_runner.ipa --type XCTEST_UI_TEST_PACKAGE --region=us-west-2 
+$ RUNNER_URL=$(aws devicefarm create-upload --project-arn $PROJ_ARN --name test_runner.ipa --type XCTEST_UI_TEST_PACKAGE --region=us-west-2
  | jq -r '.upload.url')
 $ curl -T /tmp/test_runner.ipa $RUNNER_URL
 
@@ -146,7 +143,6 @@ $ aws devicefarm schedule-run --region=us-west-2 --cli-input-json file://taask.j
 
 <a href="https://static.53ningen.com/wp-content/uploads/2019/05/24032713/44a2dfaef1b4acc0e399c0fb0b78bf5d.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/05/24032713/44a2dfaef1b4acc0e399c0fb0b78bf5d-300x83.png" alt="" width="300" height="83" class="alignnone size-medium wp-image-4837" /></a>
 
-
 またテスト実行中の動画も見れます
 
 <a href="https://static.53ningen.com/wp-content/uploads/2019/05/24032709/f96b1c042a0d741bf5ef9144cec8dd4c.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/05/24032709/f96b1c042a0d741bf5ef9144cec8dd4c-300x148.png" alt="" width="300" height="148" class="alignnone size-medium wp-image-4835" /></a>
@@ -158,4 +154,3 @@ $ aws devicefarm schedule-run --region=us-west-2 --cli-input-json file://taask.j
 各テスト項目の PASS/FAILED 情報
 
 <a href="https://static.53ningen.com/wp-content/uploads/2019/05/24032707/54be0196c7df5262720844873d05c281.png"><img src="https://static.53ningen.com/wp-content/uploads/2019/05/24032707/54be0196c7df5262720844873d05c281-300x147.png" alt="" width="300" height="147" class="alignnone size-medium wp-image-4834" /></a>
-

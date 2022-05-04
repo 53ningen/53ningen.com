@@ -1,5 +1,4 @@
 ---
-slug: kigumin-colmar
 title: '木組みの街の歩き方: コルマール編'
 category: travel
 date: 2018-07-07 17:21:45

@@ -1,5 +1,4 @@
 ---
-slug: linux-book-memo-2
 title: プロセスはどのようにスケジューリングされるのか
 category: programming
 date: 2018-02-28 04:27:59

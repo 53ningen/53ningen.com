@@ -1,5 +1,4 @@
 ---
-slug: mkdir-cd
 title: mkdir で作成したディレクトリをカレントディレクトリにする
 category: programming
 date: 2018-02-17 04:49:00

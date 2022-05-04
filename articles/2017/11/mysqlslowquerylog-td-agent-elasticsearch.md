@@ -1,5 +1,4 @@
 ---
-slug: mysqlslowquerylog-td-agent-elasticsearch
 title: MySQL スロークエリログを fluentd 経由で elasticsearch に流し込む
 category: programming
 date: 2017-11-17 04:09:21

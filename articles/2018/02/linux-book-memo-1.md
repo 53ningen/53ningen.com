@@ -1,5 +1,4 @@
 ---
-slug: linux-book-memo-1
 title: コンピュータシステムとプロセスの概要
 category: programming
 date: 2018-02-26 01:47:47

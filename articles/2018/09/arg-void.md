@@ -1,5 +1,4 @@
 ---
-slug: arg-void
 title: 関数の引数の void
 category: programming
 date: 2018-09-17 20:02:05

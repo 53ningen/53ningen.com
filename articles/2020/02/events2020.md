@@ -1,5 +1,4 @@
 ---
-slug: events2020
 title: 2020年の現場
 category: event
 date: 2020-02-18 17:41:00

@@ -1,5 +1,4 @@
 ---
-slug: iosdc-japan-2017
 title: iOSDC Japan 2017にてベストトーク賞をいただきました
 category: programming
 date: 2017-09-18 05:08:35

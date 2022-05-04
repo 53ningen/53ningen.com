@@ -1,5 +1,4 @@
 ---
-slug: rxswift-observable
 title: RxSwift の Observable とは何か
 category: programming
 date: 2018-04-13 22:55:31

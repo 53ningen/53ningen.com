@@ -1,9 +1,8 @@
 ---
-slug: run-out-of-inode
 title: inode を枯渇させる
 category: programming
 date: 2018-04-14 17:12:36
-tags: [Linux,FileSystem]
+tags: [Linux, FileSystem]
 pinned: false
 ---
 
@@ -15,10 +14,9 @@ pinned: false
 - ファイルシステムにより、ブロックデバイスの仕様を知らなくてもファイルにアクセスできたり、権限管理ができたりする
 - inode はファイルシステムオブジェクトのメタデータを保持するデータ構造
 
-
 ## ext4 の inode を使い果たす
 
-- ext4 は最初に inode 1つあたりのデータのバイト数を指定して作る（bytes-per-inode）
+- ext4 は最初に inode 1 つあたりのデータのバイト数を指定して作る（bytes-per-inode）
 - 空のファイルを大量に作ると inode が枯渇して楽しい（？）
   - Let's get started!
 
@@ -71,14 +69,13 @@ tmpfs           497M     0  497M   0% /dev/shm
 /dev/xvdf       976M  2.7M  907M   1% /mnt/f
 ```
 
-
 ## mkfs 時に bytes-per-inode を変更する
 
 - 小さなファイルを大量に作る予定があるのなら bytes-per-inode を指定してファイルシステムを作ると良い
   - Be warned that it is not possible to change this ratio on a filesystem after it is created
 
 > -i bytes-per-inode
-> Specify the bytes/inode ratio.  mke2fs creates an inode  for  every  bytes-per-inode bytes  of space on the disk.  The larger the bytes-per-inode ratio, the fewer inodes will be created.  This value generally shouldn't be smaller than  the  blocksize  of the filesystem, since in that case more inodes would be made than can ever be used. Be warned that it is not possible to change this ratio on a filesystem after  it  is created,  so  be  careful  deciding the correct value for this parameter.  Note that resizing a filesystem changes the numer of inodes to maintain this ratio.
+> Specify the bytes/inode ratio. mke2fs creates an inode for every bytes-per-inode bytes of space on the disk. The larger the bytes-per-inode ratio, the fewer inodes will be created. This value generally shouldn't be smaller than the blocksize of the filesystem, since in that case more inodes would be made than can ever be used. Be warned that it is not possible to change this ratio on a filesystem after it is created, so be careful deciding the correct value for this parameter. Note that resizing a filesystem changes the numer of inodes to maintain this ratio.
 > （man mke2fs より引用）
 
 - bytes-per-inode のデフォルトは `/etc/mke2fs.conf` に書いてある
@@ -109,7 +106,6 @@ tmpfs           127132      1  127131    1% /dev/shm
 /dev/xvdb       524288 195265  329023   38% /mnt/b
 /dev/xvdf      1048576     11 1048565    1% /mnt/f
 ```
-
 
 ## そもそも inode にはどんな情報が載っているのか
 
@@ -164,7 +160,6 @@ Change: 2018-04-14 07:29:27.926104696 +0000
 Birth: -
 ```
 
-
 ### debugfs を使って inode に対応するファイルパス一覧を表示する
 
 - `debugfs` を使うと inode にリンクされているパスの一覧を表示できる
@@ -184,10 +179,9 @@ Inode Pathname
 19 //test
 ```
 
-
 ## 参考図書
 
-- [はじめてのOSコードリーディング](https://amzn.to/2HimNoq)
+- [はじめての OS コードリーディング](https://amzn.to/2HimNoq)
 - [Linux カーネル Hacks](https://amzn.to/2qxcC57)
 - [情報科学類 オペレーティングシステム II ファイルシステム](http://www.coins.tsukuba.ac.jp/~yas/coins/os2-2011/2012-02-28/)
 

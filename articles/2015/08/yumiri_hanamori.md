@@ -1,9 +1,8 @@
 ---
-slug: yumiri_hanamori
 title: 花守ゆみりさんがすごい
 category: programming
 date: 2015-08-27 20:02:58
-tags: [イベント,えとたま]
+tags: [イベント, えとたま]
 pinned: false
 ---
 

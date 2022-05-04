@@ -1,5 +1,4 @@
 ---
-slug: scala-trait
 title: Scalaのtraitを解剖してみた
 category: programming
 date: 2015-08-04 20:03:53

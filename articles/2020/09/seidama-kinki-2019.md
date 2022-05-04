@@ -1,5 +1,4 @@
 ---
-slug: seidama-kinki-2019
 title: 声優魂 in 京まふ2019
 category: event
 date: 2019-09-23 02:07:00

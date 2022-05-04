@@ -1,5 +1,4 @@
 ---
-slug: wug-home-tour-chiba-bgm
 title: Wake Up, Girls! HOME ライブツアー 千葉・市原公演の開演前 BGM について
 category: event
 date: 2018-07-14 23:22:43

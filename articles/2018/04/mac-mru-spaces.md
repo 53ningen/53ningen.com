@@ -1,9 +1,8 @@
 ---
-slug: mac-mru-spaces
 title: mac の操作スペースが勝手に並び変わるのを抑止する
 category: programming
 date: 2018-04-21 11:56:51
-tags: [ansible,mac]
+tags: [ansible, mac]
 pinned: false
 ---
 

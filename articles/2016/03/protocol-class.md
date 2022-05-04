@@ -1,5 +1,4 @@
 ---
-slug: protocol-class
 title: class縛り
 category: programming
 date: 2016-03-08 03:32:36

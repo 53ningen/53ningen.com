@@ -1,5 +1,4 @@
 ---
-slug: nc-chat
 title: nc コマンドでチャットする
 category: programming
 date: 2014-08-25 05:36:53

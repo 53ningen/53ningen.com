@@ -1,5 +1,4 @@
 ---
-slug: file-open-rename-unlink
 title: ファイルを open したまま各種システムコールを呼び出すとどうなるか
 category: programming
 date: 2018-03-23 03:57:30

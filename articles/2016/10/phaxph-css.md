@@ -1,5 +1,4 @@
 ---
-slug: phaxph-css
 title: phax/ph-cssを使う
 category: programming
 date: 2016-10-09 19:43:08

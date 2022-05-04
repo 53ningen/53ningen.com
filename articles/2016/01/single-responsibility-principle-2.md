@@ -1,5 +1,4 @@
 ---
-slug: single-responsibility-principle-2
 title: 単一責任の原則（SRP）
 category: programming
 date: 2016-01-26 03:50:00

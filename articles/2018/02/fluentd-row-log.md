@@ -1,5 +1,4 @@
 ---
-slug: fluentd-row-log
 title: fluentd で生ログを転送する
 category: programming
 date: 2018-02-07 21:20:45

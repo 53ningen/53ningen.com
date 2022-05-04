@@ -1,5 +1,4 @@
 ---
-slug: intro-step-functions-local
 title: Step Functions Local を使う
 category: programming
 date: 2020-12-27 13:06:23

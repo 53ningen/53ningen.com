@@ -1,5 +1,4 @@
 ---
-slug: c-plusplus-memo-01
 title: C++メモ
 category: programming
 date: 2016-07-28 17:22:26

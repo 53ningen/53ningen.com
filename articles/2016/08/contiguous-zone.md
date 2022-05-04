@@ -1,5 +1,4 @@
 ---
-slug: contiguous-zone
 title: 接続水域とは...
 category: blog
 date: 2016-08-07 22:07:00

@@ -1,5 +1,4 @@
 ---
-slug: cdk-step-functions
 title: CDK で Step Functions リソースを定義する
 category: programming
 date: 2020-12-27 14:18:29

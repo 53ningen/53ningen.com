@@ -1,5 +1,4 @@
 ---
-slug: scala-stream-2
 title: 遅延リストを作る
 category: programming
 date: 2016-01-10 04:18:33

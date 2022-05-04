@@ -1,15 +1,14 @@
 ---
-slug: play-framework-2-mysql
 title: Play Framework 2でMySQLを利用する
 category: programming
 date: 2014-04-29 15:06:56
-tags: [Scala,Play]
+tags: [Scala, Play]
 pinned: false
 ---
 
-Java + Play framework 2 + JDBC + MySQLでアプリケーションを書くためには、conf/application.confとbuild.sbtに手を加える必要があるようです。次の２ステップの手順をメモしておきます。
+Java + Play framework 2 + JDBC + MySQL でアプリケーションを書くためには、conf/application.conf と build.sbt に手を加える必要があるようです。次の２ステップの手順をメモしておきます。
 
-### conf/application.confの変更
+### conf/application.conf の変更
 
 次のように各項目を変更します。
 
@@ -26,9 +25,9 @@ db.default.password="[PASSWORD]"
 ebean.default="models.*"
 ```
 
-### build.sbtの変更
+### build.sbt の変更
 
-JDBCドライバを組み込むために、Scalaのビルドツール：sbt(simple build tool)の設定ファイルbuild.sbtを書き換えます。
+JDBC ドライバを組み込むために、Scala のビルドツール：sbt(simple build tool)の設定ファイル build.sbt を書き換えます。
 
 ```
 libraryDependencies ++= Seq(
@@ -36,9 +35,9 @@ libraryDependencies ++= Seq(
   javaEbean,
   cache,
   "mysql" % "mysql-connector-java" % "5.1.26"
-)     
+)
 
 play.Project.playJavaSettings
 ```
 
-　
+

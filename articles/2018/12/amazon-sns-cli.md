@@ -1,5 +1,4 @@
 ---
-slug: amazon-sns-cli
 title: Amazon SNS での様々な CLI 操作
 category: programming
 date: 2018-12-14 16:40:31

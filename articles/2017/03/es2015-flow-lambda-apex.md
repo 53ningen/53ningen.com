@@ -1,5 +1,4 @@
 ---
-slug: es2015-flow-lambda-apex
 title: ES2015+Flowなlambda関数をApexで管理する
 category: programming
 date: 2017-03-01 06:24:20

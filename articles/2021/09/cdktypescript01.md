@@ -1,5 +1,4 @@
 ---
-slug: cdktypescript01
 title: 'TypeScript + CDK で理解する AppSync: はじめの一歩'
 category: programming
 date: 2021-09-05 01:57:34

@@ -1,5 +1,4 @@
 ---
-slug: scala-stream
 title: Scalaでストリームを実装する
 category: programming
 date: 2015-05-08 06:54:46

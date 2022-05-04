@@ -1,5 +1,4 @@
 ---
-slug: tailrec
 title: '@tailrec で末尾再帰チェック'
 category: programming
 date: 2015-05-05 19:29:42

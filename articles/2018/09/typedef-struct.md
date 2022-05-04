@@ -1,5 +1,4 @@
 ---
-slug: typedef-struct
 title: struct と typedef struct
 category: programming
 date: 2018-09-19 01:07:20

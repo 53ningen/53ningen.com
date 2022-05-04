@@ -1,5 +1,4 @@
 ---
-slug: green-leaves-fes-2018
 title: Green Leaves Fes. よかった
 category: event
 date: 2018-05-16 22:58:44

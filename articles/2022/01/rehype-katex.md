@@ -1,5 +1,4 @@
 ---
-slug: rehype-katex
 title: react-markdown で数式を表示させる
 category: programming
 date: 2022-01-22 19:57:00

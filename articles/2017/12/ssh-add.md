@@ -1,5 +1,4 @@
 ---
-slug: ssh-add
 title: 多段SSHがうまく通らないとき
 category: programming
 date: 2017-12-26 04:52:33

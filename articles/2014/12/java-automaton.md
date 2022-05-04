@@ -1,5 +1,4 @@
 ---
-slug: java-automaton
 title: Javaでオートマトンを作ろう
 category: programming
 date: 2014-12-30 19:45:27

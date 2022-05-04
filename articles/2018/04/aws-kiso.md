@@ -1,5 +1,4 @@
 ---
-slug: aws-kiso
 title: AWSの基礎知識
 category: programming
 date: 2018-04-02 12:15:00

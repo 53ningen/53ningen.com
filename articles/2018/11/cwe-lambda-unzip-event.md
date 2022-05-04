@@ -1,5 +1,4 @@
 ---
-slug: cwe-lambda-unzip-event
 title: CloudWatch Logs サブスクリプションフィルタにより Lambda に流れ込むイベントのデータをデコードする
 category: programming
 date: 2018-11-06 01:00:25

@@ -1,5 +1,4 @@
 ---
-slug: sns-firehose-s3
 title: SNS-Kinesis Firehose-S3 連携の CloudFormation テンプレート
 category: programming
 date: 2021-01-13 20:38:54

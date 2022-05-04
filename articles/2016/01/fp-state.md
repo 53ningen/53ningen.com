@@ -1,5 +1,4 @@
 ---
-slug: fp-state
 title: 乱数生成を純粋化する
 category: programming
 date: 2016-01-11 03:24:33

@@ -1,5 +1,4 @@
 ---
-slug: cognito-userpool-tutorial
 title: Cognito ユーザープールことはじめ
 category: programming
 date: 2019-10-21 02:53:47

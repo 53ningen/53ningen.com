@@ -1,5 +1,4 @@
 ---
-slug: twipla-attendee
 title: twipla の参加者名とtwitter ID のリストをエクセルファイルに落とし込む
 category: programming
 date: 2019-01-17 20:35:27

@@ -1,5 +1,4 @@
 ---
-slug: cognito-id-tutorial
 title: Cognito ID プールことはじめ
 category: programming
 date: 2019-10-22 03:08:34

@@ -1,5 +1,4 @@
 ---
-slug: docker-handson-1
 title: Docker でドカーンとやるハンズオン 入門編
 category: programming
 date: 2018-09-08 19:17:24

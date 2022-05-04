@@ -1,5 +1,4 @@
 ---
-slug: os-kernel-hello
 title: Hello, OS Kernel
 category: programming
 date: 2021-04-09 03:32:00
@@ -8,7 +7,6 @@ pinned: false
 ---
 
 [ゼロからの OS 自作入門](https://amzn.to/3secKoA) を読みながらカーネルの最初の実装を行うところまでの流れを確認する
-
 
 # Kernel の実装
 
@@ -29,7 +27,6 @@ $ ld.lld -entry KernelMain -z norelro --image-base 0x1000000 --static -o kernel.
 
 このようにして作成した ELF ファイルはただ待機するだけだが、ブートローダーではなく立派な Kernel であるが、そのために実際にマシンで実行するためにはこのカーネルを読み出すブートローダーを実装してやらなければならない
 
-
 # ブートローダーの実装
 
 - 実装は[ここ](https://github.com/uchan-nos/mikanos/blob/45a02699f3704eb73c19e24e644281eccba31a6b/MikanLoaderPkg/Main.c)
@@ -44,7 +41,6 @@ $ ld.lld -entry KernelMain -z norelro --image-base 0x1000000 --static -o kernel.
 - メモリマップ読み出しの話題を第二章で出したのは[ブートサービスを終了し、カーネルの実行へ移る際に必要な処理のための伏線](https://github.com/uchan-nos/mikanos/blob/45a02699f3704eb73c19e24e644281eccba31a6b/MikanLoaderPkg/Main.c#L155-L156)だったということがわかる
   - ブートサービスを終了させる gBS->ExitBootServices は最新のメモリマップのマップキーを引数として要求する
   - マップキーとはメモリマップの状態変化に紐づくキー
-
 
 ## カーネルファイルの読み出しと実行
 
@@ -80,14 +76,12 @@ ELF Header:
 
 脇道にそれてメモった内容を残しておく
 
-
 ## レジスタ
 
-* 大きく分けて次の２つに分類できる
-  * 汎用レジスタ: 一般の計算に使える
-  * 特殊レジスタ: CPU の設定やタイマーなど CPU の機能を制御するために使う
-* CPU のアーキテクチャによりレジスタと演算命令の構成は異なるが x86_64 では 16 個の汎用レジスタがある
-
+- 大きく分けて次の２つに分類できる
+  - 汎用レジスタ: 一般の計算に使える
+  - 特殊レジスタ: CPU の設定やタイマーなど CPU の機能を制御するために使う
+- CPU のアーキテクチャによりレジスタと演算命令の構成は異なるが x86_64 では 16 個の汎用レジスタがある
 
 ## ハードリンクとシンボリックリンク
 

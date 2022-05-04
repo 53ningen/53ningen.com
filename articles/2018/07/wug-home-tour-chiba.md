@@ -1,5 +1,4 @@
 ---
-slug: wug-home-tour-chiba
 title: Wake Up, Girls! HOME ライブツアー 千葉公演レポート
 category: event
 date: 2018-07-16 13:42:08

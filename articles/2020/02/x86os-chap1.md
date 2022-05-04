@@ -1,5 +1,4 @@
 ---
-slug: x86os-chap1
 title: 「作って理解するOS」読書メモ 第1章ハードウェアの基礎
 category: programming
 date: 2020-02-09 23:42:47

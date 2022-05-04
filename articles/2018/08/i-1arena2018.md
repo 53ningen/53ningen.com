@@ -1,5 +1,4 @@
 ---
-slug: i-1arena2018
 title: I-1 アリーナに行ってきた話
 category: event
 date: 2018-08-30 03:37:41

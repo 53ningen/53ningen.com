@@ -1,5 +1,4 @@
 ---
-slug: is-the-order-a-rx-2
 title: ご注文はRxですか?
 category: programming
 date: 2018-07-31 10:08:02

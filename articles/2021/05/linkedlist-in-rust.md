@@ -1,5 +1,4 @@
 ---
-slug: linkedlist-in-rust
 title: Rust で単方向 LinkedList を実装する
 category: programming
 date: 2021-05-05 02:48:16

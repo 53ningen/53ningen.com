@@ -1,5 +1,4 @@
 ---
-slug: 2019-no-owari
 title: 逝く年、くる年 (2019-2020)
 category: blog
 date: 2020-01-13 08:12:00

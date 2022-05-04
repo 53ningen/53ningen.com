@@ -1,5 +1,4 @@
 ---
-slug: hello-golang
 title: Golang ことはじめ
 category: programming
 date: 2019-05-03 06:35:26

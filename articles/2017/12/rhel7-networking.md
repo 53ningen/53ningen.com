@@ -1,5 +1,4 @@
 ---
-slug: rhel7-networking
 title: RHEL7 系のネットワーク設定
 category: programming
 date: 2017-12-28 03:31:30

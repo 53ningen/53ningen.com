@@ -1,5 +1,4 @@
 ---
-slug: rev-sh
 title: シェル上で逆順出力などアレコレ
 category: programming
 date: 2018-07-07 15:00:28

@@ -1,5 +1,4 @@
 ---
-slug: wug-tokushima
 title: Wake Up, Girls! と徳島
 category: event
 date: 2018-10-09 22:53:54

@@ -1,5 +1,4 @@
 ---
-slug: api-gateway-with-iam
 title: API Gateway + IAM 認証を試す
 category: programming
 date: 2019-05-25 04:30:01

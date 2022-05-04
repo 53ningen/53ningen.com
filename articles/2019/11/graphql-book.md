@@ -1,5 +1,4 @@
 ---
-slug: graphql-book
 title: 初めての GraphQL 読書メモ
 category: programming
 date: 2019-11-16 01:34:32

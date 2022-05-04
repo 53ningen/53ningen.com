@@ -1,5 +1,4 @@
 ---
-slug: assembly01
 title: 定数を返すだけの関数のアセンブリコード
 category: programming
 date: 2016-05-03 23:08:24

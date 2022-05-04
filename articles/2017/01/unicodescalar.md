@@ -1,5 +1,4 @@
 ---
-slug: unicodescalar
 title: UnicodeScalar とは?
 category: programming
 date: 2017-01-04 20:47:57

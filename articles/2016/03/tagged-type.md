@@ -1,5 +1,4 @@
 ---
-slug: tagged-type
 title: タグ付けできない休日
 category: programming
 date: 2016-03-07 00:10:55

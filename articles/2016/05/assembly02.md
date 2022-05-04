@@ -1,5 +1,4 @@
 ---
-slug: assembly02
 title: グローバル変数とローカル変数とアセンブリコード
 category: programming
 date: 2016-05-04 00:57:32

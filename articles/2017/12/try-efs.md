@@ -1,9 +1,8 @@
 ---
-slug: try-efs
 title: EFS を使ってみる
 category: programming
 date: 2017-12-25 15:00:27
-tags: [AWS,EFS]
+tags: [AWS, EFS]
 pinned: false
 ---
 
@@ -12,7 +11,7 @@ pinned: false
 
 ```
 $ sudo yum -y update
-$ sudo reboot 
+$ sudo reboot
 
 $ sudo yum -y install nfs-utils
 $ sudo mkdir -p /mnt/nfstest
@@ -25,7 +24,7 @@ tmpfs                                      494M     0  494M   0% /dev/shm
 fs-7cbe1134.efs.us-east-1.amazonaws.com:/  8.0E     0  8.0E   0% /mnt/nfstest
 ```
 
-- 起動時にマウントさせる方法は次の2つがある
+- 起動時にマウントさせる方法は次の 2 つがある
   - fstab に追加する
   - EC2 UserData をつかう
   - 詳細は [自動的にマウントする - Amazon Elastic File System](https://docs.aws.amazon.com/ja_jp/efs/latest/ug/mount-fs-auto-mount-onreboot.html) を参照

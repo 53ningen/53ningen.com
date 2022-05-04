@@ -1,5 +1,4 @@
 ---
-slug: hello-world-in-elastic-beanstalk
 title: Hello, World! in Elastic Beanstalk
 category: programming
 date: 2018-12-12 02:41:47

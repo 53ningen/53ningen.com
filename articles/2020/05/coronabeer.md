@@ -1,5 +1,4 @@
 ---
-slug: coronabeer
 title: ライブ・イベントの再開方法を考える
 category: event
 date: 2020-05-12 01:39:00

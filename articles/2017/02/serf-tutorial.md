@@ -1,16 +1,14 @@
 ---
-slug: serf-tutorial
 title: serf を試す
 category: programming
 date: 2017-02-03 06:15:10
-tags: [serf,HashiCorp]
+tags: [serf, HashiCorp]
 pinned: false
 ---
 
-
-* serf で /etc/hosts とか config の更新とかをクラスタ全台にサクッと反映させたい
-* でも serf そのものがよくわからんのでまずは　hello, world から
-* 資料は https://www.serf.io/intro/getting-started/install.html
+- serf で /etc/hosts とか config の更新とかをクラスタ全台にサクッと反映させたい
+- でも serf そのものがよくわからんのでまずは　 hello, world から
+- 資料は https://www.serf.io/intro/getting-started/install.html
 
 ```
 # serf の導入
@@ -27,7 +25,7 @@ $ serf agent -node=node01 -bind=10.28.64.107 &
 $ serf agent -node=node01 -bind=10.28.64.108 &
 $ serf join 10.28.64.107
 
-$ serf members 
+$ serf members
 node02  10.28.64.107:7946  alive
 node01  10.28.64.108:7946  alive
 
@@ -53,10 +51,10 @@ $ serf monitor
 2017/02/03 05:51:53 [INFO] agent.ipc: Accepted client: 127.0.0.1:40231
 ```
 
-* ご覧のように、全台に簡単に通知を飛ばせる
-* この通知をフックして、更新をするシェルスクリプトを仕込めば /etc/hosts の更新や config の更新がお手軽にできる気がする
+- ご覧のように、全台に簡単に通知を飛ばせる
+- この通知をフックして、更新をするシェルスクリプトを仕込めば /etc/hosts の更新や config の更新がお手軽にできる気がする
 
-そこで以下のような簡単なスクリプトを用意（node01, node02に配置）
+そこで以下のような簡単なスクリプトを用意（node01, node02 に配置）
 
 ```sh
 #!/bin/bash

@@ -1,5 +1,4 @@
 ---
-slug: alb-lambda
 title: ALB のバックエンドに Lambda を利用する
 category: programming
 date: 2018-11-30 18:55:34

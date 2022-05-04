@@ -1,5 +1,4 @@
 ---
-slug: sm-invoke-lambda
 title: Lambda 関数を Invoke するだけの State Machine
 category: programming
 date: 2019-03-04 04:35:45

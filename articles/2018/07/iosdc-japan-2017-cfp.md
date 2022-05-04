@@ -1,5 +1,4 @@
 ---
-slug: iosdc-japan-2017-cfp
 title: iOSDC Japan 2017 に CfP を出すときに考えたこと
 category: programming
 date: 2018-07-27 23:24:59

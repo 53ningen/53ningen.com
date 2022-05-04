@@ -1,9 +1,8 @@
 ---
-slug: wake-up-girls-design-manhole
 title: Wake Up, Girls! デザインマンホール巡り
 category: travel
 date: 2018-02-03 22:41:24
-tags: [WUG,仙台]
+tags: [WUG, 仙台]
 pinned: false
 ---
 

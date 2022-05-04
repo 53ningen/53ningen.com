@@ -1,5 +1,4 @@
 ---
-slug: sugoi-swift-imasugu-yameyou
 title: Swift1系脳で出来ないと思い込んでいたことができるようになっていた件
 category: programming
 date: 2016-07-15 02:53:12

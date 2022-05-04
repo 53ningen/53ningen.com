@@ -1,5 +1,4 @@
 ---
-slug: healthplanetapi
 title: Health Planet API で遊ぶ
 category: programming
 date: 2021-12-18 20:25:47

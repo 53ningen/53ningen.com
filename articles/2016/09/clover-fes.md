@@ -1,5 +1,4 @@
 ---
-slug: clover-fes
 title: Clover fes. に行ってきた
 category: event
 date: 2016-09-26 02:17:44

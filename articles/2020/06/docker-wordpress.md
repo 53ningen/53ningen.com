@@ -1,5 +1,4 @@
 ---
-slug: docker-wordpress
 title: WordPress を PHP-FPM, NGINX, MariaDB の Docker イメージ上で動かす
 category: programming
 date: 2020-06-14 01:42:59

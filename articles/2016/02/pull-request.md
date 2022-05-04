@@ -1,5 +1,4 @@
 ---
-slug: pull-request
 title: プルリクエストを便利に取得できるアレ
 category: programming
 date: 2016-02-12 21:19:59

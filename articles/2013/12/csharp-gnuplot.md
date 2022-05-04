@@ -1,5 +1,4 @@
 ---
-slug: csharp-gnuplot
 title: C#から2次元データファイルをGNUPLOTでプロットさせる
 category: programming
 date: 2013-12-23 11:23:27

@@ -1,5 +1,4 @@
 ---
-slug: sam-lambda-layers
 title: SAM(Serverless Application Model) と Lambda Layers
 category: programming
 date: 2019-03-30 03:40:30

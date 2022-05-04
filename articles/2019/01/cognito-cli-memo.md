@@ -1,5 +1,4 @@
 ---
-slug: cognito-cli-memo
 title: Cognito CLI メモ
 category: programming
 date: 2019-01-17 23:15:31

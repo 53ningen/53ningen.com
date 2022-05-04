@@ -1,5 +1,4 @@
 ---
-slug: wordpress-resize-with-gd
 title: Wordpress のメディアに画像をアップロードする際にサムネイルや中・大サイズが生成されない問題
 category: programming
 date: 2018-02-11 21:57:16

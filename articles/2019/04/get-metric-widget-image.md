@@ -1,5 +1,4 @@
 ---
-slug: get-metric-widget-image
 title: CloudWatch メトリクスのグラフを AWS CLI から取得する
 category: programming
 date: 2019-04-02 23:28:40

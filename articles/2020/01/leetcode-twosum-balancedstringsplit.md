@@ -1,5 +1,4 @@
 ---
-slug: leetcode-twosum-balancedstringsplit
 title: 'LeetCode: TwoSum, BalancedStringSplit'
 category: programming
 date: 2020-01-05 01:57:05

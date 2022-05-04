@@ -1,5 +1,4 @@
 ---
-slug: nextjs-tutorial
 title: Next.js のチュートリアルを進めた記録
 category: programming
 date: 2020-03-20 19:40:10

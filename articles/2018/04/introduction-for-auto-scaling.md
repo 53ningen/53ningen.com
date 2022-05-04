@@ -1,9 +1,8 @@
 ---
-slug: introduction-for-auto-scaling
 title: Auto Scaling に関する各種概念の整理
 category: programming
 date: 2018-04-08 23:42:46
-tags: [AWS,EC2,ELB]
+tags: [AWS, EC2, ELB]
 pinned: false
 ---
 
@@ -16,7 +15,6 @@ pinned: false
   - Auto Scaling グループ: minimum number of instances, maximum number of instances, desired capacity をパラメタとして設定できる
   - 起動設定: AMI ID, インスタンスタイプ、キーペア、セキュリティグループ、ストレージなど Auto Scaling の際に起動する EC2 インスタンスのテンプレート
   - スケーリング: いつどのようにスケールイン・アウトするかを定めるルール設定
-
 
 ## 起動設定とは
 
@@ -32,26 +30,30 @@ pinned: false
 - **グループを作成したあとに起動設定を変更できない**
   - Auto Scaling グループ作成時には起動設定/起動テンプレート/EC2 インスタンスのいずれか用途にマッチするものを指定する
 
-
 ## 基本的な Auto Scaling の構成
 
 ひとまず基本的な Auto Scaling の設定をしてみる
 
 1. 起動テンプレートを作成する
-  - 起動する AMI、セキュリティグループなどを指定する
-  - 起動設定はあとから編集できない点に注意
+
+- 起動する AMI、セキュリティグループなどを指定する
+- 起動設定はあとから編集できない点に注意
+
 2. Auto Scaling グループを作成する
-  - 今回は min=2, desired=2, max=4 で指定
-  - グループを作るとインスタンスが 2 つ立ち上がる
+
+- 今回は min=2, desired=2, max=4 で指定
+- グループを作るとインスタンスが 2 つ立ち上がる
+
 3. ALB を作成し、target group を作成
-  - target group は一旦、空のままで良い
+
+- target group は一旦、空のままで良い
+
 4. ALB に設定した target group に Auto Scaling グループをアタッチ
 
-
-### 実験1: desired size の変更による手動スケーリング
+### 実験 1: desired size の変更による手動スケーリング
 
 - desired size を変更することにより手動でスケーリングできる
-- マネジメントコンソールやCLIなどでこの値を変更すると基本的には即座にそれに従い適切にスケーリングが行われる
+- マネジメントコンソールや CLI などでこの値を変更すると基本的には即座にそれに従い適切にスケーリングが行われる
 - 下記は desired size を 1 から 2 に変更した際のログです
 
 ```
@@ -63,14 +65,13 @@ Launching a new EC2 instance: i-.......
 原因:At 2018-04-07T08:11:29Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 1 to 2.
 ```
 
-
-### 実験2: Auto Scaling Group に属するインスタンスを停止してみる
+### 実験 2: Auto Scaling Group に属するインスタンスを停止してみる
 
 - 障害を想定して、Auto Scaling グループに属するインスタンスを停止してみる
   - Auto Scaling の機能により、新たなインスタンスを起動し、ヘルスチェックに失敗したインスタンスを削除する動きとなる
   - デフォルトである EC2 に対するヘルスチェック内容は[このドキュメント](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/monitoring-system-instance-status-check.html)に記載してある
 - 下記は desired size が 2 で立ち上がっているインスタンスが 2 つのときに片系を停止したときのログです
-  - 片方を殺すと新たに1つ立ち上がって、desired の 2 インスタンスを保とうとする
+  - 片方を殺すと新たに 1 つ立ち上がって、desired の 2 インスタンスを保とうとする
 
 ```
 成功
@@ -81,16 +82,14 @@ Launching a new EC2 instance: i-..........
 原因:At 2018-04-08T05:53:47Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 1 to 2.
 ```
 
-
-### 実験3: Auto Scaling Group に属するインスタンスの Apache を停止してみる
+### 実験 3: Auto Scaling Group に属するインスタンスの Apache を停止してみる
 
 - 多くの場合、Auto Scaling Group を Application Load Balancer の Target Group として構成する
-- 実験2 で設定した Auto Scaling Group の ヘルスチェックタイプ は EC2 の基本的な稼働状況をチェックするものであり、例えば httpd が落ちていてもヘルスチェックは通る
+- 実験 2 で設定した Auto Scaling Group の ヘルスチェックタイプ は EC2 の基本的な稼働状況をチェックするものであり、例えば httpd が落ちていてもヘルスチェックは通る
 - ヘルスチェックタイプを ELB と指定することにより ELB のヘルスチェックに落ちたインスタンスを Unhealthy とみなしてくれる
-  - ALB に設定したヘルスチェックはWebサーバーであればたいてい 80 や 443 ポートを監視するものなので、アプリケーションの動作ベースでのヘルスチェックができる
+  - ALB に設定したヘルスチェックは Web サーバーであればたいてい 80 や 443 ポートを監視するものなので、アプリケーションの動作ベースでのヘルスチェックができる
 
 > 参考資料: [EC2 vs. ELB Health Check on an Auto Scaling Group](https://kylewbanks.com/blog/ec2-vs-elb-health-check-on-an-auto-scaling-group)
-
 
 ```
 - 成功
@@ -108,8 +107,7 @@ Launching a new EC2 instance: i-........
 原因:At 2018-04-08T05:39:55Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 1 to 2.
 ```
 
-
-### 実験4: Load Average 上昇時にスケールアウトさせる
+### 実験 4: Load Average 上昇時にスケールアウトさせる
 
 - スケーリングポリシーに CPU 使用率によるスケールアウトルールを追加したのち、インスタンスに負荷をかけてみる
   - `yes >> /dev/null &` で CPU をガシガシ使うとスケールアウトしてくれて楽しい
@@ -164,14 +162,15 @@ Terminating EC2 instance: i-......
 - Scaling Policy Limits
   - Step adjustments per scaling policy: 20
 
-
 ## ELB + EC2 Auto Scaling のふるまいメモ
+
 ### ログへの IP アドレス出力
 
 - ALB を利用しているときの各インスタンス配下の Apache の実際のアクセスログ一例は以下のようなもの
+
   - IP は ALB のものが出力される
   - リクエストヘッダに RealIP が入っているのでアクセスログを良き感じに調整する必要がある [#](https://docs.aws.amazon.com/ja_jp/elasticloadbalancing/latest/classic/x-forwarded-headers.html#x-forwarded-headers)
-  - [remote_addrとかx-forwarded-forとかx-real-ipとか](http://christina04.hatenablog.com/entry/2016/10/25/190000)
+  - [remote_addr とか x-forwarded-for とか x-real-ip とか](http://christina04.hatenablog.com/entry/2016/10/25/190000)
 
   ```
   [maintainer@gomi-web01 ~]$ curl checkip.amazonaws.com

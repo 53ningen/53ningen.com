@@ -1,5 +1,4 @@
 ---
-slug: km-hello-world
 title: Hello, World カーネルモジュール
 category: programming
 date: 2018-06-03 13:07:08

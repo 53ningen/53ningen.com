@@ -1,9 +1,8 @@
 ---
-slug: pyenv-virtualenv-installation-playbook-memo
 title: pyenv/virtualenv installation playbook
 category: programming
 date: 2018-12-06 19:01:30
-tags: [virtualenv,python]
+tags: [virtualenv, python]
 pinned: false
 ---
 

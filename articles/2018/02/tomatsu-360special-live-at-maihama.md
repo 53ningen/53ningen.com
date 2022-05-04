@@ -1,5 +1,4 @@
 ---
-slug: tomatsu-360special-live-at-maihama
 title: 戸松遥 360°SPECIAL LIVE at 舞浜アンフィシアターに行ってきた
 category: event
 date: 2018-02-26 01:22:16

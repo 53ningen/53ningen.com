@@ -1,5 +1,4 @@
 ---
-slug: php-7-x-config-option
 title: php 7.x の configure オプション
 category: programming
 date: 2017-11-28 03:45:05

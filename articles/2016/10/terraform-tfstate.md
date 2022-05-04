@@ -1,5 +1,4 @@
 ---
-slug: terraform-tfstate
 title: 複数環境に対応する terraform のディレクトリ構成と tfstate の管理
 category: programming
 date: 2016-10-05 03:34:41

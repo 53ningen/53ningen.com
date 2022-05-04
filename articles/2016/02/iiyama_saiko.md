@@ -1,5 +1,4 @@
 ---
-slug: iiyama_saiko
 title: 飯山市とふるさと納税は最高
 category: blog
 date: 2016-02-07 10:41:04

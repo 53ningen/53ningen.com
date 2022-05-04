@@ -1,5 +1,4 @@
 ---
-slug: redirector-5min-recipe
 title: 5分で立てるリダイレクタ
 category: programming
 date: 2018-11-16 01:08:23

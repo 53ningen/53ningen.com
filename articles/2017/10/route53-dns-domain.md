@@ -1,5 +1,4 @@
 ---
-slug: route53-dns-domain
 title: Route53へのDNSとドメインの移行
 category: programming
 date: 2017-10-21 04:55:32

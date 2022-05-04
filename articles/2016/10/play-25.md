@@ -1,5 +1,4 @@
 ---
-slug: play-25
 title: play 2.5 のアレコレ
 category: programming
 date: 2016-10-24 04:56:18

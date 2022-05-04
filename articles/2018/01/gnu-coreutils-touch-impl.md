@@ -1,5 +1,4 @@
 ---
-slug: gnu-coreutils-touch-impl
 title: GNU-Coreutils touch コマンドの実装を読む
 category: programming
 date: 2018-01-28 16:43:57

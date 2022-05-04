@@ -1,5 +1,4 @@
 ---
-slug: xamarin-ios-non-storyboard
 title: Xamarin.iOSでのストーリーボードを使わない開発
 category: programming
 date: 2017-11-17 05:29:25

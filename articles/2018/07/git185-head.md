@@ -1,5 +1,4 @@
 ---
-slug: git185-head
 title: git 1.8.5 で HEAD が @ と書けるようになっていた
 category: programming
 date: 2018-07-08 00:33:10

@@ -1,9 +1,8 @@
 ---
-slug: immutable
 title: Immutable パターン
 category: programming
 date: 2016-05-16 22:12:03
-tags: [Java,デザインパターン]
+tags: [Java, デザインパターン]
 pinned: false
 ---
 

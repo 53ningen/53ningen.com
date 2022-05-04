@@ -1,5 +1,4 @@
 ---
-slug: netcore21-lambda-macos
 title: macOS から .NET Core 2.1 の AWS Lambda 関数を作成する
 category: programming
 date: 2018-10-19 02:25:30

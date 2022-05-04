@@ -1,5 +1,4 @@
 ---
-slug: samdev-memo
 title: serverless-application-model & sam-cli コードリーディングメモ
 category: programming
 date: 2019-08-01 01:13:25

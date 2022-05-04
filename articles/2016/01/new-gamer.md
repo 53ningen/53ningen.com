@@ -1,5 +1,4 @@
 ---
-slug: new-gamer
 title: ノストラダムスの大予言
 category: blog
 date: 2016-01-16 18:31:00

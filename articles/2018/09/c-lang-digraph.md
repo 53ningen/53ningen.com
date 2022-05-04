@@ -1,5 +1,4 @@
 ---
-slug: c-lang-digraph
 title: C 言語のダイグラフ
 category: programming
 date: 2018-09-17 19:23:43

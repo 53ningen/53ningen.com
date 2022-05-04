@@ -1,5 +1,4 @@
 ---
-slug: sns-fcm-ios-mobile-push
 title: SNS から FCM の iOS デバイスにメッセージを送信する
 category: programming
 date: 2019-03-01 03:55:05

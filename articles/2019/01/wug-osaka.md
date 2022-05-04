@@ -1,5 +1,4 @@
 ---
-slug: wug-osaka
 title: Wake Up, Girls! と大阪
 category: travel
 date: 2019-01-09 00:30:31

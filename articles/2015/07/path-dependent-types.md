@@ -1,5 +1,4 @@
 ---
-slug: path-dependent-types
 title: Scalaの経路依存型（path-dependent type）とは？
 category: programming
 date: 2015-07-27 19:40:14

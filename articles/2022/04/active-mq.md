@@ -1,5 +1,4 @@
 ---
-slug: active-mq
 title: ActiveMQ の基本的な操作
 category: programming
 date: 2022-04-12 23:24:00

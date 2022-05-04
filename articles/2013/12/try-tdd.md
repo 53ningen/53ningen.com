@@ -1,5 +1,4 @@
 ---
-slug: try-tdd
 title: テスト駆動開発をやってみる会に参加してきた
 category: programming
 date: 2013-12-13 23:52:58
