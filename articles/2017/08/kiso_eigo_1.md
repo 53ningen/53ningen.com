@@ -20,9 +20,8 @@ pinned: false
 - would you be open to -ing: 〜ということにしてもよいですか？
 - it doesn't match the product: 製品にあっていない（あっていないが、お前が悪いという印象を与えない）
 - We have an interview request that would be great PR => will be だと確信をもって「良い PR になる」 とつたえることいになる
-  - We have <**\*\***> request という表現も良いな〜
+  - We have ... request という表現も良いな〜
 - We can't give you too much more information at this stage
   - at this stage => 現時点では
 - Trust me, it will be a helpful, cutting-edge product.
   - cutting-edge product => 最先端の
--
