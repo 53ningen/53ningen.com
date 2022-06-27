@@ -1,5 +1,5 @@
 import LinkIcon from '@mui/icons-material/Link'
-import { Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import { styled } from '@mui/system'
 import 'katex/dist/katex.min.css'
 import md5 from 'md5'
@@ -56,16 +56,41 @@ export const Markdown: React.FC<Props> = ({ content, isPreview }) => {
         },
         ul: ({ children, depth, ...props }) =>
           depth === 0 ? (
-            <ul {...props} style={{ paddingLeft: '1em' }}>
-              {children}
-            </ul>
+            <Box mb={4}>
+              <ul
+                style={{ marginTop: 0, paddingTop: 0, paddingLeft: '1em' }}
+                {...props}>
+                {children}
+              </ul>
+            </Box>
           ) : (
-            <ul {...props} style={{ paddingLeft: 0, marginLeft: '1em' }}>
+            <ul
+              style={{
+                marginTop: 0,
+                paddingTop: 0,
+                paddingLeft: 0,
+                marginLeft: '1em',
+              }}>
               {children}
             </ul>
           ),
-        li: ({ children }) => (
-          <li style={{ textAlign: 'justify' }}>{children}</li>
+        ol: ({ children, depth, ...props }) =>
+          depth === 0 ? (
+            <Box mb={4}>
+              <ol style={{ paddingLeft: '1em' }} {...props}>
+                {children}
+              </ol>
+            </Box>
+          ) : (
+            <ol style={{ paddingLeft: 0, marginLeft: '1em' }}>{children}</ol>
+          ),
+        li: ({ children, ...props }) => (
+          <li
+            style={{ textAlign: 'justify' }}
+            key={children?.toString()}
+            {...props}>
+            {children}
+          </li>
         ),
         h1: ({ children }) => headerElement('h1', children, isPreview),
         h2: ({ children }) => headerElement('h2', children, isPreview),
@@ -74,7 +99,12 @@ export const Markdown: React.FC<Props> = ({ content, isPreview }) => {
         h5: ({ children }) => headerElement('h5', children, isPreview),
         h6: ({ children }) => headerElement('h6', children, isPreview),
         p: ({ children }) => (
-          <Typography textAlign="justify">{children}</Typography>
+          <Typography paragraph textAlign="justify" pb={2}>
+            {children}
+          </Typography>
+        ),
+        blockquote: ({ children }) => (
+          <blockquote style={{ paddingBottom: '-30px' }}>{children}</blockquote>
         ),
       }}>
       {content}
@@ -89,20 +119,15 @@ const headerElement = (
   children: React.ReactNode & React.ReactNode[],
   isPreview?: boolean
 ) => {
-  const pt = (variant: Variant) => {
-    switch (variant) {
-      case 'h1' || 'h2':
-        return 6
-      case 'h3':
-        return 4
-      default:
-        return 2
-    }
-  }
   const id = md5(variant + children[0]).slice(0, 6)
   if (isPreview) {
     return (
-      <Typography variant={variant} pt={pt(variant)}>
+      <Typography
+        variant={variant}
+        pt={1}
+        pb={1}
+        borderBottom={variant === 'h1' ? 1 : 0}
+        borderColor="silver">
         {children}
       </Typography>
     )
@@ -123,7 +148,13 @@ const headerElement = (
     return (
       <>
         <A className="headers" href={`#${id}`}>
-          <Typography id={id} variant={variant} pt={pt(variant)}>
+          <Typography
+            id={id}
+            variant={variant}
+            pt={1}
+            pb={1}
+            borderBottom={variant === 'h1' ? 1 : 0}
+            borderColor="silver">
             {children}
             <Icon color="disabled" fontSize="inherit" />
           </Typography>

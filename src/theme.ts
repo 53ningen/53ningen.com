@@ -20,17 +20,44 @@ const theme = createTheme({
     },
   },
   typography: {
+    fontSize: 14,
+    fontWeightRegular: 400,
     h1: {
-      fontSize: '3rem',
+      fontSize: 24,
+      fontWeight: 800,
+      overflowWrap: 'anywhere',
     },
     h2: {
-      fontSize: '2rem',
+      fontSize: 24,
+      fontWeight: 750,
+      overflowWrap: 'anywhere',
     },
     h3: {
-      fontSize: '1.8rem',
+      fontSize: 22,
+      fontWeight: 700,
+      overflowWrap: 'anywhere',
     },
     h4: {
-      fontSize: '1.5rem',
+      fontSize: 20,
+      fontWeight: 650,
+      overflowWrap: 'anywhere',
+    },
+    h5: {
+      fontSize: 18,
+      fontWeight: 600,
+      overflowWrap: 'anywhere',
+    },
+    h6: {
+      fontSize: 16,
+      fontWeight: 550,
+      overflowWrap: 'anywhere',
+    },
+    body1: {
+      fontSize: 14,
+      overflowWrap: 'break-word',
+    },
+    button: {
+      textTransform: 'none',
     },
   },
   components: {
