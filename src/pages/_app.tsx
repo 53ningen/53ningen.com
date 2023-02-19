@@ -1,17 +1,22 @@
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
+import { AuthProvider } from '@/context/AuthContext'
 import { CacheProvider, EmotionCache } from '@emotion/react'
 import { Container } from '@mui/material'
 import CssBaseline from '@mui/material/CssBaseline'
 import { ThemeProvider } from '@mui/material/styles'
+import { Amplify } from 'aws-amplify'
 import 'github-markdown-css/github-markdown.css'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
+import awsExports from '../aws-exports'
 import createEmotionCache from '../createEmotionCache'
 import * as gtag from '../lib/gtag'
 import theme from '../theme'
+
+Amplify.configure({ ...awsExports })
 
 const clientSideEmotionCache = createEmotionCache()
 
@@ -41,12 +46,14 @@ export default function MyApp(props: MyAppProps) {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Header />
-        <Container maxWidth="lg" disableGutters>
-          <Component {...pageProps} />
-        </Container>
-        <Footer />
+        <AuthProvider>
+          <CssBaseline />
+          <Header />
+          <Container maxWidth="lg" disableGutters>
+            <Component {...pageProps} />
+          </Container>
+          <Footer />
+        </AuthProvider>
       </ThemeProvider>
     </CacheProvider>
   )

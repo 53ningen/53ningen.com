@@ -13,6 +13,7 @@ export const Meta = ({ title, description = Const.siteDescription }: MetaProps) 
       <meta property="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
+      <meta property="og:image" content={`${Const.siteUrl}/favicon192x192.jpg`} />
       <meta name="twitter:card" content="summary" />
     </Head>
   )

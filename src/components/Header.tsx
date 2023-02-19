@@ -2,13 +2,14 @@ import { Const } from '@/const'
 import {
   AppBar,
   Avatar,
+  Box,
   Container,
   IconButton,
-  Stack,
   Toolbar,
   Typography,
 } from '@mui/material'
 import Link from './Link'
+import { LoginButton } from './LoginButton'
 
 export const Header = () => {
   return (
@@ -16,16 +17,17 @@ export const Header = () => {
       <AppBar position="fixed">
         <Container maxWidth="lg" disableGutters>
           <Toolbar>
-            <Stack direction="row" spacing={1} alignItems="center">
-              <IconButton href="/">
+            <Box alignItems="center" sx={{ flexGrow: 1 }} display="flex">
+              <IconButton href="/" sx={{ pr: 2 }}>
                 <Avatar src="/favicon192x192.jpg" sx={{ width: 32, height: 32 }} />
               </IconButton>
-              <Typography variant="h3" component="h1">
+              <Typography variant="h3" component="div" sx={{ flexGrow: 1 }}>
                 <Link href="/" color="inherit">
                   {Const.siteTitle}
                 </Link>
               </Typography>
-            </Stack>
+              <LoginButton />
+            </Box>
           </Toolbar>
         </Container>
       </AppBar>

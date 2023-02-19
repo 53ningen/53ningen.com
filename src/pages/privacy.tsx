@@ -14,7 +14,7 @@ const Privacy = () => {
             </Typography>
           </Stack>
           <Paper>
-            <Box px={{ xs: 1, sm: 4, md: 8 }}>
+            <Box px={{ xs: 1, sm: 4, md: 8 }} py={2}>
               <Stack spacing={4}>
                 <Typography>
                   53ningen.com（以下、「当サイト」と言います。）では、お客様からお預かりする個人情報の重要性を強く認識しており、個人情報の保護に関する法律、その他の関係法令を遵守すると共に、以下に定めるプライバシーポリシーに従って、個人情報を安全かつ適切に取り扱うことを宣言します。

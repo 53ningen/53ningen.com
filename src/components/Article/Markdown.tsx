@@ -92,7 +92,7 @@ export const Markdown = ({ body }: Props) => {
                 {children}
               </ul>
             ),
-          ol: ({ children, depth, ...props }) =>
+          ol: ({ children, ordered, depth, ...props }) =>
             depth === 0 ? (
               <Box py={2}>
                 <ol

@@ -1,4 +1,6 @@
 import { Const } from '@/const'
+import { useAuth } from '@/context/AuthContext'
+import { Edit } from '@mui/icons-material'
 import { Box, Skeleton, Stack, Typography } from '@mui/material'
 import { CategoryChip } from '../Chip/CategoryChip'
 import { CreatedDateChip } from '../Chip/CreatedDateChip'
@@ -12,15 +14,23 @@ type Props = {
 }
 
 export const ArticleMetadata = ({ meta }: Props) => {
+  const { isLoggedIn, initialized } = useAuth()
   const created = Const.ISO8601toDateTimeString(meta?.createdAt)
   const updated = Const.ISO8601toDateTimeString(meta?.updatedAt)
   return (
     <Stack spacing={1} px={{ xs: 2, sm: 2, md: 4 }} py={4}>
       <Typography variant="h1">
         {meta ? (
-          <Link href={`/${meta.slug}`} color="inherit">
-            {meta.title}
-          </Link>
+          <Stack direction="row" spacing={1}>
+            <Link href={`/${meta.slug}`} color="inherit">
+              {meta.title}
+            </Link>
+            {initialized && isLoggedIn() && (
+              <Link href={`/${meta.slug}/edit`}>
+                <Edit fontSize="small" />
+              </Link>
+            )}
+          </Stack>
         ) : (
           <Skeleton width="80%" />
         )}
