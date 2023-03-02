@@ -11,8 +11,9 @@ export const Const = {
   tokikenUrl: 'https://tokiken.com',
   circleUrl: 'https://circle.53ningen.com',
   reservedSlugs: ['tags', 'categories', 'archives', 'pages', 'etc'],
-  revalidatePreGeneratedArticleSec: 5 * 60,
-  revalidateNonPreGeneratedArticleSec: 10 * 60,
+  revalidateImportPageSec: 1 * 60,
+  revalidateListPageSec: 60 * 60,
+  revalidateNotFoundPageSec: 30 * 60,
   articlesPerPage: 20,
   ISO8601toDateTimeString: (dt?: string) => {
     return dt ? format(new Date(dt), 'yyyy-MM-dd HH:mm') : ''

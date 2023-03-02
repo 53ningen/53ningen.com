@@ -4,10 +4,11 @@ import { ArticleBody } from '../Article/ArticleBody'
 type Props = {
   body: string
   preview: boolean
+  disabled: boolean
   onChangeBody: (body: string) => void
 }
 
-export const BodyEditor = ({ body, preview, onChangeBody }: Props) => {
+export const BodyEditor = ({ body, preview, disabled, onChangeBody }: Props) => {
   return (
     <>
       {preview ? (
@@ -20,6 +21,7 @@ export const BodyEditor = ({ body, preview, onChangeBody }: Props) => {
           minRows={20}
           sx={{ background: 'white' }}
           value={body}
+          disabled={disabled}
           onChange={(e) => onChangeBody(e.target.value)}
         />
       )}

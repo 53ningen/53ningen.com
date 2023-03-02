@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "isolatedModules": false,
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true
+  }
+}

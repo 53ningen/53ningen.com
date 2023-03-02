@@ -1,20 +1,14 @@
-import { Article } from '@/components/Article/Article'
+import { ArticleMeta, listAllArticleMetadata, listAllCategories } from '@/APIWrapper'
 import { ArticleListPage } from '@/components/Article/ArticleListPage'
 import { Meta } from '@/components/Meta'
 import { Const } from '@/const'
-import {
-  fetchAllArticles,
-  fetchAllCategories,
-  fetchAllTags,
-  fetchPinnedArticles,
-} from '@/local'
 import type { GetStaticProps } from 'next'
 
 type Props = {
-  articles: Article[]
-  pinnedArticles: Article[]
-  categories: string[]
+  articles: ArticleMeta[]
+  pinnedArticles: ArticleMeta[]
   tags: string[]
+  categories: string[]
   pages: number
   currentPage: number
 }
@@ -22,8 +16,8 @@ type Props = {
 const Page = ({
   articles,
   pinnedArticles,
-  categories,
   tags,
+  categories,
   pages,
   currentPage,
 }: Props) => {
@@ -46,11 +40,14 @@ const Page = ({
 export default Page
 
 export const getStaticProps: GetStaticProps = async () => {
-  const articles = (await fetchAllArticles()).slice(0, Const.articlesPerPage)
-  const pinnedArticles = await fetchPinnedArticles()
-  const categories = await fetchAllCategories()
-  const tags = (await fetchAllTags()).slice(0, 30)
-  const pages = Math.ceil((await fetchAllArticles()).length / Const.articlesPerPage)
+  const categories = await listAllCategories()
+  const allArticleMeta = await listAllArticleMetadata()
+  const articles = allArticleMeta.slice(0, Const.articlesPerPage)
+  const pinnedArticles = allArticleMeta.filter((a) => a.pinned)
+  const tags = [
+    ...new Set(articles.flatMap((a) => a.tags!.items.flatMap((i) => i!.tagID))),
+  ]
+  const pages = Math.ceil(allArticleMeta.length / Const.articlesPerPage)
   const currentPage = 1
   return {
     props: {
@@ -61,6 +58,6 @@ export const getStaticProps: GetStaticProps = async () => {
       pages,
       currentPage,
     },
-    // revalidate: Const.revalidatePreGeneratedArticleSec,
+    revalidate: Const.revalidateImportPageSec,
   }
 }

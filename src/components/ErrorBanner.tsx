@@ -1,4 +1,4 @@
-import { Alert, Button } from '@mui/material'
+import { Alert, Button, Typography } from '@mui/material'
 import { MouseEventHandler } from 'react'
 
 interface ErrorBannerProps {
@@ -21,7 +21,7 @@ export const ErrorBanner = ({ errorMessage, action, actionName }: ErrorBannerPro
               </Button>
             )
           }>
-          {errorMessage}
+          <Typography variant="subtitle2">{errorMessage}</Typography>
         </Alert>
       )}
     </>

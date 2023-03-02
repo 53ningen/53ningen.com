@@ -1,10 +1,10 @@
+import { ArticleMeta } from '@/APIWrapper'
 import { Stack, Typography } from '@mui/material'
-import { Article } from '../Article/Article'
 import Link from '../Link'
 import { Widget } from '../Widget'
 
 type Props = {
-  items: Article[]
+  items: ArticleMeta[]
 }
 
 export const PinnedArticles = ({ items }: Props) => {

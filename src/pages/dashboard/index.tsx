@@ -28,6 +28,5 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       articles: demoArticles,
     },
-    // revalidate: Const.revalidatePreGeneratedArticleSec,
   }
 }

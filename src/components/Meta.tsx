@@ -4,9 +4,14 @@ import Head from 'next/head'
 interface MetaProps {
   title: string
   description?: string
+  noindex?: boolean
 }
 
-export const Meta = ({ title, description = Const.siteDescription }: MetaProps) => {
+export const Meta = ({
+  title,
+  description = Const.siteDescription,
+  noindex = false,
+}: MetaProps) => {
   return (
     <Head>
       <title>{title}</title>
@@ -15,6 +20,7 @@ export const Meta = ({ title, description = Const.siteDescription }: MetaProps) 
       <meta property="og:description" content={description} />
       <meta property="og:image" content={`${Const.siteUrl}/favicon192x192.jpg`} />
       <meta name="twitter:card" content="summary" />
+      {noindex && <meta name="robots" content="noindex,nofollow,noarchive" />}
     </Head>
   )
 }

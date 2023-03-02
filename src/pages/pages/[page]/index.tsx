@@ -1,22 +1,16 @@
-import { Article } from '@/components/Article/Article'
+import { ArticleMeta, listAllArticleMetadata, listAllCategories } from '@/APIWrapper'
 import { ArticleListPage } from '@/components/Article/ArticleListPage'
 import { Meta } from '@/components/Meta'
 import { Const } from '@/const'
-import {
-  fetchAllArticles,
-  fetchAllCategories,
-  fetchAllTags,
-  fetchPinnedArticles,
-} from '@/local'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 
 type Props = {
-  articles: Article[]
-  pinnedArticles: Article[]
-  categories: string[]
-  tags: string[]
-  pages: number
-  currentPage: number
+  articles?: ArticleMeta[]
+  pinnedArticles?: ArticleMeta[]
+  categories?: string[]
+  tags?: string[]
+  pages?: number
+  currentPage?: number
 }
 
 const Page = ({
@@ -38,7 +32,11 @@ const Page = ({
         pages={pages}
         currentPage={currentPage}
         pagesBasePath="/pages"
-        paths={[{ path: `/pages/${currentPage}`, title: `ページ${currentPage}` }]}
+        paths={
+          currentPage
+            ? [{ path: `/pages/${currentPage}`, title: `ページ${currentPage}` }]
+            : []
+        }
       />
     </>
   )
@@ -47,7 +45,7 @@ const Page = ({
 export default Page
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const all = await fetchAllArticles()
+  const all = await listAllArticleMetadata()
   const pages = [...new Array(Math.ceil(all.length / Const.articlesPerPage))].map(
     (_, i) => (i + 1).toString()
   )
@@ -55,7 +53,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths: pages.map((page) => ({
       params: { page },
     })),
-    fallback: 'blocking',
+    fallback: true,
   }
 }
 
@@ -63,23 +61,33 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const { page: p } = context.params as { page: string }
   const currentPage = parseInt(p)
 
-  const articles = (await fetchAllArticles()).slice(
+  const categories = await listAllCategories()
+  const allArticleMeta = await listAllArticleMetadata()
+  const articles = allArticleMeta.slice(
     Const.articlesPerPage * (currentPage - 1),
     Const.articlesPerPage * currentPage
   )
-  const pinnedArticles = await fetchPinnedArticles()
-  const categories = await fetchAllCategories()
-  const tags = (await fetchAllTags()).slice(0, 30)
-  const pages = Math.ceil((await fetchAllArticles()).length / Const.articlesPerPage)
-  return {
-    props: {
-      articles,
-      pinnedArticles,
-      categories,
-      tags,
-      pages,
-      currentPage,
-    },
-    // revalidate: Const.revalidatePreGeneratedArticleSec,
+  if (articles.length === 0) {
+    return {
+      notFound: true,
+      revalidate: Const.revalidateListPageSec,
+    }
+  } else {
+    const pinnedArticles = allArticleMeta.filter((a) => a.pinned)
+    const tags = [
+      ...new Set(articles.flatMap((a) => a.tags!.items.flatMap((i) => i!.tagID))),
+    ]
+    const pages = Math.ceil(allArticleMeta.length / Const.articlesPerPage)
+    return {
+      props: {
+        articles,
+        pinnedArticles,
+        categories,
+        tags,
+        pages,
+        currentPage,
+      },
+      revalidate: Const.revalidateListPageSec,
+    }
   }
 }

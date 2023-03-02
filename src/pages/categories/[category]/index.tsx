@@ -1,34 +1,39 @@
-import { Article } from '@/components/Article/Article'
+import { ArticleMeta, listAllArticleMetadata, listAllCategories } from '@/APIWrapper'
 import { ArticleListPage } from '@/components/Article/ArticleListPage'
 import { Meta } from '@/components/Meta'
 import { Const } from '@/const'
-import { fetchAllArticles, fetchAllCategories } from '@/local'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 
 type Props = {
-  category: string
-  articles: Article[]
-  categories: string[]
-  pages: number
-  currentPage: number
+  category?: string
+  articles?: ArticleMeta[]
+  categories?: string[]
+  pages?: number
+  currentPage?: number
 }
 
 const Page = ({ category, articles, categories, pages, currentPage }: Props) => {
   return (
     <>
-      <Meta title={`カテゴリ: ${category} の記事一覧 | ${Const.siteSubtitle}`} />
+      {category && (
+        <Meta title={`カテゴリ: ${category} の記事一覧 | ${Const.siteSubtitle}`} />
+      )}
       <ArticleListPage
         articles={articles}
         categories={categories}
         pages={pages}
         currentPage={currentPage}
         pagesBasePath={`/categories/${category}`}
-        paths={[
-          {
-            path: `/categories/${category}`,
-            title: `カテゴリ: ${category}`,
-          },
-        ]}
+        paths={
+          category
+            ? [
+                {
+                  path: `/categories/${category}`,
+                  title: `カテゴリ: ${category}`,
+                },
+              ]
+            : []
+        }
       />
     </>
   )
@@ -37,35 +42,44 @@ const Page = ({ category, articles, categories, pages, currentPage }: Props) => 
 export default Page
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const categories = await fetchAllCategories()
+  const categories = await listAllCategories()
   return {
     paths: categories.map((category) => ({
       params: {
         category,
       },
     })),
-    fallback: 'blocking',
+    fallback: true,
   }
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const { category } = context.params as { category: string }
   const currentPage = 1
-  const all = (await fetchAllArticles()).filter((a) => a.category === category)
-  const articles = all.slice(
+  const allArticleMeta = (await listAllArticleMetadata()).filter(
+    (a) => a.category.id === category
+  )
+  const articles = allArticleMeta.slice(
     Const.articlesPerPage * (currentPage - 1),
     Const.articlesPerPage * currentPage
   )
-  const categories = await fetchAllCategories()
-  const pages = Math.ceil(all.length / Const.articlesPerPage)
-  return {
-    props: {
-      category,
-      articles,
-      categories,
-      pages,
-      currentPage,
-    },
-    // revalidate: Const.revalidatePreGeneratedArticleSec,
+  if (articles.length === 0) {
+    return {
+      notFound: true,
+      revalidate: Const.revalidateListPageSec,
+    }
+  } else {
+    const pages = Math.ceil(allArticleMeta.length / Const.articlesPerPage)
+    const categories = await listAllCategories()
+    return {
+      props: {
+        category,
+        articles,
+        categories,
+        pages,
+        currentPage,
+      },
+      revalidate: Const.revalidateListPageSec,
+    }
   }
 }

@@ -1,16 +1,16 @@
+import { Article } from '@/API'
 import { Const } from '@/const'
 import { useAuth } from '@/context/AuthContext'
-import { Edit } from '@mui/icons-material'
+import Edit from '@mui/icons-material/Edit'
 import { Box, Skeleton, Stack, Typography } from '@mui/material'
 import { CategoryChip } from '../Chip/CategoryChip'
 import { CreatedDateChip } from '../Chip/CreatedDateChip'
 import { TagChip } from '../Chip/TagChip'
 import { UpdatedDateChip } from '../Chip/UpdatedDateChip'
 import Link from '../Link'
-import { ArticleMetadata as ArticleMeta } from './Article'
 
 type Props = {
-  meta?: ArticleMeta
+  meta?: Omit<Article, 'body'>
 }
 
 export const ArticleMetadata = ({ meta }: Props) => {
@@ -25,11 +25,9 @@ export const ArticleMetadata = ({ meta }: Props) => {
             <Link href={`/${meta.slug}`} color="inherit">
               {meta.title}
             </Link>
-            {initialized && isLoggedIn() && (
-              <Link href={`/${meta.slug}/edit`}>
-                <Edit fontSize="small" />
-              </Link>
-            )}
+            <Link href={`/${meta.slug}/edit`}>
+              <Edit fontSize="small" />
+            </Link>
           </Stack>
         ) : (
           <Skeleton width="80%" />
@@ -40,10 +38,11 @@ export const ArticleMetadata = ({ meta }: Props) => {
         <UpdatedDateChip updatedAt={updated} />
       </Box>
       <Box lineHeight={2.5}>
-        <CategoryChip category={meta?.category} />
-        {meta?.tags.map((tag) => {
-          return <TagChip key={tag} tag={tag} />
-        })}
+        <CategoryChip category={meta?.category.id} />
+        {meta?.tags?.items &&
+          meta?.tags?.items.map((tag) => {
+            return tag ? <TagChip key={tag.tagID} tag={tag.tagID} /> : <></>
+          })}
       </Box>
     </Stack>
   )

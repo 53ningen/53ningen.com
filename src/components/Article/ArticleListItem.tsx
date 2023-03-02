@@ -1,18 +1,38 @@
+import { ArticleMeta } from '@/APIWrapper'
 import { Const } from '@/const'
-import { Box, Card, Stack, Typography } from '@mui/material'
+import { Box, Card, Skeleton, Stack, Typography } from '@mui/material'
 import { CategoryChip } from '../Chip/CategoryChip'
 import { TagChip } from '../Chip/TagChip'
 import Link from '../Link'
-import { Article } from './Article'
 
 type Props = {
-  article: Article
+  article?: ArticleMeta
 }
 
 export const ArticleListItem = ({ article }: Props) => {
+  if (!article) {
+    return (
+      <Card>
+        <Box p={{ xs: 2, sm: 2, md: 2, lg: 2 }}>
+          <Stack direction="row" spacing={2} alignContent="center" alignItems="center">
+            <Stack spacing={1} width="100%">
+              <Typography variant="caption">
+                <Skeleton width="15%" />
+              </Typography>
+              <Typography variant="h3">
+                <Skeleton width="65%" />
+              </Typography>
+              <Box lineHeight="2rem">
+                <CategoryChip />
+              </Box>
+            </Stack>
+          </Stack>
+        </Box>
+      </Card>
+    )
+  }
+  const icon = '📝'
   const { slug, title, category, tags, createdAt } = article
-  const icons = ['📝']
-  const icon = icons[Math.floor((Math.random() * icons.length) % icons.length)]
   const created = Const.ISO8601toDateTimeString(createdAt)
   return (
     <Card>
@@ -30,9 +50,9 @@ export const ArticleListItem = ({ article }: Props) => {
               </Link>
             </Typography>
             <Box lineHeight="2rem">
-              <CategoryChip category={category} />
-              {tags.map((tag) => {
-                return <TagChip key={tag} tag={tag} />
+              <CategoryChip category={category.id} />
+              {tags?.items.map((tag) => {
+                return <TagChip key={tag!.tagID} tag={tag!.tagID} />
               })}
             </Box>
           </Stack>

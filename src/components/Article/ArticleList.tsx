@@ -1,17 +1,32 @@
+import { ArticleMeta } from '@/APIWrapper'
 import { Stack } from '@mui/material'
-import { Article } from './Article'
 import { ArticleListItem } from './ArticleListItem'
 
 type Props = {
-  items: Article[]
+  items?: ArticleMeta[]
 }
 
 export const ArticleList = ({ items }: Props) => {
   return (
     <Stack spacing={2} maxWidth="100%">
-      {items.map((i) => {
-        return <ArticleListItem key={i.slug} article={i} />
-      })}
+      {items ? (
+        items.map((i) => {
+          return <ArticleListItem key={i.slug} article={i} />
+        })
+      ) : (
+        <>
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+          <ArticleListItem />
+        </>
+      )}
     </Stack>
   )
 }

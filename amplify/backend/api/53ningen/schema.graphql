@@ -1,0 +1,55 @@
+type Article
+  @auth(
+    rules: [
+      { allow: public, provider: iam, operations: [read] }
+      { allow: private, operations: [read] }
+      { allow: owner }
+      { allow: groups, groups: ["admin"], operations: [read, update, delete] }
+    ]
+  )
+  @model(subscriptions: null) {
+  slug: ID! @primaryKey
+  title: String!
+  body: String!
+  description: String
+  pinned: Boolean!
+  category: Category! @belongsTo
+  tags: [Tag] @manyToMany(relationName: "ArticleTags")
+  type: String!
+    @index(
+      name: "articlesByCreatedAt"
+      queryField: "listArticlesOrderByCreatedAt"
+      sortKeyFields: ["createdAt"]
+    )
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type Category
+  @auth(
+    rules: [
+      { allow: public, provider: iam, operations: [read] }
+      { allow: private, operations: [read] }
+      { allow: owner }
+      { allow: groups, groups: ["admin"], operations: [read, update, delete] }
+    ]
+  )
+  @model(subscriptions: null) {
+  id: ID!
+  articles: [Article] @hasMany
+}
+
+type Tag
+  @auth(
+    rules: [
+      { allow: public, provider: iam, operations: [read] }
+      { allow: private, operations: [read] }
+      { allow: owner }
+      { allow: groups, groups: ["admin"], operations: [read, update, delete] }
+    ]
+  )
+  @model(subscriptions: null) {
+  id: ID!
+  articles: [Article] @manyToMany(relationName: "ArticleTags")
+}
+ 
