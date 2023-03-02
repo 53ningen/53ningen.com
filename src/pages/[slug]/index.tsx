@@ -13,19 +13,30 @@ import { GraphQLResult } from '@aws-amplify/api-graphql'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp'
 import { Fab, Stack } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
-import { API, graphqlOperation } from 'aws-amplify'
+import { API, Auth, graphqlOperation } from 'aws-amplify'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 import { useEffect, useState } from 'react'
 
 type Props = {
+  slug?: string
   article?: Article
 }
 
-const Page = ({ article: givenArticle }: Props) => {
+const Page = ({ slug, article: givenArticle }: Props) => {
   const [article, setArticle] = useState<Article | undefined>(givenArticle)
   useEffect(() => {
     setArticle(givenArticle)
   }, [givenArticle])
+  useEffect(() => {
+    ;(async () => {
+      if (slug) {
+        const res = await fetchLatestArticleData(slug)
+        if (res) {
+          setArticle(res)
+        }
+      }
+    })()
+  }, [slug])
   return (
     <>
       {article && (
@@ -83,6 +94,30 @@ const Page = ({ article: givenArticle }: Props) => {
   )
 }
 
+const fetchLatestArticleData = async (slug: string) => {
+  try {
+    const user = await Auth.currentAuthenticatedUser()
+    if (!user) {
+      return undefined
+    }
+  } catch {
+    return undefined
+  }
+  try {
+    const res = (await API.graphql({
+      query: getSlugPageProps,
+      variables: { slug },
+      authMode: 'AMAZON_COGNITO_USER_POOLS',
+    })) as GraphQLResult<GetArticleQuery>
+    if (res.data?.getArticle) {
+      return res.data.getArticle as Article
+    }
+  } catch (e) {
+    console.error(e)
+  }
+  return undefined
+}
+
 export default Page
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -108,6 +143,7 @@ export const getStaticProps: GetStaticProps<Props> = async (context) => {
     const article = res.data.getArticle as Article
     return {
       props: {
+        slug,
         article,
       },
       revalidate: Const.revalidateImportPageSec,
