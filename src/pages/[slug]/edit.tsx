@@ -26,22 +26,21 @@ const Page = ({ slug, article: givenArticle, categories }: Props) => {
   useEffect(() => {
     setArticle(givenArticle)
   }, [givenArticle, router])
-
   return (
     <>
       {article && <Meta title={`edit: ${article.title}`} noindex={true} />}
       <Stack px={{ xs: 2, sm: 2, md: 4 }}>
         <Breadcrumbs
           items={
-            article
+            slug
               ? [
                   {
                     path: `/${slug}`,
-                    title: article?.title === '' ? '(no title)' : article?.title || '',
+                    title: article?.title === '' ? '(no title)' : article?.title || slug,
                   },
                   {
                     path: `/${slug}/edit`,
-                    title: '編集',
+                    title: 'edit',
                   },
                 ]
               : []
