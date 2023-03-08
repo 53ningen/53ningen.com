@@ -4,9 +4,11 @@ import Link from '../Link'
 
 type Props = {
   tag: string
+  editable?: boolean
+  onDelete?: () => Promise<void>
 }
 
-export const TagChip = ({ tag }: Props) => {
+export const TagChip = ({ tag, editable: editable = false, onDelete }: Props) => {
   return (
     <Chip
       key={tag}
@@ -18,6 +20,7 @@ export const TagChip = ({ tag }: Props) => {
       }
       size="small"
       sx={{ mr: 1 }}
+      onDelete={editable ? onDelete : undefined}
     />
   )
 }

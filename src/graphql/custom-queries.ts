@@ -57,6 +57,7 @@ export const getEditPageProps = /* GraphQL */ `
       }
       tags {
         items {
+          id
           tagID
         }
         nextToken

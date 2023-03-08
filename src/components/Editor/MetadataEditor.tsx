@@ -11,31 +11,26 @@ import {
   Stack,
   TextField,
 } from '@mui/material'
-import { TagEditor } from './TagEditor'
 
 type Props = {
   title?: string
-  onChangeTitle: (title: string) => void
-  categories: string[]
   category?: string
-  onChangeCategory: (category: string) => void
-  tags: string[]
-  onChangeTags: (tags: string[]) => void
+  categories?: string[]
+  pinned?: boolean
   disabled: boolean
-  pinned: boolean
+  onChangeTitle: (title: string) => void
+  onChangeCategory: (category: string) => void
   onChangePinned: (pinned: boolean) => void
 }
 
 export const MetadataEditor = ({
   title,
-  onChangeTitle,
-  categories,
   category,
-  onChangeCategory,
-  tags,
-  disabled,
-  onChangeTags,
+  categories,
   pinned,
+  disabled,
+  onChangeTitle,
+  onChangeCategory,
   onChangePinned,
 }: Props) => {
   return (
@@ -79,17 +74,16 @@ export const MetadataEditor = ({
             <FormControlLabel
               control={
                 <Checkbox
-                  checked={pinned}
+                  checked={pinned || false}
                   disabled={disabled}
                   onChange={(e) => onChangePinned(e.target.checked)}
                 />
               }
-              label={pinned ? 'pinned' : 'unpinned'}
+              label={'pinned'}
             />
           </FormGroup>
         </Stack>
       </FormControl>
-      <TagEditor tags={tags} />
     </Stack>
   )
 }

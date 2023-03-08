@@ -383,6 +383,7 @@ export type GetEditPagePropsQuery = {
       __typename: "ModelArticleTagsConnection",
       items:  Array< {
         __typename: "ArticleTags",
+        id: string,
         tagID: string,
       } | null >,
       nextToken?: string | null,

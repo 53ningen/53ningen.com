@@ -1,5 +1,6 @@
 import {
   Article,
+  ArticleTags,
   CreateArticleMutationVariables,
   DeleteArticleMutationVariables,
   UpdateArticleMutationVariables,
@@ -18,6 +19,7 @@ import { useEffect, useState } from 'react'
 import { ErrorBanner } from '../ErrorBanner'
 import { BodyEditor } from './BodyEditor'
 import { MetadataEditor } from './MetadataEditor'
+import { TagEditor } from './TagEditor'
 
 type Props = {
   slug?: string
@@ -36,17 +38,17 @@ export const Editor = ({ slug, article, preview, categories }: Props) => {
   const [errors, setErrors] = useState<string[]>([])
   const [title, setTitle] = useState(article?.title || '')
   const [body, setBody] = useState(article?.body || '')
-  const [category, setCategory] = useState(article?.category.id)
-  const [tags, setTags] = useState(article?.tags?.items?.map((i) => i!.tagID) || [])
   const [pinned, setPinned] = useState(article?.pinned || false)
+  const [category, setCategory] = useState(article?.category.id)
   const [disabled, setDisabled] = useState(true)
+  const [isNewPage, setIsNewPage] = useState(article === undefined)
   useEffect(() => {
     if (article) {
       setTitle(article.title)
       setBody(article.body)
       setCategory(article.category.id)
-      setTags(article.tags!.items.map((i) => i!.tagID))
       setPinned(article.pinned)
+      setIsNewPage(false)
     } else if (categories) {
       setCategory('programming')
     }
@@ -138,16 +140,21 @@ export const Editor = ({ slug, article, preview, categories }: Props) => {
     <Stack spacing={2}>
       <MetadataEditor
         title={title}
-        onChangeTitle={(t) => setTitle(t)}
-        categories={categories || []}
         category={category}
-        onChangeCategory={(c) => setCategory(c)}
-        tags={tags}
-        onChangeTags={(ts) => setTags(ts)}
+        categories={categories || []}
         pinned={pinned}
-        onChangePinned={(p) => setPinned(p)}
         disabled={disabled}
+        onChangeTitle={(t) => setTitle(t)}
+        onChangeCategory={(c) => setCategory(c)}
+        onChangePinned={(p) => setPinned(p)}
       />
+      {slug && !isNewPage && (
+        <TagEditor
+          tags={(article?.tags?.items || []) as ArticleTags[]}
+          slug={slug}
+          disabled={disabled}
+        />
+      )}
       {errors.length > 0 && (
         <Stack spacing={1}>
           {errors.map((e) => (
