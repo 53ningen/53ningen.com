@@ -1,5 +1,15 @@
 import { Article } from '@/components/Article/Article'
-import { demoArticles } from '@/data'
+import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { Meta } from '@/components/Meta'
+import { Const } from '@/const'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Stack,
+  Typography,
+} from '@mui/material'
 import type { GetStaticProps } from 'next'
 
 type Props = {
@@ -18,7 +28,98 @@ type Props = {
 // ・特権ユーザーのみ: 他のユーザーの管理
 // ・特権ユーザーのみ: 他のユーザーの記事管理
 const Page = ({ articles }: Props) => {
-  return <></>
+  return (
+    <>
+      <Meta title={`Dashboard | ${Const.siteSubtitle}`} noindex={true} />
+      <Stack px={{ xs: 2, sm: 2, md: 4 }} spacing={2}>
+        <Breadcrumbs items={[{ path: '/dashboard', title: 'Dashboard' }]} />
+        <Accordion expanded>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header">
+            <Typography>Analytics</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion expanded>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header">
+            <Typography>Posts</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion expanded>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header">
+            <Typography>Categories</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion expanded>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header">
+            <Typography>Uploads</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion expanded>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header">
+            <Typography>Profile</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion expanded disabled>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header">
+            <Typography>Users</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+              malesuada lacus ex, sit amet blandit leo lobortis eget.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+      </Stack>
+    </>
+  )
 }
 
 export default Page
@@ -26,7 +127,7 @@ export default Page
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      articles: demoArticles,
+      articles: [],
     },
   }
 }

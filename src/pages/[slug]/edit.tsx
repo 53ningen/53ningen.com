@@ -48,7 +48,7 @@ const Page = ({ slug, article: givenArticle, categories }: Props) => {
         />
         <Editor slug={slug} article={article} preview={preview} categories={categories} />
       </Stack>
-      <Tooltip title={preview ? '編集' : 'プレビュー'} arrow>
+      <Tooltip title={preview ? 'edit' : 'preview'} arrow>
         <Fab
           color="secondary"
           onClick={() => setPreview(!preview)}
