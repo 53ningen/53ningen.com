@@ -177,3 +177,30 @@ export const saveArticle = /* GraphQL */ `
     }
   }
 `
+
+export const getDocsPageProps = /* GraphQL */ `
+  query GetDocsPageProps(
+    $type: String!
+    $kana: ModelStringKeyConditionInput
+    $sortDirection: ModelSortDirection
+    $filter: ModelDocumentFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listDocumentsOrderByKana(
+      type: $type
+      kana: $kana
+      sortDirection: $sortDirection
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+    ) {
+      items {
+        slug
+        title
+        kana
+      }
+      nextToken
+    }
+  }
+`

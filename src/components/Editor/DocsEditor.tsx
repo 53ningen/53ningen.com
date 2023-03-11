@@ -1,16 +1,11 @@
 import {
-  Article,
-  ArticleTags,
-  CreateArticleMutationVariables,
-  DeleteArticleMutationVariables,
-  UpdateArticleMutationVariables,
+  CreateDocumentMutationVariables,
+  DeleteDocumentMutationVariables,
+  Document,
+  UpdateDocumentMutationVariables,
 } from '@/API'
 import { useAuth } from '@/context/AuthContext'
-import {
-  createArticle,
-  deleteArticle as delArticle,
-  updateArticle,
-} from '@/graphql/mutations'
+import { createDocument, deleteDocument, updateDocument } from '@/graphql/mutations'
 import theme from '@/theme'
 import { Box, Button, Stack } from '@mui/material'
 import { API } from 'aws-amplify'
@@ -18,41 +13,35 @@ import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import { ErrorBanner } from '../ErrorBanner'
 import { BodyEditor } from './BodyEditor'
-import { MetadataEditor } from './MetadataEditor'
-import { TagEditor } from './TagEditor'
+import { DocsMetadataEditor } from './DocsMetadataEditor'
 
 type Props = {
   slug?: string
-  article?: Article
+  document?: Document
   preview: boolean
-  categories?: string[]
 }
 
 const Errors = {
   Unauthenticated: 'Unauthenticated: You must sign in first.',
 }
 
-export const Editor = ({ slug, article, preview, categories }: Props) => {
+export const DocsEditor = ({ slug, document: document, preview }: Props) => {
   const router = useRouter()
   const { isLoggedIn, initialized } = useAuth()
   const [errors, setErrors] = useState<string[]>([])
-  const [title, setTitle] = useState(article?.title || '')
-  const [body, setBody] = useState(article?.body || '')
-  const [pinned, setPinned] = useState(article?.pinned || false)
-  const [category, setCategory] = useState(article?.category.id)
+  const [title, setTitle] = useState(document?.title || '')
+  const [kana, setKana] = useState(document?.kana || '')
+  const [body, setBody] = useState(document?.body || '')
   const [disabled, setDisabled] = useState(true)
-  const [isNewPage, setIsNewPage] = useState(article === undefined)
+  const [isNewPage, setIsNewPage] = useState(document === undefined)
   useEffect(() => {
-    if (article) {
-      setTitle(article.title)
-      setBody(article.body)
-      setCategory(article.category.id)
-      setPinned(article.pinned)
+    if (document) {
+      setTitle(document.title)
+      setBody(document.body)
+      setKana(document.kana)
       setIsNewPage(false)
-    } else if (categories) {
-      setCategory('programming')
     }
-  }, [article, categories])
+  }, [document])
   useEffect(() => {
     if (router.isFallback) {
       setDisabled(true)
@@ -70,37 +59,35 @@ export const Editor = ({ slug, article, preview, categories }: Props) => {
       }
     }
   }, [initialized, isLoggedIn, router])
-  const saveArticle = async () => {
+  const saveDocs = async () => {
     try {
       setDisabled(true)
-      if (article) {
+      if (document) {
         await API.graphql({
-          query: updateArticle,
+          query: updateDocument,
           variables: {
             input: {
-              slug: article?.slug,
+              slug: document?.slug,
+              kana,
               title,
               body,
-              pinned,
-              categoryArticlesId: category,
             },
-          } as UpdateArticleMutationVariables,
-          authMode: 'AMAZON_COGNITO_USER_POOLS',
+          } as UpdateDocumentMutationVariables,
+          authMode: 'AWS_IAM',
         })
       } else {
         await API.graphql({
-          query: createArticle,
+          query: createDocument,
           variables: {
             input: {
               slug,
               title,
+              kana,
               body,
-              pinned,
-              type: 'Article',
-              categoryArticlesId: category,
+              type: 'Document',
             },
-          } as CreateArticleMutationVariables,
-          authMode: 'AMAZON_COGNITO_USER_POOLS',
+          } as CreateDocumentMutationVariables,
+          authMode: 'AWS_IAM',
         })
       }
     } catch (e) {
@@ -111,23 +98,23 @@ export const Editor = ({ slug, article, preview, categories }: Props) => {
     }
   }
   const confirmDelete = async () => {
-    const isOk = window.confirm(`Are you sure you want to delete this article?`)
+    const isOk = window.confirm(`Are you sure you want to delete this document?`)
     if (isOk) {
-      await deleteArticle()
+      await deleteDocs()
       router.push('/')
     }
   }
-  const deleteArticle = async () => {
+  const deleteDocs = async () => {
     try {
       setDisabled(true)
       await API.graphql({
-        query: delArticle,
+        query: deleteDocument,
         variables: {
           input: {
-            slug: article?.slug,
+            slug: document?.slug,
           },
-        } as DeleteArticleMutationVariables,
-        authMode: 'AMAZON_COGNITO_USER_POOLS',
+        } as DeleteDocumentMutationVariables,
+        authMode: 'AWS_IAM',
       })
     } catch (e) {
       console.error(e)
@@ -138,23 +125,13 @@ export const Editor = ({ slug, article, preview, categories }: Props) => {
   }
   return (
     <Stack spacing={2}>
-      <MetadataEditor
+      <DocsMetadataEditor
         title={title}
-        category={category}
-        categories={categories || []}
-        pinned={pinned}
+        kana={kana}
         disabled={disabled}
         onChangeTitle={(t) => setTitle(t)}
-        onChangeCategory={(c) => setCategory(c)}
-        onChangePinned={(p) => setPinned(p)}
+        onChangeKana={(k) => setKana(k)}
       />
-      {slug && !isNewPage && (
-        <TagEditor
-          tags={(article?.tags?.items || []) as ArticleTags[]}
-          slug={slug}
-          disabled={disabled}
-        />
-      )}
       {errors.length > 0 && (
         <Stack spacing={1}>
           {errors.map((e) => (
@@ -169,7 +146,7 @@ export const Editor = ({ slug, article, preview, categories }: Props) => {
         onChangeBody={(newBody) => setBody(newBody)}
       />
       <Box pt={2} display="flex" justifyContent="right">
-        {article && (
+        {document && (
           <Button
             disabled={disabled}
             variant="contained"
@@ -183,7 +160,7 @@ export const Editor = ({ slug, article, preview, categories }: Props) => {
           disabled={disabled}
           variant="contained"
           color="secondary"
-          onClick={saveArticle}>
+          onClick={saveDocs}>
           保存
         </Button>
       </Box>

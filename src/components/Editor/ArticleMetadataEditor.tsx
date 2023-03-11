@@ -23,7 +23,7 @@ type Props = {
   onChangePinned: (pinned: boolean) => void
 }
 
-export const MetadataEditor = ({
+export const ArticleMetadataEditor = ({
   title,
   category,
   categories,

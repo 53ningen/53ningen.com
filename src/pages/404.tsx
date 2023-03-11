@@ -7,9 +7,15 @@ const Custom404 = () => {
   const router = useRouter()
   const { initialized, isLoggedIn } = useAuth()
   useEffect(() => {
+    if (!initialized || !isLoggedIn()) {
+      return
+    }
     const paths = router.asPath.split('/')
-    if (paths.length === 2 && initialized && isLoggedIn()) {
+    if (paths.length === 2) {
       router.replace(`/${paths[1]}/edit`)
+    }
+    if (paths.length === 3 && paths[1] === 'docs') {
+      router.replace(`/docs/${paths[2]}/edit`)
     }
   }, [initialized, isLoggedIn, router, router.pathname])
   return (

@@ -52,4 +52,26 @@ type Tag
   id: ID!
   articles: [Article] @manyToMany(relationName: "ArticleTags")
 }
+
+type Document
+  @auth(
+    rules: [
+      { allow: public, provider: iam, operations: [read] }
+      { allow: private, provider: iam }
+    ]
+  )
+  @model(subscriptions: null) {
+  slug: ID! @primaryKey
+  title: String!
+  kana: String!
+  body: String!
+  type: String!
+    @index(
+      name: "DocumentByKana"
+      queryField: "listDocumentsOrderByKana"
+      sortKeyFields: ["kana"]
+    )
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
  

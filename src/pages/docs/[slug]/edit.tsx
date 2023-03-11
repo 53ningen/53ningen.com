@@ -1,8 +1,8 @@
-import { Article, GetEditPagePropsQuery } from '@/API'
+import { Document, GetDocumentQuery } from '@/API'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { ArticleEditor } from '@/components/Editor/ArticleEditor'
+import { DocsEditor } from '@/components/Editor/DocsEditor'
 import { Meta } from '@/components/Meta'
-import { getEditPageProps } from '@/graphql/custom-queries'
+import { getDocument } from '@/graphql/queries'
 import theme from '@/theme'
 import { GraphQLResult } from '@aws-amplify/api-graphql'
 import EditIcon from '@mui/icons-material/Edit'
@@ -15,43 +15,42 @@ import { useEffect, useState } from 'react'
 
 type Props = {
   slug?: string
-  article?: Article
-  categories?: string[]
+  item?: Document
 }
 
-const Page = ({ slug, article: givenArticle, categories }: Props) => {
+const Page = ({ slug, item }: Props) => {
   const router = useRouter()
-  const [article, setArticle] = useState<Article | undefined>(givenArticle)
+  const [document, setDocument] = useState<Document | undefined>(item)
   const [preview, setPreview] = useState(false)
   useEffect(() => {
-    setArticle(givenArticle)
-  }, [givenArticle, router])
+    setDocument(item)
+  }, [item, router])
   return (
     <>
-      {article && <Meta title={`edit: ${article.title}`} noindex={true} />}
+      {document && <Meta title={`edit: ${document.title}`} noindex={true} />}
       <Stack px={{ xs: 2, sm: 2, md: 4 }}>
         <Breadcrumbs
           items={
             slug
               ? [
                   {
-                    path: `/${slug}`,
-                    title: article?.title === '' ? '(no title)' : article?.title || slug,
+                    path: `/docs`,
+                    title: 'documents',
                   },
                   {
-                    path: `/${slug}/edit`,
+                    path: `/docs/${slug}`,
+                    title:
+                      document?.title === '' ? '(no title)' : document?.title || slug,
+                  },
+                  {
+                    path: `/docs/${slug}/edit`,
                     title: 'edit',
                   },
                 ]
               : []
           }
         />
-        <ArticleEditor
-          slug={slug}
-          article={article}
-          preview={preview}
-          categories={categories}
-        />
+        <DocsEditor slug={slug} document={item} preview={preview} />
       </Stack>
       <Tooltip title={preview ? 'edit' : 'preview'} arrow>
         <Fab
@@ -82,16 +81,14 @@ export const getStaticProps: GetStaticProps<Props> = async (context) => {
   const { slug } = context.params as { slug: string }
   try {
     const res = (await API.graphql(
-      graphqlOperation(getEditPageProps, { slug })
-    )) as GraphQLResult<GetEditPagePropsQuery>
-    const categories = res.data?.listCategories?.items.map((i) => i!.id) || []
-    if (res.data?.getArticle) {
-      const article = res.data.getArticle as Article
+      graphqlOperation(getDocument, { slug })
+    )) as GraphQLResult<GetDocumentQuery>
+    if (res.data?.getDocument) {
+      const document = res.data.getDocument as Document
       return {
         props: {
           slug,
-          article,
-          categories,
+          item: document,
         },
         revalidate: 1,
       }
@@ -99,7 +96,6 @@ export const getStaticProps: GetStaticProps<Props> = async (context) => {
       return {
         props: {
           slug,
-          categories,
         },
         revalidate: 1,
       }

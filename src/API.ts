@@ -206,6 +206,72 @@ export type ModelArticleConditionInput = {
   categoryArticlesId?: ModelIDInput | null,
 };
 
+export type ModelDocumentFilterInput = {
+  slug?: ModelIDInput | null,
+  title?: ModelStringInput | null,
+  kana?: ModelStringInput | null,
+  body?: ModelStringInput | null,
+  type?: ModelStringInput | null,
+  createdAt?: ModelStringInput | null,
+  updatedAt?: ModelStringInput | null,
+  and?: Array< ModelDocumentFilterInput | null > | null,
+  or?: Array< ModelDocumentFilterInput | null > | null,
+  not?: ModelDocumentFilterInput | null,
+};
+
+export type ModelDocumentConnection = {
+  __typename: "ModelDocumentConnection",
+  items:  Array<Document | null >,
+  nextToken?: string | null,
+};
+
+export type Document = {
+  __typename: "Document",
+  slug: string,
+  title: string,
+  kana: string,
+  body: string,
+  type: string,
+  createdAt: string,
+  updatedAt: string,
+};
+
+export type CreateDocumentInput = {
+  slug: string,
+  title: string,
+  kana: string,
+  body: string,
+  type: string,
+  createdAt?: string | null,
+  updatedAt?: string | null,
+};
+
+export type ModelDocumentConditionInput = {
+  title?: ModelStringInput | null,
+  kana?: ModelStringInput | null,
+  body?: ModelStringInput | null,
+  type?: ModelStringInput | null,
+  createdAt?: ModelStringInput | null,
+  updatedAt?: ModelStringInput | null,
+  and?: Array< ModelDocumentConditionInput | null > | null,
+  or?: Array< ModelDocumentConditionInput | null > | null,
+  not?: ModelDocumentConditionInput | null,
+};
+
+export type UpdateDocumentInput = {
+  slug: string,
+  title?: string | null,
+  kana?: string | null,
+  body?: string | null,
+  type?: string | null,
+  createdAt?: string | null,
+  updatedAt?: string | null,
+};
+
+export type DeleteDocumentInput = {
+  slug: string,
+};
+
 export type CreateArticleInput = {
   slug: string,
   title: string,
@@ -512,6 +578,82 @@ export type SaveArticleMutation = {
     updatedAt: string,
     categoryArticlesId?: string | null,
     owner?: string | null,
+  } | null,
+};
+
+export type GetDocsPagePropsQueryVariables = {
+  type: string,
+  kana?: ModelStringKeyConditionInput | null,
+  sortDirection?: ModelSortDirection | null,
+  filter?: ModelDocumentFilterInput | null,
+  limit?: number | null,
+  nextToken?: string | null,
+};
+
+export type GetDocsPagePropsQuery = {
+  listDocumentsOrderByKana?:  {
+    __typename: "ModelDocumentConnection",
+    items:  Array< {
+      __typename: "Document",
+      slug: string,
+      title: string,
+      kana: string,
+    } | null >,
+    nextToken?: string | null,
+  } | null,
+};
+
+export type CreateDocumentMutationVariables = {
+  input: CreateDocumentInput,
+  condition?: ModelDocumentConditionInput | null,
+};
+
+export type CreateDocumentMutation = {
+  createDocument?:  {
+    __typename: "Document",
+    slug: string,
+    title: string,
+    kana: string,
+    body: string,
+    type: string,
+    createdAt: string,
+    updatedAt: string,
+  } | null,
+};
+
+export type UpdateDocumentMutationVariables = {
+  input: UpdateDocumentInput,
+  condition?: ModelDocumentConditionInput | null,
+};
+
+export type UpdateDocumentMutation = {
+  updateDocument?:  {
+    __typename: "Document",
+    slug: string,
+    title: string,
+    kana: string,
+    body: string,
+    type: string,
+    createdAt: string,
+    updatedAt: string,
+  } | null,
+};
+
+export type DeleteDocumentMutationVariables = {
+  input: DeleteDocumentInput,
+  condition?: ModelDocumentConditionInput | null,
+};
+
+export type DeleteDocumentMutation = {
+  deleteDocument?:  {
+    __typename: "Document",
+    slug: string,
+    title: string,
+    kana: string,
+    body: string,
+    type: string,
+    createdAt: string,
+    updatedAt: string,
   } | null,
 };
 
@@ -983,6 +1125,74 @@ export type DeleteArticleTagsMutation = {
     createdAt: string,
     updatedAt: string,
     owner?: string | null,
+  } | null,
+};
+
+export type GetDocumentQueryVariables = {
+  slug: string,
+};
+
+export type GetDocumentQuery = {
+  getDocument?:  {
+    __typename: "Document",
+    slug: string,
+    title: string,
+    kana: string,
+    body: string,
+    type: string,
+    createdAt: string,
+    updatedAt: string,
+  } | null,
+};
+
+export type ListDocumentsQueryVariables = {
+  slug?: string | null,
+  filter?: ModelDocumentFilterInput | null,
+  limit?: number | null,
+  nextToken?: string | null,
+  sortDirection?: ModelSortDirection | null,
+};
+
+export type ListDocumentsQuery = {
+  listDocuments?:  {
+    __typename: "ModelDocumentConnection",
+    items:  Array< {
+      __typename: "Document",
+      slug: string,
+      title: string,
+      kana: string,
+      body: string,
+      type: string,
+      createdAt: string,
+      updatedAt: string,
+    } | null >,
+    nextToken?: string | null,
+  } | null,
+};
+
+export type ListDocumentsOrderByKanaQueryVariables = {
+  type: string,
+  kana?: ModelStringKeyConditionInput | null,
+  sortDirection?: ModelSortDirection | null,
+  filter?: ModelDocumentFilterInput | null,
+  limit?: number | null,
+  nextToken?: string | null,
+};
+
+export type ListDocumentsOrderByKanaQuery = {
+  listDocumentsOrderByKana?:  {
+    __typename: "ModelDocumentConnection",
+    items:  Array< {
+      __typename: "Document",
+      slug: string,
+      title: string,
+      kana: string,
+      body: string,
+      type: string,
+      createdAt: string,
+      updatedAt: string,
+    } | null >,
+    nextToken?: string | null,
   } | null,
 };
 

@@ -2,6 +2,77 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const getDocument = /* GraphQL */ `
+  query GetDocument($slug: ID!) {
+    getDocument(slug: $slug) {
+      slug
+      title
+      kana
+      body
+      type
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const listDocuments = /* GraphQL */ `
+  query ListDocuments(
+    $slug: ID
+    $filter: ModelDocumentFilterInput
+    $limit: Int
+    $nextToken: String
+    $sortDirection: ModelSortDirection
+  ) {
+    listDocuments(
+      slug: $slug
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+      sortDirection: $sortDirection
+    ) {
+      items {
+        slug
+        title
+        kana
+        body
+        type
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+`;
+export const listDocumentsOrderByKana = /* GraphQL */ `
+  query ListDocumentsOrderByKana(
+    $type: String!
+    $kana: ModelStringKeyConditionInput
+    $sortDirection: ModelSortDirection
+    $filter: ModelDocumentFilterInput
+    $limit: Int
+    $nextToken: String
+  ) {
+    listDocumentsOrderByKana(
+      type: $type
+      kana: $kana
+      sortDirection: $sortDirection
+      filter: $filter
+      limit: $limit
+      nextToken: $nextToken
+    ) {
+      items {
+        slug
+        title
+        kana
+        body
+        type
+        createdAt
+        updatedAt
+      }
+      nextToken
+    }
+  }
+`;
 export const getArticle = /* GraphQL */ `
   query GetArticle($slug: ID!) {
     getArticle(slug: $slug) {
