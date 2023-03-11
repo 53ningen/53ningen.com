@@ -74,4 +74,4 @@ type Document
   createdAt: AWSDateTime!
   updatedAt: AWSDateTime!
 }
- 
+  

@@ -7,10 +7,12 @@ import {
 import { useAuth } from '@/context/AuthContext'
 import { createDocument, deleteDocument, updateDocument } from '@/graphql/mutations'
 import theme from '@/theme'
-import { Box, Button, Stack } from '@mui/material'
-import { API } from 'aws-amplify'
+import { Box, Button, Stack, Typography } from '@mui/material'
+import { API, Storage } from 'aws-amplify'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { SyntheticEvent, useCallback, useEffect, useState } from 'react'
+import { useDropzone } from 'react-dropzone'
+import { v4 as uuidv4 } from 'uuid'
 import { ErrorBanner } from '../ErrorBanner'
 import { BodyEditor } from './BodyEditor'
 import { DocsMetadataEditor } from './DocsMetadataEditor'
@@ -32,8 +34,31 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
   const [title, setTitle] = useState(document?.title || '')
   const [kana, setKana] = useState(document?.kana || '')
   const [body, setBody] = useState(document?.body || '')
+  const [bodyPos, setBodyPos] = useState(0)
   const [disabled, setDisabled] = useState(true)
   const [isNewPage, setIsNewPage] = useState(document === undefined)
+  const onDrop = useCallback(
+    async (f: File[]) => {
+      try {
+        const file = f[0]
+        const now = new Date()
+        const fileId = `${uuidv4()}`
+        const res = await Storage.put(fileId, file, {
+          level: 'public',
+          contentType: file.type,
+        })
+        const newBody =
+          body.slice(0, bodyPos) + `![](${res.key})\n` + body.slice(bodyPos, body.length)
+        setBody(newBody)
+      } catch (e) {
+        // TODO: エラー処理
+        console.log(e)
+      } finally {
+      }
+    },
+    [bodyPos, body]
+  )
+  const { getRootProps, getInputProps } = useDropzone({ onDrop })
   useEffect(() => {
     if (document) {
       setTitle(document.title)
@@ -123,6 +148,10 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
       setDisabled(false)
     }
   }
+  const onSelectBody = (e: SyntheticEvent<HTMLDivElement>) => {
+    const elem = e.target as any
+    setBodyPos(elem.selectionStart)
+  }
   return (
     <Stack spacing={2}>
       <DocsMetadataEditor
@@ -144,7 +173,21 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
         preview={preview}
         disabled={disabled}
         onChangeBody={(newBody) => setBody(newBody)}
+        onSelectBody={onSelectBody}
       />
+      <Box
+        width="100%"
+        {...getRootProps()}
+        border={1}
+        borderRadius={2}
+        borderColor="gray"
+        bgcolor="lightgray"
+        textAlign="center">
+        <input {...getInputProps()} />
+        <Typography p={4} variant="h1">
+          Drop the files here
+        </Typography>
+      </Box>
       <Box pt={2} display="flex" justifyContent="right">
         {document && (
           <Button

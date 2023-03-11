@@ -12,10 +12,12 @@ import {
   updateArticle,
 } from '@/graphql/mutations'
 import theme from '@/theme'
-import { Box, Button, Stack } from '@mui/material'
-import { API } from 'aws-amplify'
+import { Box, Button, Stack, Typography } from '@mui/material'
+import { API, Storage } from 'aws-amplify'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { SyntheticEvent, useCallback, useEffect, useState } from 'react'
+import { useDropzone } from 'react-dropzone'
+import { v4 as uuidv4 } from 'uuid'
 import { ErrorBanner } from '../ErrorBanner'
 import { ArticleMetadataEditor } from './ArticleMetadataEditor'
 import { BodyEditor } from './BodyEditor'
@@ -38,10 +40,33 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
   const [errors, setErrors] = useState<string[]>([])
   const [title, setTitle] = useState(article?.title || '')
   const [body, setBody] = useState(article?.body || '')
+  const [bodyPos, setBodyPos] = useState(0)
   const [pinned, setPinned] = useState(article?.pinned || false)
   const [category, setCategory] = useState(article?.category.id)
   const [disabled, setDisabled] = useState(true)
   const [isNewPage, setIsNewPage] = useState(article === undefined)
+  const onDrop = useCallback(
+    async (f: File[]) => {
+      try {
+        const file = f[0]
+        const now = new Date()
+        const fileId = `${uuidv4()}`
+        const res = await Storage.put(fileId, file, {
+          level: 'public',
+          contentType: file.type,
+        })
+        const newBody =
+          body.slice(0, bodyPos) + `![](${res.key})\n` + body.slice(bodyPos, body.length)
+        setBody(newBody)
+      } catch (e) {
+        // TODO: エラー処理
+        console.log(e)
+      } finally {
+      }
+    },
+    [bodyPos, body]
+  )
+  const { getRootProps, getInputProps } = useDropzone({ onDrop })
   useEffect(() => {
     if (article) {
       setTitle(article.title)
@@ -136,6 +161,10 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
       setDisabled(false)
     }
   }
+  const onSelectBody = (e: SyntheticEvent<HTMLDivElement>) => {
+    const elem = e.target as any
+    setBodyPos(elem.selectionStart)
+  }
   return (
     <Stack spacing={2}>
       <ArticleMetadataEditor
@@ -167,7 +196,21 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
         preview={preview}
         disabled={disabled}
         onChangeBody={(newBody) => setBody(newBody)}
+        onSelectBody={onSelectBody}
       />
+      <Box
+        width="100%"
+        {...getRootProps()}
+        border={1}
+        borderRadius={2}
+        borderColor="gray"
+        bgcolor="lightgray"
+        textAlign="center">
+        <input {...getInputProps()} />
+        <Typography p={4} variant="h1">
+          Drop the files here
+        </Typography>
+      </Box>
       <Box pt={2} display="flex" justifyContent="right">
         {article && (
           <Button

@@ -1,5 +1,6 @@
 import { Article } from '@/components/Article/Article'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
+import Link from '@/components/Link'
 import { Meta } from '@/components/Meta'
 import { Const } from '@/const'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
@@ -33,6 +34,28 @@ const Page = ({ articles }: Props) => {
       <Meta title={`Dashboard | ${Const.siteSubtitle}`} noindex={true} />
       <Stack px={{ xs: 2, sm: 2, md: 4 }} spacing={2}>
         <Breadcrumbs items={[{ path: '/dashboard', title: 'Dashboard' }]} />
+        <Accordion expanded>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header">
+            <Typography>Related Tools</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Stack spacing={2}>
+              <Link
+                href="https://ap-northeast-1.admin.amplifyapp.com/admin/d1pqp5vbsuoyi9/prod"
+                target="_blank">
+                Amplify Studio
+              </Link>
+              <Link
+                href="https://analytics.google.com/analytics/web/?authuser=1#/report-home/a113656388w169268902p169252739"
+                target="_blank">
+                Google Analytics
+              </Link>
+            </Stack>
+          </AccordionDetails>
+        </Accordion>
         <Accordion expanded>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}

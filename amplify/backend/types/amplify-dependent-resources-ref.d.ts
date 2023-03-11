@@ -18,5 +18,11 @@ export type AmplifyDependentResourcesAttributes = {
     "userPoolGroups": {
       "adminGroupRole": "string"
     }
+  },
+  "storage": {
+    "53nigenStorage": {
+      "BucketName": "string",
+      "Region": "string"
+    }
   }
 }

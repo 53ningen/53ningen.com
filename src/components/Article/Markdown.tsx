@@ -9,6 +9,7 @@ import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
 import Link from '../Link'
+import { S3Image } from '../S3Image'
 import { generateIndexId } from './Index'
 
 type Props = {
@@ -64,13 +65,17 @@ export const Markdown = ({ body }: Props) => {
               </Box>
             )
           },
-          img({ src, alt, title }) {
-            return (
-              <Link href={src || ''} target="_blank">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={src} alt={alt} title={title} style={{ maxWidth: '100%' }} />
-              </Link>
-            )
+          img: ({ src, alt, title }) => {
+            if (src?.startsWith('http') ?? true) {
+              return (
+                <Link href={src || ''} target="_blank">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={src} alt={alt} title={title} style={{ maxWidth: '100%' }} />
+                </Link>
+              )
+            } else {
+              return <S3Image imgKey={src} level="public" />
+            }
           },
           ul: ({ children, depth, ordered, ...props }) =>
             depth === 0 ? (
