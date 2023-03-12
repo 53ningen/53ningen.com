@@ -171,7 +171,7 @@ export const getStaticProps: GetStaticProps<Props> = async (context) => {
   } else {
     return {
       notFound: true,
-      revalidate: Const.revalidateNotFoundPageSec,
+      revalidate: Const.revalidateImportPageSec,
     }
   }
 }
