@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Checkbox,
   FormControl,
   FormControlLabel,
@@ -11,6 +12,8 @@ import {
   Stack,
   TextField,
 } from '@mui/material'
+import { useEffect, useState } from 'react'
+import { AddCategoryDialog } from './AddCategory'
 
 type Props = {
   title?: string
@@ -33,6 +36,13 @@ export const ArticleMetadataEditor = ({
   onChangeCategory,
   onChangePinned,
 }: Props) => {
+  const [categoryItems, setCategoryItems] = useState<string[]>([])
+  const [categoryDialogOpen, setCategoryDialogOpen] = useState(false)
+  useEffect(() => {
+    if (categories) {
+      setCategoryItems((items) => (items.length === 0 ? categories : items))
+    }
+  }, [categories])
   return (
     <Stack spacing={2} pt={2}>
       <TextField
@@ -58,7 +68,7 @@ export const ArticleMetadataEditor = ({
                 value={category}
                 disabled={disabled}
                 onChange={(e) => onChangeCategory(e.target.value)}>
-                {categories.map((c) => {
+                {categoryItems.map((c) => {
                   return (
                     <MenuItem key={c} value={c}>
                       {c}
@@ -70,6 +80,25 @@ export const ArticleMetadataEditor = ({
           ) : (
             <Skeleton width="10rem" component="span" />
           )}
+          <Button
+            size="small"
+            variant="outlined"
+            disabled={disabled}
+            onClick={() => {
+              setCategoryDialogOpen(true)
+            }}>
+            Add Category
+          </Button>
+          <AddCategoryDialog
+            open={categoryDialogOpen}
+            handleClose={(c) => {
+              if (c && !categoryItems.includes(c)) {
+                setCategoryItems([...categoryItems, c])
+                onChangeCategory(c)
+              }
+              setCategoryDialogOpen(false)
+            }}
+          />
           <FormGroup>
             <FormControlLabel
               control={
@@ -84,6 +113,17 @@ export const ArticleMetadataEditor = ({
           </FormGroup>
         </Stack>
       </FormControl>
+      <TextField
+        fullWidth
+        id="description"
+        label="Description"
+        variant="outlined"
+        size="small"
+        sx={{ background: 'white' }}
+        value={title}
+        disabled={disabled}
+        onChange={(e) => onChangeTitle(e.target.value)}
+      />
     </Stack>
   )
 }

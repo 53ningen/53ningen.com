@@ -3,6 +3,7 @@ import { listAllSlugs } from '@/APIWrapper'
 import { ArticleBody } from '@/components/Article/ArticleBody'
 import { ArticleIndex } from '@/components/Article/ArticleIndex'
 import { ArticleMetadata } from '@/components/Article/ArticleMetadata'
+import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { Meta } from '@/components/Meta'
 import { ShareButtons } from '@/components/ShareButtons'
 import { About } from '@/components/Widgets/About'
@@ -11,7 +12,7 @@ import { getSlugPageProps } from '@/graphql/custom-queries'
 import theme from '@/theme'
 import { GraphQLResult } from '@aws-amplify/api-graphql'
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp'
-import { Fab, Stack } from '@mui/material'
+import { Box, Fab, Stack } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import { API, Auth, graphqlOperation } from 'aws-amplify'
 import type { GetStaticPaths, GetStaticProps } from 'next'
@@ -46,6 +47,21 @@ const Page = ({ slug, article: givenArticle }: Props) => {
         />
       )}
       <Stack>
+        <Box px={{ xs: 2, sm: 2, md: 4 }}>
+          <Breadcrumbs
+            items={
+              slug
+                ? [
+                    {
+                      path: `/${slug}`,
+                      title:
+                        article?.title === '' ? '(no title)' : article?.title || slug,
+                    },
+                  ]
+                : []
+            }
+          />
+        </Box>
         <ArticleMetadata meta={article} />
         <Grid
           container

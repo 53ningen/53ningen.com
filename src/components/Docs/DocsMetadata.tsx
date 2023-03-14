@@ -17,6 +17,7 @@ export const DocsMetadata = ({ meta }: Props) => {
   const updated = Const.ISO8601toDateTimeString(meta?.updatedAt)
   return (
     <Stack spacing={1} px={{ xs: 2, sm: 2, md: 4 }} py={4}>
+      <Typography variant="caption">{meta?.kana}</Typography>
       <Typography variant="h1">
         {meta ? (
           <Stack direction="row" spacing={1}>
