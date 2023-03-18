@@ -19,6 +19,7 @@ import { DocsMetadataEditor } from './DocsMetadataEditor'
 
 type Props = {
   slug?: string
+  readyToEdit: boolean
   document?: Document
   preview: boolean
 }
@@ -27,7 +28,7 @@ const Errors = {
   Unauthenticated: 'Unauthenticated: You must sign in first.',
 }
 
-export const DocsEditor = ({ slug, document: document, preview }: Props) => {
+export const DocsEditor = ({ slug, readyToEdit, document: document, preview }: Props) => {
   const router = useRouter()
   const { isLoggedIn, initialized } = useAuth()
   const [errors, setErrors] = useState<string[]>([])
@@ -39,39 +40,38 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
   const [disabled, setDisabled] = useState(true)
   const [isNewPage, setIsNewPage] = useState(document === undefined)
   useEffect(() => {
-    if (document) {
-      setTitle(document.title)
-      setBody(document.body)
-      setKana(document.kana)
-      setIsNewPage(false)
-    }
-  }, [document])
-  useEffect(() => {
-    if (router.isFallback) {
-      setDisabled(true)
-    } else {
-      try {
-        const h = extractHash(router.asPath)
-        if (h) {
-          const n = parseInt(h)
-          setStartPosition(n)
+    if (readyToEdit) {
+      if (document) {
+        setTitle(document.title)
+        setBody(document.body)
+        setKana(document.kana)
+        setIsNewPage(false)
+        try {
+          const h = extractHash(router.asPath)
+          if (h) {
+            const n = parseInt(h)
+            setStartPosition(n)
+          }
+        } catch (e) {
+          setErrors((es) => [...es, JSON.stringify(e)])
         }
-      } catch (e) {
-        setErrors((es) => [...es, JSON.stringify(e)])
       }
-      if (initialized && !isLoggedIn()) {
-        setDisabled(true)
-        setErrors((errors) =>
-          errors.includes(Errors.Unauthenticated)
-            ? errors
-            : [Errors.Unauthenticated, ...errors]
-        )
-      } else {
-        setDisabled(false)
-        setErrors((errors) => errors.filter((e) => e !== Errors.Unauthenticated))
-      }
+      setDisabled(false)
     }
-  }, [initialized, isLoggedIn, router])
+  }, [document, readyToEdit, router.asPath])
+  useEffect(() => {
+    if (initialized && !isLoggedIn()) {
+      setDisabled(true)
+      setErrors((errors) =>
+        errors.includes(Errors.Unauthenticated)
+          ? errors
+          : [Errors.Unauthenticated, ...errors]
+      )
+    } else {
+      setDisabled(false)
+      setErrors((errors) => errors.filter((e) => e !== Errors.Unauthenticated))
+    }
+  }, [initialized, isLoggedIn])
   const onClickSave = async () => {
     try {
       setDisabled(true)

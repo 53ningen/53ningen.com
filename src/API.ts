@@ -144,17 +144,17 @@ export type Tag = {
   owner?: string | null,
 };
 
-export type ModelCategoryConnection = {
-  __typename: "ModelCategoryConnection",
-  items:  Array<Category | null >,
-  nextToken?: string | null,
-};
-
 export type ModelCategoryFilterInput = {
   id?: ModelIDInput | null,
   and?: Array< ModelCategoryFilterInput | null > | null,
   or?: Array< ModelCategoryFilterInput | null > | null,
   not?: ModelCategoryFilterInput | null,
+};
+
+export type ModelCategoryConnection = {
+  __typename: "ModelCategoryConnection",
+  items:  Array<Category | null >,
+  nextToken?: string | null,
 };
 
 export type ModelTagFilterInput = {
@@ -427,46 +427,6 @@ export type GetSlugPagePropsQuery = {
     pinned: boolean,
     categoryArticlesId?: string | null,
     owner?: string | null,
-  } | null,
-};
-
-export type GetEditPagePropsQueryVariables = {
-  slug: string,
-};
-
-export type GetEditPagePropsQuery = {
-  getArticle?:  {
-    __typename: "Article",
-    slug: string,
-    title: string,
-    body: string,
-    description?: string | null,
-    category:  {
-      __typename: "Category",
-      id: string,
-    },
-    tags?:  {
-      __typename: "ModelArticleTagsConnection",
-      items:  Array< {
-        __typename: "ArticleTags",
-        id: string,
-        tagID: string,
-      } | null >,
-      nextToken?: string | null,
-    } | null,
-    type: string,
-    createdAt: string,
-    updatedAt: string,
-    pinned: boolean,
-    categoryArticlesId?: string | null,
-    owner?: string | null,
-  } | null,
-  listCategories?:  {
-    __typename: "ModelCategoryConnection",
-    items:  Array< {
-      __typename: "Category",
-      id: string,
-    } | null >,
   } | null,
 };
 

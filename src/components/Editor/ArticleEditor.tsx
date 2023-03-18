@@ -26,6 +26,7 @@ import { TagEditor } from './TagEditor'
 
 type Props = {
   slug?: string
+  readyToEdit: boolean
   article?: Article
   preview: boolean
   categories?: string[]
@@ -35,57 +36,60 @@ const Errors = {
   Unauthenticated: 'Unauthenticated: You must sign in first.',
 }
 
-export const ArticleEditor = ({ slug, article, preview, categories }: Props) => {
+export const ArticleEditor = ({
+  slug,
+  readyToEdit,
+  article,
+  preview,
+  categories,
+}: Props) => {
   const router = useRouter()
   const { isLoggedIn, initialized } = useAuth()
   const [errors, setErrors] = useState<string[]>([])
-  const [title, setTitle] = useState(article?.title || '')
-  const [body, setBody] = useState(article?.body || '')
+  const [title, setTitle] = useState('')
+  const [body, setBody] = useState('')
   const [bodyPos, setBodyPos] = useState(0)
-  const [pinned, setPinned] = useState(article?.pinned || false)
-  const [category, setCategory] = useState(article?.category.id)
+  const [pinned, setPinned] = useState(false)
+  const [category, setCategory] = useState<string>()
   const [disabled, setDisabled] = useState(true)
   const [startPosition, setStartPosition] = useState<number>()
-  const [isNewPage, setIsNewPage] = useState(article === undefined)
-
+  const [isNewPage, setIsNewPage] = useState(true)
   useEffect(() => {
-    if (article) {
-      setTitle(article.title)
-      setBody(article.body)
-      setCategory(article.category.id)
-      setPinned(article.pinned)
-      setIsNewPage(false)
-    } else if (categories) {
-      setCategory(Const.defaultCategory)
-    }
-  }, [article, categories])
-  useEffect(() => {
-    if (router.isFallback) {
-      setDisabled(true)
-    } else {
-      try {
-        const h = extractHash(router.asPath)
-        if (h) {
-          const n = parseInt(h)
-          setStartPosition(n)
+    if (readyToEdit) {
+      if (article) {
+        setTitle(article.title)
+        setBody(article.body)
+        setCategory(article.category.id)
+        setPinned(article.pinned)
+        setIsNewPage(false)
+        try {
+          const h = extractHash(router.asPath)
+          if (h) {
+            const n = parseInt(h)
+            setStartPosition(n)
+          }
+        } catch (e) {
+          setErrors((es) => [...es, JSON.stringify(e)])
         }
-      } catch (e) {
-        setErrors((es) => [...es, JSON.stringify(e)])
-      }
-      if (initialized && !isLoggedIn()) {
-        setDisabled(true)
-        setErrors((errors) =>
-          errors.includes(Errors.Unauthenticated)
-            ? errors
-            : [Errors.Unauthenticated, ...errors]
-        )
       } else {
-        setDisabled(false)
-        setErrors((errors) => errors.filter((e) => e !== Errors.Unauthenticated))
+        setCategory(Const.defaultCategory)
       }
+      setDisabled(false)
     }
-  }, [initialized, isLoggedIn, router])
-
+  }, [article, readyToEdit, router.asPath])
+  useEffect(() => {
+    if (initialized && !isLoggedIn()) {
+      setDisabled(true)
+      setErrors((errors) =>
+        errors.includes(Errors.Unauthenticated)
+          ? errors
+          : [Errors.Unauthenticated, ...errors]
+      )
+    } else {
+      setDisabled(false)
+      setErrors((errors) => errors.filter((e) => e !== Errors.Unauthenticated))
+    }
+  }, [initialized, isLoggedIn])
   const onDrop = useCallback(
     async (f: File[]) => {
       try {
@@ -144,9 +148,9 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
         onChangeCategory={(c) => setCategory(c)}
         onChangePinned={(p) => setPinned(p)}
       />
-      {slug && !isNewPage && (
+      {slug && !isNewPage && article && (
         <TagEditor
-          tags={(article?.tags?.items || []) as ArticleTags[]}
+          tags={(article.tags?.items || []) as ArticleTags[]}
           slug={slug}
           disabled={disabled}
         />
@@ -180,7 +184,7 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
         </Typography>
       </Box>
       <Box pt={2} display="flex" justifyContent="right">
-        {article && (
+        {!isNewPage && (
           <Button
             disabled={disabled}
             variant="contained"

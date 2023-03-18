@@ -1,34 +1,46 @@
-import { Article, GetEditPagePropsQuery } from '@/API'
+import { Article, GetArticleQuery, GetArticleQueryVariables } from '@/API'
+import { listAllCategories } from '@/APIWrapper'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { ArticleEditor } from '@/components/Editor/ArticleEditor'
 import { Meta } from '@/components/Meta'
-import { getEditPageProps } from '@/graphql/custom-queries'
+import { Const } from '@/const'
+import { getArticle } from '@/graphql/queries'
 import theme from '@/theme'
 import { GraphQLResult } from '@aws-amplify/api-graphql'
 import EditIcon from '@mui/icons-material/Edit'
 import VisibilityIcon from '@mui/icons-material/Visibility'
 import { Fab, Stack, Tooltip } from '@mui/material'
-import { API, graphqlOperation } from 'aws-amplify'
+import { API } from 'aws-amplify'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 
 type Props = {
   slug?: string
-  article?: Article
   categories?: string[]
 }
 
-const Page = ({ slug, article: givenArticle, categories }: Props) => {
-  const router = useRouter()
-  const [article, setArticle] = useState<Article | undefined>(givenArticle)
+const Page = ({ slug, categories }: Props) => {
+  const [loaded, setLoaded] = useState(false)
+  const [article, setArticle] = useState<Article>()
   const [preview, setPreview] = useState(false)
   useEffect(() => {
-    setArticle(givenArticle)
-  }, [givenArticle, router])
+    ;(async () => {
+      if (slug) {
+        try {
+          const a = await fetchArticle(slug)
+          if (a) {
+            setArticle(a)
+          }
+          setLoaded(true)
+        } catch (e) {
+          console.error(e)
+        }
+      }
+    })()
+  }, [slug])
   return (
     <>
-      {article && <Meta title={`edit: ${article.title}`} noindex={true} />}
+      <Meta title={`edit: ${article?.title || slug || ''}`} noindex={true} />
       <Stack px={{ xs: 2, sm: 2, md: 4 }}>
         <Breadcrumbs
           items={
@@ -49,6 +61,7 @@ const Page = ({ slug, article: givenArticle, categories }: Props) => {
         <ArticleEditor
           slug={slug}
           article={article}
+          readyToEdit={loaded}
           preview={preview}
           categories={categories}
         />
@@ -80,32 +93,20 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps<Props> = async (context) => {
   const { slug } = context.params as { slug: string }
-  try {
-    const res = (await API.graphql(
-      graphqlOperation(getEditPageProps, { slug })
-    )) as GraphQLResult<GetEditPagePropsQuery>
-    const categories = res.data?.listCategories?.items.map((i) => i!.id) || []
-    if (res.data?.getArticle) {
-      const article = res.data.getArticle as Article
-      return {
-        props: {
-          slug,
-          article,
-          categories,
-        },
-        revalidate: 1,
-      }
-    } else {
-      return {
-        props: {
-          slug,
-          categories,
-        },
-        revalidate: 1,
-      }
-    }
-  } catch (e) {
-    console.error(e)
-    throw e
+  const categories = await listAllCategories()
+  return {
+    props: { slug, categories },
+    revalidate: Const.revalidateImportPageSec,
   }
+}
+
+const fetchArticle = async (slug: string) => {
+  const res = (await API.graphql({
+    query: getArticle,
+    variables: {
+      slug,
+    } as GetArticleQueryVariables,
+    authMode: 'AMAZON_COGNITO_USER_POOLS',
+  })) as GraphQLResult<GetArticleQuery>
+  return res.data ? (res.data.getArticle as Article) : undefined
 }

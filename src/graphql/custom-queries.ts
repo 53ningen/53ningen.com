@@ -45,38 +45,6 @@ export const getSlugPageProps = /* GraphQL */ `
   }
 `
 
-export const getEditPageProps = /* GraphQL */ `
-  query GetEditPageProps($slug: ID!) {
-    getArticle(slug: $slug) {
-      slug
-      title
-      body
-      description
-      category {
-        id
-      }
-      tags {
-        items {
-          id
-          tagID
-        }
-        nextToken
-      }
-      type
-      createdAt
-      updatedAt
-      pinned
-      categoryArticlesId
-      owner
-    }
-    listCategories {
-      items {
-        id
-      }
-    }
-  }
-`
-
 export const listCategoryIds = /* GraphQL */ `
   query ListCategoryIds(
     $filter: ModelCategoryFilterInput
