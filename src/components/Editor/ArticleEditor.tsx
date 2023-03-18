@@ -5,6 +5,7 @@ import {
   DeleteArticleMutationVariables,
   UpdateArticleMutationVariables,
 } from '@/API'
+import { Const } from '@/const'
 import { useAuth } from '@/context/AuthContext'
 import {
   createArticle,
@@ -44,29 +45,9 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
   const [pinned, setPinned] = useState(article?.pinned || false)
   const [category, setCategory] = useState(article?.category.id)
   const [disabled, setDisabled] = useState(true)
+  const [startPosition, setStartPosition] = useState<number>()
   const [isNewPage, setIsNewPage] = useState(article === undefined)
-  const onDrop = useCallback(
-    async (f: File[]) => {
-      try {
-        const file = f[0]
-        const now = new Date()
-        const fileId = `${uuidv4()}`
-        const res = await Storage.put(fileId, file, {
-          level: 'public',
-          contentType: file.type,
-        })
-        const newBody =
-          body.slice(0, bodyPos) + `![](${res.key})\n` + body.slice(bodyPos, body.length)
-        setBody(newBody)
-      } catch (e) {
-        // TODO: エラー処理
-        console.log(e)
-      } finally {
-      }
-    },
-    [bodyPos, body]
-  )
-  const { getRootProps, getInputProps } = useDropzone({ onDrop })
+
   useEffect(() => {
     if (article) {
       setTitle(article.title)
@@ -75,13 +56,22 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
       setPinned(article.pinned)
       setIsNewPage(false)
     } else if (categories) {
-      setCategory('programming')
+      setCategory(Const.defaultCategory)
     }
   }, [article, categories])
   useEffect(() => {
     if (router.isFallback) {
       setDisabled(true)
     } else {
+      try {
+        const h = extractHash(router.asPath)
+        if (h) {
+          const n = parseInt(h)
+          setStartPosition(n)
+        }
+      } catch (e) {
+        setErrors((es) => [...es, JSON.stringify(e)])
+      }
       if (initialized && !isLoggedIn()) {
         setDisabled(true)
         setErrors((errors) =>
@@ -95,39 +85,27 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
       }
     }
   }, [initialized, isLoggedIn, router])
-  const saveArticle = async () => {
+
+  const onDrop = useCallback(
+    async (f: File[]) => {
+      try {
+        const key = await uploadFile(f)
+        const newBody =
+          body.slice(0, bodyPos) + `![](${key})\n` + body.slice(bodyPos, body.length)
+        setBody(newBody)
+      } catch (e) {
+        console.error(e)
+        setErrors((es) => [...es, JSON.stringify(e)])
+      } finally {
+      }
+    },
+    [bodyPos, body]
+  )
+  const { getRootProps, getInputProps } = useDropzone({ onDrop })
+  const onClickSave = async () => {
     try {
       setDisabled(true)
-      if (article) {
-        await API.graphql({
-          query: updateArticle,
-          variables: {
-            input: {
-              slug: article?.slug,
-              title,
-              body,
-              pinned,
-              categoryArticlesId: category,
-            },
-          } as UpdateArticleMutationVariables,
-          authMode: 'AMAZON_COGNITO_USER_POOLS',
-        })
-      } else {
-        await API.graphql({
-          query: createArticle,
-          variables: {
-            input: {
-              slug,
-              title,
-              body,
-              pinned,
-              type: 'Article',
-              categoryArticlesId: category,
-            },
-          } as CreateArticleMutationVariables,
-          authMode: 'AMAZON_COGNITO_USER_POOLS',
-        })
-      }
+      await saveArticle(isNewPage, slug!, title, body, pinned, category!)
     } catch (e) {
       console.error(e)
       setErrors([JSON.stringify(e), ...errors])
@@ -135,30 +113,19 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
       setDisabled(false)
     }
   }
-  const confirmDelete = async () => {
+  const onClickDelete = async () => {
     const isOk = window.confirm(`Are you sure you want to delete this article?`)
     if (isOk) {
-      await deleteArticle()
-      router.push('/')
-    }
-  }
-  const deleteArticle = async () => {
-    try {
-      setDisabled(true)
-      await API.graphql({
-        query: delArticle,
-        variables: {
-          input: {
-            slug: article?.slug,
-          },
-        } as DeleteArticleMutationVariables,
-        authMode: 'AMAZON_COGNITO_USER_POOLS',
-      })
-    } catch (e) {
-      console.error(e)
-      setErrors([JSON.stringify(e), ...errors])
-    } finally {
-      setDisabled(false)
+      try {
+        setDisabled(true)
+        await deleteArticle(slug!)
+        router.push('/')
+      } catch (e) {
+        console.error(e)
+        setErrors([JSON.stringify(e), ...errors])
+      } finally {
+        setDisabled(false)
+      }
     }
   }
   const onSelectBody = (e: SyntheticEvent<HTMLDivElement>) => {
@@ -193,6 +160,7 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
       )}
       <BodyEditor
         body={body}
+        defaultPosition={startPosition}
         preview={preview}
         disabled={disabled}
         onChangeBody={(newBody) => setBody(newBody)}
@@ -218,18 +186,85 @@ export const ArticleEditor = ({ slug, article, preview, categories }: Props) => 
             variant="contained"
             color="error"
             sx={{ mr: theme.spacing(2) }}
-            onClick={confirmDelete}>
-            削除
+            onClick={onClickDelete}>
+            Delete
           </Button>
         )}
         <Button
           disabled={disabled}
           variant="contained"
           color="secondary"
-          onClick={saveArticle}>
-          保存
+          onClick={onClickSave}>
+          Save
         </Button>
       </Box>
     </Stack>
   )
+}
+
+const saveArticle = async (
+  isNew: boolean,
+  slug: string,
+  title: string,
+  body: string,
+  pinned: boolean,
+  category: string
+) => {
+  if (isNew) {
+    await API.graphql({
+      query: updateArticle,
+      variables: {
+        input: {
+          slug,
+          title,
+          body,
+          pinned,
+          categoryArticlesId: category,
+        },
+      } as UpdateArticleMutationVariables,
+      authMode: 'AMAZON_COGNITO_USER_POOLS',
+    })
+  } else {
+    await API.graphql({
+      query: createArticle,
+      variables: {
+        input: {
+          slug,
+          title,
+          body,
+          pinned,
+          type: 'Article',
+          categoryArticlesId: category,
+        },
+      } as CreateArticleMutationVariables,
+      authMode: 'AMAZON_COGNITO_USER_POOLS',
+    })
+  }
+}
+
+const deleteArticle = async (slug: string) => {
+  await API.graphql({
+    query: delArticle,
+    variables: {
+      input: {
+        slug,
+      },
+    } as DeleteArticleMutationVariables,
+    authMode: 'AMAZON_COGNITO_USER_POOLS',
+  })
+}
+
+const uploadFile = async (f: File[]) => {
+  const file = f[0]
+  const fileId = `${uuidv4()}`
+  const res = await Storage.put(fileId, file, {
+    level: 'public',
+    contentType: file.type,
+  })
+  return res.key
+}
+
+const extractHash = (path?: string) => {
+  const es = path?.split('#')
+  return es && es.length === 2 ? es[1] : undefined
 }

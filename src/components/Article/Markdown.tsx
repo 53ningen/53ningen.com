@@ -1,7 +1,11 @@
+import { useAuth } from '@/context/AuthContext'
 import theme from '@/theme'
 import { Box, Typography } from '@mui/material'
 import 'katex/dist/katex.min.css'
+import { useRouter } from 'next/router'
+import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
+import { Element } from 'react-markdown/lib/ast-to-react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { Tweet } from 'react-twitter-widgets'
 import rehypeKatex from 'rehype-katex'
@@ -17,6 +21,13 @@ type Props = {
 }
 
 export const Markdown = ({ body }: Props) => {
+  const router = useRouter()
+  const path = router.asPath
+  const { initialized, isLoggedIn } = useAuth()
+  const [showEditLink, setShowEditLink] = useState(false)
+  useEffect(() => {
+    setShowEditLink(initialized && isLoggedIn())
+  }, [initialized, isLoggedIn])
   return (
     <Box>
       <ReactMarkdown
@@ -47,12 +58,36 @@ export const Markdown = ({ body }: Props) => {
             ) : (
               <a {...props}>{children}</a>
             ),
-          h1: ({ children }) => headerElement('h1', children),
-          h2: ({ children }) => headerElement('h2', children),
-          h3: ({ children }) => headerElement('h3', children),
-          h4: ({ children }) => headerElement('h4', children),
-          h5: ({ children }) => headerElement('h5', children),
-          h6: ({ children }) => headerElement('h6', children),
+          h1: ({ children, node }) => (
+            <SectionHeader node={node} path={path} showEditLink={showEditLink}>
+              {children}
+            </SectionHeader>
+          ),
+          h2: ({ children, node }) => (
+            <SectionHeader node={node} path={path} showEditLink={showEditLink}>
+              {children}
+            </SectionHeader>
+          ),
+          h3: ({ children, node }) => (
+            <SectionHeader node={node} path={path} showEditLink={showEditLink}>
+              {children}
+            </SectionHeader>
+          ),
+          h4: ({ children, node }) => (
+            <SectionHeader node={node} path={path} showEditLink={showEditLink}>
+              {children}
+            </SectionHeader>
+          ),
+          h5: ({ children, node }) => (
+            <SectionHeader node={node} path={path} showEditLink={showEditLink}>
+              {children}
+            </SectionHeader>
+          ),
+          h6: ({ children, node }) => (
+            <SectionHeader node={node} path={path} showEditLink={showEditLink}>
+              {children}
+            </SectionHeader>
+          ),
           p: ({ children }) => (
             <Typography variant="body1" py={2}>
               {children}
@@ -149,10 +184,26 @@ export const Markdown = ({ body }: Props) => {
   )
 }
 
-const headerElement = (
-  variant: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6',
+type SectionHeaderProps = {
   children: React.ReactNode & React.ReactNode[]
-) => {
+  node: Element
+  path: string
+  showEditLink: boolean
+}
+
+const SectionHeader = ({ children, node, path, showEditLink }: SectionHeaderProps) => {
+  const { tagName: variant } = node
+  if (
+    variant !== 'h1' &&
+    variant !== 'h2' &&
+    variant !== 'h3' &&
+    variant !== 'h4' &&
+    variant !== 'h5' &&
+    variant !== 'h6'
+  ) {
+    return <></>
+  }
+  const sectionStartPosition = node.position?.start.offset
   const id = generateIndexId(variant, children[0]?.toString() || '')
   return (
     <>
@@ -163,9 +214,14 @@ const headerElement = (
         pb={variant === 'h1' ? 1 : 2}
         borderBottom={variant === 'h1' ? 1 : 0}
         borderColor={theme.palette.grey[300]}>
-        <Link href={`#${id}`} color="inherit">
+        <Link href={`#${id}`} color="inherit" pr={1}>
           {children}
         </Link>
+        {showEditLink && (
+          <Typography variant="caption" component="span">
+            [<Link href={`${path}/edit#${sectionStartPosition}`}>edit</Link>]
+          </Typography>
+        )}
       </Typography>
     </>
   )

@@ -35,30 +35,9 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
   const [kana, setKana] = useState(document?.kana || '')
   const [body, setBody] = useState(document?.body || '')
   const [bodyPos, setBodyPos] = useState(0)
+  const [startPosition, setStartPosition] = useState<number>()
   const [disabled, setDisabled] = useState(true)
   const [isNewPage, setIsNewPage] = useState(document === undefined)
-  const onDrop = useCallback(
-    async (f: File[]) => {
-      try {
-        const file = f[0]
-        const now = new Date()
-        const fileId = `${uuidv4()}`
-        const res = await Storage.put(fileId, file, {
-          level: 'public',
-          contentType: file.type,
-        })
-        const newBody =
-          body.slice(0, bodyPos) + `![](${res.key})\n` + body.slice(bodyPos, body.length)
-        setBody(newBody)
-      } catch (e) {
-        // TODO: エラー処理
-        console.log(e)
-      } finally {
-      }
-    },
-    [bodyPos, body]
-  )
-  const { getRootProps, getInputProps } = useDropzone({ onDrop })
   useEffect(() => {
     if (document) {
       setTitle(document.title)
@@ -71,6 +50,15 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
     if (router.isFallback) {
       setDisabled(true)
     } else {
+      try {
+        const h = extractHash(router.asPath)
+        if (h) {
+          const n = parseInt(h)
+          setStartPosition(n)
+        }
+      } catch (e) {
+        setErrors((es) => [...es, JSON.stringify(e)])
+      }
       if (initialized && !isLoggedIn()) {
         setDisabled(true)
         setErrors((errors) =>
@@ -84,37 +72,10 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
       }
     }
   }, [initialized, isLoggedIn, router])
-  const saveDocs = async () => {
+  const onClickSave = async () => {
     try {
       setDisabled(true)
-      if (document) {
-        await API.graphql({
-          query: updateDocument,
-          variables: {
-            input: {
-              slug: document?.slug,
-              kana,
-              title,
-              body,
-            },
-          } as UpdateDocumentMutationVariables,
-          authMode: 'AWS_IAM',
-        })
-      } else {
-        await API.graphql({
-          query: createDocument,
-          variables: {
-            input: {
-              slug,
-              title,
-              kana,
-              body,
-              type: 'Document',
-            },
-          } as CreateDocumentMutationVariables,
-          authMode: 'AWS_IAM',
-        })
-      }
+      await saveDoc(isNewPage, slug!, kana, title, body)
     } catch (e) {
       console.error(e)
       setErrors([JSON.stringify(e), ...errors])
@@ -122,36 +83,41 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
       setDisabled(false)
     }
   }
-  const confirmDelete = async () => {
+  const onClickDelete = async () => {
     const isOk = window.confirm(`Are you sure you want to delete this document?`)
     if (isOk) {
-      await deleteDocs()
+      try {
+        setDisabled(true)
+        await deleteDoc(slug!)
+      } catch (e) {
+        console.error(e)
+        setErrors([JSON.stringify(e), ...errors])
+      } finally {
+        setDisabled(false)
+      }
       router.push('/')
-    }
-  }
-  const deleteDocs = async () => {
-    try {
-      setDisabled(true)
-      await API.graphql({
-        query: deleteDocument,
-        variables: {
-          input: {
-            slug: document?.slug,
-          },
-        } as DeleteDocumentMutationVariables,
-        authMode: 'AWS_IAM',
-      })
-    } catch (e) {
-      console.error(e)
-      setErrors([JSON.stringify(e), ...errors])
-    } finally {
-      setDisabled(false)
     }
   }
   const onSelectBody = (e: SyntheticEvent<HTMLDivElement>) => {
     const elem = e.target as any
     setBodyPos(elem.selectionStart)
   }
+  const onDrop = useCallback(
+    async (f: File[]) => {
+      try {
+        const key = await uploadFile(f)
+        const newBody =
+          body.slice(0, bodyPos) + `![](${key})\n` + body.slice(bodyPos, body.length)
+        setBody(newBody)
+      } catch (e) {
+        console.error(e)
+        setErrors((es) => [...es, JSON.stringify(e)])
+      } finally {
+      }
+    },
+    [bodyPos, body]
+  )
+  const { getRootProps, getInputProps } = useDropzone({ onDrop })
   return (
     <Stack spacing={2}>
       <DocsMetadataEditor
@@ -172,6 +138,7 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
         body={body}
         preview={preview}
         disabled={disabled}
+        defaultPosition={startPosition}
         onChangeBody={(newBody) => setBody(newBody)}
         onSelectBody={onSelectBody}
       />
@@ -195,7 +162,7 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
             variant="contained"
             color="error"
             sx={{ mr: theme.spacing(2) }}
-            onClick={confirmDelete}>
+            onClick={onClickDelete}>
             削除
           </Button>
         )}
@@ -203,10 +170,74 @@ export const DocsEditor = ({ slug, document: document, preview }: Props) => {
           disabled={disabled}
           variant="contained"
           color="secondary"
-          onClick={saveDocs}>
+          onClick={onClickSave}>
           保存
         </Button>
       </Box>
     </Stack>
   )
+}
+
+const saveDoc = async (
+  isNew: boolean,
+  slug: string,
+  kana: string,
+  title: string,
+  body: string
+) => {
+  if (isNew) {
+    await API.graphql({
+      query: updateDocument,
+      variables: {
+        input: {
+          slug,
+          kana,
+          title,
+          body,
+        },
+      } as UpdateDocumentMutationVariables,
+      authMode: 'AWS_IAM',
+    })
+  } else {
+    await API.graphql({
+      query: createDocument,
+      variables: {
+        input: {
+          slug,
+          title,
+          kana,
+          body,
+          type: 'Document',
+        },
+      } as CreateDocumentMutationVariables,
+      authMode: 'AWS_IAM',
+    })
+  }
+}
+
+const deleteDoc = async (slug: string) => {
+  await API.graphql({
+    query: deleteDocument,
+    variables: {
+      input: {
+        slug,
+      },
+    } as DeleteDocumentMutationVariables,
+    authMode: 'AWS_IAM',
+  })
+}
+
+const uploadFile = async (f: File[]) => {
+  const file = f[0]
+  const fileId = `${uuidv4()}`
+  const res = await Storage.put(fileId, file, {
+    level: 'public',
+    contentType: file.type,
+  })
+  return res.key
+}
+
+const extractHash = (path?: string) => {
+  const es = path?.split('#')
+  return es && es.length === 2 ? es[1] : undefined
 }

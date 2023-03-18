@@ -1,4 +1,4 @@
-import { Article } from '@/components/Article/Article'
+import { Article } from '@/API'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import Link from '@/components/Link'
 import { Meta } from '@/components/Meta'
