@@ -1,5 +1,4 @@
 import { Document, GetDocumentQuery, GetDocumentQueryVariables } from '@/API'
-import { listAllSlugs } from '@/APIWrapper'
 import { ArticleBody } from '@/components/Article/ArticleBody'
 import { ArticleIndex } from '@/components/Article/ArticleIndex'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
@@ -141,15 +140,8 @@ const fetchLatestDocsData = async (slug: string) => {
 export default Page
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const slugs: string[] = await listAllSlugs()
   return {
-    paths: slugs.map((slug) => {
-      return {
-        params: {
-          slug,
-        },
-      }
-    }),
+    paths: [],
     fallback: true,
   }
 }
