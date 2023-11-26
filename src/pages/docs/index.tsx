@@ -1,11 +1,11 @@
 import { Document, GetDocsPagePropsQuery } from '@/API'
-import { Breadcrumbs } from '@/components/Breadcrumbs'
 import {
   CollectionIndex,
   createCollectionIndexMapping,
 } from '@/components/CollectionIndex'
 import Link from '@/components/Link'
 import { Meta } from '@/components/Meta'
+import { NavBar } from '@/components/NavBar'
 import { Const } from '@/const'
 import { getDocsPageProps } from '@/graphql/custom-queries'
 import theme from '@/theme'
@@ -28,18 +28,11 @@ const Page = ({ items }: Props) => {
   return (
     <>
       <Meta title={Const.siteSubtitle} description={Const.siteDescription} />
-      <Box px={{ xs: 2, sm: 2, md: 4 }}>
-        <Breadcrumbs
-          items={[
-            {
-              path: `/docs`,
-              title: 'documents',
-            },
-          ]}
-        />
-      </Box>
+      <NavBar currentTab="Docs" />
       <Stack pt={4} spacing={2} px={{ xs: 0, sm: 1, md: 2 }}>
-        <CollectionIndex mapping={index} />
+        <Box display="flex" justifyContent="center">
+          <CollectionIndex mapping={index} />
+        </Box>
         <Card>
           <Box p={{ xs: 2, sm: 2, md: 2, lg: 4 }}>
             {items.map((item) => {
