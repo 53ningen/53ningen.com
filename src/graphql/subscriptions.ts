@@ -17,33 +17,40 @@ export const onCreateArticleTags = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       tag {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -62,33 +69,40 @@ export const onUpdateArticleTags = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       tag {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -107,33 +121,40 @@ export const onDeleteArticleTags = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       tag {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;

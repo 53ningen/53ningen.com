@@ -20,10 +20,12 @@ type Props = {
   category?: string
   categories?: string[]
   pinned?: boolean
+  draft?: boolean
   disabled: boolean
   onChangeTitle: (title: string) => void
   onChangeCategory: (category: string) => void
   onChangePinned: (pinned: boolean) => void
+  onChangeDraft: (draft: boolean) => void
 }
 
 export const ArticleMetadataEditor = ({
@@ -31,10 +33,12 @@ export const ArticleMetadataEditor = ({
   category,
   categories,
   pinned,
+  draft,
   disabled,
   onChangeTitle,
   onChangeCategory,
   onChangePinned,
+  onChangeDraft,
 }: Props) => {
   const [categoryItems, setCategoryItems] = useState<string[]>([])
   const [categoryDialogOpen, setCategoryDialogOpen] = useState(false)
@@ -100,16 +104,28 @@ export const ArticleMetadataEditor = ({
             }}
           />
           <FormGroup>
-            <FormControlLabel
-              control={
-                <Checkbox
-                  checked={pinned || false}
-                  disabled={disabled}
-                  onChange={(e) => onChangePinned(e.target.checked)}
-                />
-              }
-              label={'pinned'}
-            />
+            <Stack direction="row">
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    checked={pinned || false}
+                    disabled={disabled}
+                    onChange={(e) => onChangePinned(e.target.checked)}
+                  />
+                }
+                label={'pinned'}
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    checked={draft || false}
+                    disabled={disabled}
+                    onChange={(e) => onChangeDraft(e.target.checked)}
+                  />
+                }
+                label={'draft'}
+              />
+            </Stack>
           </FormGroup>
         </Stack>
       </FormControl>

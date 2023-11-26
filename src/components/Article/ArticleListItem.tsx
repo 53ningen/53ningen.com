@@ -32,7 +32,7 @@ export const ArticleListItem = ({ article }: Props) => {
     )
   }
   const icon = '📝'
-  const { slug, title, category, tags, createdAt } = article
+  const { slug, title, category, tags, createdAt, draft } = article
   const created = Const.ISO8601toDateTimeString(createdAt)
   return (
     <Card>
@@ -46,7 +46,8 @@ export const ArticleListItem = ({ article }: Props) => {
             </Typography>
             <Typography variant="h3">
               <Link href={`/${slug}`} color="inherit">
-                {icon} {title}
+                {icon} {draft && '[draft] '}
+                {title}
               </Link>
             </Typography>
             <Box lineHeight="2rem">

@@ -13,6 +13,7 @@ type Article
   body: String!
   description: String
   pinned: Boolean!
+  draft: Boolean
   category: Category! @belongsTo
   tags: [Tag] @manyToMany(relationName: "ArticleTags")
   type: String!
@@ -74,4 +75,3 @@ type Document
   createdAt: AWSDateTime!
   updatedAt: AWSDateTime!
 }
-  

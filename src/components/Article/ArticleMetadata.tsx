@@ -23,6 +23,7 @@ export const ArticleMetadata = ({ meta }: Props) => {
         {meta ? (
           <Stack direction="row" spacing={1}>
             <Link href={`/${meta.slug}`} color="inherit">
+              {meta.draft && '[draft] '}
               {meta.title}
             </Link>
             {initialized && isLoggedIn() && (

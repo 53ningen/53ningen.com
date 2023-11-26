@@ -6,6 +6,7 @@ import { Categories } from '@/components/Widgets/Categories'
 import { PinnedArticles } from '@/components/Widgets/PinnedArticles'
 import { Tags } from '@/components/Widgets/Tags'
 import { Const } from '@/const'
+import { useAuth } from '@/context/AuthContext'
 import { Box, Stack } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import { Breadcrumbs, Path } from '../Breadcrumbs'
@@ -33,6 +34,7 @@ export const ArticleListPage = ({
   pagesBasePath,
   paths,
 }: Props) => {
+  const { initialized, isLoggedIn } = useAuth()
   return (
     <Stack pt={4} spacing={2} px={{ xs: 0, sm: 1, md: 2 }}>
       {paths && (
@@ -43,7 +45,11 @@ export const ArticleListPage = ({
       <Grid container spacing={{ xs: 0, sm: 0, md: 2 }} width="100%">
         <Grid xs={12} sm={12} md={8.5} pb={4} px={{ xs: 2, sm: 2, md: 1 }}>
           <Stack spacing={2}>
-            <ArticleList items={articles} />
+            <ArticleList
+              items={
+                initialized && isLoggedIn() ? articles : articles?.filter((a) => !a.draft)
+              }
+            />
             {pages && currentPage && (
               <Pagination
                 totalPages={pages}

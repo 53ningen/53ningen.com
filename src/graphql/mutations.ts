@@ -15,6 +15,7 @@ export const createDocument = /* GraphQL */ `
       type
       createdAt
       updatedAt
+      __typename
     }
   }
 `;
@@ -31,6 +32,7 @@ export const updateDocument = /* GraphQL */ `
       type
       createdAt
       updatedAt
+      __typename
     }
   }
 `;
@@ -47,6 +49,7 @@ export const deleteDocument = /* GraphQL */ `
       type
       createdAt
       updatedAt
+      __typename
     }
   }
 `;
@@ -61,14 +64,17 @@ export const createArticle = /* GraphQL */ `
       body
       description
       pinned
+      draft
       category {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       tags {
         items {
@@ -78,14 +84,17 @@ export const createArticle = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       type
       createdAt
       updatedAt
       categoryArticlesId
       owner
+      __typename
     }
   }
 `;
@@ -100,14 +109,17 @@ export const updateArticle = /* GraphQL */ `
       body
       description
       pinned
+      draft
       category {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       tags {
         items {
@@ -117,14 +129,17 @@ export const updateArticle = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       type
       createdAt
       updatedAt
       categoryArticlesId
       owner
+      __typename
     }
   }
 `;
@@ -139,14 +154,17 @@ export const deleteArticle = /* GraphQL */ `
       body
       description
       pinned
+      draft
       category {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       tags {
         items {
@@ -156,14 +174,17 @@ export const deleteArticle = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       type
       createdAt
       updatedAt
       categoryArticlesId
       owner
+      __typename
     }
   }
 `;
@@ -181,17 +202,21 @@ export const createCategory = /* GraphQL */ `
           body
           description
           pinned
+          draft
           type
           createdAt
           updatedAt
           categoryArticlesId
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -209,17 +234,21 @@ export const updateCategory = /* GraphQL */ `
           body
           description
           pinned
+          draft
           type
           createdAt
           updatedAt
           categoryArticlesId
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -237,17 +266,21 @@ export const deleteCategory = /* GraphQL */ `
           body
           description
           pinned
+          draft
           type
           createdAt
           updatedAt
           categoryArticlesId
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -266,12 +299,15 @@ export const createTag = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -290,12 +326,15 @@ export const updateTag = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -314,12 +353,15 @@ export const deleteTag = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -338,33 +380,40 @@ export const createArticleTags = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       tag {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -383,33 +432,40 @@ export const updateArticleTags = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       tag {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -428,33 +484,40 @@ export const deleteArticleTags = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       tag {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;

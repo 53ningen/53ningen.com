@@ -8,6 +8,7 @@ export type ModelArticleFilterInput = {
   body?: ModelStringInput | null,
   description?: ModelStringInput | null,
   pinned?: ModelBooleanInput | null,
+  draft?: ModelBooleanInput | null,
   type?: ModelStringInput | null,
   createdAt?: ModelStringInput | null,
   updatedAt?: ModelStringInput | null,
@@ -99,6 +100,7 @@ export type Article = {
   body: string,
   description?: string | null,
   pinned: boolean,
+  draft?: boolean | null,
   category: Category,
   tags?: ModelArticleTagsConnection | null,
   type: string,
@@ -186,6 +188,7 @@ export type UpdateArticleInput = {
   body?: string | null,
   description?: string | null,
   pinned?: boolean | null,
+  draft?: boolean | null,
   type?: string | null,
   createdAt?: string | null,
   updatedAt?: string | null,
@@ -197,6 +200,7 @@ export type ModelArticleConditionInput = {
   body?: ModelStringInput | null,
   description?: ModelStringInput | null,
   pinned?: ModelBooleanInput | null,
+  draft?: ModelBooleanInput | null,
   type?: ModelStringInput | null,
   createdAt?: ModelStringInput | null,
   updatedAt?: ModelStringInput | null,
@@ -278,6 +282,7 @@ export type CreateArticleInput = {
   body: string,
   description?: string | null,
   pinned: boolean,
+  draft?: boolean | null,
   type: string,
   createdAt?: string | null,
   updatedAt?: string | null,
@@ -425,6 +430,7 @@ export type GetSlugPagePropsQuery = {
     createdAt: string,
     updatedAt: string,
     pinned: boolean,
+    draft?: boolean | null,
     categoryArticlesId?: string | null,
     owner?: string | null,
   } | null,
@@ -481,6 +487,7 @@ export type ListArticleMetadataQuery = {
       title: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -513,6 +520,7 @@ export type SaveArticleMutation = {
     body: string,
     description?: string | null,
     pinned: boolean,
+    draft?: boolean | null,
     category:  {
       __typename: "Category",
       id: string,
@@ -630,6 +638,7 @@ export type CreateArticleMutation = {
     body: string,
     description?: string | null,
     pinned: boolean,
+    draft?: boolean | null,
     category:  {
       __typename: "Category",
       id: string,
@@ -675,6 +684,7 @@ export type UpdateArticleMutation = {
     body: string,
     description?: string | null,
     pinned: boolean,
+    draft?: boolean | null,
     category:  {
       __typename: "Category",
       id: string,
@@ -720,6 +730,7 @@ export type DeleteArticleMutation = {
     body: string,
     description?: string | null,
     pinned: boolean,
+    draft?: boolean | null,
     category:  {
       __typename: "Category",
       id: string,
@@ -770,6 +781,7 @@ export type CreateCategoryMutation = {
         body: string,
         description?: string | null,
         pinned: boolean,
+        draft?: boolean | null,
         type: string,
         createdAt: string,
         updatedAt: string,
@@ -802,6 +814,7 @@ export type UpdateCategoryMutation = {
         body: string,
         description?: string | null,
         pinned: boolean,
+        draft?: boolean | null,
         type: string,
         createdAt: string,
         updatedAt: string,
@@ -834,6 +847,7 @@ export type DeleteCategoryMutation = {
         body: string,
         description?: string | null,
         pinned: boolean,
+        draft?: boolean | null,
         type: string,
         createdAt: string,
         updatedAt: string,
@@ -950,6 +964,7 @@ export type CreateArticleTagsMutation = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1002,6 +1017,7 @@ export type UpdateArticleTagsMutation = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1054,6 +1070,7 @@ export type DeleteArticleTagsMutation = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1168,6 +1185,7 @@ export type GetArticleQuery = {
     body: string,
     description?: string | null,
     pinned: boolean,
+    draft?: boolean | null,
     category:  {
       __typename: "Category",
       id: string,
@@ -1218,6 +1236,7 @@ export type ListArticlesQuery = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1258,6 +1277,7 @@ export type ListArticlesOrderByCreatedAtQuery = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1296,6 +1316,7 @@ export type GetCategoryQuery = {
         body: string,
         description?: string | null,
         pinned: boolean,
+        draft?: boolean | null,
         type: string,
         createdAt: string,
         updatedAt: string,
@@ -1402,6 +1423,7 @@ export type GetArticleTagsQuery = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1457,6 +1479,7 @@ export type ListArticleTagsQuery = {
         body: string,
         description?: string | null,
         pinned: boolean,
+        draft?: boolean | null,
         type: string,
         createdAt: string,
         updatedAt: string,
@@ -1496,6 +1519,7 @@ export type OnCreateArticleTagsSubscription = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1548,6 +1572,7 @@ export type OnUpdateArticleTagsSubscription = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,
@@ -1600,6 +1625,7 @@ export type OnDeleteArticleTagsSubscription = {
       body: string,
       description?: string | null,
       pinned: boolean,
+      draft?: boolean | null,
       category:  {
         __typename: "Category",
         id: string,

@@ -1,4 +1,7 @@
 {
+  "providers": [
+    "awscloudformation"
+  ],
   "projectName": "53ningen",
   "version": "3.1",
   "frontend": "javascript",
@@ -6,12 +9,9 @@
     "framework": "react",
     "config": {
       "SourceDir": "src",
-      "DistributionDir": "build",
+      "DistributionDir": "out",
       "BuildCommand": "yarn build",
       "StartCommand": "yarn start"
     }
-  },
-  "providers": [
-    "awscloudformation"
-  ]
+  }
 }

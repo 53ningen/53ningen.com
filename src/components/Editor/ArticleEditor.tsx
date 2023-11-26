@@ -54,6 +54,7 @@ export const ArticleEditor = ({
   const [disabled, setDisabled] = useState(true)
   const [startPosition, setStartPosition] = useState<number>()
   const [isNewPage, setIsNewPage] = useState(true)
+  const [draft, setDraft] = useState(false)
   useEffect(() => {
     if (readyToEdit) {
       if (article) {
@@ -61,6 +62,7 @@ export const ArticleEditor = ({
         setBody(article.body)
         setCategory(article.category.id)
         setPinned(article.pinned)
+        setDraft(article.draft || false)
         setIsNewPage(false)
         try {
           const h = extractHash(router.asPath)
@@ -109,7 +111,7 @@ export const ArticleEditor = ({
   const onClickSave = async () => {
     try {
       setDisabled(true)
-      await saveArticle(isNewPage, slug!, title, body, pinned, category!)
+      await saveArticle(isNewPage, slug!, title, body, pinned, draft, category!)
       setIsNewPage(false)
     } catch (e) {
       console.error(e)
@@ -144,10 +146,12 @@ export const ArticleEditor = ({
         category={category}
         categories={categories || []}
         pinned={pinned}
+        draft={draft}
         disabled={disabled}
         onChangeTitle={(t) => setTitle(t)}
         onChangeCategory={(c) => setCategory(c)}
         onChangePinned={(p) => setPinned(p)}
+        onChangeDraft={(d) => setDraft(d)}
       />
       {slug && !isNewPage && article && (
         <TagEditor
@@ -213,6 +217,7 @@ const saveArticle = async (
   title: string,
   body: string,
   pinned: boolean,
+  draft: boolean,
   category: string
 ) => {
   if (isNew) {
@@ -224,6 +229,7 @@ const saveArticle = async (
           title,
           body,
           pinned,
+          draft,
           type: 'Article',
           categoryArticlesId: category,
         },
@@ -239,6 +245,7 @@ const saveArticle = async (
           title,
           body,
           pinned,
+          draft,
           categoryArticlesId: category,
         },
       } as UpdateArticleMutationVariables,

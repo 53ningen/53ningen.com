@@ -12,6 +12,7 @@ export const getDocument = /* GraphQL */ `
       type
       createdAt
       updatedAt
+      __typename
     }
   }
 `;
@@ -38,8 +39,10 @@ export const listDocuments = /* GraphQL */ `
         type
         createdAt
         updatedAt
+        __typename
       }
       nextToken
+      __typename
     }
   }
 `;
@@ -68,8 +71,10 @@ export const listDocumentsOrderByKana = /* GraphQL */ `
         type
         createdAt
         updatedAt
+        __typename
       }
       nextToken
+      __typename
     }
   }
 `;
@@ -81,14 +86,17 @@ export const getArticle = /* GraphQL */ `
       body
       description
       pinned
+      draft
       category {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       tags {
         items {
@@ -98,14 +106,17 @@ export const getArticle = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       type
       createdAt
       updatedAt
       categoryArticlesId
       owner
+      __typename
     }
   }
 `;
@@ -130,22 +141,27 @@ export const listArticles = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       nextToken
+      __typename
     }
   }
 `;
@@ -172,22 +188,27 @@ export const listArticlesOrderByCreatedAt = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       nextToken
+      __typename
     }
   }
 `;
@@ -202,17 +223,21 @@ export const getCategory = /* GraphQL */ `
           body
           description
           pinned
+          draft
           type
           createdAt
           updatedAt
           categoryArticlesId
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -227,12 +252,15 @@ export const listCategories = /* GraphQL */ `
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       nextToken
+      __typename
     }
   }
 `;
@@ -248,12 +276,15 @@ export const getTag = /* GraphQL */ `
           createdAt
           updatedAt
           owner
+          __typename
         }
         nextToken
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -268,12 +299,15 @@ export const listTags = /* GraphQL */ `
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       nextToken
+      __typename
     }
   }
 `;
@@ -289,33 +323,40 @@ export const getArticleTags = /* GraphQL */ `
         body
         description
         pinned
+        draft
         category {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         tags {
           nextToken
+          __typename
         }
         type
         createdAt
         updatedAt
         categoryArticlesId
         owner
+        __typename
       }
       tag {
         id
         articles {
           nextToken
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       createdAt
       updatedAt
       owner
+      __typename
     }
   }
 `;
@@ -336,23 +377,28 @@ export const listArticleTags = /* GraphQL */ `
           body
           description
           pinned
+          draft
           type
           createdAt
           updatedAt
           categoryArticlesId
           owner
+          __typename
         }
         tag {
           id
           createdAt
           updatedAt
           owner
+          __typename
         }
         createdAt
         updatedAt
         owner
+        __typename
       }
       nextToken
+      __typename
     }
   }
 `;

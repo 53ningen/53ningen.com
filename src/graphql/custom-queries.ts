@@ -39,6 +39,7 @@ export const getSlugPageProps = /* GraphQL */ `
       createdAt
       updatedAt
       pinned
+      draft
       categoryArticlesId
       owner
     }
@@ -92,6 +93,7 @@ export const listArticleMetadata = /* GraphQL */ `
         title
         description
         pinned
+        draft
         category {
           id
         }
@@ -120,6 +122,7 @@ export const saveArticle = /* GraphQL */ `
       body
       description
       pinned
+      draft
       category {
         id
         createdAt
