@@ -76,6 +76,7 @@ export const DocsEditor = ({ slug, readyToEdit, document: document, preview }: P
     try {
       setDisabled(true)
       await saveDoc(isNewPage, slug!, kana, title, body)
+      setIsNewPage(false)
     } catch (e) {
       console.error(e)
       setErrors([JSON.stringify(e), ...errors])
@@ -187,19 +188,6 @@ const saveDoc = async (
 ) => {
   if (isNew) {
     await API.graphql({
-      query: updateDocument,
-      variables: {
-        input: {
-          slug,
-          kana,
-          title,
-          body,
-        },
-      } as UpdateDocumentMutationVariables,
-      authMode: 'AWS_IAM',
-    })
-  } else {
-    await API.graphql({
       query: createDocument,
       variables: {
         input: {
@@ -210,6 +198,19 @@ const saveDoc = async (
           type: 'Document',
         },
       } as CreateDocumentMutationVariables,
+      authMode: 'AWS_IAM',
+    })
+  } else {
+    await API.graphql({
+      query: updateDocument,
+      variables: {
+        input: {
+          slug,
+          kana,
+          title,
+          body,
+        },
+      } as UpdateDocumentMutationVariables,
       authMode: 'AWS_IAM',
     })
   }

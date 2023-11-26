@@ -110,6 +110,7 @@ export const ArticleEditor = ({
     try {
       setDisabled(true)
       await saveArticle(isNewPage, slug!, title, body, pinned, category!)
+      setIsNewPage(false)
     } catch (e) {
       console.error(e)
       setErrors([JSON.stringify(e), ...errors])
@@ -216,20 +217,6 @@ const saveArticle = async (
 ) => {
   if (isNew) {
     await API.graphql({
-      query: updateArticle,
-      variables: {
-        input: {
-          slug,
-          title,
-          body,
-          pinned,
-          categoryArticlesId: category,
-        },
-      } as UpdateArticleMutationVariables,
-      authMode: 'AMAZON_COGNITO_USER_POOLS',
-    })
-  } else {
-    await API.graphql({
       query: createArticle,
       variables: {
         input: {
@@ -241,6 +228,20 @@ const saveArticle = async (
           categoryArticlesId: category,
         },
       } as CreateArticleMutationVariables,
+      authMode: 'AMAZON_COGNITO_USER_POOLS',
+    })
+  } else {
+    await API.graphql({
+      query: updateArticle,
+      variables: {
+        input: {
+          slug,
+          title,
+          body,
+          pinned,
+          categoryArticlesId: category,
+        },
+      } as UpdateArticleMutationVariables,
       authMode: 'AMAZON_COGNITO_USER_POOLS',
     })
   }
