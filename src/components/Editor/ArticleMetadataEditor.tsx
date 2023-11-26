@@ -19,6 +19,7 @@ type Props = {
   title?: string
   category?: string
   categories?: string[]
+  description: string
   pinned?: boolean
   draft?: boolean
   disabled: boolean
@@ -26,12 +27,14 @@ type Props = {
   onChangeCategory: (category: string) => void
   onChangePinned: (pinned: boolean) => void
   onChangeDraft: (draft: boolean) => void
+  onChangeDescription: (description: string) => void
 }
 
 export const ArticleMetadataEditor = ({
   title,
   category,
   categories,
+  description,
   pinned,
   draft,
   disabled,
@@ -39,6 +42,7 @@ export const ArticleMetadataEditor = ({
   onChangeCategory,
   onChangePinned,
   onChangeDraft,
+  onChangeDescription,
 }: Props) => {
   const [categoryItems, setCategoryItems] = useState<string[]>([])
   const [categoryDialogOpen, setCategoryDialogOpen] = useState(false)
@@ -136,9 +140,9 @@ export const ArticleMetadataEditor = ({
         variant="outlined"
         size="small"
         sx={{ background: 'white' }}
-        value={title}
+        value={description}
         disabled={disabled}
-        onChange={(e) => onChangeTitle(e.target.value)}
+        onChange={(e) => onChangeDescription(e.target.value)}
       />
     </Stack>
   )

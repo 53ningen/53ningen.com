@@ -42,7 +42,11 @@ const Page = ({ slug, article: givenArticle }: Props) => {
       {article && (
         <Meta
           title={`${article.title} | ${Const.siteSubtitle}`}
-          description={article.body.slice(0, 200)}
+          description={
+            article.description && article.description !== ''
+              ? article.description
+              : article.body.slice(0, 200)
+          }
         />
       )}
       <Stack>

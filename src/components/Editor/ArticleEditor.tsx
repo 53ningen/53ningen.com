@@ -51,6 +51,7 @@ export const ArticleEditor = ({
   const [bodyPos, setBodyPos] = useState(0)
   const [pinned, setPinned] = useState(false)
   const [category, setCategory] = useState<string>()
+  const [description, setDescription] = useState<string>('')
   const [disabled, setDisabled] = useState(true)
   const [startPosition, setStartPosition] = useState<number>()
   const [isNewPage, setIsNewPage] = useState(true)
@@ -60,6 +61,7 @@ export const ArticleEditor = ({
       if (article) {
         setTitle(article.title)
         setBody(article.body)
+        setDescription(article.description || '')
         setCategory(article.category.id)
         setPinned(article.pinned)
         setDraft(article.draft || false)
@@ -111,7 +113,16 @@ export const ArticleEditor = ({
   const onClickSave = async () => {
     try {
       setDisabled(true)
-      await saveArticle(isNewPage, slug!, title, body, pinned, draft, category!)
+      await saveArticle(
+        isNewPage,
+        slug!,
+        title,
+        body,
+        description,
+        pinned,
+        draft,
+        category!
+      )
       setIsNewPage(false)
     } catch (e) {
       console.error(e)
@@ -145,6 +156,7 @@ export const ArticleEditor = ({
         title={title}
         category={category}
         categories={categories || []}
+        description={description}
         pinned={pinned}
         draft={draft}
         disabled={disabled}
@@ -152,6 +164,7 @@ export const ArticleEditor = ({
         onChangeCategory={(c) => setCategory(c)}
         onChangePinned={(p) => setPinned(p)}
         onChangeDraft={(d) => setDraft(d)}
+        onChangeDescription={(d) => setDescription(d)}
       />
       {slug && !isNewPage && article && (
         <TagEditor
@@ -216,6 +229,7 @@ const saveArticle = async (
   slug: string,
   title: string,
   body: string,
+  description: string,
   pinned: boolean,
   draft: boolean,
   category: string
@@ -228,6 +242,7 @@ const saveArticle = async (
           slug,
           title,
           body,
+          description,
           pinned,
           draft,
           type: 'Article',
@@ -244,6 +259,7 @@ const saveArticle = async (
           slug,
           title,
           body,
+          description,
           pinned,
           draft,
           categoryArticlesId: category,

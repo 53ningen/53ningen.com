@@ -32,7 +32,7 @@ export const ArticleListItem = ({ article }: Props) => {
     )
   }
   const icon = '📝'
-  const { slug, title, category, tags, createdAt, draft } = article
+  const { slug, title, description, category, tags, createdAt, draft } = article
   const created = Const.ISO8601toDateTimeString(createdAt)
   return (
     <Card>
@@ -50,6 +50,9 @@ export const ArticleListItem = ({ article }: Props) => {
                 {title}
               </Link>
             </Typography>
+            {description && description !== '' && (
+              <Typography variant="caption">{description}</Typography>
+            )}
             <Box lineHeight="2rem">
               <CategoryChip category={category.id} />
               {tags?.items.map((tag) => {
