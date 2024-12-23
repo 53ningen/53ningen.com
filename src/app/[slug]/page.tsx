@@ -17,7 +17,7 @@ export const generateMetadata = async ({ params }: Params): Promise<Metadata> =>
     return notFound()
   }
   const { common: t } = await getDictionary()
-  const title = `${article.title}| ${t.title}`
+  const title = `${article.title} | ${t.title}`
   const description = article.description || undefined
   return {
     title,

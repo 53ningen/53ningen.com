@@ -9,7 +9,7 @@ datasource db {
 
 model Article {
   id           Int            @id @default(autoincrement())
-  slug         String
+  slug         String         @unique(map: "slug")
   title        String         @db.Text
   body         String         @db.Text
   description  String?
@@ -23,6 +23,9 @@ model Article {
   ArticleTag   ArticleTag[]
 
   @@index([categoryId], map: "fk_1")
+  @@index([createdAt], map: "createdAt")
+  @@index([isPinned], map: "isPinned")
+  @@index([status], map: "status")
 }
 
 model ArticleTag {
@@ -51,7 +54,25 @@ model Tag {
   ArticleTag  ArticleTag[]
 }
 
+model Document {
+  id        Int             @id @default(autoincrement())
+  slug      String          @unique(map: "slug")
+  title     String          @db.Text
+  kana      String          @db.Text
+  body      String          @db.Text
+  status    Document_status @default(DRAFT)
+  createdAt DateTime        @default(now()) @db.DateTime(0)
+  updatedAt DateTime        @default(now()) @db.DateTime(0)
+}
+
 enum Article_status {
+  DRAFT
+  PUBLISHED
+  PRIVATE
+  ARCHIVED
+}
+
+enum Document_status {
   DRAFT
   PUBLISHED
   PRIVATE
