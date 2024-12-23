@@ -8,6 +8,7 @@ import './globals.css'
 export async function generateMetadata() {
   const { common } = await getDictionary()
   const { title, description } = common
+
   return {
     title,
     description,
@@ -24,13 +25,34 @@ export async function generateMetadata() {
       apple: './favicon192x192.png',
     },
     metadataBase: currentBaseUrl,
+    openGraph: {
+      title,
+      description,
+      siteName: title,
+      locale: currentLocale,
+      type: 'website',
+      images: [
+        {
+          url: `${currentBaseUrl}/favicon192x192.png`,
+          width: 192,
+          height: 192,
+        },
+      ],
+    },
+    twitter: {
+      title,
+      description,
+      creator: '@gomi_ningen',
+      images: [`${currentBaseUrl}/favicon192x192.png`],
+      card: 'summary',
+    },
   }
 }
 
 export default async function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang={currentLocale}>
-      <body className="xl:max-w-screen-lg xl:mx-auto">
+      <body className="xl:max-w-screen-xl xl:mx-auto">
         <Header />
         <main>{children}</main>
         <Footer />

@@ -6,7 +6,10 @@ const Footer = async () => {
   return (
     <footer className="grid gap-4 p-32 text-center">
       <Link href="/" className="text-xs text-gray-500">
-        {common.title}
+        {common.copyright}
+      </Link>
+      <Link href="/privacy" className="text-xs text-gray-500">
+        {common.privacyPolicy}
       </Link>
     </footer>
   )

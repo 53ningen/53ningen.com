@@ -1,20 +1,22 @@
-import Canvas from '@/components/common/Canvas'
 import Container from '@/components/common/Container'
-import Link from 'next/link'
+import Tabs from '@/components/common/Tabs'
+import Widgets from '@/components/widgets/Widgets'
+import { PagesArticleList } from './pages/[page]/PagesArticleList'
 
 export default async function Home() {
   return (
-    <>
-      <Container>Hello from Container</Container>
-      <Canvas>
-        <div>Hello from Canvas</div>
-        <div className="flex flex-col">
-          <Link href="/test">/test</Link>
-          <Link href="/docs">/docs</Link>
-          <Link href="/docs/test">/docs/test</Link>
-          <Link href="/docs/hoge/fuga/piyo">/docs/hoge/fuga/piyo</Link>
+    <div>
+      <Container>
+        <Tabs currentTab="Articles" />
+      </Container>
+      <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="col-span-1 lg:col-span-2 xl:col-span-3">
+          <PagesArticleList page={1} />
         </div>
-      </Canvas>
-    </>
+        <div className="hidden lg:flex lg:col-span-1 lg:mr-8">
+          <Widgets />
+        </div>
+      </div>
+    </div>
   )
 }

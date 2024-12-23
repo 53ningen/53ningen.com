@@ -10,9 +10,9 @@ const Header = async () => {
         <div
           className={`
             grid grid-cols-3
-            px-4 sm:px-0
+            px-4 sm:px-0 xl:px-8
             mx-0 sm:mx-4 md:mx-8
-            xl:max-w-screen-lg xl:mx-auto
+            xl:max-w-screen-xl xl:mx-auto
           `}>
           <div className="flex items-center">
             <Link href="/">

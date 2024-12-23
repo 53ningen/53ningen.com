@@ -3,7 +3,22 @@
     "title": "ゴミ人間.com",
     "subtitle": "53ningen.com",
     "description": "@gomi_ningen の個人サイト",
+    "copyright": "Copyright © 53ningen.com",
     "signin": "ログイン",
-    "signout": "ログアウト"
+    "signout": "ログアウト",
+    "privacyPolicy": "Privacy Policy",
+    "tag": "Tag",
+    "category": "Category",
+    "page": "Page",
+    "articles": "Articles",
+    "documents": "Documents",
+    "github": "GitHub"
+  },
+  "widgets": {
+    "about": "About",
+    "aboutContent": "ウェブ界隈でエンジニアとして労働活動に励んでいる @gomi_ningen 個人のブログです",
+    "pinnedArticles": "Pinned Articles",
+    "categories": "Categories",
+    "tags": "Tags"
   }
 }
