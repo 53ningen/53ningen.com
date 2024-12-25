@@ -2,6 +2,7 @@ import { getDictionary } from '@/i18n/dictionaries'
 import { ISO8601toJPDateTimeStr } from '@/lib/datetime'
 import { getDocument } from '@/lib/docs'
 import { notFound } from 'next/navigation'
+import EditButton from '../admin/EditButton'
 import Breadcrumbs from '../common/Breadcrumbs'
 import Container from '../common/Container'
 import CreatedAtChip from '../common/chip/CreatedAtChip'
@@ -38,7 +39,10 @@ const DocumentMetadata = async ({ slug }: Props) => {
           })),
         ]}
       />
-      <h1 className="text-xl font-bold">{document.title}</h1>
+      <div className="flex gap-2 items-center">
+        <EditButton path={`/admin/docs/${slug}`} />
+        <h1 className="text-xl font-bold">{document.title}</h1>
+      </div>
       <div className="flex gap-1">
         <CreatedAtChip createdAt={created} />
         <UpdatedAtChip updatedAt={updated} />

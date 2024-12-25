@@ -7,20 +7,21 @@ import TagChips from '../common/chip/TagChips'
 
 type Props = {
   article: Article
+  basePath?: string
 }
 
-export const ArticleListItem = ({ article }: Props) => {
+export const ArticleListItem = ({ article, basePath = '' }: Props) => {
   const publishedAt = ISO8601toJPDateTimeStr(article.createdAt)
   return (
     <Canvas>
       <div className="flex flex-col">
         <div className="text-sm">
-          <Link href={`/${article.slug}`} id={article.slug.toString()} className="text-gray-500 hover:text-gray-500">
+          <Link href={`${basePath}/${article.slug}`} id={article.slug.toString()} className="text-gray-500 hover:text-gray-500">
             {publishedAt}
           </Link>
         </div>
         <div className="font-bold">
-          <Link href={`/${article.slug}`} id={article.slug.toString()} className="text-primary hover:text-primary">
+          <Link href={`${basePath}/${article.slug}`} id={article.slug.toString()} className="text-primary hover:text-primary">
             {article.title}
           </Link>
         </div>

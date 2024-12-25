@@ -1,6 +1,7 @@
 import { getArticle } from '@/lib/articles'
 import { ISO8601toJPDateTimeStr } from '@/lib/datetime'
 import { notFound } from 'next/navigation'
+import EditButton from '../admin/EditButton'
 import Breadcrumbs from '../common/Breadcrumbs'
 import Container from '../common/Container'
 import CategoryChip from '../common/chip/CategoryChip'
@@ -29,7 +30,10 @@ const ArticleMetadata = async ({ slug }: Props) => {
           },
         ]}
       />
-      <h1 className="text-xl font-bold">{article.title}</h1>
+      <div className="flex gap-2 items-center">
+        <EditButton path={`/admin/articles/${slug}`} />
+        <h1 className="text-xl font-bold">{article.title}</h1>
+      </div>
       <div className="flex gap-1">
         <CreatedAtChip createdAt={created} />
         <UpdatedAtChip updatedAt={updated} />

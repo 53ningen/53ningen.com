@@ -1,6 +1,7 @@
 import { getDictionary } from '@/i18n/dictionaries'
 import Image from 'next/image'
 import Link from 'next/link'
+import { LoginButton } from './LoginButton'
 
 const Header = async () => {
   const { common } = await getDictionary()
@@ -28,6 +29,10 @@ const Header = async () => {
                 <span>{common.subtitle}</span>
               </div>
             </Link>
+          </div>
+          <div />
+          <div className="text-right">
+            <LoginButton />
           </div>
         </div>
       </header>

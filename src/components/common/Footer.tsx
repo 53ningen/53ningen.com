@@ -5,12 +5,16 @@ const Footer = async () => {
   const { common } = await getDictionary()
   return (
     <footer className="grid gap-4 p-32 text-center">
-      <Link href="/" className="text-xs text-gray-500">
-        {common.copyright}
-      </Link>
-      <Link href="/privacy" className="text-xs text-gray-500">
-        {common.privacyPolicy}
-      </Link>
+      <div>
+        <Link href="/" className="text-xs text-gray-500">
+          {common.copyright}
+        </Link>
+      </div>
+      <div>
+        <Link href="/privacy" className="text-xs text-gray-500">
+          {common.privacyPolicy}
+        </Link>
+      </div>
     </footer>
   )
 }

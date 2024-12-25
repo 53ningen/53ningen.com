@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
     "@heroicons/react": "^2.2.0",
     "@prisma/client": "^6.1.0",
-    "next": "15.1.0",
+    "next": "^15.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",

@@ -12,7 +12,9 @@
     "page": "Page",
     "articles": "Articles",
     "documents": "Documents",
-    "github": "GitHub"
+    "github": "GitHub",
+    "login": "Login",
+    "logout": "Logout"
   },
   "widgets": {
     "about": "About",
@@ -20,5 +22,12 @@
     "pinnedArticles": "Pinned Articles",
     "categories": "Categories",
     "tags": "Tags"
+  },
+  "admin": {
+    "admin": "管理画面",
+    "create": "新規作成",
+    "edit": "編集",
+    "delete": "削除",
+    "update": "更新"
   }
 }
