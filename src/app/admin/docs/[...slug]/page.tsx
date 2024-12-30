@@ -1,20 +1,26 @@
-import { getDocument } from '@/lib/docs'
+import DocumentEditor from '@/components/admin/DocumentEditor'
+import Container from '@/components/common/Container'
+import prisma from '@/lib/prisma'
 
 interface Props {
   params: Promise<{ slug: string[] }>
 }
 
-const EditArticle = async ({ params }: Props) => {
+const EditDocs = async ({ params }: Props) => {
   const p = await params
-  const slug = decodeURI(p.slug.join('/'))
-  // TODO: Remove unstable_cache
-  const document = await getDocument(slug)
+  const slug = p.slug.join('/')
+  const document = await prisma.document.findUnique({
+    where: {
+      slug,
+    },
+  })
   return (
     <div>
-      <h1>Edit Document</h1>
-      <p>{document?.body || ''}</p>
+      <Container className="flex flex-col gap-2">
+        <DocumentEditor slug={slug} document={document} />
+      </Container>
     </div>
   )
 }
 
-export default EditArticle
+export default EditDocs

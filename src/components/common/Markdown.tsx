@@ -25,12 +25,15 @@ export const Markdown = ({ body }: Props) => {
       rehypePlugins={[rehypeRaw, rehypeKatex]}
       components={{
         blockquote: ({ children }) => <div className="text-gray-500 border-l-[6px] pl-4">{children}</div>,
-        img: ({ src, alt }) => (
-          <a href={src} target="_blank">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={src} alt={alt ?? ''} className="max-w-full object-contain" />
-          </a>
-        ),
+        img: ({ src, alt }) => {
+          const path = src.startsWith('https://') ? src : `${process.env.NEXT_PUBLIC_OBJECT_STORAGE_BASE_URL}/${src}`
+          return (
+            <a href={path} target="_blank">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={path} alt={alt ?? ''} className="max-w-full object-contain" />
+            </a>
+          )
+        },
         ul: ({ children }) => <ul className="list-disc list-inside ml-6">{children}</ul>,
         ol: ({ children }) => <ol className="list-decimal list-inside ml-6">{children}</ol>,
         li: ({ children }) => <li>{children}</li>,
