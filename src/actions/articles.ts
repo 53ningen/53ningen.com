@@ -1,5 +1,6 @@
 'use server'
 
+import { DataTablePayload, DataTableState } from '@/components/admin/DataTableTypes'
 import { CacheTag } from '@/lib/cache'
 import prisma from '@/lib/prisma'
 import { emptyToNull } from '@/lib/string'
@@ -54,5 +55,68 @@ export async function upsertArticle(prevState: UpsertArticleState, fromData: For
       console.error('unknown error')
     }
     return { ...prevState, error: `failed to create/update article: ${JSON.stringify(e)}` }
+  }
+}
+
+export async function modifyArticleTags(previousState: DataTableState, payload: DataTablePayload): Promise<DataTableState> {
+  try {
+    const session = getSession()
+    if (!session) {
+      return { ...previousState, error: 'unauthorized' }
+    }
+    const { action, targetRow, formData } = payload
+    switch (action) {
+      case 'add':
+        await prisma.$transaction(async (prisma) => {
+          const tag = await prisma.tag.findFirst({
+            where: {
+              displayName: formData.get('new.displayName') as string,
+            },
+          })
+          if (tag) {
+            await prisma.articleTag.create({
+              data: {
+                articleId: parseInt(formData.get('articleId') as string),
+                tagId: tag.id,
+              },
+            })
+          } else {
+            const newTag = await prisma.tag.create({
+              data: {
+                displayName: formData.get('new.displayName') as string,
+              },
+            })
+            await prisma.articleTag.create({
+              data: {
+                articleId: parseInt(formData.get('articleId') as string),
+                tagId: newTag.id,
+              },
+            })
+          }
+        })
+        revalidatePath('/')
+        revalidateTag(CacheTag('Articles'))
+
+        return { ...previousState, error: undefined }
+      case 'delete':
+        await prisma.articleTag.delete({
+          where: {
+            id: parseInt(formData.get(`${targetRow}.id`) as string),
+          },
+        })
+        break
+      default:
+        throw new Error(`unknown action: ${action}`)
+    }
+    revalidatePath('/')
+    revalidateTag(CacheTag('Articles'))
+    return { ...previousState, error: undefined }
+  } catch (e) {
+    if (e instanceof Error) {
+      console.error(e.message)
+    } else {
+      console.error('unknown error')
+    }
+    return { ...previousState, error: `failed to article tags: ${JSON.stringify(e)}` }
   }
 }

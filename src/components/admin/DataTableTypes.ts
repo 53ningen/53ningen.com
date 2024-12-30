@@ -11,7 +11,7 @@ export type DataTablePayload = {
   formData: FormData
 }
 
-export type DataTableKey = { key: string; editable?: boolean }
+export type DataTableKey = { key: string; editable?: boolean; required?: boolean }
 
 export type DataTableAction = (previousState: DataTableState, payload: DataTablePayload) => Promise<DataTableState>
 

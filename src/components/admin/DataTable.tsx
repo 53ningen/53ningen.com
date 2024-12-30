@@ -13,6 +13,7 @@ type Props = {
     ediable?: boolean
     deletable?: boolean
     addable?: boolean
+    fixedKeyValues?: [string, string][]
   }
   keys: DataTableKey[]
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -23,12 +24,14 @@ type Props = {
 const defaultOptions = { ediable: false, deletable: false, addable: false }
 
 const DataTable = ({ keys, data, action = dataTableNoOpAction, options = defaultOptions }: Props) => {
+  // TODO: data should be managed by useActionState
   const [state, dispatch, pending] = useActionState(action, {})
   return (
     <div className="flex flex-col gap-2">
       {state.error && <Banner type="error" message={state.error} />}
       {state.message && <Banner type="info" message={state.message} />}
       <form className="overflow-x-scroll text-sm">
+        {options.fixedKeyValues && options.fixedKeyValues.map(([key, value], index) => <input key={index} type="hidden" name={key} value={value} />)}
         <table className="min-w-full border border-gray-300 divide-y divide-gray-200">
           <thead className="bg-gray-100">
             <tr>
@@ -74,13 +77,13 @@ const DataTable = ({ keys, data, action = dataTableNoOpAction, options = default
             ))}
             {options.addable && (
               <tr>
-                {keys.map(({ key, editable }, keyIndex) => (
+                {keys.map(({ key, required }, keyIndex) => (
                   <td key={keyIndex} className="px-1 py-1">
-                    <TextField name={`new.${key}`} readOnly={!editable} className={`w-full ${!editable && 'bg-gray-100'}`} />
+                    <TextField name={`new.${key}`} readOnly={!required} className={`w-full ${!required && 'bg-gray-100'}`} />
                   </td>
                 ))}
                 <td className="flex gap-2 py-1 px-2 justify-end">
-                  <Button formAction={(formData) => dispatch({ action: 'create', formData })} disabled={pending}>
+                  <Button formAction={(formData) => dispatch({ action: 'add', formData })} disabled={pending}>
                     <CgAddR />
                   </Button>
                 </td>

@@ -23,7 +23,7 @@ const EditArticle = async ({ params }: Props) => {
     <div>
       <Container className="flex flex-col gap-2">
         <ArticleEditor slug={slug} article={article} categories={categories} />
-        <ArticleTagEditor tags={tags} />
+        {article && <ArticleTagEditor articleId={article.id} tags={tags} />}
       </Container>
     </div>
   )

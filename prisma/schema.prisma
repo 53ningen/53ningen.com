@@ -33,6 +33,7 @@ model ArticleTag {
   articleId Int
   tagId     Int
   createdAt DateTime @default(now()) @db.DateTime(0)
+  updatedAt DateTime @default(now()) @db.DateTime(0)
   Tag       Tag      @relation(fields: [tagId], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_4")
   Article   Article  @relation(fields: [articleId], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_5")
 
@@ -49,7 +50,7 @@ model Category {
 
 model Tag {
   id          Int          @id @default(autoincrement())
-  displayName String       @db.VarChar(255)
+  displayName String       @unique(map: "unique_index") @db.VarChar(255)
   createdAt   DateTime     @default(now()) @db.DateTime(0)
   ArticleTag  ArticleTag[]
 }
