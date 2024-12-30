@@ -1,9 +1,11 @@
 'use server'
 
+import { CacheTag } from '@/lib/cache'
 import prisma from '@/lib/prisma'
 import { emptyToNull } from '@/lib/string'
 import { getSession } from '@auth0/nextjs-auth0/edge'
 import { Article_status } from '@prisma/client'
+import { revalidatePath, revalidateTag } from 'next/cache'
 
 type UpsertArticleState = {
   slug: string
@@ -41,6 +43,9 @@ export async function upsertArticle(prevState: UpsertArticleState, fromData: For
       update: data,
       create: { slug: prevState.slug, ...data },
     })
+    revalidatePath('/')
+    revalidatePath(`/${nextState.slug}`)
+    revalidateTag(CacheTag('Articles'))
     return { ...nextState, error: undefined }
   } catch (e) {
     if (e instanceof Error) {

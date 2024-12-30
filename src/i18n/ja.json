@@ -14,7 +14,7 @@
     "documents": "Documents",
     "github": "GitHub",
     "login": "Login",
-    "logout": "Logout"
+    "admin": "管理画面"
   },
   "widgets": {
     "about": "About",
@@ -25,9 +25,14 @@
   },
   "admin": {
     "admin": "管理画面",
+    "articles": "記事管理",
+    "documents": "ドキュメント管理",
+    "operations": "運用操作",
+    "cache": "キャッシュ管理",
     "create": "新規作成",
     "edit": "編集",
     "delete": "削除",
-    "update": "更新"
+    "update": "更新",
+    "logout": "ログアウト"
   }
 }

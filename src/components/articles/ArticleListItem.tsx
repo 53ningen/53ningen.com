@@ -15,6 +15,11 @@ export const ArticleListItem = ({ article, basePath = '' }: Props) => {
   return (
     <Canvas>
       <div className="flex flex-col">
+        {article.status !== 'PUBLISHED' && (
+          <div>
+            <span className="text-xs px-1 py-[0.5] bg-black text-white rounded-full">{article.status}</span>
+          </div>
+        )}
         <div className="text-sm">
           <Link href={`${basePath}/${article.slug}`} id={article.slug.toString()} className="text-gray-500 hover:text-gray-500">
             {publishedAt}

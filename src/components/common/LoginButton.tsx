@@ -10,8 +10,8 @@ export const LoginButton = () => {
   if (isLoading) return <div>Loading...</div>
   if (error) return <div>{error.message}</div>
   return (
-    <a href={user ? '/api/auth/logout' : '/admin'} className="py-2 px-4 rounded text-white hover:text-white text-xs">
-      {user ? t.logout : t.login}
+    <a href={user ? '/admin' : '/admin'} className="py-2 px-4 rounded text-white hover:text-white text-xs">
+      {user ? t.admin : t.login}
     </a>
   )
 }

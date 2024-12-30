@@ -1,13 +1,18 @@
 import ArticleList from '@/components/articles/ArticleList'
 import Config from '@/lib/config'
 import prisma from '@/lib/prisma'
+import { Article_status } from '@prisma/client'
 
 const { articlesPerPage } = Config
 
-export const DraftArticleList = async () => {
+type Props = {
+  status: Article_status
+}
+
+export const NonPublishedArticleList = async ({ status }: Props) => {
   const articles = await prisma.article.findMany({
     where: {
-      status: 'DRAFT',
+      status,
     },
     orderBy: {
       createdAt: 'desc',
