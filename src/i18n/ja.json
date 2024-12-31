@@ -1,0 +1,38 @@
+{
+  "common": {
+    "title": "ゴミ人間.com",
+    "subtitle": "53ningen.com",
+    "description": "@gomi_ningen の個人サイト",
+    "copyright": "Copyright © 53ningen.com",
+    "signin": "ログイン",
+    "signout": "ログアウト",
+    "privacyPolicy": "Privacy Policy",
+    "tag": "Tag",
+    "category": "Category",
+    "page": "Page",
+    "articles": "Articles",
+    "documents": "Documents",
+    "github": "GitHub",
+    "login": "Login",
+    "admin": "管理画面"
+  },
+  "widgets": {
+    "about": "About",
+    "aboutContent": "ウェブ界隈でエンジニアとして労働活動に励んでいる @gomi_ningen 個人のブログです",
+    "pinnedArticles": "Pinned Articles",
+    "categories": "Categories",
+    "tags": "Tags"
+  },
+  "admin": {
+    "admin": "管理画面",
+    "articles": "記事管理",
+    "documents": "ドキュメント管理",
+    "operations": "運用操作",
+    "cache": "キャッシュ管理",
+    "create": "新規作成",
+    "edit": "編集",
+    "delete": "削除",
+    "update": "更新",
+    "logout": "ログアウト"
+  }
+}

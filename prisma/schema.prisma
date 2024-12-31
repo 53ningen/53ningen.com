@@ -1,0 +1,81 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Article {
+  id           Int            @id @default(autoincrement())
+  slug         String         @unique(map: "slug")
+  title        String         @db.Text
+  body         String         @db.Text
+  description  String?
+  thumbnailUrl String?
+  isPinned     Boolean        @default(false)
+  status       Article_status @default(DRAFT)
+  categoryId   Int            @default(1)
+  createdAt    DateTime       @default(now()) @db.DateTime(0)
+  updatedAt    DateTime       @default(now()) @db.DateTime(0)
+  Category     Category       @relation(fields: [categoryId], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_2")
+  ArticleTag   ArticleTag[]
+
+  @@index([categoryId], map: "fk_1")
+  @@index([createdAt], map: "createdAt")
+  @@index([isPinned], map: "isPinned")
+  @@index([status], map: "status")
+}
+
+model ArticleTag {
+  id        Int      @id @default(autoincrement())
+  articleId Int
+  tagId     Int
+  createdAt DateTime @default(now()) @db.DateTime(0)
+  updatedAt DateTime @default(now()) @db.DateTime(0)
+  Tag       Tag      @relation(fields: [tagId], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_4")
+  Article   Article  @relation(fields: [articleId], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "fk_5")
+
+  @@index([articleId], map: "articleId")
+  @@index([tagId], map: "tagId")
+}
+
+model Category {
+  id          Int       @id @default(autoincrement())
+  displayName String    @db.VarChar(255)
+  createdAt   DateTime  @default(now()) @db.DateTime(0)
+  Article     Article[]
+}
+
+model Tag {
+  id          Int          @id @default(autoincrement())
+  displayName String       @unique(map: "unique_index") @db.VarChar(255)
+  createdAt   DateTime     @default(now()) @db.DateTime(0)
+  ArticleTag  ArticleTag[]
+}
+
+model Document {
+  id        Int             @id @default(autoincrement())
+  slug      String          @unique(map: "slug")
+  title     String          @db.Text
+  kana      String          @db.Text
+  body      String          @db.Text
+  status    Document_status @default(DRAFT)
+  createdAt DateTime        @default(now()) @db.DateTime(0)
+  updatedAt DateTime        @default(now()) @db.DateTime(0)
+}
+
+enum Article_status {
+  DRAFT
+  PUBLISHED
+  PRIVATE
+  ARCHIVED
+}
+
+enum Document_status {
+  DRAFT
+  PUBLISHED
+  PRIVATE
+  ARCHIVED
+}

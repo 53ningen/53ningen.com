@@ -1,7 +1,16 @@
 # 53ningen.com
 
-@gomi_ningen のウェブサイトです
+- Next.js, TypeScript, Tailwind CSS, Prisma
+- **Hosting**: Vercel
+- **Storage**: Cloudflare
+- **Database**: TiDB
+- **Authentication**: Auth0
 
-- Next.js
-- Vercel
-- Amplify (Auth, API, Storage)
+## Build
+
+```
+$ git clone git@github.com:53ningen/53ningen.com.git
+$ cd 53ningen.com
+$ yarn
+$ yarn build
+```
