@@ -4,6 +4,7 @@ import { currentBaseUrl, currentLocale } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
 import { DictionaryProvider } from '@/i18n/hook'
 import { UserProvider } from '@auth0/nextjs-auth0/client'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { ReactNode } from 'react'
 import './globals.css'
 
@@ -65,6 +66,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           </body>
         </UserProvider>
       </DictionaryProvider>
+      {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />}
     </html>
   )
 }
