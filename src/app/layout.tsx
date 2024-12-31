@@ -25,7 +25,7 @@ export async function generateMetadata() {
     },
     icons: {
       icon: '/favicon.png',
-      apple: './favicon192x192.png',
+      apple: './favicon192x192.jpg',
     },
     metadataBase: currentBaseUrl,
     openGraph: {
@@ -36,7 +36,7 @@ export async function generateMetadata() {
       type: 'website',
       images: [
         {
-          url: `${currentBaseUrl}/favicon192x192.png`,
+          url: `${currentBaseUrl}/favicon192x192.jpg`,
           width: 192,
           height: 192,
         },
@@ -46,7 +46,7 @@ export async function generateMetadata() {
       title,
       description,
       creator: '@gomi_ningen',
-      images: [`${currentBaseUrl}/favicon192x192.png`],
+      images: [`${currentBaseUrl}/favicon192x192.jpg`],
       card: 'summary',
     },
   }

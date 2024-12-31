@@ -1,6 +1,7 @@
 import ArticleMetadata from '@/components/articles/ArticleMetadata'
 import ArticleView from '@/components/articles/ArticleView'
 import Widgets from '@/components/widgets/Widgets'
+import { currentBaseUrl } from '@/i18n/config'
 import { getDictionary } from '@/i18n/dictionaries'
 import { getArticle } from '@/lib/articles'
 import { Metadata } from 'next'
@@ -25,6 +26,13 @@ export const generateMetadata = async ({ params }: Params): Promise<Metadata> =>
     openGraph: {
       title,
       description,
+    },
+    twitter: {
+      title,
+      description,
+      creator: '@gomi_ningen',
+      images: [`${currentBaseUrl}/favicon192x192.jpg`],
+      card: 'summary',
     },
   }
 }
