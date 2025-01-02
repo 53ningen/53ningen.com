@@ -39,7 +39,7 @@ export default async function Slug({ params }: Params) {
   const slug = p.slug.map((s) => decodeURIComponent(s)).join('/')
   return (
     <div>
-      <DocumentMetadata slug={slug} onlyPublished={false} />
+      <DocumentMetadata slug={slug} onlyPublished={false} basePath="/admin/docs/preview" />
       <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
         <div className="col-span-1 lg:col-span-2 xl:col-span-3">
           <DocumentView slug={slug} onlyPublished={false} />

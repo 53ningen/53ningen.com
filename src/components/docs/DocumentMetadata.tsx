@@ -11,9 +11,10 @@ import UpdatedAtChip from '../common/chip/UpdatedAtChip'
 type Props = {
   slug: string
   onlyPublished?: boolean
+  basePath?: string
 }
 
-const DocumentMetadata = async ({ slug, onlyPublished = true }: Props) => {
+const DocumentMetadata = async ({ slug, onlyPublished = true, basePath = '/docs' }: Props) => {
   const document = await getDocument(slug, onlyPublished)
   if (!document) {
     return notFound()
@@ -32,11 +33,11 @@ const DocumentMetadata = async ({ slug, onlyPublished = true }: Props) => {
         items={[
           {
             name: t.documents,
-            href: `/docs`,
+            href: `${basePath}`,
           },
           ...routes.map((r) => ({
             name: r.title,
-            href: `/docs/${r.path}`,
+            href: `${basePath}/${r.path}`,
           })),
         ]}
       />

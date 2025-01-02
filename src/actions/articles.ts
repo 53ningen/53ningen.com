@@ -46,6 +46,8 @@ export async function upsertArticle(prevState: UpsertArticleState, fromData: For
     })
     revalidatePath('/')
     revalidatePath(`/${nextState.slug}`)
+    revalidatePath(`/admin/articles/${nextState.slug}`)
+    revalidatePath(`/admin/articles/preview/${nextState.slug}`)
     revalidateTag(CacheTag('Articles'))
     return { ...nextState, error: undefined }
   } catch (e) {

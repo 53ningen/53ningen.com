@@ -41,7 +41,7 @@ const DocumentEditor = ({ slug, document }: Props) => {
           },
           {
             name: document ? `${document.title}` : slug,
-            href: document?.status === 'PUBLISHED' ? `/docs/${slug}` : `/admin/preview/docs/${slug}`,
+            href: document?.status === 'PUBLISHED' ? `/docs/${slug}` : `/admin/docs/preview/${slug}`,
           },
           {
             name: t.edit,

@@ -38,6 +38,8 @@ export async function upsertDocument(prevState: UpsertDocumentState, fromData: F
     })
     revalidatePath('/docs')
     revalidatePath(`/docs/${nextState.slug}`)
+    revalidatePath(`/admin/docs/${nextState.slug}`)
+    revalidatePath(`/admin/docs/preview/${nextState.slug}`)
     revalidateTag(CacheTag('Documents'))
     return { ...nextState, error: undefined }
   } catch (e) {
