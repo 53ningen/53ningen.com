@@ -5,10 +5,11 @@ import { Markdown } from '../common/Markdown'
 
 type Props = {
   slug: string
+  onlyPublished?: boolean
 }
 
-const DocumentView = async ({ slug }: Props) => {
-  const document = await getDocument(slug)
+const DocumentView = async ({ slug, onlyPublished = true }: Props) => {
+  const document = await getDocument(slug, onlyPublished)
   if (!document) {
     return notFound()
   }

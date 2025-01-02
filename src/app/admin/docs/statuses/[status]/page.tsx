@@ -2,6 +2,7 @@ import Breadcrumbs from '@/components/common/Breadcrumbs'
 import Canvas from '@/components/common/Canvas'
 import Container from '@/components/common/Container'
 import Skelton from '@/components/common/Skeleton'
+import DocumentList from '@/components/docs/DocumentList'
 import { getDictionary } from '@/i18n/dictionaries'
 import { Document_status } from '@prisma/client'
 import { notFound } from 'next/navigation'
@@ -30,14 +31,19 @@ const AdminNonPublishedDocs = async ({ params }: Props) => {
           ]}
         />
       </Container>
-      <Suspense
-        fallback={
-          <Canvas>
-            <Skelton lines={20} />
-          </Canvas>
-        }>
-        <NonPublishedDocumentList status={status as Document_status} />
-      </Suspense>
+      <div className="flex flex-col gap-4">
+        <Suspense fallback={null}>
+          <DocumentList status={status as Document_status} basePath="/admin/docs/preview" />
+        </Suspense>
+        <Suspense
+          fallback={
+            <Canvas>
+              <Skelton lines={20} />
+            </Canvas>
+          }>
+          <NonPublishedDocumentList status={status as Document_status} />
+        </Suspense>
+      </div>
     </div>
   )
 }

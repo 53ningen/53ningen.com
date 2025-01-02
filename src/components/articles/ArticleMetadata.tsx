@@ -11,10 +11,11 @@ import UpdatedAtChip from '../common/chip/UpdatedAtChip'
 
 type Props = {
   slug: string
+  onlyPublished?: boolean
 }
 
-const ArticleMetadata = async ({ slug }: Props) => {
-  const article = await getArticle(slug)
+const ArticleMetadata = async ({ slug, onlyPublished = true }: Props) => {
+  const article = await getArticle(slug, onlyPublished)
   if (!article) {
     return notFound()
   }

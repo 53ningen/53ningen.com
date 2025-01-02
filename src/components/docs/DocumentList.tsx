@@ -1,12 +1,18 @@
 import { listAllDocumentItems } from '@/lib/docs'
+import { Document_status } from '@prisma/client'
 import Link from 'next/link'
 import { GoFileDirectory } from 'react-icons/go'
 import { MdOutlineSubdirectoryArrowRight } from 'react-icons/md'
 import { VscBlank } from 'react-icons/vsc'
 import Canvas from '../common/Canvas'
 
-const DocumentList = async () => {
-  const items = await listAllDocumentItems()
+type Props = {
+  status?: Document_status
+  basePath?: string
+}
+
+const DocumentList = async ({ status = 'PUBLISHED', basePath = '/docs' }: Props) => {
+  const items = await listAllDocumentItems(status)
   const info = listDocumentInfo(items)
   return (
     <Canvas>
@@ -18,7 +24,7 @@ const DocumentList = async () => {
                 <VscBlank key={index} className="w-2" />
               ))}
               {item.hasChildren ? <GoFileDirectory /> : <MdOutlineSubdirectoryArrowRight />}
-              {item.title ? <Link href={`/docs/${item.path}`}>{item.title}</Link> : <>{item.path}</>}
+              {item.title ? <Link href={`${basePath}/${item.path}`}>{item.title}</Link> : <>{item.path}</>}
             </div>
           </div>
         ))}

@@ -47,7 +47,7 @@ const ArticleEditor = ({ slug, article, categories }: Props) => {
           },
           {
             name: article ? `${article.title}` : t.create,
-            href: `/${slug}`,
+            href: article?.status === 'PUBLISHED' ? `/${slug}` : `/admin/articles/preview/${slug}`,
           },
           {
             name: t.edit,

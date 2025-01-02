@@ -21,7 +21,7 @@ export const NonPublishedArticleList = async ({ status }: Props) => {
   })
   return (
     <div className="flex flex-col gap-8">
-      <ArticleList articles={articles.slice(0, articlesPerPage)} basePath="/admin/articles" />
+      <ArticleList articles={articles.slice(0, articlesPerPage)} basePath="/admin/articles/preview" />
       {articles.length === 0 && (
         <Canvas>
           <div>No articles found</div>

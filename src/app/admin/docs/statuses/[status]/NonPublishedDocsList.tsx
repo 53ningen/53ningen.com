@@ -17,7 +17,7 @@ export const NonPublishedDocumentList = async ({ status }: Props) => {
       createdAt: 'desc',
     },
   })
-  const basePath = '/admin/docs'
+  const basePath = '/admin/docs/preview'
   return (
     <div className="flex flex-col gap-8">
       {documents.map((document) => (

@@ -3,11 +3,11 @@ import { unstable_cache } from 'next/cache'
 import { CacheTag } from './cache'
 import prisma from './prisma'
 
-export const getArticle = unstable_cache(async (slug: string) =>
+export const getArticle = unstable_cache(async (slug: string, onlyPublished: boolean = true) =>
   prisma.article.findFirst({
     where: {
       slug,
-      status: 'PUBLISHED',
+      status: onlyPublished ? 'PUBLISHED' : undefined,
     },
   })
 )
