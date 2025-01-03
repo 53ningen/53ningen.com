@@ -8,7 +8,7 @@ interface Props {
 
 const EditDocs = async ({ params }: Props) => {
   const p = await params
-  const slug = p.slug.join('/')
+  const slug = p.slug.map((s) => decodeURIComponent(s)).join('/')
   const document = await prisma.document.findUnique({
     where: {
       slug,
