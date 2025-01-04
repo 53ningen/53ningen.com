@@ -16,7 +16,7 @@ const TagChip = async ({ tagId, tag }: Props) => {
   } else {
     return (
       <Link href={`/tags/${t.id}`} prefetch={false}>
-        <Chip text={t.displayName} icon={<FaHashtag />} className="bg-gray-200 text-gray-500 px-2 border-0" />
+        <Chip text={t.displayName} icon={<FaHashtag />} className="bg-gray-200 text-gray-500 px-2 border-0 mr-1" />
       </Link>
     )
   }

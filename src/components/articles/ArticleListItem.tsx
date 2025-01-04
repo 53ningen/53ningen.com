@@ -31,7 +31,7 @@ export const ArticleListItem = ({ article, basePath = '' }: Props) => {
           </Link>
         </div>
         <div className="text-xs text-gray-500">{article.description}</div>
-        <div className="flex gap-1 mt-1">
+        <div className="mt-1 leading-8 overflow-wrap">
           <CategoryChip categoryId={article.categoryId} />
           <TagChips articleId={article.id} />
         </div>

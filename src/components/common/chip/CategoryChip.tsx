@@ -14,7 +14,7 @@ const CategoryChip = async ({ categoryId }: Props) => {
   }
   return (
     <Link href={`/categories/${category.id}`} prefetch={false}>
-      <Chip text={category.displayName} icon={<FaFolder />} className="bg-gray-200 text-gray-500 px-2 border-0" />
+      <Chip text={category.displayName} icon={<FaFolder />} className="bg-gray-200 text-gray-500 px-2 border-0 mr-1" />
     </Link>
   )
 }
